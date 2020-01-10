@@ -18,9 +18,9 @@ title: News
 ## Older news
 
 <ul>
-  {% for post in site.posts reversed offset:latest %}
+  {% for post in site.posts offset:latest %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "%Y: " }}<a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
