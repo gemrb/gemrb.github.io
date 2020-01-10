@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Project Homepage is On-line"
+author: Daniele Collantoni
 ---
 
 Finally we have the Project Web Site online. From now on the news will be posted on the Web Site.
