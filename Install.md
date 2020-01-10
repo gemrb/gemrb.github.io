@@ -2,22 +2,25 @@
 title: Install
 ---
 
+converter:
+https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
+ - Download: separate page [download](http://www.gemrb.org/wiki/doku.php?id=download)
+ - Install gemrb
+ - Install the game(s), the bg2 demo or use the included minimal dataset test
+ - Configure gemrb
+ - How to run
+   - Test run
 
-**Install**
-   Download
-   How to run
-   
 Salvage:
   * [installation](http://www.gemrb.org/wiki/doku.php?id=installation) page
-  * **install** namespace
+  * **install** namespace ??
     * [android](http://www.gemrb.org/wiki/doku.php?id=install:android)
     * [ios](http://www.gemrb.org/wiki/doku.php?id=install:ios)
     * [mac](http://www.gemrb.org/wiki/doku.php?id=install:mac)
     * [unshield-bg1](http://www.gemrb.org/wiki/doku.php?id=install:unshield-bg1)
     * [unshield-bg2](http://www.gemrb.org/wiki/doku.php?id=install:unshield-bg2)
     * [windows](http://www.gemrb.org/wiki/doku.php?id=install:windows)
-  * [download](http://www.gemrb.org/wiki/doku.php?id=download) top level page
 
 Also?
   * [touch](http://www.gemrb.org/wiki/doku.php?id=input:touch) page
