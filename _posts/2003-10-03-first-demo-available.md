@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "First Demo Available"
+author: Daniele Collantoni
 ---
 
 Finally we have our first Demo application online.
