@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GemRB 0.7.2 released!"
+title:  "GemRB 0.7.2 released! (Paradox of choice edition)"
 author: Jaka Kranjc
 ---
 
