@@ -1,4 +1,7 @@
-# News
+---
+layout: page
+title: News
+---
 
 {% assign latest = 1 %}
 
