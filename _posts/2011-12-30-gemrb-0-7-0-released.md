@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GemRB 0.7.0 released!"
+title:  "GemRB 0.7.0 released! (Life of a Bhaalspawn edition)"
 author: Jaka Kranjc
 ---
 
