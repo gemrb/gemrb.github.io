@@ -2,9 +2,6 @@
 title: Install
 ---
 
-converter:
-https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
-
 # Download
 
 The **latest sources and official builds** are always
@@ -19,7 +16,18 @@ buttons / grid:
 
 The Android and iOS builds are currently unmaintained.
 
+# Getting the Games
+
+You will need one of the original Infinity Engine games or **the free
+[BG II demo](https://duckduckgo.com/?q=bg2+demo).**
+
+Due to low interest, GemRB does [not support EE versions](https://github.com/gemrb/gemrb/issues/164)
+of the games, though there has always been considerable feature overlap.
+
 # TODO
+
+converter:
+https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
  - Install gemrb
  - Install the game(s), the bg2 demo or use the included minimal dataset test
@@ -41,13 +49,14 @@ Also?
   * [touch](http://www.gemrb.org/wiki/doku.php?id=input:touch) page
   * [manpage](http://www.gemrb.org/wiki/doku.php?id=docs:manpage) base for configuration page and/or autogenerate
   * [encodings](http://www.gemrb.org/wiki/doku.php?id=engine:encodings) page
-  * [getting_the_games](http://www.gemrb.org/wiki/doku.php?id=getting_the_games) page
-  * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
   * [debug_keys](http://www.gemrb.org/wiki/doku.php?id=debug_keys) page, are any even different? IESDP lists them ... Link and display only differences
   
   
 ------
 Move to dev docs:
+
+  * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
+
 ## Main development repository
 
   - [GitHub Browser](https://github.com/gemrb/gemrb)
