@@ -26,30 +26,23 @@ Due to low interest, GemRB does [not support the EE versions](https://github.com
 of the games, though there has always been considerable feature overlap.
 
 After you have the games, you can also install [any mods](). They should work out of the box, but
-any that modify the EXE files will lack the functionality those hacks achieved.
+any that modify the EXE files could lack the functionality those hacks achieved.
 
 # Install
 
 The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle.
 
-If you downloaded the sources instead, follow the [compilation instructions](). GemRB can run from the build dir.
+If you downloaded the sources instead, follow the [compilation instructions]().
+GemRB can even run from the build dir without installing.
 
 # TODO
 
 converter:
 https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
- - Install gemrb
  - Configure gemrb
  - How to run
    - Test run
-
-Salvage:
-  * **install** namespace ??
-    * [android](http://www.gemrb.org/wiki/doku.php?id=install:android)
-    * [ios](http://www.gemrb.org/wiki/doku.php?id=install:ios)
-    * [mac](http://www.gemrb.org/wiki/doku.php?id=install:mac)
-    * [windows](http://www.gemrb.org/wiki/doku.php?id=install:windows)
 
 Also?
   * [touch](http://www.gemrb.org/wiki/doku.php?id=input:touch) page
@@ -130,6 +123,10 @@ through the web interface.
 
 ------
 ## How relevant is this vs. INSTALL vs. pointing somewhere else?
+
+
+[windows specific (mingw) instructions](http://www.gemrb.org/wiki/doku.php?id=install:windows) see https://github.com/gemrb/gemrb/issues/611
+
 ### Compile it yourself
 
 #### Dependencies
