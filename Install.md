@@ -16,7 +16,7 @@ buttons / grid:
 
 The Android and iOS builds are currently unmaintained.
 
-# Getting the Games
+# Getting the games
 
 You will need one of the original Infinity Engine games or **the free
 [BG II demo](https://duckduckgo.com/?q=bg2+demo).** If you're not using Windows, here are
@@ -35,53 +35,58 @@ The downloads do not come with installers, so just unpack them and run GemRB. Ma
 If you downloaded the sources instead, follow the [compilation instructions]().
 GemRB can even run from the build dir without installing.
 
+TODO: include anything relevant from the [Pre-build git binaries](http://www.gemrb.org/wiki/doku.php?id=install:windows) section.
+
+# Configure GemRB
+
+GemRB uses a settings file primarily to know where to look for the game data.
+
+1.  Copy one of the GemRB.cfg samples and rename as you want. We'll refer to it as GemRB.cfg from here on.
+2.  **Edit GemRB.cfg. The only thing that always
+    needs to be changed is the path to the game's data files (GamePath,
+    very seldomly CDx). It is crucial you get this right.**
+
+*Setting the paths can be tricky, so carefully read any errors that gemrb
+prints to the output or GemRB.log file before exiting. See [this old
+video](http://www.youtube.com/watch?v=32BZouraDPM) for a
+walktrough on how to fix the encountered problems and set up the paths
+properly.*
+
+# Run GemRB
+
+You will know GemRB is set up correctly once you can see the main game
+screen. If that doesn't happen, check the end of the log for errors and fix the
+configuration file as needed. Usually the game path is set wrong.
+
+Run the "gemrb" binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`
+
+If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
+
+
 # TODO
 
 converter:
 https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
- - Configure gemrb
- - How to run
    - Test run
 
 Also?
-  * [touch](http://www.gemrb.org/wiki/doku.php?id=input:touch) page
   * [manpage](http://www.gemrb.org/wiki/doku.php?id=docs:manpage) base for configuration page and/or autogenerate
-  * [encodings](http://www.gemrb.org/wiki/doku.php?id=engine:encodings) page
   * [debug_keys](http://www.gemrb.org/wiki/doku.php?id=debug_keys) page, are any even different? IESDP lists them ... Link and display only differences
 
-## Configuring gemrb
 
-### Manually
 
-1.  Copy one of the GemRB.cfg samples and rename it to
-    \<game\_name\>.cfg . You can name configuration files arbitrarily,
-    but this way makes the most sense if you'll be running multiple
-    games.
-2.  <span class="underline">**Edit GemRB.cfg. The only thing that always
-    needs to be changed is the path to the game's data files (GamePath,
-    very seldomly CDx). It is crucial you get this right.**</span> 
 
-Setting the paths can be tricky, so carefully read the errors that gemrb
-prints to the output before exiting. See [this
-video](http://www.youtube.com/watch?v=32BZouraDPM) (linux) for a
-*walktrough* on how to fix the encountered problems and set up the paths
-properly.
+  
+------
+Move to dev docs:
 
-## Test run
+  * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
+  * [encodings](http://www.gemrb.org/wiki/doku.php?id=engine:encodings) page
 
-You will know gemrb is working perfectly once you can see the main game
-screen. If that doesn't happen, check the console for errors and fix the
-configuration file as needed. Usually some path is set wrong.
 
-  - Run the "gemrb" binary (you can specify the desired configuration
-    like this: gemrb -c torment.cfg)
-  - You can also link the gemrb binary to \<game\_name\> and the start
-    it with that link, so gemrb will automatically pick the right
-    configuration file. That means there is no need to pass -c anymore
-    (pst vs gemrb -c pst.cfg)
 
-### The minimal dataset
+## The minimal dataset
 
 Since 0.6.1 GemRB comes with a minimal dataset, that can be used to
 check if gemrb is configured correctly right out of the box.
@@ -99,11 +104,6 @@ It will exit as soon as it loads the Start script. That is the expected
 behaviour.
 
 
-  
-------
-Move to dev docs:
-
-  * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
 
 ## Main development repository
 
