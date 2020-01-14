@@ -58,7 +58,9 @@ You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
 configuration file as needed. Usually the game path is set wrong.
 
-Run the "gemrb" binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`
+Run the "gemrb" binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`.
+If you name the config "GemRB.cfg" and put it in the same folder as the binary, it will use
+that configuration file automatically and you don't need to specify anything.
 
 If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
 
@@ -68,13 +70,8 @@ If you're using a touch screen, read this page for the [gesture information](Tou
 converter:
 https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
-   - Test run
-
 Also?
   * [manpage](http://www.gemrb.org/wiki/doku.php?id=docs:manpage) base for configuration page and/or autogenerate
-  * [debug_keys](http://www.gemrb.org/wiki/doku.php?id=debug_keys) page, are any even different? IESDP lists them ... Link and display only differences
-
-
 
 
   
