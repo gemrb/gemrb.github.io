@@ -154,9 +154,10 @@ also have to create them first, not just replace the existing entries.
 
 ## Notes to modders
 
-Since 0.8.0 GemRB is much easier to mod, since some of it files can now
-be overriden via the game's override folder, so you can use the usual
-WeiDU workflow. Here is a table of the common paths.
+Since WeiDU 247 you don't have to treat GemRB any differently than the rest of the games.
+
+For the curious, here is a table of the common paths involved. If you find a reason to
+mod something in gemrb/override, do let us know.
 
 |                   | files present ingame | moddable?                   | search order |
 | ----------------- | -------------------- | --------------------------- | ------------ |
