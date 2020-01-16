@@ -15,7 +15,7 @@ Baldur's Gate 2 | yes | yes | yes | [bg2](https://github.com/gemrb/gemrb/labels/
 Icewind Dale  2 | yes | no | no | [iwd2](https://github.com/gemrb/gemrb/labels/game%3A%20iwd2)
 Any Enhanced Edition | no | no | no | [EE](https://github.com/gemrb/gemrb/issues/164)
 
-PST is completable, but has some notable missing features, making it the least polished game.
+PS:T is completable, but has some notable missing features, making it the least polished game.
 IWD2 is playable quite nicely up until the Ice Temple. Both still require [a lot more
 love](contribute) to reach the level of the other games.
 
@@ -23,20 +23,31 @@ There is also a [tiny tech
 demo](https://github.com/gemrb/gemrb/tree/master/demo) bundled with GemRB,
 but it requires more content to be more than a simple test case.
 
+If you can't wait to see what improvements the next release will bring, a terse overview of what
+has already been done is in the [changelog in the making](https://github.com/gemrb/gemrb/blob/master/NEWS),
+updated approximately every 100 updates.
 
-# TODO
-converter: https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
+# Features
 
+main features
+
+link to or include direcly (innovations):
   * [platforms](http://www.gemrb.org/wiki/doku.php?id=engine:platforms) page
   * [tobex](http://www.gemrb.org/wiki/doku.php?id=engine:tobex) page
   * [innovations](http://www.gemrb.org/wiki/doku.php?id=innovations) page
+
+link to	Modding.md, Cheats.md
+
+# TODO
+converter: https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
 
 maybe?
   * [ttf plugin](http://www.gemrb.org/wiki/doku.php?id=plugins:ttf)
   * [encodings](http://www.gemrb.org/wiki/doku.php?id=engine:encodings) page
 
-link to	Modding.md, History, Cheats.md
+link to History
 
 
+move to news? (news < NEWS < commit log)
 If you want a curt overview of what to expect in the next release, check the [[https://github.com/gemrb/gemrb/blob/master/NEWS|changelog in the making]], updated approximately every 100 changesets.
