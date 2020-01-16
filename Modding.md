@@ -7,7 +7,8 @@ box ([let us know](https://github.com/gemrb/gemrb/issues/new/choose) otherwise).
 Of course, any that modify the EXE files could lack the functionality those hacks achieved.
 
 Additionally, there are cool mods that are only possible with GemRB and can be found in this
-[mod repository](https://github.com/lynxlynxlynx/gemrb-mods).
+[mod repository](https://github.com/lynxlynxlynx/gemrb-mods). The most famous one of them is
+the 10 player party mod, enabling larger adventuring parties.
 
 Lastly, GemRB made many aspects of the games configurable by editing text files. What
 follows is a list of mod ideas, with the simpler ones requiring minimal effort on your
@@ -38,11 +39,8 @@ also have to create them first, not just replace the existing entries.
   - divine spellcaster classes with sorcerer style spellcasting -
       - just set the booktype to 3 in the gemrb clskills.2da (caveat: it
         will affect every npc with that class)
-  - [wisdom based xp bonus like in
-    pst](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/wisdom-xp-mod)
-    \<wrap download\>done\</wrap\>
   - maximum hitpoint rolls in bg1
-      - just add "Maximum HP=1" to gem-baldur.ini (baldur.ini\[1\] if it
+      - just add "Maximum HP=1" to gem-baldur.ini (baldur.ini if it
         doesn't exist yet)
   - different boni for weapon styles 
       - just edit unhardcoded/ws\*.2da as you see fit
@@ -53,9 +51,6 @@ also have to create them first, not just replace the existing entries.
                 extra modifiers work (+ and all the numbers)
   - spell icon sorting in the action bar
       - just edit unhardcoded/shared/spldisp.2da
-  - some small usability improvements
-      - set GUIEnhancements to 127 in the gemrb config (see the man page
-        for details)
   - different damage and/or XP boni/mali for game difficulty levels 
       - just edit unhardcoded/\*/difflvls.2da as you see fit
   - simplified "concentration" ala ToBEx — just set
@@ -72,17 +67,14 @@ also have to create them first, not just replace the existing entries.
   - change how many spells mages and bards get for free at character
     generation
       - just edit unhardcoded/\*/splwizkn.2da (or splbrdkn.2da)
+  - different monk ac/apr progression
+      - just change unhardcoded/bg2/monkbon.2da
 
 ### Easy
 
   - monk/sorcerer kits: normal kit process for creation
       - barbarian kits are not possible, since they are fighter kits
         themselves
-  - [how/iwd2 style enhanced combat output in other
-    games](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/better-combat-feedback)
-    \<wrap download\>done\</wrap\>
-  - different monk ac/apr progression
-      - just change unhardcoded/bg2/monkbon.2da
   - quickload button on the startup screen for the games that lack it
       - edit start.chu to add the button
       - edit all the Start.py scripts to use it and make it quickload
@@ -92,8 +84,6 @@ also have to create them first, not just replace the existing entries.
         available)
       - for more complications also change gemrb/GUIScript/pst/Maze.py
   - new feats for iwd2
-
-``` 
     * edit feats.2da
     * create the wanted spell to be applied (like with class abilities)
     * if you want something more complex like Critical Strike, code changes will be needed, pushing this into the hard category
@@ -103,7 +93,7 @@ also have to create them first, not just replace the existing entries.
   - create a table like sponcast.2da (iwd2) with the target replacement spells
   - put its name in the SPONCAST column of unhardcoded/*/clsskills.2da for whichever class you want
 * more racial enemies in iwd2
-  * just extend unhardcoded/iwd2/haterace.2da (IDS column is from [[http://gemrb.org/iesdp/files/ids/iwd2/race.htm|race.ids]])
+  * just extend unhardcoded/iwd2/haterace.2da (IDS column is from [race.ids](http://gemrb.org/iesdp/files/ids/iwd2/race.htm))
   * add new strings for name and description as necessary (column 1 and 3)
 * resting movies in games that don't have them or have only one (bg1)
   * get appropriate videos
@@ -122,12 +112,6 @@ also have to create them first, not just replace the existing entries.
         selection
       - add subrace boni/mali
   - new multi/dual class choices
-      - [sorcerer/monk](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/sorcerer-monk)
-        \<wrap download\>multiclass done\</wrap\>\<wrap todo\>dualclass
-        TODO\</wrap\>
-      - [sorcerer/monk/cleric](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/sorcerer-monk-cleric)
-        \<wrap download\>multiclass done\</wrap\>\<wrap todo\>dualclass
-        TODO\</wrap\>
       - update a bunch of tables in the gemrb and game overrides
         (classes.2da and clskills.2da being the most important)
           - the MULTI column can be computed with this formula:
@@ -160,9 +144,6 @@ also have to create them first, not just replace the existing entries.
 
 ### Hard
 
-  - **[10 player
-    parties](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/10pp)**
-    \<wrap download\>done\</wrap\>
   - making infravision useful - decrease the visual and other ranges in
     the dark
       - this one would require engine and possibly ingame script changes
