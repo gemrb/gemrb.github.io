@@ -34,7 +34,7 @@ shot on a mac](assets/img/screenshots/pstmac.jpg) ![Planescape: Torment game sho
 ![http://lynxlynx.info/bugs/iwd2stylecombat2.jpg](http://lynxlynx.info/bugs/iwd2stylecombat2.jpg)
 ![Sorcerer/monk multiclass](http://lynxlynx.info/bugs/sorcerer_monk.jpg)
 ![Icewind dale in BG2](assets/img/screenshots/iwg2.jpg) ![Baldur's gate Trilogy](assets/img/screenshots/bgt.jpg)
-![10pp6.jpg](assets/img/screenshots/screenshots/10pp6.jpg)
+![10pp6.jpg](assets/img/screenshots/10pp6.jpg)
 
 ## Exotic platforms
 
