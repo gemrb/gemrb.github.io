@@ -39,6 +39,7 @@ the players. Besides the obvious bugfixes, those include:
     difflvls.2da
   - arbitrary formations are supported: externalised to a 2da table, with an
     accompanying generator (for the relative coordinates)
-  - Many [ToBEx](ToBEx.md) extensions are also implemented
+  - better support for [internationalization](Text-encodings.md) of game resources 
+  - many [ToBEx](ToBEx.md) extensions are also implemented
   
 ... and more, this list is not yet comprehensive
