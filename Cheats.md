@@ -9,8 +9,19 @@ Most of them do the same thing as the [original
 cheats](https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm),
 so we will list here only the differences and important ones.
 
-Cheat keys are enabled by default. To start typing, toggle the console
-with a Ctrl+Space key combination.
+Cheat keys are enabled by default. 
+
+## Pop-up console
+
+You can toggle the console with the **Ctrl+Space** key combination. It accepts all [GUIScript]()
+commands and python expressions. The GemRB module is already imported, so it's enough to
+call `GameSetPartyGold(1000)` instead of `GemRB.GameSetPartyGold(1000)`.
+
+Additionally, a few common functions have [shorthands defined](https://github.com/gemrb/gemrb/blob/master/gemrb/GUIScripts/include.py),
+so things can be done faster (eg. `mta()` for `MoveToArea()`).
+
+When you want to see the output of functions, remember to `print` it. You can also redirect
+the log to also display in the game message window with `MessageWindowDebug(5)`.
 
 ## Cheats and conveniences
 
