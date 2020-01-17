@@ -16,6 +16,7 @@ Planescape: Torment | yes | yes | no | [pst](https://github.com/gemrb/gemrb/labe
 Icewind Dale  1 | yes | yes | yes | [iwd1](https://github.com/gemrb/gemrb/labels/game%3A%20iwd1)
 Baldur's Gate 2 | yes | yes | yes | [bg2](https://github.com/gemrb/gemrb/labels/game%3A%20bg2)
 Icewind Dale  2 | yes | no | no | [iwd2](https://github.com/gemrb/gemrb/labels/game%3A%20iwd2)
+New game        | no | no | no | [New game](New-game.md)
 Any Enhanced Edition | no | no | no | [EE](https://github.com/gemrb/gemrb/issues/164)
 
 PS:T is completable, but has some notable missing features, making it the least polished game.
