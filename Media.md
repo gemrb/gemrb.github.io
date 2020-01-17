@@ -2,9 +2,11 @@
 title: Screenshots and videos
 ---
 
-Here are some screenshots of gemrb running Infinity Engine games.
+TODO: figure out layout, use smaller images.
 
 # Screenshots
+
+Here are some screenshots of gemrb running Infinity Engine games.
 
 ## Baldur's Gate 2
 
