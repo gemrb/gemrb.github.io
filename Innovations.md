@@ -36,6 +36,6 @@ the players. Besides the obvious bugfixes, those include:
     difflvls.2da
   - arbitrary formations are supported: externalised to a 2da table, with an
     accompanying generator (for the relative coordinates)
-  - Many [ToBEx](/engine/ToBEx) extensions are also implemented
+  - Many [ToBEx](ToBEx.md) extensions are also implemented
   
 ... and more, this list is not yet comprehensive
