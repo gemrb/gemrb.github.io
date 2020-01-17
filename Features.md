@@ -2,6 +2,9 @@
 title: Features
 ---
 
+GemRB is a portable open-source implementation of Bioware's Infinity Engine. 1 engine for roughly
+8 variants of the [original Infinity engine](History.md).
+
 # Status
 
 TODO: use colors and symbols
@@ -32,7 +35,7 @@ updated approximately every 100 updates.
   - Runs the Baldur's Gate, Icewind Dale and Planescape: Torment games, their expansions
     and [mods](Modding.md)
   - [Cross-platform](Supported-platforms.md): runs on Windows, OS X, Linux,
-    \*BSD, Android, iOS and [more](gallery#exotic_platforms)
+    \*BSD, Android, iOS and [more](https://gemrb.github.io/Media#exotic-platforms)
   - Free Libre Open Source Software, available under the [GPL](https://github.com/gemrb/gemrb/blob/master/COPYING)
   - Nearly feature-complete ([TODO](https://github.com/gemrb/gemrb/issues?q=is%3Aopen+is%3Aissue+label%3Afeature))
   - Usability [innovations](Innovations.md), including touch based input and scaling
@@ -40,17 +43,5 @@ updated approximately every 100 updates.
     Infinity Engine
   - Increased [moddability](Modding.md) over the originals
 
-Not convinced? Check out some **[screenshots](gallery)** and
-**[videos](videos)** or perhaps the [FAQ](FAQ).
-
-
-link to Cheats.md
-
-# TODO
-converter: https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
-
-link to History
-
-
-move to news? (news < NEWS < commit log)
-If you want a curt overview of what to expect in the next release, check the [[https://github.com/gemrb/gemrb/blob/master/NEWS|changelog in the making]], updated approximately every 100 changesets.
+Not convinced? Check out some **[screenshots](https://github.com/gemrb/gemrb.github.io/blob/master/Media.md)** and
+**[videos](https://github.com/gemrb/gemrb.github.io/blob/master/Media.md#videos)** or perhaps the [FAQ](FAQ.md).
