@@ -4,7 +4,7 @@ title: Features
 
 # Status
 
-TODO: use colors or symbols
+TODO: use colors and symbols
 
 Game | Playable | Completable | Polished | TODOs
 ---- | -------- | ----------- | -------- | ------
@@ -35,7 +35,7 @@ updated approximately every 100 updates.
     \*BSD, Android, iOS and [more](gallery#exotic_platforms)
   - Free Libre Open Source Software, available under the [GPL](https://github.com/gemrb/gemrb/blob/master/COPYING)
   - Nearly feature-complete ([TODO](https://github.com/gemrb/gemrb/issues?q=is%3Aopen+is%3Aissue+label%3Afeature))
-  - Usability [innovations](Innovations.md), including touch based input
+  - Usability [innovations](Innovations.md), including touch based input and scaling
   - Extensible plugin-based design that removes many limitations of the
     Infinity Engine
   - Increased [moddability](Modding.md) over the originals
@@ -44,18 +44,10 @@ Not convinced? Check out some **[screenshots](gallery)** and
 **[videos](videos)** or perhaps the [FAQ](FAQ).
 
 
-link to or include direcly:
-  * [tobex](http://www.gemrb.org/wiki/doku.php?id=engine:tobex) page
-
 link to Cheats.md
 
 # TODO
 converter: https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
-
-
-maybe?
-  * [ttf plugin](http://www.gemrb.org/wiki/doku.php?id=plugins:ttf)
-  * [encodings](http://www.gemrb.org/wiki/doku.php?id=engine:encodings) page
 
 link to History
 
