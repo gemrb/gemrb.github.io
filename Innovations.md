@@ -8,7 +8,10 @@ and enhancements are in the core or targetted specifically at
 the players. Besides the obvious bugfixes, those include:
 
   - possibility to never even load the intro videos
-  - [custom font support](/plugins/ttf)
+  - [custom font support](Fonts.md)
+  - window scaling
+    - for arbitrary higher resolutions at the same pixel count
+    - game window scaling, for more game real estate without the Widescreen mod
   - input
       - (multi)touch input support
       - most games didn't even support mouse wheels
