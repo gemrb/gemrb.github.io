@@ -12,4 +12,4 @@ floating fellow, right?), Neverwinter Nights, ToEE and Kotor, but it finally can
 Warcraft as well! Complete with DnD 4e rules! The release will be done shortly, in the meantime
 look at the screenshot or grab a current git, branch gemrb-1.0. 
 
-![wow-screenshot]({{ "/assets/img/news/gemrb-1.0.jpg" | prepend: site.fullurl }})
+![wow-screenshot](/assets/img/news/gemrb-1.0.jpg)
