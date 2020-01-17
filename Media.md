@@ -8,45 +8,45 @@ Here are some screenshots of gemrb running Infinity Engine games.
 
 ## Baldur's Gate 2
 
-![Baldur's Gate 2 menu shot](bg2_3.jpg) ![Baldur's Gate 2 menu
-shot](bg22.jpg) ![Baldur's Gate 2 game shot](bg2.jpg) ![Baldur's Gate 2
-game shot](bg23.jpg)
+![Baldur's Gate 2 menu shot](assets/img/screenshots/bg2_3.jpg) ![Baldur's Gate 2 menu
+shot](assets/img/screenshots/bg22.jpg) ![Baldur's Gate 2 game shot](assets/img/screenshots/bg2.jpg) ![Baldur's Gate 2
+game shot](assets/img/screenshots/bg23.jpg)
 
 ## Icewind Dale
 
-![Showcasing custom font support](/fonts.png)
+![Showcasing custom font support](assets/img/screenshots/fonts.png)
 
 ## Icewind Dale 2
 
 ![Icewind Dale 2 on Ubuntu 7.10 with svn-built GemRB
-(2008-03-05)](iwd2_1.jpg) ![Icewind Dale 2 on Ubuntu 7.10 with svn-built
-GemRB (2008-03-05)](iwd2_2.jpg) ![Icewind Dale 2 on Ubuntu 7.10 with
-svn-built GemRB (2008-03-05)](iwd2_3.jpg)
+(2008-03-05)](assets/img/screenshots/iwd2_1.jpg) ![Icewind Dale 2 on Ubuntu 7.10 with svn-built
+GemRB (2008-03-05)](assets/img/screenshots/iwd2_2.jpg) ![Icewind Dale 2 on Ubuntu 7.10 with
+svn-built GemRB (2008-03-05)](assets/img/screenshots/iwd2_3.jpg)
 
 ## Planescape: Torment
 
-![Planescape: Torment game shot](pst.jpg) ![Planescape: Torment game
-shot on a mac](pstmac.jpg) ![Planescape: Torment game shot](pst2.jpg)
+![Planescape: Torment game shot](assets/img/screenshots/pst.jpg) ![Planescape: Torment game
+shot on a mac](assets/img/screenshots/pstmac.jpg) ![Planescape: Torment game shot](assets/img/screenshots/pst2.jpg)
 
 ## Mods
 
-![Glory of Istar game shot](goi.jpg)
+![Glory of Istar game shot](assets/img/screenshots/goi.jpg)
 ![http://lynxlynx.info/bugs/iwd2stylecombat2.jpg](http://lynxlynx.info/bugs/iwd2stylecombat2.jpg)
 ![Sorcerer/monk multiclass](http://lynxlynx.info/bugs/sorcerer_monk.jpg)
-![Icewind dale in BG2](/iwg2.jpg) ![Baldur's gate Trilogy](/bgt.jpg)
-![10pp6.jpg](/screenshots/10pp6.jpg)
+![Icewind dale in BG2](assets/img/screenshots/iwg2.jpg) ![Baldur's gate Trilogy](assets/img/screenshots/bgt.jpg)
+![10pp6.jpg](assets/img/screenshots/screenshots/10pp6.jpg)
 
 ## Exotic platforms
 
-![Baldur's Gate 2 running on a Nokia N810](gemrb_800x480_xl.jpg)
-![ReactOS](/reactos-iwd-2.png) ![SyllableOS](/syllableos-iwd.png)
-![Haiku](http://haikuware.com/components/com_remository_files/file_image_2780/img_2780_01.png)
-![AmigaOS 4.1](/amigaos-bg2.png)
+![Baldur's Gate 2 running on a Nokia N810](assets/img/screenshots/gemrb_800x480_xl.jpg)
+![ReactOS](assets/img/screenshots/reactos-iwd-2.png) ![SyllableOS](assets/img/screenshots/syllableos-iwd.png)
+![Haiku](assets/img/screenshots/haiku.jpg)
+![AmigaOS 4.1](assets/img/screenshots/amigaos-bg2.jpg)
 
 
 # Fan art
 
-![by fearless](/fa-fearless.jpg)![by Maighstir](/logo-blue.gem.png)
+![by fearless](assets/img/fanart/fa-fearless.jpg)![by Maighstir](assets/img/fanart/logo-blue.gem.png)
 
 # Videos
 
