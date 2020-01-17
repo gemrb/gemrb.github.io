@@ -7,7 +7,7 @@ that people wonder and sometimes want to create new games. Even some smaller stu
 approached the project before, but in the end nothing came of it.
 
 What follows is a collection of what little existing work has been done towards a
-new and Free game.
+new and Free game. Some of it has been integrated into the tiny tech demo.
 
 ## New Game
 
@@ -16,7 +16,7 @@ a trivial GemRB dataset (aka "game").
 
 The goal is to create a completely free (in the OSS sense) dataset which
 could be distributed with GemRB and also serve as a reference for
-writing documentation if we ever get to it. Preferably it could be done
+writing comprehensive documentation if we ever get to it. Preferably it could be done
 with free tools, so that the process is repeatable by users.
 
 #### Options
@@ -66,12 +66,6 @@ them](http://gibberlings3.net/forums/topic/20189-a). You can also find a
 begining of a [3d modelling tutorial
 here](http://www.bhaalspawn.org/3d.html), with a focus on area graphics.
 
-There's a special [namespace](/newgame/capabilities) (folder) on our
-wiki, where myownlittlworld
-[prepared](http://gibberlings3.net/forums/topic/16245-a) some templates
-to get started. It's practically empty now, so you (yes, you) are
-encouraged to contribute ideas, wishes etc.
-
 **So, to create a new game or just a demo that can be bundled alongside
 GemRB, both more artists and some coordinators are needed, since there
 is a lot that can be salvaged from existing efforts.**
@@ -91,13 +85,12 @@ is a lot that can be salvaged from existing efforts.**
     a window. At least the former one is needed.
   - Optionally a musical score. It does not have to be a great piece of
     art, something atmospheric would be Good Enough™.
-    [audio](/newgame/audio)
   - A minimal set of IDS and 2DA files to make the engine happy.
     Probably a whole lot of them is required now, but in many cases a
     skeletal one would hopefully suffice.
   - TLK and KEY files. Should be trivial to create.
 
-Some of this is already done for the bundled demo stub, so check there
+Some of this is already done for the bundled demo stub, so check [there]
 (/demo/data).
 
 Potentially these item description and portrait graphics could be used
@@ -107,6 +100,27 @@ The custom BAMs for armor and helmet were created by Tantalus for his
 Mod "Sarevok Recovery Mod" (
 <http://www.baldursgate-refugium.de/mods/sarevok-wiederherstellung/> ),
 licensed under CC BY-NC-SA 3.0 by Nicolas Peters.
+
+### Audio
+
+In order of importance:
+  - area music, intro music
+  - sfx: gui click/press, window open/close, 
+  - game mechanic effect sounds
+  - voice acting: selection/command sounds
+
+Much of this can be reused from other open game art projects until
+better versions are made, as needed\&available.
+
+Camille from hvnrecordings (see forum) studio is interested in helping
+out once the other parts of the project are working well.
+
+<http://soundimage.org/> (original and free)
+
+Look up Nox Arcana on YouTube for ideas :-)
+
+<https://www.youtube.com/user/AdrianvonZiegler> (original and
+conceptually free for non-commercial)
 
 ### Other
 
@@ -121,58 +135,22 @@ licensed under CC BY-NC-SA 3.0 by Nicolas Peters.
     also (semi)free ones out there like
     [Porphyra](http://www.rpgnow.com/browse.php?keywords=Porphyra&x=-1052&y=-161&author=&artist=&pfrom=&pto=)
 
-## Potential New Games
-
-While it would be great to focus development on one game at a time,
-ideas often occur for other games that are just too good to let go. This
-section is for those ideas, so that they can be recorded and not lost.
-If you're submitting a completely new idea, it might be good to see if
-your idea can eventually be incorporated with an existing project in
-some way, in effect bringing to bear the best traits of both. If you're
-going to hassle about licensing issues, please license your content
-under the GPL 2 to allow the greatest utility to the GemRB project... If
-indeed, you want GemRB to use it.
-
-New game development should be modeled off the [game
-template](/newgame/games/template), this gives you an outline and a
-couple questions directing you where to start creating an entire world,
-it's inhabitants, and major events. Other, more realistically ambitious
-templates include: [Plots](/newgame/plots/template),
-[Characters](/newgame/characters/template),
-[Locations](/newgame/locations/template),
-[Items](/newgame/items/template), and
-[Capabilities](/newgame/capabilities/template).
-
-If you're filling out a template, you should fill out the sections
-relating to the idea you're adding and then provide appropriate links to
-the ideas in the other sections (if you're making a character, fill out
-the character information, but just provide a link and short description
-to the town the character lives in - fill out the town's information on
-the town's own page).
 
 ### Lists of ideas for a new game
 
-  - [Mystery of Fangdoodle](/newgame/games/Mystery%20of%20Fangdoodle) -
-    You've stumbled across a town with a mystery... What is it?
+#### Mystery of Fangdoodle
+You've discovered a town with a mystery. What is it? Which mystery? Why is everyone here scared to do anything?
 
-## Technical GemRB start up details
+Characters
+ - Samuel L. Fortune Teller Loosely based off of Samuel L. Jackson (the one character in every movie who's sure to lead everyone to safety), this fortune teller can impart no useful information, other than a couple ominous warnings… Though he's getting impressively rich off of doing just that, promising everyone that if they come back next week, he'll be able to tell them exactly what's lurking in their Mysterious future.
 
-When you run GemRB, here is what happens:
+Locations
+ - Dale of Fangdoodle The dale of Fangdoodle is a silly little place, where nothing much happens… Because the residents are scared to do anything. They've long ago forgotten what the mystery is, and are absolutely afraid of setting off whatever horrific consequences might come from upsetting it.
 
-1.  The core initialises, loads all the plugins and preloads some data
-2.  The main game loop is started
-3.  Start.py in the game's guiscript directory is run
-      - LoadGame(None) will set up a new game by loading the default GAM
-        file and linked resources
-      - Party members can be created with CreatePlayer()
-      - EnterGame()
-      - ...
-4.  MessageWindow.py is run
-5.  Game is up and drawing
-6.  QuitGame() and Quit() to terminate
+Items
+ - Sam's Crystal Ball - The Mysterious crystal ball that Samuel L. uses ceaselessly - though rumor has it that it's not actually his…
+ - Night's Rest in a Bottle - Upon quaffing this fantastically horrible tasting brew, characters will feel as rested as a full 8 hours of sleep. Restrictions/Disadvantages: Drinking more than one of them in a row will disorient and aggressively confuse the character until a full 8 hours of rest is actually had - a side effect of the excessive stimulants and horrid taste. Limits: 1 between rests. Some characters will refuse to drink it because of its disgusting odor. Acquiring method: Bought from alchemists with proper supplies. Only major alchemical operations can acquire the ingredients necessary to make the foul tasting brew. Graphical Representation: Probably a pure black bottle… Hinting at something evil inside.
 
-Other guiscripts are run on demand, but mostly by direct calls from the
-guiscript side.
 
 ## Other technicalities
 
