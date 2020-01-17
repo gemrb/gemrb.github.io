@@ -29,14 +29,27 @@ updated approximately every 100 updates.
 
 # Features
 
-main features
+  - Runs the Baldur's Gate, Icewind Dale and Planescape: Torment games, their expansions
+    and [mods](Modding.md)
+  - [Cross-platform](Supported-platforms.md): runs on Windows, OS X, Linux,
+    \*BSD, Android, iOS and [more](gallery#exotic_platforms)
+  - Free Libre Open Source Software, available under the [GPL](https://github.com/gemrb/gemrb/blob/master/COPYING)
+  - Nearly feature-complete ([TODO](https://github.com/gemrb/gemrb/issues?q=is%3Aopen+is%3Aissue+label%3Afeature))
+  - Usability [innovations](innovations), including touch based input
+  - Extensible plugin-based design that removes many limitations of the
+    Infinity Engine
+  - Increased [moddability](Modding.md) over the originals
+
+Not convinced? Check out some **[screenshots](gallery)** and
+**[videos](videos)** or perhaps the [FAQ](FAQ).
+
 
 link to or include direcly (innovations):
   * [platforms](http://www.gemrb.org/wiki/doku.php?id=engine:platforms) page
   * [tobex](http://www.gemrb.org/wiki/doku.php?id=engine:tobex) page
   * [innovations](http://www.gemrb.org/wiki/doku.php?id=innovations) page
 
-link to	Modding.md, Cheats.md
+link to Cheats.md
 
 # TODO
 converter: https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
