@@ -2,7 +2,7 @@
 Title: Modding
 ---
 
-GemRB works with mods for the original game, which should work out of the
+GemRB works with mods for the original games, which should work out of the
 box ([let us know](https://github.com/gemrb/gemrb/issues/new/choose) otherwise).
 Of course, any that modify the EXE files could lack the functionality those hacks achieved.
 
@@ -19,10 +19,6 @@ mod for an easier install.
 
 Separated by difficulty/time requirement. If you don't know how doable
 is your idea, just write it here and someone else will categorise it.
-
-The completed mods mentioned here can be downloaded from [a central
-repository](https://github.com/lynxlynxlynx/gemrb-mods). Check their
-individual pages for more information.
 
 ### Trivial
 
@@ -151,6 +147,11 @@ also have to create them first, not just replace the existing entries.
     course)
       - this would mostly be about automating the multiclass addition
         mentioned in the previous section
+
+## Modding on Mac
+
+Since the extra game data, including the GemRB override directory, is inside the app bundle, when you need to modify
+an override file you will need to right click the application and select “Show Package Contents” and navigate to “Contents/Resources/override”.
 
 ## Notes to modders
 
