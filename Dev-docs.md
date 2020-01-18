@@ -4,7 +4,6 @@ converter:
 https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
   * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
-  * [encodings](http://www.gemrb.org/wiki/doku.php?id=engine:encodings) page
 
 WIP
 
@@ -113,3 +112,24 @@ cmake if you want to create a debug build.
 If you're using one of the available project files, just build as usual.
 
 You can finally install GemRB (optional) by `make install`.
+
+------
+
+## Technical GemRB start up details
+
+When you run GemRB, here is what happens:
+
+1.  The core initialises, loads all the plugins and preloads some data
+2.  The main game loop is started
+3.  Start.py in the game's guiscript directory is run
+      - LoadGame(None) will set up a new game by loading the default GAM
+        file and linked resources
+      - Party members can be created with CreatePlayer()
+      - EnterGame()
+      - ...
+4.  MessageWindow.py is run
+5.  Game is up and drawing
+6.  QuitGame() and Quit() to terminate
+
+Other guiscripts are run on demand, but mostly by direct calls from the
+guiscript side.
