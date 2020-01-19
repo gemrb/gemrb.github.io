@@ -6,11 +6,15 @@ TODO
 - very obviously displayed latest version.
 - one prominent sentence: GemRB is a
 portable open-source implementation of Bioware's Infinity Engine.
+- stuff links somewhere? Project pages: [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
+  HUB](https://www.openhub.net/p/gemrb?p=GemRB), [IESDP](http://gemrb.org/iesdp)
 
 Menu
 - [News](News.md)
 - [Features](Features.md)
-- [contribute/docs]()
+- docs
+- feedback
+- [Get involved]()
 - [Download](Install.md)
 
 
@@ -53,11 +57,16 @@ praise or want to [contribute](contribute), we can be reached via:
     [archive](http://log.usecode.org/gemrblog.php))
   - [Discord channel on the Gibberlings3
     server](https://discord.gg/64rEVAk)
+    
+## Latest news
 
-## Links
+<ul>
+  {% for post in site.posts reversed limit:1 %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <div>
+      {{ post.excerpt }} ...
+    </div>
+  {% endfor %}
+</ul>
 
-  - Project pages:
-    [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
-    HUB](https://www.openhub.net/p/gemrb?p=GemRB)
-  - [IESDP](http://gemrb.org/iesdp) - The Infinity Engine Structures
-    Description Project
+Looking for something older? Check the [news archive](News.md).
