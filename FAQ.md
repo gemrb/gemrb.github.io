@@ -18,19 +18,11 @@ Besides providing support and inspiration, many of you (us) have
 contributed to [IESDP](https://gibberlings3.github.io/iesdp/) which
 made GemRB possible. 
 
-## Is it possible to create a new game with GemRB?
-
-Of course, but don't underestimate the effort involved. A basic demo is
-bundled with GemRB, but you can only awkwardly walk around there.
-
-For more details and discussions, see [newgame](New-game.md) and the linked
-forum threads.
-
 ## X/Y/Z doesn't work or is buggy. Where to report it?
 
 Click the Feedback link on the top of the page.
 
-## Does/will GemRB work on platform X/Y/Z?
+## Does GemRB work on platform X/Y/Z?
 
 GemRB already supports a [wide array of software and hardware
 platforms](Supported-platforms.md) and so it shouldn't be hard to extend to
@@ -61,14 +53,26 @@ mod](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/10pp).
 ## Will GemRB support new feature X/Y/Z?
 
 Perhaps. It is all about the limited resources we have, so any
-[help](contribute) is welcome. The first goal is to make the original
-games normally playable. Larger extensions will have to wait or be done
-by you. Modders can request new features
-[here](https://github.com/gemrb/gemrb/issues/new/choose).
+[help](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md) is
+welcome. The first goal is to make the original games normally playable.
+Larger extensions will have to wait or be done by you. You can request
+new features [here](https://github.com/gemrb/gemrb/issues/new/choose).
 
 ## Can you use GemRB without any of the original games?
 
-Sure. Firstly, a minimal dataset needed to run gemrb is included.
-Secondly, a minimal demo is in the works. Thirdly, you could use the
+Sure. Firstly, a minimal dataset needed to run gemrb is included. It
+just makes sure the engine works, so not that fun.
+
+Secondly, a minimal demo is included, which sets up an area and your actor.
+
+Thirdly, you could use the
 [bg2 demo](http://www.fileplanet.com/164134/160000/fileinfo/Baldur%27s-Gate-II-Demo-%5BFull-Install%5D)
 to get a better feel of what the games or GemRB are about.
+
+## Is it possible to create a new game with GemRB?
+
+Of course, but don't underestimate the effort involved. A basic demo is
+bundled with GemRB, but you can only awkwardly walk around there.
+
+For more details and discussions, see [newgame](New-game.md) and the linked
+forum threads.
