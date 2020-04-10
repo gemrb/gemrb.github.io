@@ -5,7 +5,6 @@ title: GemRB documentation
 # TODO FAQ/FAP/...
 Features.md
 Innovations.md
-Modding.md
 
 
 
@@ -15,16 +14,16 @@ We strive to make GemRB usable out of the box, with as little settings as possib
 That belies its configurability, so here is an assortment of pages, mostly related
 to customization:
 
- * [Invocation options](Manpage.md)
+ * [GemRB.cfg and invocation options](Manpage.md) 
  * [Using different fonts](Fonts.md)
+ * [Tweaking engine features](Modding.md#trivial)
 
+# TODO Developer documentation
 
+See separate page. .... Dev-docs.md
+See IESDP for a nearly complete and up to date documentation of the Infinity Engine.
 
 # TODO
 
 converter:
 https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
-
-  * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
-
-## The minimal dataset
