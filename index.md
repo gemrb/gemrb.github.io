@@ -14,7 +14,7 @@ Menu
 - [Features](Features.md)
 - [Docs](Documentation.md)
 - feedback
-- [Get involved]()
+- [Get involved](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)
 - [Download](Install.md)
 
 
