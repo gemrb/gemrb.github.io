@@ -12,7 +12,7 @@ portable open-source implementation of Bioware's Infinity Engine.
 Menu
 - [News](News.md)
 - [Features](Features.md)
-- docs
+- [Docs](Documentation.md)
 - feedback
 - [Get involved]()
 - [Download](Install.md)
