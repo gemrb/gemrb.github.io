@@ -7,6 +7,29 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
 WIP
 
+Some general documentation can be found in the docs/ subdir. 
+
+http://www.gemrb.org/wiki/doku.php?id=documentation
+### GemRB man page
+
+  - Check the [man page](/docs/manpage) for all the configuration
+    options and commandline parameters
+
+### Engine documentation
+
+  - [Engine Overview](/engine/start)
+  - [Support for non-ASCII characters](/engine/encodings)
+  - See [IESDP](http://gibberlings3.net/iesdp/) for a nearly complete
+    and up to date documentation of the Infinity Engine.
+
+### GUIScript documentation
+
+  - [Introduction](/guiscript/start)
+  - [Function index](/guiscript/index)
+
+
+
+
 ## The minimal dataset
 
 Since 0.6.1 GemRB comes with a minimal dataset, that can be used to
