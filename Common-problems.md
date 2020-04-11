@@ -13,7 +13,11 @@ isn't writable). **This is the first thing you should look into when you have pr
 Don't worry about printed ERRORS and WARNINGS — when they are critical, they will be fatal.
 
 ## 1. GemRB exits just after starting it up.
-Check the configuration file, you probably have the **GamePath**
+GemRB needs a [configuration file](/Install.md#configure-gemrb) to know
+where to look for the installed game.
+
+If you have it and GemRB sees it (first lines in the log), check the
+file again, as you probably have the **GamePath** variable
 misconfigured. You can use the CDx paths to add additional search paths
 (up to CD6). When in doubt, use absolute paths (beginning with / or the
 drive letter). The GemRB log may give you a hint on what is missing.
