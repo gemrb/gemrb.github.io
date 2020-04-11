@@ -8,7 +8,7 @@ If this website hasn't answered all of your questions yet, here are few more res
 
  * [Frequently asked questions](FAQ.md)
  * [Common problems](Common-problems.md)
- * Did you know? [The games are buggy!](Not-our-bug.md)
+ * Did you know? [The games are buggy!](Common-problems.md#game-bugs)
 
 # Configuration and tweaks
 
@@ -20,12 +20,12 @@ to customization:
  * [Using different fonts](Fonts.md)
  * [Tweaking engine features](Modding.md#trivial)
 
-# TODO Developer documentation
+# Developer documentation
 
-See separate page. .... [here](Dev-docs.md)
-See IESDP for a nearly complete and up to date documentation of the Infinity Engine.
+GemRB is a big piece of software with many subsystems and tunables. Check the
+dedicated [developer documentation](Dev-docs.md) page for an overview and some
+specifics.
 
-# TODO
-
-converter:
-https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
+Additionally check out [IESDP](https://gibberlings3.github.io/iesdp/), a project
+that is coevolving with GemRB and stays immensely useful. It has a nearly complete
+and up to date documentation of the (community's understanding of the) Infinity Engine.
