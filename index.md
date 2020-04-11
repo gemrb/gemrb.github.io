@@ -13,9 +13,9 @@ Menu
 - [News](News.md)
 - [Features](Features.md)
 - [Docs](Documentation.md)
-- feedback
+- [Feedback](Feedback.md)
 - [Get involved](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)
-- [Download](Install.md)
+- [Download and run](Install.md)
 
 
 The latest version is [**0.8.6**](link to news item) It can be
