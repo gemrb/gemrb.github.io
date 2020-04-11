@@ -21,7 +21,8 @@ Any Enhanced Edition | no | no | no | [EE](https://github.com/gemrb/gemrb/issues
 
 PS:T is completable, but has some notable missing features, making it the least polished game.
 IWD2 is playable quite nicely up until the Ice Temple. Both still require [a lot more
-love](contribute) to reach the level of the other games.
+love](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md) to reach the level of the
+other games.
 
 There is also a [tiny tech
 demo](https://github.com/gemrb/gemrb/tree/master/demo) bundled with GemRB,
