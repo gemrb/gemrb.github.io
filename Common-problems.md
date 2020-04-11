@@ -2,36 +2,48 @@
 title: Common problems
 ---
 
+Skip to: [uncommon problems](#uncommon-problems), [game bugs](#game-bugs).
+
 
 # Common problems
+
+GemRB logs its output to a terminal (if ran from one) and to a file — **GemRB.log**.
+It's saved to the game directory (GameDir setting) or its SaveDir (save or mpsave) if the first
+isn't writable). **This is the first thing you should look into when you have problems.**
+Don't worry about printed ERRORS and WARNINGS — when they are critical, they will be fatal.
+
 ## 1. GemRB exits just after starting it up.
 Check the configuration file, you probably have the **GamePath**
 misconfigured. You can use the CDx paths to add additional search paths
 (up to CD6). When in doubt, use absolute paths (beginning with / or the
-drive letter). The GemRB log may give you a hint on what is missing. If
-it mentions the cache dir is not empty ("contains a directory", usually
-data), you probably have an empty directory inside it which you should
-remove. We do not do this for you, since we would be deleting arbitrary
-paths if CachePath was changed.
+drive letter). The GemRB log may give you a hint on what is missing.
 
 ## 2. After entering a game the area is blue and GemRB quickly crashes.
 This is the same problem as the one before. If you check the log, you'll
-see we couldn't find the area tilemap (WED file). Fix up the paths.
+see we couldn't find the area tilemap (WED file). Fix up the game path.
 
-## 3. After some time playing, the GUI freezes and you can't click anything or there are leftovers from previous screens drawn over the current one.
+## 3. The GUI freezes and you can't click anything or there are leftovers from previous screens drawn over the current one.
 One of our python guiscripts encountered an error and it just happens to
 be on the critical path, so the rest of the code is not being
 executed.  
+
 Check the log and search for the first occurrence of "Traceback", which
 in the next few lines will show you the actual error. Send us this part
 and we should be able to fix it pretty fast.
 
 ## 4. Playing X at larger resolutions messes up the GUI. Parts are overlapping and flickering.
-You couldn't play the original game at these high resolutions either. To
+You couldn't play the original game at high or random resolutions either. To
 fix this, you have to install the [Widescreen
 mod](http://www.gibberlings3.net/widescreen/). For IWD install Heart of
-Winter too, since it brought some better resolutions (but not
-widescreen) and lots of other improvements.
+Winter too (if it is not preinstalled), since it brought some higher
+resolutions and lots of other improvements.
+
+GemRB supports both linear scaling (start in windowed mode and resize the
+window, integer factors work best) and an approximation to the widescreen
+mod, where we skip the window frames and center the windows to arbitrary
+resolutions. The game area is the main thing that increases in size. You
+can also increase the font size through mods or using TTF fonts.
+
 
 # Uncommon problems
 
@@ -63,7 +75,10 @@ soft\_oal.dll as OpenAL32.dll somewhere on your game's dll path.
 
 
 # Game bugs
-The games are full of complexity which inevitably led to a large amount of bugs and inconsistencies. You're **advised to install the community fixpacks** (especially for bg2 and pst) and to consider whether a problem you're having is from a fault in the data or in GemRB.
+The games are full of complexity which inevitably led to a large amount
+of bugs and inconsistencies. You're **advised to install the community
+fixpacks** (especially for bg2 and pst) and to consider whether a problem
+you're having is from a fault in the data or in GemRB.
 
 Fixpacks for:
 - [bg2](https://www.gibberlings3.net/mods/fixes/bg2fixpack/) at Gibberlings3
