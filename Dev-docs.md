@@ -9,7 +9,12 @@ WIP
 
 Some general documentation can be found in the docs/ subdir. 
 
-http://www.gemrb.org/wiki/doku.php?id=documentation
+
+for dev docs: https://github.com/gemrb/gemrb/issues/659#issuecomment-611816962 debugging loading problems
+iesh + org/repo structure
+
+
+
 ### GemRB man page
 
   - Check the [man page](/docs/manpage) for all the configuration
@@ -156,3 +161,11 @@ When you run GemRB, here is what happens:
 
 Other guiscripts are run on demand, but mostly by direct calls from the
 guiscript side.
+
+
+## Useful links
+
+  - Project pages:
+    [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
+    HUB](https://www.openhub.net/p/gemrb?p=GemRB)
+  - [IESDP](https://gibberlings3.github.io/iesdp/) - The Infinity Engine Structures Description Project
