@@ -1,31 +1,35 @@
 ---
-title: Bugs, new features, ideas?
+title: Bugs, feature requests, ideas?
 ---
 
-short page w/ link to tracker and Common problems
+GemRB isn't complete yet plus the potential for extension is almost limitless.
+We keep track of bugs, wishlist items and other project tasks on our
+[tracker](https://github.com/gemrb/gemrb/issues).
 
-First keep in mind [this list](FAP).
+# Help, I have a problem!
 
-GemRB isn't complete yet and we keep a bug list / todo on this wiki. See
-the [todo](todo) and links in it before reporting a possibly known bug.
-**Be verbose and describe your problem in detail or we may not be able
-to help you**\! Include an accurate GemRB version number, and if
-possible, backtraces for crashes, ctrl-m output for buggy
-NPCs/doors/containers, area names. In case of complicated bugs, try to
-provide save games, so we can reproduce them more easily.
+First, please check the [common problems list](Common-problems.md). It also
+has instructions on how to find the log file. You can use a 
+[pastebin service](http://paste.debian.net) to upload it, so the report will
+remain readable.
 
+To describe the problem, visit our tracker and [report a new issue](
+https://github.com/gemrb/gemrb/issues/new/choose). Choose the most fitting
+category and its template will help you fill in the details, so we can
+quickly understand what is wrong.
 
-**First, we can't do much if you're not able to \<wrap hi\>supply the
-GemRB log and an *accurate* version number\</wrap\>\!**
+It's also helpful to check that you are using the **latest version** of
+GemRB. We can't help you with problems only present in old releases, plus
+you're needlessly missing a lot of goodies. Go update first and check if
+the problem is still present.
 
-It is logged to GemRB.log (in the GameDir or SaveDir if the first isn't
-writable) and sent to the <span class="underline">standard output</span>
-if available. Run GemRB from the terminal on major OSes and it will get
-printed there. Since it is usually long, use [a
-pastebin](http://paste.debian.net) to post it, rather than adding it to
-your message directly.
+# Ideas, feature requests, enhancements
 
-0\. Double check you are using the **latest version available** for your
-platform. You'll save everyone's time. If your platform is lagging
-behind, <span class="underline">expect</span> to have old bugs (asking
-why [cannot help](contribute)).
+These are all welcome on the same tracker, though we can't promise we'll
+do anything about them. However, it's a good place if you want to start
+[contributing](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md).
+
+# I have other feedback
+
+If it's not fitting for the tracker, pop in on the forum, Discord or IRC
+channel and share there.
