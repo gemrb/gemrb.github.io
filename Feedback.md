@@ -15,8 +15,10 @@ remain readable.
 
 To describe the problem, visit our tracker and [report a new issue](
 https://github.com/gemrb/gemrb/issues/new/choose). Choose the most fitting
-category and its template will help you fill in the details, so we can
-quickly understand what is wrong.
+category and its template will help you fill in the relevant details, so
+we can quickly understand what is wrong.
+
+For discussions of any sort, rather open a thread on the forum.
 
 It's also helpful to check that you are using the **latest version** of
 GemRB. We can't help you with problems only present in old releases, plus
