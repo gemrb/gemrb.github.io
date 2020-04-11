@@ -8,6 +8,7 @@ TODO
 portable open-source implementation of Bioware's Infinity Engine.
 - stuff links somewhere? Project pages: [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
   HUB](https://www.openhub.net/p/gemrb?p=GemRB); [IESDP](http://gemrb.org/iesdp)
+- contacts - also in superheader or footer
 
 Menu
 - [News](News.md)
