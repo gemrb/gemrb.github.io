@@ -8,7 +8,10 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 WIP
 
 Some general documentation can be found in the docs/ subdir. 
-debugging tips - ctrl-m + other hotkeys, tools, ie tools ...
+
+debugging tips - tools, ie tools ...
+
+https://gemrb.github.io/Cheats.html console + hotkeys
 
 for dev docs: https://github.com/gemrb/gemrb/issues/659#issuecomment-611816962 debugging loading problems
 iesh + org/repo structure
