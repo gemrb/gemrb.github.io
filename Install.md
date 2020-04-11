@@ -26,7 +26,8 @@ Due to low interest, GemRB does [not support the EE versions](https://github.com
 of the games, though there has always been considerable feature overlap.
 
 After you have the games, you can also install [any mods](Modding.md). They should work out of the box, but
-any that modify the EXE files could lack the functionality those hacks achieved.
+any that modify the EXE files could lack the functionality those hacks achieved. Installing the
+[fixpacks](Common-problems.md#game-bugs) is highly recommended.
 
 # Install
 
