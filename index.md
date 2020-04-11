@@ -10,6 +10,10 @@ portable open-source implementation of Bioware's Infinity Engine.
   HUB](https://www.openhub.net/p/gemrb?p=GemRB); [IESDP](http://gemrb.org/iesdp)
 - contacts - also in superheader or footer
 
+Is the current front page missing anything and is anything redundant (should/can be moved)?
+http://gemrb.org
+
+
 Menu
 - [News](News.md)
 - [Features](Features.md)
