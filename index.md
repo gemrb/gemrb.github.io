@@ -9,6 +9,7 @@ portable open-source implementation of Bioware's Infinity Engine.
 - stuff links somewhere? Project pages: [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
   HUB](https://www.openhub.net/p/gemrb?p=GemRB); [IESDP](http://gemrb.org/iesdp)
 - contacts - also in superheader or footer
+- some sort of search?
 
 Is the current front page missing anything and is anything redundant (should/can be moved)?
 http://gemrb.org
