@@ -136,8 +136,11 @@ engine. Also the all important `gemrb.ini` internal engine settings
 file is found here.
 
 The difference between the two is that `unhardcoded` contains only
-new files, while `override` is meant as what its name suggests. See
-this [tabular overview](Modding.md#notes-to-modders) to better
+new files, while `override` is meant as what its name suggests. We
+want the latter to contain as few files as possible to reduce
+potential conflicts with mods.
+
+See this [tabular overview](Modding.md#notes-to-modders) to better
 understand how they relate to the data shipped with the games.
 
 #### Includes: `gemrb/includes`
