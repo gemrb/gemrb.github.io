@@ -7,11 +7,11 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
 WIP
 
-Some general documentation can be found in the docs/ subdir. 
+Some extra documentation can be found in the gemrb/docs/ subdir. 
 
 debugging tips - tools, ie tools ...
 
-https://gemrb.github.io/Cheats.html console + hotkeys
+["Cheats"](Cheats.md) console + hotkeys
 
 for dev docs: https://github.com/gemrb/gemrb/issues/659#issuecomment-611816962 debugging loading problems
 iesh + org/repo structure
@@ -20,12 +20,12 @@ iesh + org/repo structure
 
 ### GemRB man page
 
-  - Check the [man page](/docs/manpage) for all the configuration
+  - Check the [man page](Manpage.md) for all the configuration
     options and commandline parameters
 
 ### Engine documentation
 
-  - [Engine Overview](/engine/start)
+  - [Engine Overview](Engine-overview.md)
   - [Support for non-ASCII characters](/engine/encodings)
   - See [IESDP](http://gibberlings3.net/iesdp/) for a nearly complete
     and up to date documentation of the Infinity Engine.
