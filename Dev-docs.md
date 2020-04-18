@@ -41,7 +41,7 @@ make -j3
 running the `install` target.
 
 ## Project infrastructure
-The [oganisation](https://github.com/gemrb) currently has these repositories:
+The [organisation](https://github.com/gemrb) currently has these repositories:
 - gemrb - the main project
 - gemrb.github.io — this very website
 - iesh - IE python shell
@@ -84,6 +84,23 @@ thought unused or not working. Or if you need to do any processing. Basically
 for anything that is much faster when automated, especially since most IE tools
 have poor search capabilities.
 
+## The minimal dataset
+
+GemRB comes with a minimal dataset, that can be used to check if the core
+core functionality still works. It just fires up the engine and as soon as it
+loads the Start script, it exits. That is the expected behaviour. No window
+is opened.
+
+If you installed GemRBb, try the included fhs.cfg:
+
+    gemrb -c /usr/share/gemrb/minimal/fhs.cfg
+
+But, you can just run the sample config from the build directory as-is:
+
+    gemrb/gemrb -c ../gemrb/GemRB.cfg.noinstall.sample
+
+This is what our build bots use as a trivial sanity check.
+
 # TODO
 
 converter:
@@ -100,22 +117,7 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
   - [Function index](GUIScript/Functions.md)
 
 
-## The minimal dataset
 
-Since 0.6.1 GemRB comes with a minimal dataset, that can be used to
-check if gemrb is configured correctly right out of the box.
-
-If you installed gemrb, try the included fhs.cfg:
-
-    gemrb -c /usr/share/gemrb/minimal/fhs.cfg
-
-If you don't want to install, you can just run the sample config from
-the build directory as-is:
-
-    gemrb/gemrb -c ../gemrb/GemRB.cfg.noinstall.sample
-
-It will exit as soon as it loads the Start script. That is the expected
-behaviour.
 
 
 ## Technical GemRB start up details
