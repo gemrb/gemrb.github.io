@@ -7,7 +7,7 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
 WIP
 
-Some extra documentation can be found in the gemrb/docs/ subdir. No, port it here.
+Some extra documentation can be found in the gemrb/docs/ subdir.
 
 debugging tips - tools, ie tools ...
 
@@ -33,7 +33,7 @@ iesh + org/repo structure
 ### GUIScript documentation
 
   - [Introduction](GUIScript/Index.md)
-  - [Function index](GUIScript/Index.md#list-of-functions)
+  - [Function index](GUIScript/Functions.md)
 
 
 
