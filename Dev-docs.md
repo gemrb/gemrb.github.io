@@ -1,34 +1,42 @@
+---
+title: Developer documentation
+---
+
+This is the starting page for most of our technical documentation. Some extra nuggets
+can be found in the gemrb/docs/ subdir, but it's old and very specific.
+
+As far as game resources go, the main complementary documentation is on the
+[IESDP](https://gibberlings3.github.io/iesdp/) - The Infinity Engine Structures
+Description Project. It represents the accumulated knowledge of IE internals and
+in a sense, GemRB could be considered a reference implementation.
+
+## Getting started
+dl, compile, INSTALL ...
+
+## GitHub organization structure
+repo structure
+
+## The engine
+  - [Engine Overview](Engine-overview.md)
+startup details
+
+## Workflow
+see contributing
+
+debugging tips - tools, ie tools ... ["Cheats"](Cheats.md) console + hotkeys
+bots and tests
+for dev docs: https://github.com/gemrb/gemrb/issues/659#issuecomment-611816962 debugging loading problems
+iesh + other tools 
+
 # TODO
 
 converter:
 https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
   * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
-
-WIP
-
-Some extra documentation can be found in the gemrb/docs/ subdir.
-
-debugging tips - tools, ie tools ...
-
-["Cheats"](Cheats.md) console + hotkeys
-
-for dev docs: https://github.com/gemrb/gemrb/issues/659#issuecomment-611816962 debugging loading problems
-iesh + org/repo structure
-
-
-
-### GemRB man page
-
   - Check the [man page](Manpage.md) for all the configuration
     options and commandline parameters
-
-### Engine documentation
-
-  - [Engine Overview](Engine-overview.md)
   - [Support for non-ASCII characters](Text-encodings.md)
-  - See [IESDP](http://gibberlings3.net/iesdp/) for a nearly complete
-    and up to date documentation of the Infinity Engine.
 
 ### GUIScript documentation
 
@@ -171,4 +179,4 @@ guiscript side.
   - Project pages:
     [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
     HUB](https://www.openhub.net/p/gemrb?p=GemRB)
-  - [IESDP](https://gibberlings3.github.io/iesdp/) - The Infinity Engine Structures Description Project
+
