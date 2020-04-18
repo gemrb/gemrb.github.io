@@ -125,7 +125,7 @@ These are Python scripts implementing GemRB's user interface and many
 game rules, which were hardwired into the executable in the original
 games. The scripts are organized by game type, while the top dir contains
 shared files. Hacking the scripts provides a gentle path into GemRB
-development and you can find [specific documentation here]().
+development and you can find [specific documentation here](GUIScript/Index.md).
 
 #### Overrides and unhardcoded data: `gemrb/override/`
 
