@@ -7,7 +7,15 @@ systems in GemRB: GUIScript. You should read it if you want to hack on
 GemRB's GUI or related logic.
 
 Table of contents:
-
+  * [GUIScript and GameScript](#guiscript-and-gamescript)
+  * [Script execution](#script-execution)
+  * [Typical GUIScript](#typical-guiscript)
+  * [GUI controls](#gui-controls)
+  * [Reserved functions](#reserved-functions)
+  * [GUIScripter's Workflow](#guiscripters-workflow)
+  * [Coding style](#coding-style)
+  
+Also check out the [list of functions](Functions.md).
 
 ## GUIScript and GameScript
 
@@ -101,29 +109,47 @@ For a short example, take a look at iwd2's journal window script at
 Remember, the original GUI layout is in a proprietary binary format: 
 [CHU](https://gibberlings3.github.io/iesdp/file_formats/ie_formats/chu_v1.htm). 
 
-Check the [GUI structure](GUI-structure.md) page to see the common controls
-and how data passes between them and the core.
+Check the [GUI structure](GUI-structure.md) page to see the common controls,
+how data passes between them and the core, and how to access them.
 
-### Accessing GUI controls
+## Reserved functions
 
-To access a GUI control, you must know its window ID and control ID (CHU index).
-You must use `LoadWindow` and `GetControl` to obtain a reference to the control.
-Inspect the relevant CHU file to find all the control IDs.
+The following functions have a special meaning, usually because they also
+sometimes have to be invoked directly by the core via a callback.
 
-Many GUI commands works only on one type of control. A wrong control type will
-cause a Runtime Error and terminates the GUI script (not the game or the engine).
+- `OnLoad()`: called when the GUI script was loaded by GemRB.
 
-Setup example:
-```python
-StartWindow = GemRB.LoadWindow (7)
-Label = StartWindow.GetControl (0x0fff0000)
-Label.SetText (23445)
-```
+- `StartTextScreen()`: called when the engine encountered a TextScreen or an
+IncrementChapter game script action.
 
-In the above example we load a window whose window ID is 7 and its child control
-with ID 0xfff0000. Finally, we use a string reference (strref) to set the
-control's text. These are references to dialog.tlk, which holds all the ingame
-strings. Always use strrefs or you will break translations!
+- `OpenWorldMapWindow()`: called when the worldmap window must be opened.
+
+- `UpdatePortraitWindow()`: called when there was a change in the party, this
+includes party order and PC hitpoints or state changes that may affect
+portraits.
+
+- `SelectionChanged()`: called when there was a change in selection of team
+members.
+
+- `OpenStoreWindow()`: called when the StartStore scripting action was called.
+Or a container item was accessed.
+
+- `UpdateControlStatus()`: called when a pane changed on the game screen.
+
+- `OpenContinueMessageWindow()`: called when the player may choose to continue a dialog.
+
+- `OpenEndMessageWindow()`: called when the player may choose to end a dialog.
+
+- `DeathWindow()`:s called when the team/protagonist is killed. See also
+`GameSetProtagonistMode()`.
+
+- `OpenReformPartyWindow()`: called when there are too many teammembers.
+
+- `OpenContainerWindow()`: called when the player accessed a ground pile or
+container.
+
+- `CloseContainerWindow()`: called when GemRB requests the container window to be
+closed.
 
 
 ## GUIScripter's Workflow
@@ -174,7 +200,3 @@ in particular:
   - if a function does not return a value, do NOT end it with 'return'
   - keep naming convention for windows, callback etc.
   - comment your code
-
-# List of functions
-
-**TODO: generate from functions/***
