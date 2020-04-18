@@ -112,6 +112,26 @@ enforces that the game control is always the first control of the first
 window. To achieve this, it will close all windows when entering the
 game.
 
+## Accessing GUI controls
+
+To access a GUI control, you must know its window ID and control ID (CHU index).
+You must use `LoadWindow` and `GetControl` to obtain a reference to the control.
+Inspect the relevant CHU file to find all the control IDs.
+
+Many GUI commands works only on one type of control. A wrong control type will
+cause a Runtime Error and terminates the GUI script (not the game or the engine).
+
+Setup example:
+```python
+StartWindow = GemRB.LoadWindow (7)
+Label = StartWindow.GetControl (0x0fff0000)
+Label.SetText (23445)
+```
+
+In the above example we load a window whose window ID is 7 and its child control
+with ID 0xfff0000. Finally, we use a string reference (strref) to set the
+control's text. These are references to dialog.tlk, which holds all the ingame
+strings. Always use strrefs or you will break translations!
 
 ## Data exchange examples
 
