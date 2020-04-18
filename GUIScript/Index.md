@@ -6,6 +6,9 @@ This page is intended as a brief overview for one of two scripting
 systems in GemRB: GUIScript. You should read it if you want to hack on
 GemRB's GUI or related logic.
 
+Table of contents:
+
+
 ## GUIScript and GameScript
 
 As said above, there are two scripting systems within GemRB - GUIScript
@@ -61,7 +64,7 @@ Shared inventory logic:
 ```
 
 A contrived example of a script could look like:
-```
+```python
 import GemRB
 RacesTable = GemRB.LoadTable ("RACES")
 print RacesTable.GetValue ("ELF", "CANDUAL")
@@ -84,6 +87,66 @@ commonly used in the scripts. Other files in this directory can be
 imported too.
 GemRB.SetNextScript ("MessageWindow")
 
+## Typical GUIScript
+
+A typical script's task is to open a window, setting button labels and
+callbacks and then return control back to core GemRB. The script also
+provides a mean to close the window created.
+
+For a short example, take a look at iwd2's journal window script at
+[GUIJRNL.py](https://github.com/gemrb/gemrb/blob/master/gemrb/GUIScripts/iwd2/GUIJRNL.py).
+
+## GUIScripter's Workflow
+
+Check the following list for adding new windows, which while mostly
+unnecessary nowadays, contains good exploration tips — remember, the
+original GUI layout is in a proprietary binary format: 
+[CHU](https://gibberlings3.github.io/iesdp/file_formats/ie_formats/chu_v1.htm). 
+So it's also useful for various control issues and questions
+about their default state.
+
+1.  Run GemRB and an original game in parallel and notice GUI parts
+    missing or badly done in GemRB.
+2.  Divine the CHU file containing the window resource. It can either be
+    guessed by comparing names of all CHU files in the game to required
+    functionality, from GUIScript already implementing related part of
+    the GUI or by viewing all CHU files in CHU/BAM/MOS viewer (DLTCEP,
+    NearInfinity) and finding the right looking one.
+3.  Find the ID of the window to be implemented in the CHU file, usually
+    with DLTCEP or NearInfinity.
+4.  Copy & paste common parts of the script from another one opening
+    similar windows. Use shared code where possible.
+5.  Using a CHU viewer find control IDs for the controls you need to
+    configure in the script and add their setting into the script, again
+    copy & pasting from another script. Usually start with magic trinity
+    of GetControl, SetText, SetEvent for each button. Use dummy numbers
+    for now. Beware, NearInfinity displays wrong IDs for labels. You
+    will have to add the label's control ID to "buffer size" \<\< 32 to
+    get the right control ID.
+6.  Write down button labels as they are seen in the original game and
+    find their strrefs using DLTCEP or NI. Alternatively, you can set
+    "Strref On=1" in \*.INI of the original games and write down
+    directly the strrefs as they are displayed instead of the labels.
+    This however does not work with Planescape: Torment.
+7.  Put the strrefs into the SetText() functions in the script.
+8.  Now that the trivial parts are done, the real fun can begin. But
+    that's a subject too advanced for this page. :-)
+
+## Coding style
+
+Please try to follow the indentation style of other GUIScript scripts,
+in particular:
+
+  - indent each level with 1 TAB character
+  - insert space between function name and opening parenthesis in
+    function calls and around operators and after the hash sign in text
+    comments
+  - insert blank lines between logically separated chunks of code, e.g.
+    between setting of different controls
+  - insert blank lines after functions and a row of hashes
+  - if a function does not return a value, do NOT end it with 'return'
+  - keep naming convention for windows, callback etc.
+  - comment your code
 
 
 # Extra documentation
