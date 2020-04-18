@@ -7,7 +7,7 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
 
 WIP
 
-Some extra documentation can be found in the gemrb/docs/ subdir. 
+Some extra documentation can be found in the gemrb/docs/ subdir. No, port it here.
 
 debugging tips - tools, ie tools ...
 
@@ -26,14 +26,14 @@ iesh + org/repo structure
 ### Engine documentation
 
   - [Engine Overview](Engine-overview.md)
-  - [Support for non-ASCII characters](/engine/encodings)
+  - [Support for non-ASCII characters](Text-encodings.md)
   - See [IESDP](http://gibberlings3.net/iesdp/) for a nearly complete
     and up to date documentation of the Infinity Engine.
 
 ### GUIScript documentation
 
-  - [Introduction](/guiscript/start)
-  - [Function index](/guiscript/index)
+  - [Introduction](GUIScript/Index.md)
+  - [Function index](GUIScript/Index.md#list-of-functions)
 
 
 
