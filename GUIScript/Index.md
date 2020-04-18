@@ -96,14 +96,41 @@ provides a mean to close the window created.
 For a short example, take a look at iwd2's journal window script at
 [GUIJRNL.py](https://github.com/gemrb/gemrb/blob/master/gemrb/GUIScripts/iwd2/GUIJRNL.py).
 
+## GUI controls
+
+Remember, the original GUI layout is in a proprietary binary format: 
+[CHU](https://gibberlings3.github.io/iesdp/file_formats/ie_formats/chu_v1.htm). 
+
+Check the [GUI structure](GUI-structure.md) page to see the common controls
+and how data passes between them and the core.
+
+### Accessing GUI controls
+
+To access a GUI control, you must know its window ID and control ID (CHU index).
+You must use `LoadWindow` and `GetControl` to obtain a reference to the control.
+Inspect the relevant CHU file to find all the control IDs.
+
+Many GUI commands works only on one type of control. A wrong control type will
+cause a Runtime Error and terminates the GUI script (not the game or the engine).
+
+Setup example:
+```python
+StartWindow = GemRB.LoadWindow (7)
+Label = StartWindow.GetControl (0x0fff0000)
+Label.SetText (23445)
+```
+
+In the above example we load a window whose window ID is 7 and its child control
+with ID 0xfff0000. Finally, we use a string reference (strref) to set the
+control's text. These are references to dialog.tlk, which holds all the ingame
+strings. Always use strrefs or you will break translations!
+
+
 ## GUIScripter's Workflow
 
 Check the following list for adding new windows, which while mostly
-unnecessary nowadays, contains good exploration tips — remember, the
-original GUI layout is in a proprietary binary format: 
-[CHU](https://gibberlings3.github.io/iesdp/file_formats/ie_formats/chu_v1.htm). 
-So it's also useful for various control issues and questions
-about their default state.
+unnecessary nowadays, contains good exploration tips. So it's also useful for
+various control issues and questions about their default state.
 
 1.  Run GemRB and an original game in parallel and notice GUI parts
     missing or badly done in GemRB.
@@ -147,10 +174,6 @@ in particular:
   - if a function does not return a value, do NOT end it with 'return'
   - keep naming convention for windows, callback etc.
   - comment your code
-
-
-# Extra documentation
-**TODO: generate from ./***
 
 # List of functions
 
