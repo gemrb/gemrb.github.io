@@ -84,26 +84,44 @@ guiscript side. Read the GUIScript [introduction](GUIScript/Index.md) to
 learn more or access the [function index](GUIScript/Functions.md) directly.
 
 ## Workflow
-see contributing
+Check out [CONTRIBUTING](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)
+for tips on where to start, what to work on, tools, useful links and more.
 
-debugging tips - tools, ie tools ... ["Cheats"](Cheats.md) console + hotkeys
-bots and tests
-for dev docs: https://github.com/gemrb/gemrb/issues/659#issuecomment-611816962 debugging loading problems
-iesh + other tools 
+Besides those tools, check our ["Cheats"](Cheats.md) page for a handful of useful
+hotkeys and instructions for using our inbuilt python console.
 
-## Exploring the games
-As far as game resources go, the main complementary documentation is on the
-[IESDP](https://gibberlings3.github.io/iesdp/) - The Infinity Engine Structures
-Description Project. It represents the accumulated knowledge of IE internals and
-in a sense, GemRB could be considered a reference implementation. Sometimes it is
-also helpful to look at the sources of other tools like
-[NearInfinity](https://github.com/NearInfinityBrowser/NearInfinity).
+### Save game compatibility
+... is something we strive for. The originals are often annoyingly specific
+in how they want the file and fields to look, so it can be a hard problem
+to address. 
 
-Our [iesh](https://github.com/gemrb/iesh) is not polished, but is exceptionally
-useful when trying to figure out if anything uses fields or bits previously
-thought unused or not working. Or if you need to do any processing. Basically
-for anything that is much faster when automated, especially since most IE tools
-have poor search capabilities.
+The general approach is to load a save from the original, resave
+it in GemRB and then try loading it again. If it works, great, if not, check
+the difference between the two files. Reduce it step by step (manually or
+through code changes) until the save works. `iediff` from
+[iesh](https://github.com/gemrb/iesh) (or paired with `ielister`) can be
+tremendously helpful in comparing the two binary files.
+
+Another way is using a debugger, described with an actual example from #659:
+1. You resave the game in GemRB, and load it with the original running in a
+debugger like [x64dbg](https://x64dbg.com).
+[Crash course tutorial](https://www.youtube.com/watch?v=75gBFiFtAb8) on what
+this is about.
+2. You hit the crash point and start to look around for anything familiar:
+dictionary_githzerai_hjacknir is displayed somewhere around there, sounds
+like PST stuff (Githzerai).
+3. Load the GAM file into a raw editor like HxD. Cool, the string appears
+-> looks like it's about variables, IESDP tells you more. Look at the
+other one, no match. No wait, hjacknir is there but the whole thing has a
+space in it's name.
+4. You fix the GemRB save either manually or by a tool like NearInfinity.
+5. You start the modified GAM file with PST: Cool, loading is proceeding
+way more than before, so that's it for sure.
+6. You browse the source code of GAMImporter for gut feelings, look for
+the section of variable writing, find a suspicious function called
+strnspccpy, look it up and see in the code: It really cuts away what the
+Black Isle guys deliberately left in the code, by accident I assume.
+7. If there are still crashes, go to 1.
 
 ## The minimal dataset
 
@@ -122,6 +140,21 @@ But, you can just run the sample config from the build directory as-is:
 
 This is what our build bots use as a trivial sanity check.
 
+## Exploring the games
+As far as game resources go, the main complementary documentation is on the
+[IESDP](https://gibberlings3.github.io/iesdp/) - The Infinity Engine Structures
+Description Project. It represents the accumulated knowledge of IE internals and
+in a sense, GemRB could be considered a reference implementation. Sometimes it is
+also helpful to look at the sources of other tools like
+[NearInfinity](https://github.com/NearInfinityBrowser/NearInfinity).
+
+Our [iesh](https://github.com/gemrb/iesh) is not polished, but is exceptionally
+useful when trying to figure out if anything uses fields or bits previously
+thought unused or not working. Or if you need to do any processing. Basically
+for anything that is much faster when automated, especially since most IE tools
+have poor search capabilities. It can be used interactively, but also comes with
+several scripted examples.
+
 # TODO
 
 converter:
@@ -131,12 +164,4 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
   - Check the [man page](Manpage.md) for all the configuration
     options and commandline parameters
   - [Support for non-ASCII characters](Text-encodings.md)
-
-
-
-
-
-
-
-
 
