@@ -62,6 +62,8 @@ static code analyzers and more.
 We have a separate page dedicated to the [Engine overview](Engine-overview.md),
 discussing the overall architecture and file layout.
 
+Read about our [support for non-ASCII characters](Text-encodings.md).
+
 ### Technical start up details
 
 When you run GemRB, here is what happens:
@@ -155,13 +157,13 @@ for anything that is much faster when automated, especially since most IE tools
 have poor search capabilities. It can be used interactively, but also comes with
 several scripted examples.
 
+Direct reverse engineering is also possible and is the reason for much of the
+understanding of the way the originals worked. There are several projects using
+DLL injection to do minor fixes and extensions (ToBex, EEex, something for iwd2) —
+they sometimes contain useful info.
+
 # TODO
 
-converter:
-https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
-
   * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
-  - Check the [man page](Manpage.md) for all the configuration
-    options and commandline parameters
-  - [Support for non-ASCII characters](Text-encodings.md)
+  
 
