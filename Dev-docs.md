@@ -5,6 +5,17 @@ title: Developer documentation
 This is the starting page for most of our technical documentation. Some extra
 nuggets can be found in the gemrb/docs/ subdir, but they're old and very specific.
 
+- [Getting the code](#getting-the-code)
+- [Setting up a development environment](#setting-up-a-development-environment)
+- [Project infrastructure](#project-infrastructure)
+- [The engine](#the-engine)
+  * [Technical start up details](#technical-start-up-details)
+- [Workflow](#workflow)
+  * [Save game compatibility](#save-game-compatibility)
+- [The minimal dataset](#the-minimal-dataset)
+- [Exploring the games](#exploring-the-games)
+- [Cocoa Application Wrapper](#cocoa-application-wrapper)
+
 
 ## Getting the code
 Download the [git version of GemRB](https://github.com/gemrb/gemrb), via
@@ -162,8 +173,34 @@ understanding of the way the originals worked. There are several projects using
 DLL injection to do minor fixes and extensions (ToBex, EEex, something for iwd2) —
 they sometimes contain useful info.
 
-# TODO
+## Cocoa Application Wrapper
 
-  * [cocoa](http://www.gemrb.org/wiki/doku.php?id=cocoa)
-  
+Apple platforms (Mac OS X & iOS) are built with a special wrapper. This
+wrapper enables the application to interface with OS specific features
+easily without having to alter the GemRB core. The meat of the wrapper
+is simply an NSApplication Delegate object that can be dynamically
+extended using categories loaded from the various GemRB plugins. The
+application delegate has an Objective-C++ interface to the GemRB core so
+it is possible to map system specific features to trigger action inside
+the core or get core status.
+
+Currently the wrapper doesn't do much, it does allow GemRB to be built as
+a proper application bundle instead of a command line executable and it
+overrides application quit (on Mac) to allow GemRB to handle a quit
+event in its own way (currently GemRB simply quits, but it should have a
+popup warning about losing progress etc).
+
+The iOS version of the wrapper runs a configuration utility prior to
+running gemrb ([Download sample
+configuration](http://dl.dropbox.com/u/13866402/GemRB-ipad.cfg)). It
+also attaches an accessory view to the keyboard for toggling modifier
+keys.
+
+Apple specific features that could be implemented with the wrapper:
+
+  - Using NSUserDefaults to dynamically set engine options at runtime
+  - GUI interface for editing the config (iOS prefpane or simple
+    preference interface for Mac) 
+  - a quick launch GUI to prompt for game type on launch.
+  - setup special environments (ex. Python for iOS)
 
