@@ -1,3 +1,7 @@
+---
+title: Manual page
+---
+
 # NAME
 
 GemRB - emulator for Infinity Engine-based games
