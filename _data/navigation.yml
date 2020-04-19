@@ -1,0 +1,13 @@
+main:
+  - title: "News"
+    url: /News.md
+  - title: "Features"
+    url: /Features.md
+  - title: "Docs"
+    url: /Documentation.md
+  - title: "Feedback"
+    url: /Feedback.md
+  - title: "Get involved"
+    url: https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md
+  - title: "Download and run"
+    url: Install.md
