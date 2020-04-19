@@ -1,5 +1,6 @@
 ---
 title: GemRB Homepage
+layout: splash
 ---
 
 TODO
