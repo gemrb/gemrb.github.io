@@ -4,8 +4,8 @@ readme_index:
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll-algolia
 
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 minimal_mistakes_skin: "sunrise"
 title: "GemRB homepage"
 masthead_title: "GemRB"
@@ -14,6 +14,18 @@ description: "Home of GemRB, a portable open-source implementation of Bioware's 
 url: "https://gemrb.github.io"
 repository: "gemrb/gemrb.github.io"
 logo: "/assets/img/site/apple-touch-icon.png"
+#og_image: "/assets/img/site/logo.png" 120x120px minimum
+timezone: Europe/Ljubljana
+
+footer:
+  links:
+    - label: "Forum"
+      icon: "fab fa-fw fa-optin-monster"
+      url: "https://www.gibberlings3.net/forums/forum/91-gemrb/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gemrb"
+
 
 search: true
 search_provider: algolia
