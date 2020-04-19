@@ -15,6 +15,14 @@ title: News
   {% endfor %}
 </ul>
 
+## News in the making
+
+If you want a curt overview of what to expect in the next release, check the
+[changelog in the making](https://github.com/gemrb/gemrb/blob/master/NEWS),
+which we update approximately every 100 changesets. If you want to know almost
+everything, follow the [commit log](https://github.com/gemrb/gemrb/commits/master)
+instead.
+
 ## Older news
 
 <ul>
