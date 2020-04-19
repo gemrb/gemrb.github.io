@@ -7,9 +7,9 @@ header:
   overlay_image: https://content.invisioncic.com/u284679/pages_media/0_2018_background.jpg
   actions:
     - label: "Download 0.8.6"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: "Install.md"
   caption: "Photo credit: [**G3**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
 intro: 
   - excerpt: 'intro excerpt: Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 
@@ -23,15 +23,6 @@ portable open-source implementation of Bioware's Infinity Engine.
 
 Is the current front page missing anything and is anything redundant (should/can be moved)?
 http://gemrb.org
-
-
-Menu
-- [News](News.md)
-- [Features](Features.md)
-- [Docs](Documentation.md)
-- [Feedback](Feedback.md)
-- [Get involved](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)
-- [Download and run](Install.md)
 
 
 The latest version is [**0.8.6**](link to news item) It can be
@@ -85,4 +76,4 @@ praise or want to [contribute](contribute), we can be reached via:
   {% endfor %}
 </ul>
 
-Looking for something older or even newer? Check our [news page](News.md#older-news).
+Looking for something older or even newer? Check our [news page](News.md#news-in-the-making).
