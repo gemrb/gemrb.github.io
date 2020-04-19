@@ -1,10 +1,10 @@
 main:
   - title: "News"
-    url: /News.md
+    url: News.md
   - title: "Features"
-    url: /Features.md
+    url: /Features.html
   - title: "Docs"
-    url: /Documentation.md
+    url: Documentation.html
   - title: "Feedback"
     url: /Feedback.md
   - title: "Get involved"
