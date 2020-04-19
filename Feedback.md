@@ -31,6 +31,9 @@ These are all welcome on the same tracker, though we can't promise we'll
 do anything about them. However, it's a good place if you want to start
 [contributing](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md).
 
+If you are a packager, do let us know, so we can inform you of releases,
+help upstream any patches  and consider your distributions particular needs.
+
 # I have other feedback
 
 If it's not fitting for the tracker, pop in on the forum, Discord or IRC
