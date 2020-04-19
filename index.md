@@ -1,13 +1,26 @@
 ---
 title: GemRB Homepage
 layout: splash
+permalink: /splash-page/
+date: 2016-03-23T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: https://content.invisioncic.com/u284679/pages_media/0_2018_background.jpg
+  actions:
+    - label: "Download 0.8.6"
+      url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**G3**](https://unsplash.com)"
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+intro: 
+  - excerpt: 'intro excerpt: Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+
 ---
 
 TODO
 - very obviously displayed latest version.
 - one prominent sentence: GemRB is a
 portable open-source implementation of Bioware's Infinity Engine.
-- contacts - also in superheader or footer
 - some sort of search?
 
 Is the current front page missing anything and is anything redundant (should/can be moved)?
