@@ -3,7 +3,7 @@ title: Developer documentation
 ---
 
 This is the starting page for most of our technical documentation. Some extra
-nuggets can be found in the gemrb/docs/ subdir, but it's old and very specific.
+nuggets can be found in the gemrb/docs/ subdir, but they're old and very specific.
 
 
 ## Getting the code
@@ -23,17 +23,17 @@ their header/devel packages if they exist and for the same architecture, eg.
 x86-64 or ARM)! The up to date list can be found in the
 [INSTALL](https://github.com/gemrb/gemrb/blob/master/INSTALL) file.
 
-The file also contains general compilation instructions, but here's the gist.
-1. Windows
+The file also contains general compilation instructions, but here's the gist:
+1. **Windows**:
 Follow the [MSVC]() or the [MSYS2]() guide. https://github.com/gemrb/gemrb/issues/611
-2. macOS
+2. **macOS**:
 There's an xcode project file included. You can also try generating it with
 cmake.
 3. Open source platforms
 ```
 mkdir build
 cd build
-cmake .. [some options] # or cmake-gui ..
+cmake .. -DCMAKE_BUILD_TYPE=Debug [some other options] # or cmake-gui ..
 make -j3
 ```
 
@@ -59,8 +59,29 @@ file to see our a header with build bot status (Travis, AppVeyor), some
 static code analyzers and more.
 
 ## The engine
-  - [Engine Overview](Engine-overview.md)
-startup details
+We have a separate page dedicated to the [Engine overview](Engine-overview.md),
+discussing the overall architecture and file layout.
+
+### Technical start up details
+
+When you run GemRB, here is what happens:
+
+1. The core initialises, loads all the plugins and preloads some data
+2. The main game loop is started
+3. Start.py in the game's guiscript directory is run
+     - LoadGame(None) will set up a new game by loading the default GAM
+       file and linked resources.
+     - Party members can be created with CreatePlayer().
+     - ...
+     - EnterGame() to start the GameControl and enter the map.
+4. MessageWindow.py is run.
+5. Game is up and drawing.
+6. ...
+6. QuitGame() and Quit() to terminate.
+
+Other guiscripts are run on demand, but mostly by direct calls from the
+guiscript side. Read the GUIScript [introduction](GUIScript/Index.md) to
+learn more or access the [function index](GUIScript/Functions.md) directly.
 
 ## Workflow
 see contributing
@@ -111,32 +132,11 @@ https://pandoc.org/try/?text=&from=dokuwiki&to=gfm
     options and commandline parameters
   - [Support for non-ASCII characters](Text-encodings.md)
 
-### GUIScript documentation
-
-  - [Introduction](GUIScript/Index.md)
-  - [Function index](GUIScript/Functions.md)
 
 
 
 
 
-## Technical GemRB start up details
 
-When you run GemRB, here is what happens:
-
-1.  The core initialises, loads all the plugins and preloads some data
-2.  The main game loop is started
-3.  Start.py in the game's guiscript directory is run
-      - LoadGame(None) will set up a new game by loading the default GAM
-        file and linked resources
-      - Party members can be created with CreatePlayer()
-      - EnterGame()
-      - ...
-4.  MessageWindow.py is run
-5.  Game is up and drawing
-6.  QuitGame() and Quit() to terminate
-
-Other guiscripts are run on demand, but mostly by direct calls from the
-guiscript side.
 
 
