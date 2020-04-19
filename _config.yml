@@ -26,6 +26,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gemrb"
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
 
 search: true
 search_provider: algolia
