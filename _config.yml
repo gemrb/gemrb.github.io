@@ -1,5 +1,5 @@
-theme: jekyll-theme-midnight
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 readme_index:
   enabled: false
 plugins:
-  - jekyll-seo-tag
+  - jekyll-include-cache
