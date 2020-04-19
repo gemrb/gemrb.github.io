@@ -5,7 +5,10 @@ title: List of GUIScript functions
 ## {{ page.title }}
 
 <ul>
-{% for page in site.pages | where: "dir", "/GUIScript/functions/" %}
-  <li><a href="{{ page.url }}">{{page.title}}</a>: {{page.name}} @ {{page.dir}}</li>
+{% assign funcs = site.pages | where: "dir", "/GUIScript/functions/" %}
+{% for page in funcs %}
+  <li><a href="{{ page.url }}">{{page.title}}</a>: {{page.name}}</li>
+{% else %}
+  This list will be automatically populated as the function docs get imported.
 {% endfor %}
 </ul>
