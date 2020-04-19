@@ -6,8 +6,6 @@ TODO
 - very obviously displayed latest version.
 - one prominent sentence: GemRB is a
 portable open-source implementation of Bioware's Infinity Engine.
-- stuff links somewhere? Project pages: [Sourceforge](http://sourceforge.net/projects/gemrb/), [Open
-  HUB](https://www.openhub.net/p/gemrb?p=GemRB); [IESDP](http://gemrb.org/iesdp)
 - contacts - also in superheader or footer
 - some sort of search?
 
@@ -75,4 +73,4 @@ praise or want to [contribute](contribute), we can be reached via:
   {% endfor %}
 </ul>
 
-Looking for something older? Check the [news archive](News.md#older-news).
+Looking for something older or even newer? Check our [news page](News.md#older-news).
