@@ -2,8 +2,10 @@
 title: List of GUIScript functions
 ---
 
+## {{ page.title }}
+
 <ul>
 {% for page in site.pages | where: "dir", "/GUIScript/functions/" %}
-  <li>{{page.title}}: {{page.name}} @ {{page.url}}</li>
+  <li><a href="{{ page.url }}">{{page.title}}</a>: {{page.name}} @ {{page.dir}}</li>
 {% endfor %}
 </ul>
