@@ -3,3 +3,21 @@ readme_index:
   enabled: false
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-algolia
+
+minimal_mistakes_skin: "sunrise"
+title: "GemRB homepage"
+masthead_title: "GemRB"
+subtitle: "Infinity Engine redone"
+description: "Home of GemRB, a portable open-source implementation of Bioware's Infinity Engine"
+url: "https://gemrb.github.io"
+repository: "gemrb/gemrb.github.io"
+logo: "/assets/img/site/apple-touch-icon.png"
+
+search: true
+search_provider: algolia
+exclude: [vendor]
+algolia:
+  application_id: "QZAOH9F6TU"
+  index_name: "gemrb"
