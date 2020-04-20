@@ -1,5 +1,6 @@
 ---
 title: Manual page
+toc: true
 ---
 
 # NAME
