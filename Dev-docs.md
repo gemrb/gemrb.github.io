@@ -1,5 +1,6 @@
 ---
 title: Developer documentation
+toc: true
 ---
 
 This is the starting page for most of our technical documentation. Some extra
