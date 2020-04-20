@@ -1,5 +1,6 @@
 ---
 title: Install
+toc: true
 ---
 
 # Download
