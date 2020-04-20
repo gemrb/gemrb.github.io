@@ -9,7 +9,7 @@ The windows then contain their own controls to function.
 
 ## Controls
 
-Each control has an associated 'Value' which could be assigned to it by
+Each control has an associated `Value` which could be assigned to it by
 the [SetVarAssoc](/functions/SetVarAssoc) command. The controls handle
 this value according to their type and subtype. To set a button's subtype,
 use the [Button_SetFlags](functions/Button_SetFlags) command.
@@ -25,13 +25,13 @@ of the same type are cumulative, and usually hold a bit value.
 Radiobuttons of the same type are mutually exclusive. Normal buttons are
 similar to radiobuttons, but they are not affecting each other.
 
-**Normal button:** the associated variable will be set to the 'Value',
+*Normal button:* the associated variable will be set to the `Value`,
 other controls are unaffected.
 
-**CheckBox:** the associated variable will be or-ed with the value,
+*CheckBox:* the associated variable will be or-ed with `Value`,
 other controls may change accordingly to the new value.
 
-**RadioButton:** the associated variable will be set to the 'Value',
+*RadioButton:* the associated variable will be set to the `Value`,
 other controls are changed accordingly to the new value.
 
 ### Progressbar
@@ -40,23 +40,22 @@ This control has no equivalent in the original Infinity Engine. It
 provides a graphical output of a numeric value, currently used only in
 LoadScreen.
 
-**Progressbar:** the progressbar will handle Value as a percentage (it
+*Progressbar:* the progressbar will handle `Value` as a percentage (it
 can't alter the value).
 
 ### Slider
 
 A slider is used for limited numeric input.
-
-**Slider:** the slider will handle Value as a scaling factor (not the
-actual position\!), it will set the associated Variable to
-Position\*Value.
+*Slider:* the slider will handle `Value` as a scaling factor (not the
+actual position!), it will set the associated Variable to
+`Position * Value`.
 
 ### TextEdit
 
 This is a text input field. It has a configurable maximum input length.
 
-**TextEdit:** cannot be associated with a variable. You have to use
-QueryText()
+*TextEdit:* cannot be associated with a variable. You have to use
+`QueryText()`.
 
 ### TextArea
 
@@ -66,7 +65,7 @@ used to simulate list controls where you could select a line and
 receive the row number of the selected item. It is also possible to
 assign a specific value to each row.
 
-**TextArea:** cannot be associated with a variable, use the various
+*TextArea:* cannot be associated with a variable, use the various
 TextArea commands.
 
 ### Label
@@ -74,7 +73,7 @@ TextArea commands.
 A label is simply a static text control, but it defines a few mouse
 events. Not so complex as a button.
 
-**Label:** labels work like a normal button, the Value will be assigned
+*Label:* labels work like a normal button, the `Value` will be assigned
 to the associated variable when the label was 'pushed'. No reason to
 use this though.
 
@@ -83,8 +82,8 @@ use this though.
 A scrollbar is mostly used in connection with a Textarea, but it could
 be used differently. (See GUILOAD as an example).
 
-**ScrollBar:** Value will be set based on the scrollbar's knob position.
-The scrollbar will be redrawn based on Value. If a textarea was
+*ScrollBar:* Value will be set based on the scrollbar's knob position.
+The scrollbar will be redrawn based on `Value`. If a textarea was
 associated to the ScrollBar (via the .chu) then the textarea will also
 be scrolled.
 
@@ -94,7 +93,7 @@ This control has a button type placeholder in the original user
 interface files. The current GemRB chui loader can't handle this type,
 so you must create it via a CreateWorldMapControl command.
 
-**WorldMapControl:** whether travel allowed or not (change the cursor)
+*WorldMapControl:* whether travel is allowed or not (change the cursor)
 
 ### Map
 
@@ -102,8 +101,8 @@ This control has a button type placeholder in the original user
 interface files. The current GemRB chui loader can't handle this type,
 so you must create it via a CreateMapControl command.
 
-**MapControl:** the mapcontrol will use the first bit of the associated
-value to display mapnotes.
+*MapControl:* the map control will use the first bit of the associated
+`Value` to display mapnotes.
 
 ### Game
 
