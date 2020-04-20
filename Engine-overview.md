@@ -1,5 +1,6 @@
 ---
 title: Engine overview
+toc: true
 ---
 
 ### Overview of the GemRB Engine
