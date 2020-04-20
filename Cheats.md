@@ -27,22 +27,22 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
 
 ## Cheats and conveniences
 
-  - Ctrl-C (different) - Force casts a hardcoded spell. The last
+  - [Ctrl-C](){: .btn .btn--primary}(different) - Force casts a hardcoded spell. The last
     selected actor is the caster and the target is the door/actor
     currently under the pointer. This currently casts knock (SPWI207).
-  - Ctrl-D (different) - Trap or trapped container pointed w/ mouse is
+  - [Ctrl-D](){: .btn .btn--primary} (different) - Trap or trapped container pointed w/ mouse is
     disarmed.
-  - Ctrl-F (different) - Toggles fullscreen mode
-  - Ctrl-V (unknown) - Explores a small, random part of the pointed
+  - [Ctrl-F](){: .btn .btn--primary} (different) - Toggles fullscreen mode
+  - [Ctrl-V](){: .btn .btn--primary} (unknown) - Explores a small, random part of the pointed
     area.
-  - **Ctrl-W** (new) - Consolidate visible loot under the cursor into a
+  - [Ctrl-W](){: .btn .btn--success} (new) - Consolidate visible loot under the cursor into a
     single pile
-  - **Ctrl-Y** (similar) - Kills pointed actor or unlocks the pointed
+  - [Ctrl-Y](){: .btn .btn--success} (similar) - Kills pointed actor or unlocks the pointed
     door/container, even if it requires a key.
-    - Ctrl-Shift-Y (new) - Kills all enemies in the area
-  - ALT (same) - Toggles debug flag DEBUG\_SHOW\_CONTAINERS (show all
+    - [Ctrl-Shift-Y](){: .btn .btn--success} (new) - Kills all enemies in the area
+  - [ALT](){: .btn .btn--primary} (same) - Toggles debug flag DEBUG\_SHOW\_CONTAINERS (show all
     containers and doors)
-  - Ctrl-7 (different) - Toggle drawing of Fog of war (actually explored
+  - [Ctrl-7](){: .btn .btn--primary} (different) - Toggle drawing of Fog of war (actually explored
     bitmap atm.).
 
 ## Debugging
