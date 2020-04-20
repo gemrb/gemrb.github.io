@@ -1,5 +1,6 @@
 ---
 title: Features
+wide: true
 ---
 
 GemRB is a portable open-source implementation of Bioware's Infinity Engine. 1 engine for roughly
