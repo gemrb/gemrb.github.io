@@ -6,18 +6,6 @@ toc: true
 This is the starting page for most of our technical documentation. Some extra
 nuggets can be found in the gemrb/docs/ subdir, but they're old and very specific.
 
-- [Getting the code](#getting-the-code)
-- [Setting up a development environment](#setting-up-a-development-environment)
-- [Project infrastructure](#project-infrastructure)
-- [The engine](#the-engine)
-  * [Technical start up details](#technical-start-up-details)
-- [Workflow](#workflow)
-  * [Save game compatibility](#save-game-compatibility)
-- [The minimal dataset](#the-minimal-dataset)
-- [Exploring the games](#exploring-the-games)
-- [Cocoa Application Wrapper](#cocoa-application-wrapper)
-
-
 ## Getting the code
 Download the [git version of GemRB](https://github.com/gemrb/gemrb), via
 the **Clone or download** button, the git command-line tool or your IDE.
