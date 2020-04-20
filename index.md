@@ -6,7 +6,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: https://content.invisioncic.com/u284679/pages_media/0_2018_background.jpg
   actions:
-    - label: "Download **0.8.6**"
+    - label: "Down<strong>lo</strong>ad **0.8.6**"
       url: "Install.md"
   caption: "Photo credit: [**G3**](https://unsplash.com)"
 excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
