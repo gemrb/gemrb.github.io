@@ -27,49 +27,49 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
 
 ## Cheats and conveniences
 
-  - [Ctrl-C](){: .btn .btn--primary}(different) - Force casts a hardcoded spell. The last
+  - [Ctrl-C](){: .btn .btn--info} (different) - Force casts a hardcoded spell. The last
     selected actor is the caster and the target is the door/actor
     currently under the pointer. This currently casts knock (SPWI207).
-  - [Ctrl-D](){: .btn .btn--primary} (different) - Trap or trapped container pointed w/ mouse is
+  - [Ctrl-D](){: .btn .btn--info} (different) - Trap or trapped container pointed w/ mouse is
     disarmed.
-  - [Ctrl-F](){: .btn .btn--primary} (different) - Toggles fullscreen mode
-  - [Ctrl-V](){: .btn .btn--primary} (unknown) - Explores a small, random part of the pointed
+  - [Ctrl-F](){: .btn .btn--info} (different) - Toggles fullscreen mode
+  - [Ctrl-V](){: .btn .btn--info} (unknown) - Explores a small, random part of the pointed
     area.
   - [Ctrl-W](){: .btn .btn--success} (new) - Consolidate visible loot under the cursor into a
     single pile
   - [Ctrl-Y](){: .btn .btn--success} (similar) - Kills pointed actor or unlocks the pointed
     door/container, even if it requires a key.
     - [Ctrl-Shift-Y](){: .btn .btn--success} (new) - Kills all enemies in the area
-  - [ALT](){: .btn .btn--primary} (same) - Toggles debug flag DEBUG\_SHOW\_CONTAINERS (show all
+  - [ALT](){: .btn .btn--success} (same) - Toggles debug flag DEBUG\_SHOW\_CONTAINERS (show all
     containers and doors)
-  - [Ctrl-7](){: .btn .btn--primary} (different) - Toggle drawing of Fog of war (actually explored
+  - [Ctrl-7](){: .btn .btn--info} (different) - Toggle drawing of Fog of war (actually explored
     bitmap atm.).
 
 ## Debugging
 
-  - **Ctrl-M** (similar) - Prints (on terminal or DOS window) useful info
+  - [Ctrl-M](){: .btn .btn--success} (similar) - Prints (on terminal or DOS window) useful info
     on pointed actor, door container or infopoint and current map
-    - Ctrl-Shift-M - Prints a debug dump of the chosen actor's animations
-  - Ctrl-B (different) - Draws path from start point marked by Ctrl-O to
+    - [Ctrl-Shift-M](){: .btn .btn--info} - Prints a debug dump of the chosen actor's animations
+  - [Ctrl-B](){: .btn .btn--info} (different) - Draws path from start point marked by Ctrl-O to
     current mouse position.
-  - Ctrl-I (different) - Triggers an interaction between the last
+  - [Ctrl-I](){: .btn .btn--info} (different) - Triggers an interaction between the last
     pointed npc and a random party member.
-  - Ctrl-L (similar) - Plays the S056ICBL animation over the actor.
+  - [Ctrl-L](){: .btn .btn--info} (similar) - Plays the S056ICBL animation over the actor.
     (This exists in PST only)
-  - Ctrl-O (different) - Marks current mouse position as start point
+  - [Ctrl-O](){: .btn .btn--info} (different) - Marks current mouse position as start point
     (origin) for path drawn with Ctrl-B
-  - Ctrl-Shift-V (new) - Dumps the main dictionary
-  - Ctrl-4 (same) - Toggles debug flag DEBUG\_SHOW\_INFOPOINTS (show all
+  - [Ctrl-Shift-V](){: .btn .btn--info} (new) - Dumps the main dictionary
+  - [Ctrl-4](){: .btn .btn--info} (same) - Toggles debug flag DEBUG\_SHOW\_INFOPOINTS (show all
     traps, infopoints and wallgroups)
-  - Ctrl-6 (different) - Toggles debug flag DEBUG\_SHOW\_LIGHTMAP (show
+  - [Ctrl-6](){: .btn .btn--info} (different) - Toggles debug flag DEBUG\_SHOW\_LIGHTMAP (show
     the lightmap)
-  - Ctrl-8 (different) - Toggle drawing of searchmap over the area in
+  - [Ctrl-8](){: .btn .btn--info} (different) - Toggle drawing of searchmap over the area in
     GameControl.
 
 ## Animations
 
-  - Ctrl-A (similar) - Alters the animation ID of the actor. You have to
+  - [Ctrl-A](){: .btn .btn--info} (similar) - Alters the animation ID of the actor. You have to
     hover your mouse over it.
-  - Ctrl-Z (unknown) - Same as Ctrl-A but backward
-  - Ctrl-S (similar) - Alters the stance (animation state) of the actor.
+  - [Ctrl-Z](){: .btn .btn--info} (unknown) - Same as Ctrl-A but backward
+  - [Ctrl-S](){: .btn .btn--info} (similar) - Alters the stance (animation state) of the actor.
     You have to hover your mouse over it.
