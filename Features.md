@@ -11,7 +11,7 @@ TODO: use colors and symbols
 
 Game | Playable | Completable | Polished | TODOs
 ---- | -------- | ----------- | -------- | ------
-Baldur's Gate 1 | yes :heavy_check_mark:  | yes | yes | [bg1](https://github.com/gemrb/gemrb/labels/game%3A%20bg1)
+Baldur's Gate 1 | yes | yes | yes | [bg1](https://github.com/gemrb/gemrb/labels/game%3A%20bg1)
 Planescape: Torment | yes | yes | no | [pst](https://github.com/gemrb/gemrb/labels/game%3A%20pst)
 Icewind Dale  1 | yes | yes | yes | [iwd1](https://github.com/gemrb/gemrb/labels/game%3A%20iwd1)
 Baldur's Gate 2 | yes | yes | yes | [bg2](https://github.com/gemrb/gemrb/labels/game%3A%20bg2)
@@ -19,7 +19,7 @@ Icewind Dale  2 | yes | no | no | [iwd2](https://github.com/gemrb/gemrb/labels/g
 New game        | no | no | no | [New game](New-game.md)
 Any Enhanced Edition | no | no | no | [EE](https://github.com/gemrb/gemrb/issues/164)
 
-PS:T is completable, but has some notable missing features, making it the least polished game.
+PST is completable, but has some notable missing features, making it the least polished game.
 IWD2 is playable quite nicely up until the Ice Temple. Both still require [a lot more
 love](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md) to reach the level of the
 other games.
@@ -30,7 +30,7 @@ but it requires more content to be more than a simple test case.
 
 If you can't wait to see what improvements the next release will bring, a terse overview of what
 has already been done is in the [changelog in the making](https://github.com/gemrb/gemrb/blob/master/NEWS),
-updated approximately every 100 updates.
+updated approximately every 100 changes.
 
 # Features
 
@@ -45,5 +45,5 @@ updated approximately every 100 updates.
     Infinity Engine
   - Increased [moddability](Modding.md) over the originals
 
-Not convinced? Check out some **[screenshots](https://github.com/gemrb/gemrb.github.io/blob/master/Media.md)** and
-**[videos](https://github.com/gemrb/gemrb.github.io/blob/master/Media.md#videos)** or perhaps the [FAQ](FAQ.md).
+Not convinced? Check out some **[screenshots](Media.md)** and
+**[videos](Media.md#videos)** or perhaps the [FAQ](FAQ.md).
