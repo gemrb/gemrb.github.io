@@ -1,5 +1,6 @@
 ---
 title: Screenshots and videos
+toc: true
 ---
 
 TODO: figure out layout, use smaller images.
