@@ -3,12 +3,23 @@ title: Features
 classes: wide
 ---
 
-GemRB is a portable open-source implementation of Bioware's Infinity Engine. 1 engine for roughly
-8 variants of the [original Infinity engine](History.md).
+GemRB is a portable open-source implementation of Bioware's 8 [Infinity Engine versions](History.md).
+
+  - Runs the Baldur's Gate, Icewind Dale and Planescape: Torment games, their expansions
+    and [mods](Modding.md)
+  - [Cross-platform](Supported-platforms.md): runs on Windows, OS X, Linux,
+    \*BSD, Android, iOS and [more](https://gemrb.github.io/Media#exotic-platforms)
+  - Free Libre Open Source Software, available under the [GPL](https://github.com/gemrb/gemrb/blob/master/COPYING)
+  - Nearly feature-complete ([TODO](https://github.com/gemrb/gemrb/issues?q=is%3Aopen+is%3Aissue+label%3Afeature))
+  - Usability [innovations](Innovations.md), including touch based input and scaling
+  - Extensible plugin-based design that removes many limitations of the
+    Infinity Engine
+  - Increased [moddability](Modding.md) over the originals
+
+Not convinced? Check out some **[screenshots](Media.md)** and **[videos](Media.md#videos)**
+or perhaps the [FAQ](FAQ.md).
 
 # Status
-
-TODO: use colors and symbols
 
 Game | Playable | Completable | Polished | TODOs
 ---- | -------- | ----------- | -------- | ------
@@ -32,19 +43,3 @@ but it requires more content to be more than a simple test case.
 If you can't wait to see what improvements the next release will bring, a terse overview of what
 has already been done is in the [changelog in the making](https://github.com/gemrb/gemrb/blob/master/NEWS),
 updated approximately every 100 changes.
-
-# Features
-
-  - Runs the Baldur's Gate, Icewind Dale and Planescape: Torment games, their expansions
-    and [mods](Modding.md)
-  - [Cross-platform](Supported-platforms.md): runs on Windows, OS X, Linux,
-    \*BSD, Android, iOS and [more](https://gemrb.github.io/Media#exotic-platforms)
-  - Free Libre Open Source Software, available under the [GPL](https://github.com/gemrb/gemrb/blob/master/COPYING)
-  - Nearly feature-complete ([TODO](https://github.com/gemrb/gemrb/issues?q=is%3Aopen+is%3Aissue+label%3Afeature))
-  - Usability [innovations](Innovations.md), including touch based input and scaling
-  - Extensible plugin-based design that removes many limitations of the
-    Infinity Engine
-  - Increased [moddability](Modding.md) over the originals
-
-Not convinced? Check out some **[screenshots](Media.md)** and
-**[videos](Media.md#videos)** or perhaps the [FAQ](FAQ.md).
