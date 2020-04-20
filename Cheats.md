@@ -14,9 +14,10 @@ Cheat keys are enabled by default.
 
 ## Pop-up console
 
-You can toggle the console with the **Ctrl+Space** key combination. It accepts all [GUIScript]()
-commands and python expressions. The GemRB module is already imported, so it's enough to
-call `GameSetPartyGold(1000)` instead of `GemRB.GameSetPartyGold(1000)`.
+You can toggle the console with the **Ctrl+Space** key combination. It accepts all
+[GUIScript commands](GUIScript/Functions.md)  and python expressions. The GemRB
+module is already imported, so it's enough to call `GameSetPartyGold(1000)`
+instead of `GemRB.GameSetPartyGold(1000)`.
 
 Additionally, a few common functions have [shorthands defined](https://github.com/gemrb/gemrb/blob/master/gemrb/GUIScripts/include.py),
 so things can be done faster (eg. `mta()` for `MoveToArea()`).
