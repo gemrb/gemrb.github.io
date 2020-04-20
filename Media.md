@@ -1,5 +1,5 @@
 ---
-title: Screenshots and videos
+title: Multimedia files
 toc: true
 gallery-games:
   - url: assets/img/screenshots/bg2_3.jpg
