@@ -4,13 +4,13 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://content.invisioncic.com/u284679/pages_media/0_2018_background.jpg
+  overlay_image: assets/img/site/main-header.jpg
   actions:
     - label: "Download 0.8.6"
       url: "Install.html"
     - label: "Status"
       url: "Features.html#status"
-  caption: "Photo credit: [**G3**](https://unsplash.com)"
+  caption: "[10 player parties](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/10pp)"
 excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
 
 ---
