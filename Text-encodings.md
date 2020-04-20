@@ -1,5 +1,6 @@
 ---
 title: Text enconding support
+toc: true
 ---
 
 ## Support for non-ASCII (multibyte) languages
