@@ -1,5 +1,6 @@
 ---
 title: GUI structure
+toc: true
 ---
 
 CHU files are refered to as "window packs" in GemRB, since that is what
