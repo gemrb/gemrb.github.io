@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "All the GemRB mods are now available in WeiDU form "
 author: Jaka Kranjc
 ---

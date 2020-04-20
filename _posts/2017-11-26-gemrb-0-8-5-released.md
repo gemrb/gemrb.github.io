@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.8.5 released! (Lynxiversary edition)"
 author: Jaka Kranjc
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.8.6 released! (Revenge of the squirrels edition)"
 author: Jaka Kranjc
 ---

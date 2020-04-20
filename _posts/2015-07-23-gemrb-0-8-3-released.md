@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.8.3 released! (Party hard edition)"
 author: Jaka Kranjc
 ---

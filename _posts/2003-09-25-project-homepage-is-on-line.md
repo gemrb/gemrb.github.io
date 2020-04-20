@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Project Homepage is On-line"
 author: Daniele Collantoni
 ---

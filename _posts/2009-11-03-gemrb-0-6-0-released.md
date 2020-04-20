@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB V0.6.0 is out"
 author: Jaka Kranjc
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Looking for Planescape: Torment testers"
 author: Jaka Kranjc
 ---

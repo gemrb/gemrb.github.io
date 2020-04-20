@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "First Demo Available"
 author: Daniele Collantoni
 ---

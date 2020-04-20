@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "IRC Channel"
 author: Daniele Collantoni
 ---

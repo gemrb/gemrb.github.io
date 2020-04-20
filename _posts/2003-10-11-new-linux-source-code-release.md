@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "New Linux Source Code Release"
 author: Daniele Collantoni
 ---

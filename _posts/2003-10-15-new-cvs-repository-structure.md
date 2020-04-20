@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "New CVS Repository Structure"
 author: Daniele Collantoni
 ---

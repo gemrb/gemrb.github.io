@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "10th anniversary of GemRB and the 0.6.2 release!"
 author: Jaka Kranjc
 ---

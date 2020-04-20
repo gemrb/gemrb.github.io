@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Video overview of 2012 (forum is back!)"
 author: Jaka Kranjc
 ---

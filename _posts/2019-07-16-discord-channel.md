@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Discord channel opened on the Gibberlings3 server"
 author: Jaka Kranjc
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB Project is starting again"
 author: Daniele Collantoni
 ---

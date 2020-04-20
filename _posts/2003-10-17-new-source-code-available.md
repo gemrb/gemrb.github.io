@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "New Source Code Available"
 author: Daniele Collantoni
 ---

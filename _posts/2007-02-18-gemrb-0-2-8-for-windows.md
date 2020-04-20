@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB V0.2.8 for Windows is out"
 author: Laszlo Toth
 ---

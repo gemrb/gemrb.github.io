@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Video overview of development in 2013"
 author: Jaka Kranjc
 ---

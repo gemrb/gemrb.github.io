@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.2.2.8 Released"
 author: Daniele Collantoni
 ---

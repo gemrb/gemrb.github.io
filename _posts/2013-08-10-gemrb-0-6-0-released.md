@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Yet another compilation script (especially for Debian and progeny)"
 author: Jaka Kranjc
 ---

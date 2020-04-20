@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.2.4 released"
 author: Jarda Benkovsky
 ---

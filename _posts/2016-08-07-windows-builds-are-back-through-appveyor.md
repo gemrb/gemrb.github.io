@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Windows builds are back, through AppVeyor"
 author: Jaka Kranjc
 ---

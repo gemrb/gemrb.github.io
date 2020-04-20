@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "10 player party mod released"
 author: Jaka Kranjc
 ---

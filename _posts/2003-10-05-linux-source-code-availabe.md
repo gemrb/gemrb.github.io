@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Linux Source Code Availabe"
 author: Daniele Collantoni
 ---

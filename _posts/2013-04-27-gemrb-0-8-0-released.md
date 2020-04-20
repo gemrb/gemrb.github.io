@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.8.0 released! (Fork Me edition)"
 author: Jaka Kranjc
 ---

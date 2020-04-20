@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB v0.2.1.6b for Windows"
 author: Daniele Collantoni
 ---

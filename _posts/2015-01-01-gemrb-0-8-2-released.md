@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.8.2 released! (Deepwinter edition)"
 author: Jaka Kranjc
 ---

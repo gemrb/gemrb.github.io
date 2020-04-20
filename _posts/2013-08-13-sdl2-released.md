@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "SDL2 released!"
 author: Jaka Kranjc
 ---

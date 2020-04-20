@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.7.1 released! (Feat of feats edition)"
 author: Jaka Kranjc
 ---

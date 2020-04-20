@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB 0.8.4 released! (Icy bone box edition)"
 author: Jaka Kranjc
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GIT repository fully moved to GitHub"
 author: Jaka Kranjc
 ---

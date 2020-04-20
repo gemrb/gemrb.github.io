@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "GemRB source repository migrated to SVN"
 author: Laszlo Toth
 ---
