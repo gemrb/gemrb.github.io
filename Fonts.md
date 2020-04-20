@@ -1,5 +1,6 @@
 ---
 title: External font support
+toc: true
 ---
 
 ## About Fonts in GemRB
