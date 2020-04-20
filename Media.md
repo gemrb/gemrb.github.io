@@ -52,11 +52,11 @@ gallery-mods:
     alt: "Glory of Istar game shot"
     title: "Glory of Istar game shot"
   - url: assets/img/screenshots/iwd2stylecombat2.jpg
-    image_path: http://lynxlynx.info/bugs/iwd2stylecombat2.jpg-th
+    image_path: assets/img/screenshots/thumb/iwd2stylecombat2.jpg
     alt: "IWD2-style combat output"
     title: "IWD2-style combat output"
   - url: assets/img/screenshots/sorcerer_monk.jpg
-    image_path: http://lynxlynx.info/bugs/sorcerer_monk.jpg-th
+    image_path: assets/img/screenshots/thumb/sorcerer_monk.jpg
     alt: "Sorcerer/monk multiclass"
     title: "Sorcerer/monk multiclass"
   - url: assets/img/screenshots/iwg2.jpg
@@ -94,16 +94,12 @@ gallery-exotics:
     title: "AmigaOS 4.1"
 ---
 
-TODO: figure out layout, use smaller images.
-
 # Screenshots
 
 Here are some screenshots of gemrb running Infinity Engine games.
 {% include gallery id="galery-games" caption="All the games." %}
 
-
 {% include gallery id="galery-mods" caption="All the mods." %}
-
 
 {% include gallery id="galery-exotics" caption="All the platforms." %}
 
