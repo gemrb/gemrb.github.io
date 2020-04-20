@@ -1,5 +1,6 @@
 ---
 title: Common problems
+toc: true
 ---
 
 Skip to: [uncommon problems](#uncommon-problems), [game bugs](#game-bugs).
