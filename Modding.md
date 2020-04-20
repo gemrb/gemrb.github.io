@@ -1,5 +1,6 @@
 ---
 title: Modding
+toc: true
 ---
 
 GemRB works with mods for the original games, which should work out of the
