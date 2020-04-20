@@ -97,11 +97,11 @@ gallery-exotics:
 # Screenshots
 
 Here are some screenshots of gemrb running Infinity Engine games.
-{% include gallery id="galery-games" caption="All the games." %}
+{% include gallery id="gallery-games" caption="All the **games**." %}
 
-{% include gallery id="galery-mods" caption="All the mods." %}
+{% include gallery id="gallery-mods" caption="All the **mods**." %}
 
-{% include gallery id="galery-exotics" caption="All the platforms." %}
+{% include gallery id="gallery-exotics" caption="All the **platforms**." %}
 
 # Videos
 
