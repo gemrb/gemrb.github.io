@@ -21,6 +21,71 @@ or perhaps the [FAQ](FAQ.md).
 
 # Status
 
+<table style="text-align: center">
+  <thead>
+    <tr>
+      <th style="text-align: left">Game</th>
+      <th>Playable</th>
+      <th>Completable</th>
+      <th>Polished</th>
+      <th>TODOs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Baldur’s Gate 1</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20bg1">bg1</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Planescape: Torment</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chocolate;">no</td>
+      <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20pst">pst</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Icewind Dale  1</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20iwd1">iwd1</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Baldur’s Gate 2</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chartreuse;">yes</td>
+      <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20bg2">bg2</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Icewind Dale  2</td>
+      <td style="background: chartreuse;">yes</td>
+      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">no</td>
+      <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20iwd2">iwd2</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New game</td>
+      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">no</td>
+      <td><a href="/New-game.html">New game</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Any Enhanced Edition</td>
+      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">no</td>
+      <td><a href="https://github.com/gemrb/gemrb/issues/164">EE</a></td>
+    </tr>
+  </tbody>
+</table>
+
+{% comment %}
+can't style markdown as well as raw html
 Game | Playable | Completable | Polished | TODOs
 ---- | -------- | ----------- | -------- | ------
 Baldur's Gate 1 | yes | yes | yes | [bg1](https://github.com/gemrb/gemrb/labels/game%3A%20bg1)
@@ -30,6 +95,7 @@ Baldur's Gate 2 | yes | yes | yes | [bg2](https://github.com/gemrb/gemrb/labels/
 Icewind Dale  2 | yes | no | no | [iwd2](https://github.com/gemrb/gemrb/labels/game%3A%20iwd2)
 New game        | no | no | no | [New game](New-game.md)
 Any Enhanced Edition | no | no | no | [EE](https://github.com/gemrb/gemrb/issues/164)
+{% endcomment %}
 
 PST is completable, but has some notable missing features, making it the least polished game.
 IWD2 is playable quite nicely up until the Ice Temple. Both still require [a lot more
