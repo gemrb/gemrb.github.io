@@ -1,5 +1,6 @@
 ---
 title: GUIScript documentation
+toc: true
 ---
 
 This page is intended as a brief overview for one of two scripting
