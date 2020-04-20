@@ -16,12 +16,8 @@ excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity E
 ---
 
 TODO
-Is the current front page missing anything and is anything redundant (should/can be moved)?
+Is the current front page missing anything?
 http://gemrb.org
-
-
-The latest version is [**0.8.6**](link to news item) It can be
-**downloaded [from here](Install.md)**.
 
 ## Getting Started
 
@@ -32,9 +28,9 @@ The latest version is [**0.8.6**](link to news item) It can be
 We welcome any help with [testing, exploration and
 development](contribute).
 
-## Help / Contact us
+## We hang out here
 
-If you get [stuck](known_problems), have
+If you get [stuck](Common-problems.md), have
 [questions](http://catb.org/~esr/faqs/smart-questions.html), ideas,
 praise or want to [contribute](contribute), we can be reached via:
 
