@@ -6,40 +6,22 @@ header:
   overlay_filter: "0.5"
   overlay_image: https://content.invisioncic.com/u284679/pages_media/0_2018_background.jpg
   actions:
-    - label: "Down<strong>lo</strong>ad **0.8.6**"
-      url: "Install.md"
+    - label: "Download 0.8.6"
+      url: "Install.html"
+    - label: "Status"
+      url: "Features.html#status"
   caption: "Photo credit: [**G3**](https://unsplash.com)"
 excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
 
 ---
 
 TODO
-- very obviously displayed latest version.
-- one prominent sentence: GemRB is a
-portable open-source implementation of Bioware's Infinity Engine.
-- some sort of search?
-
 Is the current front page missing anything and is anything redundant (should/can be moved)?
 http://gemrb.org
 
 
 The latest version is [**0.8.6**](link to news item) It can be
 **downloaded [from here](Install.md)**.
-
-## Features
-
-  - Runs the Baldur's Gate, Icewind Dale and Planescape: Torment games
-    and their mods ([details](changelog))
-  - [Cross-platform](/engine/platforms): runs on Windows, OS X, Linux,
-    \*BSD, Android, iOS and [more](gallery#exotic_platforms)
-  - Open source under the GPL ([git
-    repository](https://github.com/gemrb/gemrb))
-  - Nearly feature-complete ([todo](todo))
-  - Usability [innovations](innovations), including touch based input
-  - Extensible plugin-based design that removes many limitations of the
-    Infinity Engine
-  - Increased [moddability](/developers/mods) over the originals
-
 
 ## Getting Started
 
