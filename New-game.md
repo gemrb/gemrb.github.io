@@ -1,5 +1,6 @@
 ---
 title: New game
+toc: true
 ---
 
 GemRB is an open game engine, freely available for modification. So it is natural
