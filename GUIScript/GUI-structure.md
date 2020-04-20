@@ -10,12 +10,12 @@ The windows then contain their own controls to function.
 ## Controls
 
 Each control has an associated `Value` which could be assigned to it by
-the [SetVarAssoc](/functions/SetVarAssoc) command. The controls handle
+the [SetVarAssoc](/functions/SetVarAssoc.md) command. The controls handle
 this value according to their type and subtype. To set a button's subtype,
-use the [Button_SetFlags](functions/Button_SetFlags) command.
+use the [Button_SetFlags](functions/Button_SetFlags.md) command.
 
-See also: [SetVar](/functions/SetVar), [GetVar](/functions/GetVar),
-[QueryText](/QueryText).
+See also: [SetVar](/functions/SetVar.md), [GetVar](/functions/GetVar.md),
+[QueryText](/QueryText.md).
 
 ### Button
 

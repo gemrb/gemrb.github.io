@@ -1,5 +1,6 @@
 ---
 title: Frequently asked questions
+toc: true
 ---
 
 ## What is GemRB?

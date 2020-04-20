@@ -34,7 +34,7 @@ any that modify the EXE files could lack the functionality those hacks achieved.
 
 The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle.
 
-If you downloaded the sources instead, follow the [compilation instructions]().
+If you downloaded the sources instead, follow the [compilation instructions](Dev-docs.md##setting-up-a-development-environment).
 GemRB can even run from the build dir without installing.
 
 TODO: include anything relevant from the [Pre-build git binaries](http://www.gemrb.org/wiki/doku.php?id=install:windows) section.

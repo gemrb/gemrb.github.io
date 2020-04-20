@@ -1,5 +1,6 @@
 ---
 title: Installing the games
+toc: true
 ---
 
 ## GOG games

@@ -10,7 +10,7 @@ approached the project before, but in the end nothing came of it.
 What follows is a collection of what little existing work has been done towards a
 new and Free game. Some of it has been integrated into the tiny tech demo.
 
-## New Game
+## Creating a new game
 
 This page should serve as a list of needed things and ideas for creating
 a trivial GemRB dataset (aka "game").
@@ -20,7 +20,7 @@ could be distributed with GemRB and also serve as a reference for
 writing comprehensive documentation if we ever get to it. Preferably it could be done
 with free tools, so that the process is repeatable by users.
 
-#### Options
+### Options
 
 There used to be a project called DragonLance Total Conversion (DLTC)
 whose goal was to create a complete game for the (original) IE engine.

@@ -1,5 +1,6 @@
 ---
 title: Bugs, feature requests, ideas?
+toc: true
 ---
 
 GemRB isn't complete yet plus the potential for extension is almost limitless.

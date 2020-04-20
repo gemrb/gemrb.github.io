@@ -3,11 +3,6 @@ title: Common problems
 toc: true
 ---
 
-Skip to: [uncommon problems](#uncommon-problems), [game bugs](#game-bugs).
-
-
-# Common problems
-
 GemRB logs its output to a terminal (if ran from one) and to a file — **GemRB.log**.
 It's saved to the game directory (GameDir setting) or its SaveDir (save or mpsave) if the first
 isn't writable). **This is the first thing you should look into when you have problems.**
