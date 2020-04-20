@@ -24,11 +24,11 @@ or perhaps the [FAQ](FAQ.md).
 <table style="text-align: center">
   <thead>
     <tr>
-      <th style="text-align: left">Game</th>
+      <th>Game</th>
       <th>Playable</th>
       <th>Completable</th>
       <th>Polished</th>
-      <th>TODOs</th>
+      <th style="text-align: center">TODOs</th>
     </tr>
   </thead>
   <tbody>
