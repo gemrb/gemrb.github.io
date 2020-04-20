@@ -1,5 +1,6 @@
 ---
 title: Cheat and debug keys
+toc: true
 ---
 
 Following is a list of cheats you can use during play or development of
