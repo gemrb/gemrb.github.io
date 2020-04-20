@@ -6,15 +6,6 @@ toc: true
 This page is intended as a brief overview for one of two scripting
 systems in GemRB: GUIScript. You should read it if you want to hack on
 GemRB's GUI or related logic.
-
-Table of contents:
-  * [GUIScript and GameScript](#guiscript-and-gamescript)
-  * [Script execution](#script-execution)
-  * [Typical GUIScript](#typical-guiscript)
-  * [GUI controls](#gui-controls)
-  * [Reserved functions](#reserved-functions)
-  * [GUIScripter's Workflow](#guiscripters-workflow)
-  * [Coding style](#coding-style)
   
 Also check out the [list of functions](Functions.md).
 
