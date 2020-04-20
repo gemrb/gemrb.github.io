@@ -2,8 +2,6 @@
 title: List of GUIScript functions
 ---
 
-## {{ page.title }}
-
 <ul>
 {% assign funcs = site.pages | where: "dir", "/GUIScript/functions/" %}
 {% for page in funcs %}
