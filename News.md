@@ -1,6 +1,7 @@
 ---
 title: News
 search: false
+toc: true
 ---
 
 {% assign latest = 1 %}
