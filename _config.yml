@@ -25,6 +25,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gemrb"
+    - label: "Edit this page"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gemrb/gemrb.github.io/"
 
 defaults:
   - scope:
