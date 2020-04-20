@@ -1,6 +1,97 @@
 ---
 title: Screenshots and videos
 toc: true
+gallery-games:
+  - url: assets/img/screenshots/bg2_3.jpg
+    image_path: assets/img/screenshots/thumb/bg2_3.jpg
+    alt: "Baldur's Gate 2 menu shot"
+    title: "Baldur's Gate 2 menu shot"
+  - url: assets/img/screenshots/bg22.jpg
+    image_path: assets/img/screenshots/thumb/bg22.jpg
+    alt: "Baldur's Gate 2 menu shot"
+    title: "Baldur's Gate 2 menu shot"
+  - url: assets/img/screenshots/bg2.jpg
+    image_path: assets/img/screenshots/thumb/bg2.jpg
+    alt: "Baldur's Gate 2 game shot"
+    title: "Baldur's Gate 2 game shot" 
+  - url: assets/img/screenshots/bg23.jpg
+    image_path: assets/img/screenshots/thumb/bg23.jpg
+    alt: "Baldur's Gate 2 game shot"
+    title: "Baldur's Gate 2 game shot"
+  - url: assets/img/screenshots/fonts.png
+    image_path: assets/img/screenshots/thumb/fonts.png
+    alt: "Showcasing custom font support"
+    title: "Showcasing custom font support"
+  - url: assets/img/screenshots/iwd2_1.jpg
+    image_path: assets/img/screenshots/thumb/iwd2_1.jpg
+    alt: "Icewind Dale 2 on Ubuntu 7.10"
+    title: "Icewind Dale 2 on Ubuntu 7.10" 
+  - url: assets/img/screenshots/iwd2_2.jpg
+    image_path: assets/img/screenshots/thumb/iwd2_2.jpg
+    alt: "Icewind Dale 2 on Ubuntu 7.10"
+    title: "Icewind Dale 2 on Ubuntu 7.10" 
+  - url: assets/img/screenshots/iwd2_3.jpg
+    image_path: assets/img/screenshots/thumb/iwd2_3.jpg
+    alt: "Icewind Dale 2 on Ubuntu 7.10"
+    title: "Icewind Dale 2 on Ubuntu 7.10"
+  - url: assets/img/screenshots/pst.jpg
+    image_path: assets/img/screenshots/thumb/pst.jpg
+    alt: "Planescape: Torment game shot"
+    title: "Planescape: Torment game shot" 
+  - url: assets/img/screenshots/pstmac.jpg
+    image_path: assets/img/screenshots/thumb/pstmac.jpg
+    alt: "Planescape: Torment game shot on a mac"
+    title: "Planescape: Torment game shot on a mac" 
+  - url: assets/img/screenshots/pst2.jpg
+    image_path: assets/img/screenshots/thumb/pst2.jpg
+    alt: "Planescape: Torment game shot"
+    title: "Planescape: Torment game shot"
+gallery-mods:
+  - url: assets/img/screenshots/goi.jpg
+    image_path: assets/img/screenshots/thumb/goi.jpg
+    alt: "Glory of Istar game shot"
+    title: "Glory of Istar game shot"
+  - url: assets/img/screenshots/iwd2stylecombat2.jpg
+    image_path: http://lynxlynx.info/bugs/iwd2stylecombat2.jpg-th
+    alt: "IWD2-style combat output"
+    title: "IWD2-style combat output"
+  - url: assets/img/screenshots/sorcerer_monk.jpg
+    image_path: http://lynxlynx.info/bugs/sorcerer_monk.jpg-th
+    alt: "Sorcerer/monk multiclass"
+    title: "Sorcerer/monk multiclass"
+  - url: assets/img/screenshots/iwg2.jpg
+    image_path: assets/img/screenshots/thumb/iwg2.jpg
+    alt: "Icewind dale in BG2"
+    title: "Icewind dale in BG2" 
+  - url: assets/img/screenshots/bgt.jpg
+    image_path: assets/img/screenshots/thumb/bgt.jpg
+    alt: "Baldur's gate Trilogy"
+    title: "Baldur's gate Trilogy"
+  - url: assets/img/screenshots/10pp6.jpg
+    image_path: assets/img/screenshots/thumb/10pp6.jpg
+    alt: "10pp6.jpg"
+    title: "10pp6.jpg"
+gallery-exotics:
+  - url: assets/img/screenshots/gemrb_800x480_xl.jpg
+    image_path: assets/img/screenshots/thumb/gemrb_800x480_xl.jpg
+    alt: "Baldur's Gate 2 running on a Nokia N810"
+    title: "Baldur's Gate 2 running on a Nokia N810"
+  - url: assets/img/screenshots/reactos-iwd-2.png
+    image_path: assets/img/screenshots/thumb/reactos-iwd-2.png
+    alt: "ReactOS"
+    title: "ReactOS" 
+  - url: assets/img/screenshots/syllableos-iwd.png
+    image_path: assets/img/screenshots/thumb/syllableos-iwd.png
+    alt: "SyllableOS"
+    title: "SyllableOS"
+  - url: assets/img/screenshots/haiku.jpg
+    image_path: assets/img/screenshots/thumb/haiku.jpg
+    alt: "Haiku"
+    title: "Haiku"
+  - url: assets/img/screenshots/amigaos-bg2.jpg
+    image_path: assets/img/screenshots/thumb/amigaos-bg2.jpg
+    alt: "AmigaOS 4.1"
+    title: "AmigaOS 4.1"
 ---
 
 TODO: figure out layout, use smaller images.
@@ -8,48 +99,13 @@ TODO: figure out layout, use smaller images.
 # Screenshots
 
 Here are some screenshots of gemrb running Infinity Engine games.
-
-## Baldur's Gate 2
-
-![Baldur's Gate 2 menu shot](assets/img/screenshots/bg2_3.jpg) ![Baldur's Gate 2 menu
-shot](assets/img/screenshots/bg22.jpg) ![Baldur's Gate 2 game shot](assets/img/screenshots/bg2.jpg) ![Baldur's Gate 2
-game shot](assets/img/screenshots/bg23.jpg)
-
-## Icewind Dale
-
-![Showcasing custom font support](assets/img/screenshots/fonts.png)
-
-## Icewind Dale 2
-
-![Icewind Dale 2 on Ubuntu 7.10 with svn-built GemRB
-(2008-03-05)](assets/img/screenshots/iwd2_1.jpg) ![Icewind Dale 2 on Ubuntu 7.10 with svn-built
-GemRB (2008-03-05)](assets/img/screenshots/iwd2_2.jpg) ![Icewind Dale 2 on Ubuntu 7.10 with
-svn-built GemRB (2008-03-05)](assets/img/screenshots/iwd2_3.jpg)
-
-## Planescape: Torment
-
-![Planescape: Torment game shot](assets/img/screenshots/pst.jpg) ![Planescape: Torment game
-shot on a mac](assets/img/screenshots/pstmac.jpg) ![Planescape: Torment game shot](assets/img/screenshots/pst2.jpg)
-
-## Mods
-
-![Glory of Istar game shot](assets/img/screenshots/goi.jpg)
-![http://lynxlynx.info/bugs/iwd2stylecombat2.jpg](http://lynxlynx.info/bugs/iwd2stylecombat2.jpg)
-![Sorcerer/monk multiclass](http://lynxlynx.info/bugs/sorcerer_monk.jpg)
-![Icewind dale in BG2](assets/img/screenshots/iwg2.jpg) ![Baldur's gate Trilogy](assets/img/screenshots/bgt.jpg)
-![10pp6.jpg](assets/img/screenshots/10pp6.jpg)
-
-## Exotic platforms
-
-![Baldur's Gate 2 running on a Nokia N810](assets/img/screenshots/gemrb_800x480_xl.jpg)
-![ReactOS](assets/img/screenshots/reactos-iwd-2.png) ![SyllableOS](assets/img/screenshots/syllableos-iwd.png)
-![Haiku](assets/img/screenshots/haiku.jpg)
-![AmigaOS 4.1](assets/img/screenshots/amigaos-bg2.jpg)
+{% include gallery id="galery-games" caption="All the games." %}
 
 
-# Fan art
+{% include gallery id="galery-mods" caption="All the mods." %}
 
-![by fearless](assets/img/fanart/fa-fearless.jpg)![by Maighstir](assets/img/fanart/logo-blue.gem.png)
+
+{% include gallery id="galery-exotics" caption="All the platforms." %}
 
 # Videos
 
