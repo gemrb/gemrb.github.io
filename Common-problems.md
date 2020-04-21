@@ -8,6 +8,8 @@ It's saved to the game directory (GameDir setting) or its SaveDir (save or mpsav
 isn't writable). **This is the first thing you should look into when you have problems.**
 Don't worry about printed ERRORS and WARNINGS — when they are critical, they will be fatal.
 
+# Top 4 problems
+
 ## 1. GemRB exits just after starting it up.
 GemRB needs a [configuration file](/Install.md#configure-gemrb) to know
 where to look for the installed game.
