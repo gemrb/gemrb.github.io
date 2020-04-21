@@ -20,12 +20,12 @@ excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity E
   - [Install GemRB and the games](Install.md)
   - [Developer](Dev-docs.md) and [user documentation](Documentation.md)
   - [Having trouble?](Feedback.html#help-i-have-a-problem)
-  - Get in touch via the [forum](https://www.gibberlings3.net/forums/forum/91-gemrb/),
-  [IRC](http://webchat.freenode.net/?channels=GemRB) or [Discord channel](https://discord.gg/64rEVAk) on the Gibberlings3
-    server
+  - Get in touch via the [forum]({{ site.forum }}),
+  [IRC]({{ site.irc }}) or [Discord channel]({{ site.discord }}) on the
+    Gibberlings3 server
 
 We welcome any help with [testing, exploration and
-development](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md).
+development]({{ site.contribute }}).
     
 # Latest news
 

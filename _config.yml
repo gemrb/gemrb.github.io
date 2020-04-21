@@ -5,6 +5,12 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
+# some variables for easier writing
+forum: "https://www.gibberlings3.net/forums/forum/91-gemrb/"
+discord: "https://discord.gg/64rEVAk"
+irc: "http://webchat.freenode.net/?channels=GemRB"
+contribute: "https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md"
+
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 minimal_mistakes_skin: "sunrise"
 title: "GemRB homepage"
