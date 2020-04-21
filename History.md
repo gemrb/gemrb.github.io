@@ -1,5 +1,6 @@
 ---
 title: History of the Infinity engine games
+toc: true
 ---
 
 They came out at the start of the millennium and from different authors only
@@ -21,7 +22,7 @@ developers didn't discourage serious modding. Some even joined the efforts as
 was the case with the Ascension mod for Throne of Bhaal.
 
 Besides wider RPG communities like Sorcerer's Place and RPG Codex, several
-dedicated one sprang up and eventually wound down. One notable example is
+dedicated ones sprang up and eventually wound down. One notable example is
 TeamBG, which harbored many seasoned programmers and reverse engineers,
 demonstrating a lot more can be done than previously thought. At some point
 [IESDP](https://gibberlings3.github.io/iesdp/) was started to host technical
@@ -29,18 +30,21 @@ documentation from the reverse engineering of the original engines.
 
 In the long term, as even the official forums closed as they are always bound
 to, we are left with several active modding sites, all part of the same wider
-community. Pocket Plane Group, Spellhold Studios and Gibberlings3 are among
-the most sturdy and the latter is also where GemRB found its true home.
+community. [Pocket Plane Group](http://pocketplane.net/),
+[Spellhold Studios](http://www.shsforums.net) and
+[Gibberlings3](https://www.gibberlings3.net/) are among the most prolific
+(if not sturdy) of the English ones and the latter is also where GemRB found
+its true home.
 
 
 ## GemRB starts
 The exact origins of GemRB are lost to time, but on the **21st of August
-2000** the project registered on the Sourceforge hosting platform, which
+2000** the project registered on the SourceForge hosting platform, which
 is our main [file host](https://sourceforge.net/p/gemrb) to this day. So
 **Gemrb development started even before all games were released!**
 
 But it's clear the talks started sooner, since the first message to a
-mailing list created the following day, mentions older pine mailing
+mailing list created the following day mentions older pine mailing
 lists. **Danielle Collantoni** was the initial driving force and after
 some rough beginnings, serious and full blown development was again
 underway by late 2003, as evidenced by the CVS logs and news items.
@@ -57,11 +61,11 @@ Another change through the years was in instant messaging. Some of the first
 talks happened over ICQ, since 2003 on IRC, but most recently users have
 been migrating to Discord.
 
-GemRB releases when a certain game became completable:
-- 0.5.1: bg2:soa
-- 0.6.0: bg1, iwd
-- 0.6.3: iwd:how
-- 0.7.0: full bg saga (bg2:tob support)
-- 0.8.0: iwd:totlm, bg1:totsc
-- 0.8.4: pst
-- TODO: iwd2
+Major game milestones, GemRB releases when a certain game became completable:
+- 0.5.1, 2009: BG2:SoA
+- 0.6.0, 2009: BG1, IWD
+- 0.6.3, 2010: IWD:HoW
+- 0.7.0, 2011: full BG saga (BG2:ToB support)
+- 0.8.0, 2013: IWD:TotLM, BG1:TotSC
+- 0.8.4, 2016: PS:T
+- TODO: IWD2
