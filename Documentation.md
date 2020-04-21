@@ -2,9 +2,7 @@
 title: GemRB documentation
 ---
 
-# Basics
-
-If this website hasn't answered all of your questions yet, here are few more resources:
+If this website hasn't answered all of your questions yet, here are a few more resources:
 
  * [Frequently asked questions](FAQ.md)
  * [Common problems](Common-problems.md)
