@@ -3,9 +3,9 @@ title: Innovations
 ---
 
 GemRB isn't just a reimplementation of the Infinity Engine. While a lot of the changes
-and enhancements are in the core or targetted specifically at
-[modders](Modding.md), there are also a few that directly benefit
-the players. Besides the obvious bugfixes, those include:
+and enhancements are in the core or targetted at [power users and modders](Modding.md),
+there are also a few that directly benefit the players. Besides the obvious bugfixes,
+those include:
 
   - an extensive array of commands for the ["Cheat" console](Cheats.md).
   - effects of difficulty on xp and damage are configurable through
