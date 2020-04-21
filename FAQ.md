@@ -54,7 +54,7 @@ mod](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/10pp).
 ## Will GemRB support new feature X/Y/Z?
 
 Perhaps. It is all about the limited resources we have, so any
-[help](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md) is
+[help]({{ site.contribute }}) is
 welcome. The first goal is to make the original games normally playable.
 Larger extensions will have to wait or be done by you. You can request
 new features [here](https://github.com/gemrb/gemrb/issues/new/choose).

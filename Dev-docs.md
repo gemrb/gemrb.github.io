@@ -6,7 +6,9 @@ toc: true
 This is the starting page for most of our technical documentation. Some extra
 nuggets can be found in the gemrb/docs/ subdir, but they're old and very specific.
 
+
 ## Getting the code
+
 Download the [git version of GemRB](https://github.com/gemrb/gemrb), via
 the **Clone or download** button, the git command-line tool or your IDE.
 
@@ -14,6 +16,7 @@ the **Clone or download** button, the git command-line tool or your IDE.
 the linked GitHub page and first **fork the repository** before cloning the
 code. Once you push your changes to your fork, you can easily create a pull
 request through the web interface.
+
 
 ## Setting up a development environment
 
@@ -40,7 +43,9 @@ make -j3
 **Note:** GemRB can run from the build dir, so there's no need to install it by
 running the `install` target.
 
+
 ## Project infrastructure
+
 The [organisation](https://github.com/gemrb) currently has these repositories:
 - gemrb - the main project
 - gemrb.github.io — this very website
@@ -58,11 +63,14 @@ Check the main [README](https://github.com/gemrb/gemrb/blob/master/README.md)
 file to see our a header with build bot status (Travis, AppVeyor), some
 static code analyzers and more.
 
+
 ## The engine
+
 We have a separate page dedicated to the [Engine overview](Engine-overview.md),
 discussing the overall architecture and file layout.
 
 Read about our [support for non-ASCII characters](Text-encodings.md).
+
 
 ### Technical start up details
 
@@ -85,14 +93,18 @@ Other guiscripts are run on demand, but mostly by direct calls from the
 guiscript side. Read the GUIScript [introduction](GUIScript/Index.md) to
 learn more or access the [function index](GUIScript/Functions.md) directly.
 
+
 ## Workflow
-Check out [CONTRIBUTING](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)
-for tips on where to start, what to work on, tools, useful links and more.
+
+Check out [CONTRIBUTING]({{ site.contribute }}) for tips on where to start,
+what to work on, tools, useful links and more.
 
 Besides those tools, check our ["Cheats"](Cheats.md) page for a handful of useful
 hotkeys and instructions for using our inbuilt python console.
 
+
 ### Save game compatibility
+
 ... is something we strive for. The originals are often annoyingly specific
 in how they want the file and fields to look, so it can be a hard problem
 to address. 
@@ -125,6 +137,7 @@ strnspccpy, look it up and see in the code: It really cuts away what the
 Black Isle guys deliberately left in the code, by accident I assume.
 7. If there are still crashes, go to 1.
 
+
 ## The minimal dataset
 
 GemRB comes with a minimal dataset, that can be used to check if the core
@@ -142,7 +155,9 @@ But, you can just run the sample config from the build directory as-is:
 
 This is what our build bots use as a trivial sanity check.
 
+
 ## Exploring the games
+
 As far as game resources go, the main complementary documentation is on the
 [IESDP](https://gibberlings3.github.io/iesdp/) - The Infinity Engine Structures
 Description Project. It represents the accumulated knowledge of IE internals and
@@ -161,6 +176,7 @@ Direct reverse engineering is also possible and is the reason for much of the
 understanding of the way the originals worked. There are several projects using
 DLL injection to do minor fixes and extensions (ToBex, EEex, something for iwd2) —
 they sometimes contain useful info.
+
 
 ## Cocoa Application Wrapper
 
