@@ -13,6 +13,7 @@ page](http://sourceforge.net/projects/gemrb/files/)**. Here is a handy table wit
 | --- | :---: | :---: |
 | **Binaries** | [<i class="fab fa-windows"></i> Windows](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Windows/AppVeyor/gemrb-win32-196c54e.zip/download),<br>[<i class="fab fa-linux"></i> Linux](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/gemrb-2019-11-24v0.8.6.tar.bz2/download),<br>[<i class="fab fa-apple"></i> macOS](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Apple/OSX/gemrb-2019-11-24v0.8.6.tar.bz2/download) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
 | Source | [Tarball](https://sourceforge.net/projects/gemrb/files/GemRB%20Sources/GemRB%200.8.6%20Sources/gemrb-0.8.6.tar.gz/download) | See [dev docs](Dev-docs.html#getting-the-code) |
+| Version | 0.8.6 | 0.8.6-git with build number |
 
 The Android and iOS builds are currently unmaintained.
 
