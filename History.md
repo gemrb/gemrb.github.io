@@ -2,16 +2,66 @@
 title: History of the Infinity engine games
 ---
 
-TODO: brief historical overview
-
-- the games
-- gemrb start, any milestones
-- modding communities (teambg, g3, ppg, shs)
-- mention https://www.shacknews.com/article/103473/beneath-a-starless-sky-pillars-of-eternity-and-the-infinity-engine-era-of-rpgs?page=1
-and its chapters
-
+They came out at the start of the millennium and from different authors only
+partly sharing code, resulting in quite a mess: several different systems for
+the same things and many many avoidable hacks.
 
 ![timeline](/assets/img/ie_chronology.png)
 
-there was a lot of detailed saved by some community historian on one of the teambg revival sites,
- but we don't such detail
+If you want to learn more about their development and times when these games
+were made, David Craddock wrote a nice [interview series
+(book)](https://www.shacknews.com/article/103473/beneath-a-starless-sky-pillars-of-eternity-and-the-infinity-engine-era-of-rpgs?page=1)
+with the authors from the various studios.
+
+
+## Modding communities
+What made the games last so long is their extensibility, as several things are
+easily edited with a text editor and at the same time, the publishers and
+developers didn't discourage serious modding. Some even joined the efforts as
+was the case with the Ascension mod for Throne of Bhaal.
+
+Besides wider RPG communities like Sorcerer's Place and RPG Codex, several
+dedicated one sprang up and eventually wound down. One notable example is
+TeamBG, which harbored many seasoned programmers and reverse engineers,
+demonstrating a lot more can be done than previously thought. At some point
+[IESDP](https://gibberlings3.github.io/iesdp/) was started to host technical
+documentation from the reverse engineering of the original engines.
+
+In the long term, as even the official forums closed as they are always bound
+to, we are left with several active modding sites, all part of the same wider
+community. Pocket Plane Group, Spellhold Studios and Gibberlings3 are among
+the most sturdy and the latter is also where GemRB found its true home.
+
+
+## GemRB starts
+The exact origins of GemRB are lost to time, but on the **21st of August
+2000** the project registered on the Sourceforge hosting platform, which
+is our main [file host](https://sourceforge.net/p/gemrb) to this day. So
+**Gemrb development started even before all games were released!**
+
+But it's clear the talks started sooner, since the first message to a
+mailing list created the following day, mentions older pine mailing
+lists. **Danielle Collantoni** was the initial driving force and after
+some rough beginnings, serious and full blown development was again
+underway by late 2003, as evidenced by the CVS logs and news items.
+
+That was the start of version tracking for the project, which later
+transitioned to SVN and finally GIT. Code hosting was moved to GitHub in
+2013, which made fly-by contributions much easier. Eventually in 2019, the
+bug tracker was moved there as well and now in 2020, it hosts the project
+home page.
+
+Forums were initially hosted on SourceForge, but by early 2005, we opened
+a subforum on the Gibberlings3 community forums, which we still use today.
+Another change through the years was in instant messaging. Some of the first
+talks happened over ICQ, since 2003 on IRC, but most recently users have
+been migrating to Discord.
+
+GemRB releases when a certain game became completable:
+- 0.5.1: bg2:soa
+- 0.6.0: bg1, iwd
+- 0.6.3: iwd:how
+- 0.7.0: full bg saga (bg2:tob support)
+- 0.8.0: iwd:totlm, bg1:totsc
+- 0.8.4: pst
+- TODO: iwd2
