@@ -15,6 +15,13 @@ excerpt: "GemRB is a portable open-source implementation of Bioware's Infinity E
 
 ---
 
+The goal of the project is to make the [Infinity Engine games](History.md)
+available on a wide range of [platforms](Supported-platforms.md), fix or
+avoid old bugs, add [new features](Innovations.md) and provide a superb
+platform for mod development. All done in
+[the open](https://www.gnu.org/philosophy/floss-and-foss.en.html) by
+players for players.
+
 # Getting Started
 
   - [Install GemRB and the games](Install.md)
