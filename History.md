@@ -16,6 +16,10 @@ were made, David Craddock wrote a nice [interview series
 (book)](https://www.shacknews.com/article/103473/beneath-a-starless-sky-pillars-of-eternity-and-the-infinity-engine-era-of-rpgs?page=1)
 with the authors from the various studios.
 
+In 2012 and onward, all but IWD2 received Enhanced Edition versions, by being
+ported to an upgraded BG2 version of the engine or getting high resolution and
+input upgrades.
+
 
 ## Modding communities
 
