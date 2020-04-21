@@ -15,7 +15,7 @@ page](http://sourceforge.net/projects/gemrb/files/)**. Here is a handy table wit
 | Source | [Tarball](https://sourceforge.net/projects/gemrb/files/GemRB%20Sources/GemRB%200.8.6%20Sources/gemrb-0.8.6.tar.gz/download) | See [dev docs](Dev-docs.html#getting-the-code) |
 | Version | 0.8.6 | 0.8.6-git with build number |
 
-The Android and iOS builds are currently unmaintained.
+The Android and iOS builds are [currently unmaintained](https://github.com/gemrb/gemrb/issues/529).
 
 # Getting the games
 
