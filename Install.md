@@ -9,16 +9,10 @@ The **latest sources and official builds** are always
 available on our SourceForge **[project
 page](http://sourceforge.net/projects/gemrb/files/)**.
 
-buttons / grid:
-- Latest release build (OS icons) -> https://sourceforge.net/projects/gemrb/files/ 
-- Latest release source? (could also be above)
-- Latest development build (OS icons?) -> https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/
-- Latest development source @ github (link to dev docs?)
-
 |  | Release | Development |
 | --- | --- | --- |
-| Binaries | **<i class="fab fa-windows"></i>** <i class="fab fa-windows"></i> <i class="fab fa-linux"></i> <i class="fab fa-apple"></i> | sf |
-| Source | tarball | git |
+| Binaries | [<i class="fab fa-windows"></i> Windows](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Windows/AppVeyor/gemrb-win32-196c54e.zip/download) [<i class="fab fa-linux"></i> Linux](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/gemrb-2019-11-24v0.8.6.tar.bz2/download) [<i class="fab fa-apple"></i> macOS](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Apple/OSX/gemrb-2019-11-24v0.8.6.tar.bz2/download) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
+| Source | [Tarball](https://sourceforge.net/projects/gemrb/files/GemRB%20Sources/GemRB%200.8.6%20Sources/gemrb-0.8.6.tar.gz/download) | See [dev docs](Dev-docs.html#getting-the-code) |
 
 The Android and iOS builds are currently unmaintained.
 
