@@ -15,6 +15,11 @@ buttons / grid:
 - Latest development build (OS icons?) -> https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/
 - Latest development source @ github (link to dev docs?)
 
+|  | Release | Development |
+| --- | --- | --- |
+| Binaries | **<i class="fab fa-windows"></i>** <i class="fab fa-windows"></i> <i class="fab fa-linux"></i> <i class="fab fa-apple"></i> | sf |
+| Source | tarball | git |
+
 The Android and iOS builds are currently unmaintained.
 
 # Getting the games
