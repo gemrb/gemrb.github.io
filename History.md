@@ -1,7 +1,9 @@
 ---
-title: History of the Infinity engine games
+title: History of the engines and games
 toc: true
 ---
+
+## Infinity engine games
 
 They came out at the start of the millennium and from different authors only
 partly sharing code, resulting in quite a mess: several different systems for
@@ -16,6 +18,7 @@ with the authors from the various studios.
 
 
 ## Modding communities
+
 What made the games last so long is their extensibility, as several things are
 easily edited with a text editor and at the same time, the publishers and
 developers didn't discourage serious modding. Some even joined the efforts as
@@ -37,7 +40,8 @@ community. [Pocket Plane Group](http://pocketplane.net/),
 its true home.
 
 
-## GemRB starts
+## GemRB is born
+
 The exact origins of GemRB are lost to time, but on the **21st of August
 2000** the project registered on the SourceForge hosting platform, which
 is our main [file host](https://sourceforge.net/p/gemrb) to this day. So
@@ -60,6 +64,9 @@ a subforum on the Gibberlings3 community forums, which we still use today.
 Another change through the years was in instant messaging. Some of the first
 talks happened over ICQ, since 2003 on IRC, but most recently users have
 been migrating to Discord.
+
+
+## Development milestones
 
 Major game milestones, GemRB releases when a certain game became completable:
 - 0.5.1, 2009: BG2:SoA
