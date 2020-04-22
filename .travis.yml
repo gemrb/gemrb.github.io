@@ -2,10 +2,11 @@
 language: ruby
 cache: bundler
 before_install:
-  - gem install jekyll jekyll-algolia #bundler
+  - gem install bundler
+#  - gem install jekyll jekyll-algolia bundler
 script:
-#  - bundle exec jekyll algolia
-  - jekyll algolia
+  - bundle exec jekyll algolia
+#  - jekyll algolia
 branches:
   only:
     - master
