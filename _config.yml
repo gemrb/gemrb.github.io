@@ -50,3 +50,4 @@ exclude: [vendor]
 algolia:
   application_id: "QZAOH9F6TU"
   index_name: "gemrb"
+  search_only_api_key: "d911af5d43b7176a93a7cba240d380b2"
