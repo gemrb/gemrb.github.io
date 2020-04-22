@@ -4,6 +4,7 @@ readme_index:
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-feed
 
 # some variables for easier writing
 forum: "https://www.gibberlings3.net/forums/forum/91-gemrb/"
