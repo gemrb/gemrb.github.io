@@ -2,6 +2,7 @@
 title: Frequently asked questions
 toc: true
 ---
+[Getcombatdetails.md](Getcombatdetails.md)
 
 ## What is GemRB?
 
