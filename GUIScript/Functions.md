@@ -1,5 +1,6 @@
 ---
 title: List of GUIScript functions
+classes: wide
 ---
 
 A list of functions by module: [GemRB](#gemrb), [_GemRB](#_gemrb)
@@ -7,7 +8,7 @@ A list of functions by module: [GemRB](#gemrb), [_GemRB](#_gemrb)
 
 ## GemRB
 
-<ul>
+<ul style="columns: 2">
 {% assign funcs2 = funcs | where: "module", "GemRB" %}
 {% for page in funcs2 %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
@@ -18,7 +19,7 @@ A list of functions by module: [GemRB](#gemrb), [_GemRB](#_gemrb)
 
 ## _GemRB
 
-<ul>
+<ul style="columns: 2">
 {% assign funcs2 = funcs | where: "module", "_GemRB" %}
 {% for page in funcs2 %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
