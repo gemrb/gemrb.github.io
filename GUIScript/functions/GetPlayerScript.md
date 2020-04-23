@@ -1,7 +1,6 @@
 ---
 title: GetPlayerScript
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerScript (globalID[, Index])

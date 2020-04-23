@@ -1,7 +1,6 @@
 ---
 title: GamePause
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GamePause (pause, quiet)

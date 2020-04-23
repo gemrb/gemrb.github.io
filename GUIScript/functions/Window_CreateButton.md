@@ -1,7 +1,6 @@
 ---
 title: Window_CreateButton
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateButton (WindowIndex, ControlID, x, y, w, h)

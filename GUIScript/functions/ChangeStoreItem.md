@@ -1,7 +1,6 @@
 ---
 title: ChangeStoreItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ChangeStoreItem (PartyID, slot, action)

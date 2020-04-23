@@ -1,12 +1,11 @@
 ---
 title: AddNewArea
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.AddNewArea (2daresref)
 
-**Description:**  Adds the extension areas to the game. 
+**Description:**    Adds the extension areas to the game. 
 Used in bg2 with xnewarea.2da for ToB.
 
 **Parameters:** 

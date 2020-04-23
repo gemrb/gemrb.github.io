@@ -1,7 +1,6 @@
 ---
 title: Window_SetSize
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetWindowSize (WindowIndex, Width, Height)

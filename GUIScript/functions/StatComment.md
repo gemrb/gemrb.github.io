@@ -1,7 +1,6 @@
 ---
 title: StatComment
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.StatComment (Strref, X, Y)
@@ -20,11 +19,12 @@ SetToken (if you need to set them at all).
 **Return value:** A string with resolved %%d's.
 
 **Example:**
+
 def IntPress():
-    global Int, StatTable, TextArea
-    TextArea.SetText (18488)
-    intComment = StatTable.GetValue (Int, 1)
-    TextArea.Append (GemRB.StatComment (intComment, 0, 0))
+      global Int, StatTable, TextArea
+      TextArea.SetText (18488)
+      intComment = StatTable.GetValue (Int, 1)
+      TextArea.Append (GemRB.StatComment (intComment, 0, 0))
 
 The above example comes directly from our PST script, it will display the 
 description of the intelligence stat (strref==18488), adding a comment 

@@ -1,7 +1,6 @@
 ---
 title: GetSelectedActors
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSelectedActors ()

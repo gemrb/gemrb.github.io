@@ -1,7 +1,6 @@
 ---
 title: GetGamePreview
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetGamePreview ()

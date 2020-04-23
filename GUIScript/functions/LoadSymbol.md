@@ -1,7 +1,6 @@
 ---
 title: LoadSymbol
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LoadSymbol (IDSResRef)

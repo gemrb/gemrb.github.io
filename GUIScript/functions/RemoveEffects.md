@@ -1,7 +1,6 @@
 ---
 title: RemoveEffects
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.RemoveEffects (globalID, SpellResRef)

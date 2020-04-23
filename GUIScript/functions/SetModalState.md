@@ -1,7 +1,6 @@
 ---
 title: SetModalState
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetModalState (globalID, Value[, spell])
@@ -17,8 +16,9 @@ resource associated with the state.
 
 **Return value:** N/A
 
-**Examples:** 
-  GemRB.SetModalState (pc, MS_TURNUNDEAD)
+**Examples:**
+ 
+    GemRB.SetModalState (pc, MS_TURNUNDEAD)
 The above example makes the player start the turn undead action.
 
 **See also:** [SetPlayerStat](SetPlayerStat.md), [SetPlayerName](SetPlayerName.md)

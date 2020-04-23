@@ -1,7 +1,6 @@
 ---
 title: GetMultiClassPenalty
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetMultiClassPenalty (globalID)

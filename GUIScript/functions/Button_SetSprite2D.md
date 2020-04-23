@@ -1,7 +1,6 @@
 ---
 title: Button_SetSprite2D
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.Button.SetSprite2D (WindowIndex, ControlIndex, Sprite2D)

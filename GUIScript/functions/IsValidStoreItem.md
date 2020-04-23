@@ -1,7 +1,6 @@
 ---
 title: IsValidStoreItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.IsValidStoreItem (PartyID, slot[, type])

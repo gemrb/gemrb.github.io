@@ -1,7 +1,6 @@
 ---
 title: Button_SetPicture
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonPicture (WindowIndex, ControlIndex, PictureResRef, DefaultResRef)

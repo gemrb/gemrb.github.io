@@ -1,7 +1,6 @@
 ---
 title: SetMasterScript
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMasterScript (ScriptResRef, WMPResRef[, WMPResRef2])

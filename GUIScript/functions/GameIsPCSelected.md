@@ -1,7 +1,6 @@
 ---
 title: GameIsPCSelected
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameIsPCSelected (Slot)

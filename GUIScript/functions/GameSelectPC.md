@@ -1,7 +1,6 @@
 ---
 title: GameSelectPC
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameSelectPC (PartyID, Selected[, Flags = SELECT_NORMAL])
@@ -19,9 +18,10 @@ different PC selection mechanism (dialogs and stores are not unified yet).
 **Return value:** N/A
 
 **Example:**
+
 def SelectAllOnPress ():
-  GemRB.GameSelectPC (0, 1)
-  return
+    GemRB.GameSelectPC (0, 1)
+    return
 The above function is associated to the 'select all' button of the GUI screen.
 
 **See also:** [GameIsPCSelected](GameIsPCSelected.md), [GameSelectPCSingle](GameSelectPCSingle.md), [GameGetSelectedPCSingle](GameGetSelectedPCSingle.md), [GameGetFirstSelectedPC](GameGetFirstSelectedPC.md)

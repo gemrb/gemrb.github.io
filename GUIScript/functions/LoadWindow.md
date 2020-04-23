@@ -1,7 +1,6 @@
 ---
 title: LoadWindow
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LoadWindow (WindowID)

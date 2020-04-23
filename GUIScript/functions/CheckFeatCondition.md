@@ -1,7 +1,6 @@
 ---
 title: CheckFeatCondition
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CheckFeatCondition (partyslot, a_stat, a_value, b_stat, b_value, c_stat, c_value, d_stat, d_value[, a_op, b_op, c_op, d_op])

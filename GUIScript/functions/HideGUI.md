@@ -1,7 +1,6 @@
 ---
 title: HideGUI
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HideGUI ()
@@ -17,7 +16,7 @@ A list of reserved names (variables) and what they hold:
   * PortraitWindow - a series of portrait buttons
   * ActionsWindow - a series of buttons to Attack/Talk, etc.
   * TopWindow - unused (might be removed later)
-  * OtherWindow - this window usually covers the GameControl, it is used to display  maps, inventory, journal, etc.
+  * OtherWindow - this window usually covers the GameControl, it is used to display    maps, inventory, journal, etc.
   * FloatWindow - special window which floats on top of the GameControl
 
 All these windows are associated with a position variable too, these are

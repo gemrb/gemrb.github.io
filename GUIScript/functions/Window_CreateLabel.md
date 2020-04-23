@@ -1,7 +1,6 @@
 ---
 title: Window_CreateLabel
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateLabel(WindowIndex, ControlID, x, y, w, h, font, text, align)
@@ -21,9 +20,10 @@ layout: gs-function
 **Return value:** N/A
 
 **Example:**
-  StartWindow.CreateLabel (0x0fff0000, 0,415,640,30, 'EXOFONT', '', 1)
-  Label = StartWindow.GetControl (0x0fff0000)
-  Label.SetText (GEMRB_VERSION)
+
+    StartWindow.CreateLabel (0x0fff0000, 0,415,640,30, 'EXOFONT', '', 1)
+    Label = StartWindow.GetControl (0x0fff0000)
+    Label.SetText (GEMRB_VERSION)
 The above lines add the GemRB version string to the PST main screen.
 
 **See also:** [Window_CreateButton](Window_CreateButton.md), [Control_SetText](Control_SetText.md)

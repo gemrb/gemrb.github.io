@@ -1,7 +1,6 @@
 ---
 title: SetPlayerString
 module: GemRB
-layout: gs-function
 ---
 Missing function already used in bg2 biography (cg uses a token)
 

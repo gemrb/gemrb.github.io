@@ -1,7 +1,6 @@
 ---
 title: UpdateAmbientsVolume
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UpdateAmbientsVolume ()

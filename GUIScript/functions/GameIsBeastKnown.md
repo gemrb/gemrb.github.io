@@ -1,7 +1,6 @@
 ---
 title: GameIsBeastKnown
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GameIsBeastKnown (index)

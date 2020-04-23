@@ -1,7 +1,6 @@
 ---
 title: GetAbilityBonus
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetAbilityBonus (stat, column, value[, ex])

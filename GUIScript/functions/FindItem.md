@@ -1,7 +1,6 @@
 ---
 title: FindItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.FindItem (globalID, itemname)

@@ -1,7 +1,6 @@
 ---
 title: ModifyEffect
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ModifyEffects (PartyID, opcode, x, y)

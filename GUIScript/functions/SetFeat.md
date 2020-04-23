@@ -1,7 +1,6 @@
 ---
 title: SetFeat
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetFeat (globalID, feat, value)

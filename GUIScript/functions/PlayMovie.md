@@ -1,7 +1,6 @@
 ---
 title: PlayMovie
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.PlayMovie (MOVResRef[, flag=0])

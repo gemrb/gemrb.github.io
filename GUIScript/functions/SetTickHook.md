@@ -1,7 +1,6 @@
 ---
 title: SetTickHook
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetTickHook (callback)

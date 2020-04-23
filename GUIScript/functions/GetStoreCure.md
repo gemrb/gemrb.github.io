@@ -1,7 +1,6 @@
 ---
 title: GetStoreCure
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetStoreCure (index)

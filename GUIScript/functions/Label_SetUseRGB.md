@@ -1,7 +1,6 @@
 ---
 title: Label_SetUseRGB
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetLabelUseRGB (WindowIndex, ControlIndex, status)

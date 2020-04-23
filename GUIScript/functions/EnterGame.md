@@ -1,7 +1,6 @@
 ---
 title: EnterGame
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.EnterGame ()

@@ -1,7 +1,6 @@
 ---
 title: CreateWindow
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateWindow (WindowID, X, Y, Width, Height, MosResRef)

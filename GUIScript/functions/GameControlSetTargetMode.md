@@ -1,7 +1,6 @@
 ---
 title: GameControlSetTargetMode
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameControlSetTargetMode (Mode[, Types])
@@ -11,7 +10,7 @@ layout: gs-function
 all by default). Changes the cursor.
 
 **Parameters:**
-  *  Mode
+  *    Mode
     * 0 TARGET_MODE_NONE
     * 1 TARGET_MODE_TALK
     * 2 TARGET_MODE_ATTACK (also for bashing)

@@ -1,7 +1,6 @@
 ---
 title: SwapPCs
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SwapPCs (idx1, idx2)

@@ -1,7 +1,6 @@
 ---
 title: Control_AttachScrollBar
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.AttachScrollBar (WindowIndex, ControlIndex, ScrollBarControlIndex)

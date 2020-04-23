@@ -1,7 +1,6 @@
 ---
 title: GetDamageReduction
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetDamageReduction (globalID, enchantment[, missile])

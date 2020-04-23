@@ -1,14 +1,13 @@
 ---
 title: Control_SetAnimation
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetAnimation (WindowIndex, ControlIndex, BAMResRef[, Cycle, Blend])
 
 **Metaclass Prototype:** SetAnimation (BAMResRef[, Cycle, Blend])
 
-**Description:**  Sets the animation of a Control (usually a Button) from 
+**Description:**    Sets the animation of a Control (usually a Button) from 
 a BAM file. Optionally an animation cycle could be set too.
 
 **Parameters:** 

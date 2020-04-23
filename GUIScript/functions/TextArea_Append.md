@@ -1,7 +1,6 @@
 ---
 title: TextArea_Append
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.TextAreaAppend (WindowIndex, ControlIndex, String|Strref [, Row[, Flag]])

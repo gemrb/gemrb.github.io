@@ -1,7 +1,6 @@
 ---
 title: ExploreArea
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** ExploreArea ([bitvalue=-1])

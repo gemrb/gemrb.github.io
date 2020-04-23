@@ -1,7 +1,6 @@
 ---
 title: CreateString
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateString (Strref, Text)

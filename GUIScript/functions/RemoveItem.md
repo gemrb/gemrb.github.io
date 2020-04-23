@@ -1,7 +1,6 @@
 ---
 title: RemoveItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.RemoveItem (PartyID, Slot[, Count])

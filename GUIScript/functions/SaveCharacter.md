@@ -1,7 +1,6 @@
 ---
 title: SaveCharacter
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SaveCharacter (PartyID, filename)
@@ -16,9 +15,10 @@ CreatePlayer call.
 
 **Return value:** N/A
 
-**Example:** 
-  pc = GemRB.GameGetSelectedPCSingle ()
-  GemRB.SaveCharacter (pc, ExportFileName)
+**Example:**
+ 
+    pc = GemRB.GameGetSelectedPCSingle ()
+    GemRB.SaveCharacter (pc, ExportFileName)
 The above example exports the currently selected character.
 
 **See also:** [CreatePlayer](CreatePlayer.md)

@@ -1,7 +1,6 @@
 ---
 title: GameControlSetScreenFlags
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameControlSetScreenFlags (Mode, Operation)

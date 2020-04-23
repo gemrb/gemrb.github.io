@@ -1,7 +1,6 @@
 ---
 title: Window_SetPicture
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetWindowPicture (WindowIndex, MosResRef)
@@ -17,10 +16,11 @@ layout: gs-function
 **Return value:** N/A
 
 **Example:**
-    LoadPic = GemRB.GetGameString (STR_LOADMOS)
-    if LoadPic=='':
-        LoadPic = 'GUILS0' + str(GemRB.Roll (1,9,0))
-    GemRB.SetWindowPicture (LoadScreen, LoadPic)
+
+      LoadPic = GemRB.GetGameString (STR_LOADMOS)
+      if LoadPic=='':
+          LoadPic = 'GUILS0' + str(GemRB.Roll (1,9,0))
+      GemRB.SetWindowPicture (LoadScreen, LoadPic)
 The above snippet is responsible to generate a random loading screen.
 
 **See also:** [Button_SetPicture](Button_SetPicture.md)

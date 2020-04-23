@@ -1,7 +1,6 @@
 ---
 title: EndCutSceneMode
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** EndCutSceneMode ()

@@ -1,7 +1,6 @@
 ---
 title: DisplayString
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DisplayString (strref, color[, PartyID])

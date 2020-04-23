@@ -1,7 +1,6 @@
 ---
 title: SaveConfig
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SaveConfig ()

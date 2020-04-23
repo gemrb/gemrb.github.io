@@ -1,7 +1,6 @@
 ---
 title: RestParty
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.RestParty (flags, movie, hp)

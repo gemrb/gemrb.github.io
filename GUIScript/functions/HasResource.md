@@ -1,7 +1,6 @@
 ---
 title: HasResource
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HasResource (ResRef, ResType[, silent])

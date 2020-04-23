@@ -1,7 +1,6 @@
 ---
 title: Control_SetVarAssoc
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetVarAssoc (WindowIndex, ControlIndex, VariableName, LongValue)

@@ -1,7 +1,6 @@
 ---
 title: GetItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetItem (ResRef[, PartyID])

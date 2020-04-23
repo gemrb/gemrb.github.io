@@ -1,7 +1,6 @@
 ---
 title: TextArea_Clear
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.TextAreaClear (WindowIndex, ControlIndex)

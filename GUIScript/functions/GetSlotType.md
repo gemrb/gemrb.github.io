@@ -1,7 +1,6 @@
 ---
 title: GetSlotType
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSlotType (idx[, PartyID])

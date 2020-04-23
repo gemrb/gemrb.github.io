@@ -1,7 +1,6 @@
 ---
 title: GetAvatarsValue
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetAvatarsValue (globalID, column)

@@ -1,7 +1,6 @@
 ---
 title: LeaveStore
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LeaveStore ()

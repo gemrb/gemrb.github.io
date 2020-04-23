@@ -1,7 +1,6 @@
 ---
 title: SetFeature
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetFeature (feature, value)
@@ -15,5 +14,6 @@ layout: gs-function
 **Return value:** N/A
 
 **Examples:**
-    GemRB.SetFeature(GF_ALL_STRINGS_TAGGED, True)
+
+      GemRB.SetFeature(GF_ALL_STRINGS_TAGGED, True)
 

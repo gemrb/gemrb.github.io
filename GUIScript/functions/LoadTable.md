@@ -1,7 +1,6 @@
 ---
 title: LoadTable
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LoadTable (2DAResRef[, ignore_error=0])

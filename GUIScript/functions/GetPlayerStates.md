@@ -1,7 +1,6 @@
 ---
 title: GetPlayerStates
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerStates (PartyID)

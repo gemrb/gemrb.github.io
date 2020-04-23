@@ -1,7 +1,6 @@
 ---
 title: ApplyEffect
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ApplyEffect (globalID, opcode, param1, param2[, resref, resref2, resref3, source, timing])
@@ -25,11 +24,12 @@ This function cam be used to add stats that are stored in effect blocks.
 **Return value:** N/A
 
 **Example:**
-    for i in range(ProfCount-8):
-        StatID = GemRB.GetTableValue (TmpTable, i+8, 0)
-        Value = GemRB.GetVar ('Prof '+str(i))
-        if Value:
-            GemRB.ApplyEffect (MyChar, 'Proficiency', Value, StatID)
+
+      for i in range(ProfCount-8):
+          StatID = GemRB.GetTableValue (TmpTable, i+8, 0)
+          Value = GemRB.GetVar ('Prof '+str(i))
+          if Value:
+              GemRB.ApplyEffect (MyChar, 'Proficiency', Value, StatID)
 
 The above example sets the weapon proficiencies in a bg2's CharGen9.py script.
 

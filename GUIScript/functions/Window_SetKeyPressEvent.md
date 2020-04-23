@@ -1,7 +1,6 @@
 ---
 title: Window_SetKeyPressEvent
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** _GemRB.Window_SetKeyPressEvent (callback)
@@ -15,8 +14,9 @@ layout: gs-function
 **Return value:** N/A
 
 **Example:**
-    Window.SetKeyPressEvent (KeyPressCallback)
-    return
+
+      Window.SetKeyPressEvent (KeyPressCallback)
+      return
 
 **See also:** [QuitGame](QuitGame.md)
 

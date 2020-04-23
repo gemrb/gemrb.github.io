@@ -1,14 +1,13 @@
 ---
 title: Window_CreateMapControl
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateMapControl (WindowIndex, ControlID, x, y, w, h, [LabelID, FlagResRef[, Flag2ResRef]])
 
 **Metaclass Prototype:** CreateMapControl (ControlID, x, y, w, h, [LabelID, FlagResRef [, Flag2ResRef]]
 
-**Description:**  Creates and adds a new Area Map Control to a Window. If 
+**Description:**    Creates and adds a new Area Map Control to a Window. If 
 WindowIndex and ControlID (not ControlIndex!) point to a valid control, it 
 will replace that control with the MapControl using the original control's 
 dimensions (x,y,w,h are ignored). It is possible to associate a variable 

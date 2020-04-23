@@ -1,7 +1,6 @@
 ---
 title: Window_SetVisible
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetVisible (WindowIndex, Visible)

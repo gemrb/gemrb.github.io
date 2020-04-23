@@ -1,7 +1,6 @@
 ---
 title: Table_GetValue
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetTableValue (TableIndex, RowIndex/RowString, ColIndex/ColString, Type)

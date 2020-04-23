@@ -1,7 +1,6 @@
 ---
 title: GameSetReputation
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameSetReputation (Reputation)

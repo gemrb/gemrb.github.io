@@ -1,7 +1,6 @@
 ---
 title: SetJournalEntry
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetJournalEntry (strref[, section, chapter])

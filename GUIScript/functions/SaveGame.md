@@ -1,7 +1,6 @@
 ---
 title: SaveGame
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SaveGame (savegame, description[, version])
@@ -18,7 +17,8 @@ to a specific SAV version.
 
 **Return value:** N/A
 
-**Example:** 
-  GemRB.SaveGame (10, 'After meeting Dhall')
+**Example:**
+ 
+    GemRB.SaveGame (10, 'After meeting Dhall')
 
 **See also:** [LoadGame](LoadGame.md), [SaveCharacter](SaveCharacter.md)

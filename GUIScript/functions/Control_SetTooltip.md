@@ -1,7 +1,6 @@
 ---
 title: Control_SetTooltip
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetTooltip (WindowIndex, ControlIndex, String|Strref[, Function])

@@ -1,7 +1,6 @@
 ---
 title: LeaveParty
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LeaveParty (globalID [, Dialog])

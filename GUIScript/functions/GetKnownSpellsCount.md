@@ -1,7 +1,6 @@
 ---
 title: GetKnownSpellsCount
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetKnownSpellsCount (PartyID, SpellType[, Level])

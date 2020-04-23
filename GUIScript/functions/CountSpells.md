@@ -1,7 +1,6 @@
 ---
 title: CountSpells
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CountSpells (PartyID, SpellName, SpellType, Flag)

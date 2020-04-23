@@ -1,7 +1,6 @@
 ---
 title: Window_CreateWorldMapControl
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateWorldMapControl (WindowIndex, ControlID, x, y, w, h, direction[, font, recolor])
@@ -24,9 +23,10 @@ ignored).
 
 **Return value:** N/A
 
-**Example:** 
-     Window = GemRB.LoadWindow (0)
-     Window.CreateWorldMapControl (4, 0, 62, 640, 418, Travel, 'floattxt')
-     WorldMapControl = Window.GetControl (4)
+**Example:**
+ 
+       Window = GemRB.LoadWindow (0)
+       Window.CreateWorldMapControl (4, 0, 62, 640, 418, Travel, 'floattxt')
+       WorldMapControl = Window.GetControl (4)
 
 **See also:** [WorldMap_GetDestinationArea](WorldMap_GetDestinationArea.md), [CreateMovement](CreateMovement.md)

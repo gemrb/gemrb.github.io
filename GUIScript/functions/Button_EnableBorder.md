@@ -1,7 +1,6 @@
 ---
 title: Button_EnableBorder
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.EnableButtonBorder (WindowIndex, ControlIndex, BorderIndex, enabled)

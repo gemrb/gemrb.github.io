@@ -1,7 +1,6 @@
 ---
 title: Button_SetMOS
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonMOS (WindowIndex, ControlIndex, MOSResRef)

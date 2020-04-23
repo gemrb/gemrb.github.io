@@ -1,7 +1,6 @@
 ---
 title: CreatePlayer
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** CreatePlayer (CREResRef, Slot [,Import, VersionOverride])
@@ -22,14 +21,15 @@ Note: if the slot is already filled, it will delete that pc instead!
 **Return value:** the new player's index in the game structure
 
 **Examples:**
-  MyChar = GemRB.GetVar ('Slot')
-  GemRB.CreatePlayer ('charbase', MyChar)
+
+    MyChar = GemRB.GetVar ('Slot')
+    GemRB.CreatePlayer ('charbase', MyChar)
 The above example will create a new player character in the slot selected
 by the Slot variable.
 
-  MyChar = GemRB.GetVar ('Slot')
-  ImportName = 'avenger'
-  GemRB.CreatePlayer (ImportName, MyChar, 1)
+    MyChar = GemRB.GetVar ('Slot')
+    ImportName = 'avenger'
+    GemRB.CreatePlayer (ImportName, MyChar, 1)
 The above example would import avenger.chr into the slot selected by the 
 Slot Variable. (If it exists in the Characters directory of the game).
 

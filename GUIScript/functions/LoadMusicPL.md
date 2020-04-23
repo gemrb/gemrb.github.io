@@ -1,7 +1,6 @@
 ---
 title: LoadMusicPL
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** LoadMusicPL (MusicPlayListResource[, HardEnd])

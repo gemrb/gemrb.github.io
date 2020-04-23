@@ -1,7 +1,6 @@
 ---
 title: Button_SetSpellIcon
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetSpellIcon (WindowIndex, ControlIndex, SPLResRef[, Type, Tooltip, Function])

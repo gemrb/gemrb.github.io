@@ -1,7 +1,6 @@
 ---
 title: DrawWindows
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DrawWindows ()

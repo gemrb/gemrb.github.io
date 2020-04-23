@@ -1,7 +1,6 @@
 ---
 title: GetKnownSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetKnownSpell (PartyID, SpellType, Level, Index)

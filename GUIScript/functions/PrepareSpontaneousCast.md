@@ -1,7 +1,6 @@
 ---
 title: PrepareSpontaneousCast
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.PrepareSpontaneousCast (globalID, spellIndex, type, level, spellResRef)

@@ -1,7 +1,6 @@
 ---
 title: Button_SetPictureClipping
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonPictureClipping (Window, Button, ClippingRatio)

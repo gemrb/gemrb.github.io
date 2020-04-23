@@ -1,12 +1,11 @@
 ---
 title: GetPlayerSound
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerSound (Slot[, flags])
 
-**Description:**  Gets the player character's sound set.
+**Description:**    Gets the player character's sound set.
 
 **Parameters:** 
   * Slot - party slot

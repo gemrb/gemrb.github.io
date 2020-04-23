@@ -1,7 +1,6 @@
 ---
 title: GetSlots
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSlots (PartyID, SlotType[, Flag])

@@ -1,7 +1,6 @@
 ---
 title: Control_SetPos
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetControlPos (WindowIndex, ControlIndex, X, Y)

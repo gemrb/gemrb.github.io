@@ -1,7 +1,6 @@
 ---
 title: CountEffects
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CountEffects (globalID, opcode, param1, param2[, resref])
@@ -19,7 +18,8 @@ If a parameter is set to -1, it will be ignored.
 **Return value:** N/A
 
 **Example:**
-    res = GemRB.CountEffect (MyChar, 'HLA', -1, -1, AbilityName)
+
+      res = GemRB.CountEffect (MyChar, 'HLA', -1, -1, AbilityName)
 
 The above example returns how many HLA effects were applied on the character.
 

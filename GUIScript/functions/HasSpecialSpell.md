@@ -1,7 +1,6 @@
 ---
 title: HasSpecialSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HasSpecialSpell (globalID, itemtype, useup)

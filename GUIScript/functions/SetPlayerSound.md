@@ -1,7 +1,6 @@
 ---
 title: SetPlayerSound
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetPlayerSound (Slot, SoundFolder)

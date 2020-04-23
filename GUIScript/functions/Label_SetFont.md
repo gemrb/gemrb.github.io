@@ -1,7 +1,6 @@
 ---
 title: Label_SetFont
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetLabelFont (WindowIndex, ControlIndex, FontResRef)

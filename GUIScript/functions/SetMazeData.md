@@ -1,7 +1,6 @@
 ---
 title: SetMazeData
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMazeData (field, value)

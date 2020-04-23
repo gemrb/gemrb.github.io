@@ -1,7 +1,6 @@
 ---
 title: GetContainerItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetContainerItem (PartyID, index)

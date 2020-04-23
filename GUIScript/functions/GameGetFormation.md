@@ -1,7 +1,6 @@
 ---
 title: GameGetFormation
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameGetFormation ([Which])

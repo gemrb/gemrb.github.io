@@ -1,7 +1,6 @@
 ---
 title: IsDualWielding
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.IsDualWielding (globalID)

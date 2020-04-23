@@ -1,7 +1,6 @@
 ---
 title: UpdateWorldMap
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UpdateWorldMap (ResRef, [AreaResRef])

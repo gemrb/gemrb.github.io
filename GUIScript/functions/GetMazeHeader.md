@@ -1,7 +1,6 @@
 ---
 title: GetMazeHeader
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetMazeHeader ()

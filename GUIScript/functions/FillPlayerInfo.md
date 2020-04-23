@@ -1,7 +1,6 @@
 ---
 title: FillPlayerInfo
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.FillPlayerInfo (globalID[, Portrait1, Portrait2, clear=0])
@@ -24,14 +23,14 @@ avprefix.2da is a gemrb specific table. Its first row contains the base animatio
 
 **For example:**
 avprefix.2da
-        RESOURCE
+          RESOURCE
 0       0x6000
-1       avprefr
-2       avprefg
-3       avprefc
+1         avprefr
+2         avprefg
+3         avprefc
 
 avprefr.2da
-                RACE
+                  RACE
 TYPE            201
 HUMAN           0
 ELF             1
@@ -46,7 +45,8 @@ Based on the avatar's stat (201 == race) the animationID (0x6000) will be increa
 **Return value:** N/A
 
 **Examples:**
-  GemRB.FillPlayerInfo (MyChar, PortraitName+'M', PortraitName+'S')
+
+    GemRB.FillPlayerInfo (MyChar, PortraitName+'M', PortraitName+'S')
 
 **See also:** [LoadGame](LoadGame.md), [CreatePlayer](CreatePlayer.md), [SetPlayerStat](SetPlayerStat.md), [EnterGame](EnterGame.md)
 

@@ -1,7 +1,6 @@
 ---
 title: Table_GetRowIndex
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetTableRowIndex (TableIndex, RowName)

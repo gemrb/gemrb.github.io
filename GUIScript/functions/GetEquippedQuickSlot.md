@@ -1,7 +1,6 @@
 ---
 title: GetEquippedQuickSlot
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetEquippedQuickSlot (PartyID[, NoTrans])

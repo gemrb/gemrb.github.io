@@ -1,7 +1,6 @@
 ---
 title: EnterStore
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.EnterStore (StoreResRef)

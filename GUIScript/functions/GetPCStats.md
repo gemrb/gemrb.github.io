@@ -1,7 +1,6 @@
 ---
 title: GetPCStats
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPCStats (PartyID)

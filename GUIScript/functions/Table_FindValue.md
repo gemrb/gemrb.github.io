@@ -1,7 +1,6 @@
 ---
 title: Table_FindValue
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.FindTableValue (TableIndex, ColumnIndex, Value[, StartRow])

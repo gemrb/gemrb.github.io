@@ -1,7 +1,6 @@
 ---
 title: GetStoreDrink
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetStoreDrink (index)

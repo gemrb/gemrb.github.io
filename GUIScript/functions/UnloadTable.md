@@ -1,7 +1,6 @@
 ---
 title: UnloadTable
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UnloadTable (TableIndex)

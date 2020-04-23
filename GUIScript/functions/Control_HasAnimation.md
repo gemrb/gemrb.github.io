@@ -1,7 +1,6 @@
 ---
 title: Control_HasAnimation
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HasAnimation (WindowIndex, ControlIndex, BAMResRef[, Cycle])

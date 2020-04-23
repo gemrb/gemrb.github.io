@@ -1,7 +1,6 @@
 ---
 title: Table_GetColumnCount
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetTableColumnCount (TableIndex[, Row])

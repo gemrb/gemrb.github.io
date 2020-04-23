@@ -1,7 +1,6 @@
 ---
 title: Window_SetupControls
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetupControls (WindowIndex, dict, slot[, Start])

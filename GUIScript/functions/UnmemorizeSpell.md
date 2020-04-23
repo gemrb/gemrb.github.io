@@ -1,7 +1,6 @@
 ---
 title: UnmemorizeSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UnmemorizeSpell (PartyID, SpellType, Level, Index[, onlydepleted])

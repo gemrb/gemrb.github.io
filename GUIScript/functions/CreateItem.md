@@ -1,7 +1,6 @@
 ---
 title: CreateItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateItem (PartyID, ItemResRef, [SlotID, Charge0, Charge1, Charge2])

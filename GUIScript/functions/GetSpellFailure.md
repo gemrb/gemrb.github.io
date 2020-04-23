@@ -1,7 +1,6 @@
 ---
 title: GetSpellFailure
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSpellFailure (globalID[, divine])

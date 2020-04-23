@@ -1,7 +1,6 @@
 ---
 title: SetMapExit
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMapExit (ExitName[, NewArea, NewEntrance])

@@ -1,7 +1,6 @@
 ---
 title: GetPlayerName
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerName (PartyID[, LongOrShort])

@@ -1,7 +1,6 @@
 ---
 title: LoadWindowPack
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LoadWindowPack (CHUIResRef[, Width=0, Height=0])
@@ -13,13 +12,14 @@ by LoadWindow, you can get a new windowpack.
 **Parameters:** 
   * CHUIResRef: the name of the GUI set (.CHU resref)
   * Width, Height: if nonzero, they set the natural screen size for which 
-    the windows in the winpack are positioned. LoadWindow() uses this 
-    information to automatically reposition loaded windows.
+      the windows in the winpack are positioned. LoadWindow() uses this 
+      information to automatically reposition loaded windows.
 
 **Return value:** N/A
 
 **Example:**
-    LoadWindowPack ('START', 640, 480)
+
+      LoadWindowPack ('START', 640, 480)
 
 **See also:** [LoadWindow](LoadWindow.md), [LoadWindowFrame](LoadWindowFrame.md)
 

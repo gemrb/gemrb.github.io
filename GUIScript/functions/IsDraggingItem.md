@@ -1,7 +1,6 @@
 ---
 title: IsDraggingItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.IsDraggingItem ()

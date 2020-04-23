@@ -1,7 +1,6 @@
 ---
 title: GetGamePortraitPreview
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetGamePortraitPreview (PCSlot)

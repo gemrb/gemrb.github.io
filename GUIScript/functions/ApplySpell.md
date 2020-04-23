@@ -1,7 +1,6 @@
 ---
 title: ApplySpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ApplySpell (globalID, resref[, casterID])

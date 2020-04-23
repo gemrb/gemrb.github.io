@@ -1,7 +1,6 @@
 ---
 title: GetINIQuestsKey
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetINIQuestsKey (Tag, Key, Default)

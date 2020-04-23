@@ -1,7 +1,6 @@
 ---
 title: SetVar
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetVar (VariableName, Value)
@@ -24,12 +23,13 @@ core, these are described in different places:
 **Return value:** N/A
 
 **Examples:**
-  GemRB.SetVar('ActionsWindow', ActionsWindow)
-  GemRB.SetVar('OptionsWindow', OptionsWindow)
-  GemRB.SetVar('MessageWindow', MessageWindow)
-  GemRB.SetVar('ActionsPosition', 4) #BottomAdded
-  GemRB.SetVar('OptionsPosition', 0) #Left
-  GemRB.SetVar('MessagePosition', 4) #BottomAdded
+
+    GemRB.SetVar('ActionsWindow', ActionsWindow)
+    GemRB.SetVar('OptionsWindow', OptionsWindow)
+    GemRB.SetVar('MessageWindow', MessageWindow)
+    GemRB.SetVar('ActionsPosition', 4) #BottomAdded
+    GemRB.SetVar('OptionsPosition', 0) #Left
+    GemRB.SetVar('MessagePosition', 4) #BottomAdded
 The above lines set up some windows of the main game screen.
 
 **See also:** [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetToken](SetToken.md), [LoadGame](LoadGame.md), [HideGUI](HideGUI.md), [data_exchange](data_exchange.md)

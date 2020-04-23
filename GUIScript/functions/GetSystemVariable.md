@@ -1,7 +1,6 @@
 ---
 title: GetSystemVariable
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSystemVariable (Index)

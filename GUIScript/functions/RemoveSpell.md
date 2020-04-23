@@ -1,7 +1,6 @@
 ---
 title: RemoveSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.RemoveSpell (globalID, SpellType, Level, Index)

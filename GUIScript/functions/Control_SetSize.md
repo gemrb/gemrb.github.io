@@ -1,7 +1,6 @@
 ---
 title: Control_SetSize
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetControlSize (WindowIndex, ControlIndex, Width, Height)

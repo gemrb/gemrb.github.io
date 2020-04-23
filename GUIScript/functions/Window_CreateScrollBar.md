@@ -1,7 +1,6 @@
 ---
 title: Window_CreateScrollBar
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateScrollBar (WindowIndex, ControlID, x, y, w, h, ResRef)

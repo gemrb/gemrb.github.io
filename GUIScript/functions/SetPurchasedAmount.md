@@ -1,7 +1,6 @@
 ---
 title: SetPurchasedAmount
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetPurchasedAmount (Index, Amount[, type])

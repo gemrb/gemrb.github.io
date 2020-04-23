@@ -1,7 +1,6 @@
 ---
 title: Control_SetAnimationPalette
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetAnimationPalette (WindowIndex, ControlIndex, col1, col2, col3, col4, col5, col6, col7, col8)

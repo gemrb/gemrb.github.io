@@ -1,7 +1,6 @@
 ---
 title: Window_Unload
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UnloadWindow (WindowIndex)

@@ -1,7 +1,6 @@
 ---
 title: SetPlayerDialog
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetPlayerDialog (globalID, Resource)

@@ -1,7 +1,6 @@
 ---
 title: SetMazeEntry
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMazeEntry (entry, type, value)

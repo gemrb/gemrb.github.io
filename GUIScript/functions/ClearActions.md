@@ -1,7 +1,6 @@
 ---
 title: ClearActions
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ClearActions (globalID)

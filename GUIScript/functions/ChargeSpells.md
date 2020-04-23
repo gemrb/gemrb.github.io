@@ -1,7 +1,6 @@
 ---
 title: ChargeSpells
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ChargeSpells (globalID)

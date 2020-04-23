@@ -1,7 +1,6 @@
 ---
 title: TextEdit_SetBackground
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** _GemRB.TextEdit_SetBackground (WindowIndex, ControlIndex, ResRef)

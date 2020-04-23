@@ -1,7 +1,6 @@
 ---
 title: GameSetFormation
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameSetFormation (Formation[, Which])

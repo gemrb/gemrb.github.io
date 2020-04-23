@@ -1,7 +1,6 @@
 ---
 title: SetupQuickSlot
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetupQuickSlot (PartyID, QuickSlotID, InventorySlot[, AbilityIndex])

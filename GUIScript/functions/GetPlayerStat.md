@@ -1,7 +1,6 @@
 ---
 title: GetPlayerStat
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerStat(globalID, StatID[, Base])

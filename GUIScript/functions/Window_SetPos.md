@@ -1,7 +1,6 @@
 ---
 title: Window_SetPos
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetWindowPos (WindowIndex, X, Y, [Flags=WINDOW_TOPLEFT])
@@ -26,8 +25,9 @@ layout: gs-function
 **Return value:** N/A
 
 **Example:**
-    x, y = GemRB.GetVar ('MenuX'), GemRB.GetVar ('MenuY')
-    GemRB.SetWindowPos (Window, x, y, WINDOW_CENTER | WINDOW_BOUNDED)
+
+      x, y = GemRB.GetVar ('MenuX'), GemRB.GetVar ('MenuY')
+      GemRB.SetWindowPos (Window, x, y, WINDOW_CENTER | WINDOW_BOUNDED)
 
 The above example is from the PST FloatMenuWindow script. It centers 
 pie-menu window around the mouse cursor, but keeps it within screen.

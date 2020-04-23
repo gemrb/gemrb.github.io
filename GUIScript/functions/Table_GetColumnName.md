@@ -1,7 +1,6 @@
 ---
 title: Table_GetColumnName
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetTableColumnName (TableIndex, ColumnIndex)

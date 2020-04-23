@@ -1,7 +1,6 @@
 ---
 title: Button_SetItemIcon
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetItemIcon (WindowIndex, ControlIndex, ITMResRef[, type, tooltip, Function, ITM2ResRef])

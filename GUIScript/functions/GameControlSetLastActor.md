@@ -1,7 +1,6 @@
 ---
 title: GameControlSetLastActor
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameControlSetLastActor ([partyID])

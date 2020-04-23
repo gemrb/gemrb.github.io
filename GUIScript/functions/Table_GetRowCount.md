@@ -1,7 +1,6 @@
 ---
 title: Table_GetRowCount
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetTableRowCount (TableIndex)

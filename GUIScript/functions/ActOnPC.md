@@ -1,7 +1,6 @@
 ---
 title: ActOnPC
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ActOnPC (player)

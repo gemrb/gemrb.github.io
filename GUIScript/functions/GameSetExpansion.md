@@ -1,7 +1,6 @@
 ---
 title: GameSetExpansion
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameSetExpansion (mode)

@@ -1,7 +1,6 @@
 ---
 title: GameSelectPCSingle
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameSelectPCSingle (PartyID)

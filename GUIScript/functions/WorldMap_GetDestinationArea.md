@@ -1,7 +1,6 @@
 ---
 title: WorldMap_GetDestinationArea
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetDestinationArea (WindowIndex, ControlID[, RndEncounter])

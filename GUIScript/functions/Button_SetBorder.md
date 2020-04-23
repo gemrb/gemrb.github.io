@@ -1,7 +1,6 @@
 ---
 title: Button_SetBorder
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonBorder (WindowIndex, ControlIndex, BorderIndex, dx1, dy1, dx2, dy2, R, G, B, A, [enabled, filled])
@@ -24,10 +23,11 @@ it with a tint (like with unusable or unidentified item's icons).
 **Return value:** N/A
 
 **Examples:**
-  GemRB.SetButtonBorder (Window, Icon, 0,  0, 0, 0, 0,  0, 0, 0, 160,  0, 1)
+
+    GemRB.SetButtonBorder (Window, Icon, 0,  0, 0, 0, 0,  0, 0, 0, 160,  0, 1)
 Not known spells are drawn darkened (the whole button will be overlaid).
 
-  Button.SetBorder (FRAME_PC_SELECTED, 1, 1, 2, 2, 0, 255, 0, 255)
+    Button.SetBorder (FRAME_PC_SELECTED, 1, 1, 2, 2, 0, 255, 0, 255)
 This will draw a green frame around the portrait.
 
 **See also:** [Button_EnableBorder](Button_EnableBorder.md)

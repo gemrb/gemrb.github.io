@@ -1,7 +1,6 @@
 ---
 title: Window_CreateTextArea
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateTextArea (WindowIndex, ControlID, x, y, w, h, font, alignment)

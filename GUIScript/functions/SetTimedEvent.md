@@ -1,7 +1,6 @@
 ---
 title: SetTimedEvent
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetTimedEvent (FunctionName, rounds)

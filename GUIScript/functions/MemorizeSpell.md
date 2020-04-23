@@ -1,7 +1,6 @@
 ---
 title: MemorizeSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.MemorizeSpell (PartyID, SpellType, Level, Index[, Enabled])

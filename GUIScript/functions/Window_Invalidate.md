@@ -1,7 +1,6 @@
 ---
 title: Window_Invalidate
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.InvalidateWindow (WindowIndex)

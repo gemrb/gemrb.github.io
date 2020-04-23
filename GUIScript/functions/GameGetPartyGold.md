@@ -1,7 +1,6 @@
 ---
 title: GameGetPartyGold
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameGetPartyGold ()

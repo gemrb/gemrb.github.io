@@ -1,7 +1,6 @@
 ---
 title: SetDefaultActions
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetDefaultActions (qslot, action1, action2, action3)

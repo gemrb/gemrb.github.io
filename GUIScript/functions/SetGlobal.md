@@ -1,7 +1,6 @@
 ---
 title: SetGlobal
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetGlobal (VariableName, Context, Value)

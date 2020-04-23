@@ -1,7 +1,6 @@
 ---
 title: FindStoreItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.FindStoreItem (resref)

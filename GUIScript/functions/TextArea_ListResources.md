@@ -1,7 +1,6 @@
 ---
 title: TextArea_ListResources
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ListResources (WindowIndex, ControlIndex, type [, flags])
@@ -13,6 +12,6 @@ layout: gs-function
 **Parameters:** 
   * WindowIndex, ControlIndex - control IDs
   * type - one of CHR_PORTRAITS, CHR_SOUNDS, CHR_EXPORTS or CHR_SCRIPTS
-  * flags -  currently only used for CHR_PORTRAITS: 0 means the portraits with 'M' as the suffix, anything else 'S'
+  * flags -    currently only used for CHR_PORTRAITS: 0 means the portraits with 'M' as the suffix, anything else 'S'
 
 **Return value:** int - the number of options added to the TextArea

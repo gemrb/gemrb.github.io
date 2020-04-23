@@ -1,7 +1,6 @@
 ---
 title: ValidTarget
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ValidTarget (PartyID, flags)

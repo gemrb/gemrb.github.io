@@ -1,7 +1,6 @@
 ---
 title: CreateMovement
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateMovement (Area, Entrance[, Direction])

@@ -1,7 +1,6 @@
 ---
 title: HasFeat
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HasFeat (globalID, feat)

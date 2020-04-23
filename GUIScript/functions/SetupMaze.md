@@ -1,7 +1,6 @@
 ---
 title: SetupMaze
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetupMaze (x,y)

@@ -1,7 +1,6 @@
 ---
 title: Quit
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.Quit ()

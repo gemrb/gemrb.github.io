@@ -1,7 +1,6 @@
 ---
 title: GetINIPartyKey
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetINIPartyKey(Tag, Key, Default)

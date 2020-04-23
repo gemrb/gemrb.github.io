@@ -1,7 +1,6 @@
 ---
 title: GetEquippedAmmunition
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetEquippedAmmunition (globalID)

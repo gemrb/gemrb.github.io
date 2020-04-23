@@ -1,7 +1,6 @@
 ---
 title: Control_SubstituteForControl
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SubstituteForControl (WindowIndex, ControlIndex, TWindowIndex, TControlIndex)

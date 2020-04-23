@@ -1,7 +1,6 @@
 ---
 title: SetMapAnimation
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMapAnimation (X, Y, BAMresref[, flags, cycle, height])

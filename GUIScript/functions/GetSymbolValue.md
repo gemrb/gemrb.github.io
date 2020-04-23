@@ -1,7 +1,6 @@
 ---
 title: GetSymbolValue
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSymbolValue (SymbolIndex, StringVal|IntVal)
@@ -20,9 +19,10 @@ layout: gs-function
   * string, if the value of the symbol was given (the symbol's name)
 
 **Example:**
-    align = GemRB.GetPlayerStat (pc, IE_ALIGNMENT)
-    ss = GemRB.LoadSymbol ('ALIGN')
-    sym = GemRB.GetSymbolValue (ss, align)
+
+      align = GemRB.GetPlayerStat (pc, IE_ALIGNMENT)
+      ss = GemRB.LoadSymbol ('ALIGN')
+      sym = GemRB.GetSymbolValue (ss, align)
 The above example will find the symbolic name of the player's alignment.
 
 **See also:** [LoadSymbol](LoadSymbol.md), [Table_GetValue](Table_GetValue.md)

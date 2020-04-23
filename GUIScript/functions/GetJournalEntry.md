@@ -1,7 +1,6 @@
 ---
 title: GetJournalEntry
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetJournalEntry (chapter, index[, section])

@@ -1,7 +1,6 @@
 ---
 title: HasSpecialItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HasSpecialItem (globalID, itemtype, useup)

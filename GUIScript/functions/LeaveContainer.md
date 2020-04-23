@@ -1,7 +1,6 @@
 ---
 title: LeaveContainer
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LeaveContainer ()

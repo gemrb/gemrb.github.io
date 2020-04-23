@@ -1,7 +1,6 @@
 ---
 title: SetupQuickSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetupQuickSpell (globalID, spellslot, spellindex, type)

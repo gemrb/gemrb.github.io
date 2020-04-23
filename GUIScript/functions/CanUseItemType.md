@@ -1,7 +1,6 @@
 ---
 title: CanUseItemType
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CanUseItemType (slottype, itemname[, actor, equipped])

@@ -1,7 +1,6 @@
 ---
 title: Control_GetRect
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetRect (WindowIndex, ControlIndex)

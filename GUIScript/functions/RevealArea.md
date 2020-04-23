@@ -1,7 +1,6 @@
 ---
 title: RevealArea
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.RevealArea (x, y, radius, type)

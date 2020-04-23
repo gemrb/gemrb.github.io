@@ -1,7 +1,6 @@
 ---
 title: Button_SetOverlay
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonOverlay (WindowIndex, ControlIndex, Current, Max, r,g,b,a, r,g,b,a)

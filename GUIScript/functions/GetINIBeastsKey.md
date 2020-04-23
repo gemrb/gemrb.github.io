@@ -1,7 +1,6 @@
 ---
 title: GetINIBeastsKey
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetINIBeastsKey (Tag, Key, Default)

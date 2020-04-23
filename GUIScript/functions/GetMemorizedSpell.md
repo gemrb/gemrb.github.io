@@ -1,7 +1,6 @@
 ---
 title: GetMemorizedSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetMemorizedSpell (PartyID, SpellType, Level, Index)

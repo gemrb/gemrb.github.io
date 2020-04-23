@@ -1,7 +1,6 @@
 ---
 title: SetMapDoor
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMapDoor (DoorName, State)

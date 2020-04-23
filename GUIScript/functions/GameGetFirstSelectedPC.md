@@ -1,7 +1,6 @@
 ---
 title: GameGetFirstSelectedPC
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameGetFirstSelectedPC ()

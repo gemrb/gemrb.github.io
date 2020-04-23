@@ -1,7 +1,6 @@
 ---
 title: Window_CreateTextEdit
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateTextEdit (WindowIndex, ControlID, x, y, w, h, font, text)

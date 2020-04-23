@@ -1,7 +1,6 @@
 ---
 title: Button_SetState
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonState (WindowIndex, ControlIndex, State)

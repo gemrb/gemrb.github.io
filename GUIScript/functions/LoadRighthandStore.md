@@ -1,12 +1,11 @@
 ---
 title: LoadRighthandStore
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LoadRighthandStore (StoreResRef)
 
-**Description:** Loads a secondary (right-hand) store.  Used for trading to/from
+**Description:** Loads a secondary (right-hand) store.    Used for trading to/from
 containers. The previous right-hand store, if any, is saved to cache.
 
 **Parameters:**

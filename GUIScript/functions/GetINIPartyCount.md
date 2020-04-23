@@ -1,7 +1,6 @@
 ---
 title: GetINIPartyCount
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetINIPartyCount ()

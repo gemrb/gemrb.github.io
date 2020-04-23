@@ -1,7 +1,6 @@
 ---
 title: GetSelectedSize
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSelectedSize ()

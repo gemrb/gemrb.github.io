@@ -1,7 +1,6 @@
 ---
 title: SetMapnote
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMapnote(X, Y, color, text)

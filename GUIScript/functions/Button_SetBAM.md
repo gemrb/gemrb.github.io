@@ -1,7 +1,6 @@
 ---
 title: Button_SetBAM
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonBAM (WindowIndex, ControlIndex, BAMResRef, CycleIndex, FrameIndex, col1)

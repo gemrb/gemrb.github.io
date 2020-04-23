@@ -1,7 +1,6 @@
 ---
 title: UseItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UseItem (globalID, Slot, header[,forcetarget])

@@ -1,7 +1,6 @@
 ---
 title: GetSpelldata
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSpelldata (globalID[, type])

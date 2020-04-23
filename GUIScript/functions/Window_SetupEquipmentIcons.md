@@ -1,7 +1,6 @@
 ---
 title: Window_SetupEquipmentIcons
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetupEquipmentIcons (WindowIndex, dict, slot[, Start, Offset])

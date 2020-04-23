@@ -1,7 +1,6 @@
 ---
 title: TextArea_SetChapterText
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetChapterText (Win, Ctrl, Text)
@@ -18,8 +17,9 @@ to beyond the top.
   * Text - The text to set in the TA
 
 **Example:**
-  TextArea = ChapterWindow.GetControl (5)
-  TextArea.SetChapterText (text)
+
+    TextArea = ChapterWindow.GetControl (5)
+    TextArea.SetChapterText (text)
 
 **Return value:** N/A
 

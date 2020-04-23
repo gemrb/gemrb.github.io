@@ -1,7 +1,6 @@
 ---
 title: SetNextScript
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetNextScript (scriptname)
@@ -15,8 +14,9 @@ this script has terminated.
 **Return value:** N/A
 
 **Example:**
-    GemRB.SetNextScript ('CharGen')
-    return
+
+      GemRB.SetNextScript ('CharGen')
+      return
 
 **See also:** [QuitGame](QuitGame.md)
 

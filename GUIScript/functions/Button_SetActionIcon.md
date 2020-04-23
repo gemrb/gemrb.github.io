@@ -1,7 +1,6 @@
 ---
 title: Button_SetActionIcon
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetActionIcon (Window, Button, Dict, ActionIndex[, Function])

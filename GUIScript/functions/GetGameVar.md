@@ -1,7 +1,6 @@
 ---
 title: GetGameVar
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetGameVar (VariableName)
@@ -14,6 +13,7 @@ is what gamescripts know as GLOBAL variables.
 
 **Return value:**
 
-**Example:** Chapter = GemRB.GetGameVar ('chapter')
+**Example:**
+ Chapter = GemRB.GetGameVar ('chapter')
 
 **See also:** [GetVar](GetVar.md), [GetToken](GetToken.md), [CheckVar](CheckVar.md)

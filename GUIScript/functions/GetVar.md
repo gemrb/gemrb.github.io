@@ -1,7 +1,6 @@
 ---
 title: GetVar
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetVar (VariableName)
@@ -16,7 +15,8 @@ controls could affect the same variable.
 **Return value:** numeric, 0 if the variable doesn't exist
 
 **Examples:**
-  selected = GemRB.GetVar ('SelectedMovie')
+
+    selected = GemRB.GetVar ('SelectedMovie')
 
 **See also:** [SetVar](SetVar.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [data_exchange](data_exchange.md)
 

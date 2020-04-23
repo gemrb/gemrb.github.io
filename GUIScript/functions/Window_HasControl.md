@@ -1,7 +1,6 @@
 ---
 title: Window_HasControl
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HasControl (WindowIndex, ControlID[, ControlType])

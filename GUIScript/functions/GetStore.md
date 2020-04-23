@@ -1,7 +1,6 @@
 ---
 title: GetStore
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetStore ([righthand])

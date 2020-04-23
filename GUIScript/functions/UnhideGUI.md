@@ -1,7 +1,6 @@
 ---
 title: UnhideGUI
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UnhideGUI ()

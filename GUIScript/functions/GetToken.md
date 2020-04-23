@@ -1,7 +1,6 @@
 ---
 title: GetToken
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetToken (VariableName)
@@ -15,7 +14,8 @@ string values, used both by the game scripts and the GUI scripts.
 **Return value:** string, the value of the token
 
 **Example:**
-  TextArea.Append (GemRB.GetToken ('CHARNAME'))
+
+    TextArea.Append (GemRB.GetToken ('CHARNAME'))
 The above example will add the protagonist's name to the TextArea (if the token was set correctly).
 
 **See also:** [SetToken](SetToken.md), [Control_QueryText](Control_QueryText.md)

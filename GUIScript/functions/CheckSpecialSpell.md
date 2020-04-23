@@ -1,7 +1,6 @@
 ---
 title: CheckSpecialSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CheckSpecialSpell (globalID, SpellResRef)

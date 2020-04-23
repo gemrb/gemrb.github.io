@@ -1,7 +1,6 @@
 ---
 title: ScrollBar_SetDefaultScrollBar
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetDefaultScrollBar (WindowIndex, ControlIndex)

@@ -1,7 +1,6 @@
 ---
 title: GetPlayerPortrait
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerPortrait (Slot[, SmallOrLarge])

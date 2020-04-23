@@ -1,7 +1,6 @@
 ---
 title: GetPlayerString
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPlayerString (globalID, StringIndex)

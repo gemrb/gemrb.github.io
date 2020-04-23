@@ -1,7 +1,6 @@
 ---
 title: GetSpelldataIndex
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSpelldataIndex (globalID, SpellResRef, type)

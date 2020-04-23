@@ -1,7 +1,6 @@
 ---
 title: GetRumour
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetRumour (percent, DialogResRef)

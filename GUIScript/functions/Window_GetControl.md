@@ -1,7 +1,6 @@
 ---
 title: Window_GetControl
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetControl (WindowID, ControlID)

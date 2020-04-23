@@ -1,7 +1,6 @@
 ---
 title: SetPlayerName
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetPlayerName(Slot, Name[, LongOrShort])
@@ -17,7 +16,8 @@ command can set either or both.
 **Return value:** N/A
 
 **Example:**
-  GemRB.SetPlayerName (MyChar, GemRB.GetToken('CHARNAME'), 0)
+
+    GemRB.SetPlayerName (MyChar, GemRB.GetToken('CHARNAME'), 0)
 In the above example we set the player's name to a previously set Token (global string).
 
 **See also:** [Control_QueryText](Control_QueryText.md), [GetToken](GetToken.md)

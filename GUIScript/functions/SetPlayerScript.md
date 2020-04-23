@@ -1,7 +1,6 @@
 ---
 title: SetPlayerScript
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetPlayerScript (globalID, ScriptName[, Index])

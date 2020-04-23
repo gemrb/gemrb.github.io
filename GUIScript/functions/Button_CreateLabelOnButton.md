@@ -1,7 +1,6 @@
 ---
 title: Button_CreateLabelOnButton
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateLabelOnButton (WindowIndex, ControlIndex, NewID, font, align)

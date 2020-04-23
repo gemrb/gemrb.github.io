@@ -1,7 +1,6 @@
 ---
 title: GameControlGetTargetMode
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameControlGetTargetMode ()

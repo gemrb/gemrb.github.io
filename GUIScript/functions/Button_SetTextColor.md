@@ -1,7 +1,6 @@
 ---
 title: Button_SetTextColor
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonTextColor (WindowIndex, ControlIndex, red, green, blue[, invert=0])

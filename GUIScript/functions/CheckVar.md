@@ -1,7 +1,6 @@
 ---
 title: CheckVar
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CheckVar (VariableName, Context)

@@ -1,7 +1,6 @@
 ---
 title: WorldMap_AdjustScrolling
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.AdjustScrolling (WindowIndex, ControlIndex, x, y)
@@ -18,14 +17,15 @@ layout: gs-function
 **Return value:** N/A
 
 **Example:**
-    # northeast
-    Button = GemRB.GetControl (Window, 9)
-    Button.SetEvent (IE_GUI_BUTTON_ON_PRESS, 'MapNE')
+
+      # northeast
+      Button = GemRB.GetControl (Window, 9)
+      Button.SetEvent (IE_GUI_BUTTON_ON_PRESS, 'MapNE')
 ...
 
 **def MapNE():**
-    WorldMapControl.AdjustScrolling (10, -10)
-    return
+      WorldMapControl.AdjustScrolling (10, -10)
+      return
 The above lines set up a button event. When the button is pressed the worldmap will be shifted in the northeastern direction.
 
 **See also:** [[guiscript:Window_CreateWorldMapControl]

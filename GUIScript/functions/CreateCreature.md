@@ -1,7 +1,6 @@
 ---
 title: CreateCreature
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.CreateCreature (globalID, CreResRef[, posX, posY])

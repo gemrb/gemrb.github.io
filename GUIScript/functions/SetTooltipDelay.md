@@ -1,7 +1,6 @@
 ---
 title: SetTooltipDelay
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetTooltipDelay (time)

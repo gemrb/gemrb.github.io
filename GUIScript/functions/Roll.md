@@ -1,7 +1,6 @@
 ---
 title: Roll
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.Roll (Dice, Size, Add)
@@ -15,8 +14,9 @@ layout: gs-function
 
 **Return value:** numeric
 
-**Example:** 
-  dice = 3
-  size = 5
-  v = GemRB.Roll (dice, size, 3)
+**Example:**
+ 
+    dice = 3
+    size = 5
+    v = GemRB.Roll (dice, size, 3)
 The above example generates a 3d5+3 number.

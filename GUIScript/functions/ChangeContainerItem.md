@@ -1,7 +1,6 @@
 ---
 title: ChangeContainerItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ChangeContainerItem (PartyID, slot, action)

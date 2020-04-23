@@ -1,7 +1,6 @@
 ---
 title: Button_SetSprites
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonSprites (WindowIndex, ControlIndex, ResRef, Cycle, UnpressedFrame, PressedFrame, SelectedFrame, DisabledFrame)

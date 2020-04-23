@@ -1,7 +1,6 @@
 ---
 title: SpellCast
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SpellCast (PartyID, Type, Spell)

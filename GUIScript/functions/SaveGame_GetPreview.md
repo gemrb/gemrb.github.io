@@ -1,7 +1,6 @@
 ---
 title: SaveGame_GetPreview
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SaveGame_GetPreview ()

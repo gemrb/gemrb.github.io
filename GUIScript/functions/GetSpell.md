@@ -1,7 +1,6 @@
 ---
 title: GetSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSpell (ResRef[, silent])

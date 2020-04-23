@@ -1,7 +1,6 @@
 ---
 title: GetJournalSize
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetJournalSize(chapter[, section])

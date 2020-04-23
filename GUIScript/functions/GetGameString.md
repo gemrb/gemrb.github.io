@@ -1,7 +1,6 @@
 ---
 title: GetGameString
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetGameString (Index)

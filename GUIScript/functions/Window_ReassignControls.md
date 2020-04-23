@@ -1,7 +1,6 @@
 ---
 title: Window_ReassignControls
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** ReassignControls (windowIndex, origIDtuple, newIDtuple)

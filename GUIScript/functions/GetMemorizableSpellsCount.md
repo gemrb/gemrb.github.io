@@ -1,7 +1,6 @@
 ---
 title: GetMemorizableSpellsCount
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetMemorizableSpellsCount (PartyID, SpellType, Level[, Bonus])

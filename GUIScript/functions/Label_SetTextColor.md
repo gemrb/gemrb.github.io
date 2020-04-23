@@ -1,7 +1,6 @@
 ---
 title: Label_SetTextColor
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetLabelTextColor (WindowIndex, ControlIndex, red, green, blue)

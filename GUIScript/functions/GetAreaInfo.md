@@ -1,7 +1,6 @@
 ---
 title: GetAreaInfo
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetAreaInfo ()

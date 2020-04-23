@@ -1,7 +1,6 @@
 ---
 title: GetMaxEncumbrance
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetMaxEncumbrance (globalID)

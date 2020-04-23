@@ -1,7 +1,6 @@
 ---
 title: RunRestScripts
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.RunRestScripts ()

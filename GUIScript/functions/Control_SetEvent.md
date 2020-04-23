@@ -1,7 +1,6 @@
 ---
 title: Control_SetEvent
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** _GemRB.Control_SetEvent (WindowIndex, ControlIndex, EventMask, PythonFunction)
@@ -31,17 +30,18 @@ layout: gs-function
 **Return value:** N/A
 
 **Examples:**
-    Bar.SetEvent (IE_GUI_PROGRESS_END_REACHED, EndLoadScreen)
+
+      Bar.SetEvent (IE_GUI_PROGRESS_END_REACHED, EndLoadScreen)
     ...
-  def EndLoadScreen ():
-    Skull = LoadScreen.GetControl (1)
-    Skull.SetMOS ('GSKULON')
+    def EndLoadScreen ():
+      Skull = LoadScreen.GetControl (1)
+      Skull.SetMOS ('GSKULON')
 The above example changes the image on the loadscreen when the progressbar reaches the end.
 
-  Button.SetEvent (IE_GUI_BUTTON_ON_PRESS, Buttons.YesButton)
+    Button.SetEvent (IE_GUI_BUTTON_ON_PRESS, Buttons.YesButton)
 The above example sets up the 'YesButton' function from the Buttons module to be called when the button is pressed.
 
-  Button.SetEvent (IE_GUI_MOUSE_OVER_BUTTON, ChaPress)
+    Button.SetEvent (IE_GUI_MOUSE_OVER_BUTTON, ChaPress)
 The above example shows how to implement 'context sensitive help'. The 'ChaPress' function displays a help text on the screen when you hover the mouse over a button.
 
 **See also:** [Window_GetControl](Window_GetControl.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetTimedEvent](SetTimedEvent.md), [accessing_gui_controls](accessing_gui_controls.md)

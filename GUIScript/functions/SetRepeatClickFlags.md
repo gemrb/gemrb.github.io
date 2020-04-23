@@ -1,7 +1,6 @@
 ---
 title: SetRepeatClickFlags
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetRepeatClickFlags (value, op)

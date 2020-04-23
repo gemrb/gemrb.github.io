@@ -1,7 +1,6 @@
 ---
 title: Button_SetPushOffset
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonPushOffset (WindowIndex, ControlIndex, x, y)

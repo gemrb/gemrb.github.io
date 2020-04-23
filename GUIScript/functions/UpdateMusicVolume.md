@@ -1,7 +1,6 @@
 ---
 title: UpdateMusicVolume
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UpdateMusicVolume ()

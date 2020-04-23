@@ -1,7 +1,6 @@
 ---
 title: GetPartySize
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetPartySize ()

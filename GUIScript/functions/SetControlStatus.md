@@ -1,7 +1,6 @@
 ---
 title: SetControlStatus
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetControlStatus (WindowIndex, ControlIndex, State)

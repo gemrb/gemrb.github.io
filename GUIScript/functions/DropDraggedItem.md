@@ -1,7 +1,6 @@
 ---
 title: DropDraggedItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DropDraggedItem (PartyID, Slot)

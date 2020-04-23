@@ -1,7 +1,6 @@
 ---
 title: GetCurrentArea
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetCurrentArea ()

@@ -1,7 +1,6 @@
 ---
 title: Window_DeleteControl
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DeleteControl (WindowIndex, ControlID)

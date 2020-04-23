@@ -1,7 +1,6 @@
 ---
 title: GetGameTime
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetGameTime ()

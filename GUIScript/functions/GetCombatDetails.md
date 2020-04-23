@@ -1,7 +1,6 @@
 ---
 title: GetCombatDetails
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetCombatDetails (pc, leftorright)

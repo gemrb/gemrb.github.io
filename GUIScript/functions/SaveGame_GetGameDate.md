@@ -1,7 +1,6 @@
 ---
 title: SaveGame_GetGameDate
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SaveGame_GetGameDate ()

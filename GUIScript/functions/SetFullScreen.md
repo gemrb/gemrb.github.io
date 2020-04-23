@@ -1,7 +1,6 @@
 ---
 title: SetFullScreen
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetFullScreen (flag)
@@ -10,7 +9,7 @@ layout: gs-function
 
 **Parameters:**
   * flag:
-    * -1 -  toggle fullscreen mode
+    * -1 -    toggle fullscreen mode
     * 0 - set windowed mode
     * 1 - set fullscreen mode
 

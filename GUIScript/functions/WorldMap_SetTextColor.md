@@ -1,7 +1,6 @@
 ---
 title: WorldMap_SetTextColor
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetWorldMapTextColor (WindowIndex, ControlIndex, which, red, green, blue)

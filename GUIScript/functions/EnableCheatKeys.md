@@ -1,7 +1,6 @@
 ---
 title: EnableCheatKeys
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.EnableCheatKeys (flag)

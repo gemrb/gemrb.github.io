@@ -1,7 +1,6 @@
 ---
 title: DumpActor
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DumpActor (globalID)

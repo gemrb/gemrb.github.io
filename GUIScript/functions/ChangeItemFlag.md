@@ -1,7 +1,6 @@
 ---
 title: ChangeItemFlag
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.ChangeItemFlag (PartyID, slot, flags, mode)

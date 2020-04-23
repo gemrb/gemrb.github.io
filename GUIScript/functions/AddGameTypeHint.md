@@ -1,7 +1,6 @@
 ---
 title: AddGameTypeHint
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.AddGameTypeHint (type, weight, flags=0)

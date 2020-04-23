@@ -1,7 +1,6 @@
 ---
 title: SetEquippedQuickSlot
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetEquippedQuickSlot (PartyID, QWeaponSlot[, ability])

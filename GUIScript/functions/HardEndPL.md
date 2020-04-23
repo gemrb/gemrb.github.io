@@ -1,7 +1,6 @@
 ---
 title: HardEndPL
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.HardEndPL ()

@@ -1,7 +1,6 @@
 ---
 title: LearnSpell
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.LearnSpell (PartyID, SpellResRef[, Flags, BookType, Level])

@@ -1,7 +1,6 @@
 ---
 title: Log
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.Log (log_level, owner, message)

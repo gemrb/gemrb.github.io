@@ -1,7 +1,6 @@
 ---
 title: UnloadSymbol
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.UnloadSymbol (SymbolIndex)

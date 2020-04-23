@@ -1,7 +1,6 @@
 ---
 title: StealFailed
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.StealFailed ()

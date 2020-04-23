@@ -1,7 +1,6 @@
 ---
 title: Control_SetText
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetText (WindowIndex, ControlIndex, String|Strref)

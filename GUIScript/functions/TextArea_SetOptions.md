@@ -1,7 +1,6 @@
 ---
 title: TextArea_SetOptions
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetOptions (WindowIndex, ControlIndex, Options)

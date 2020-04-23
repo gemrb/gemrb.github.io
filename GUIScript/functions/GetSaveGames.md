@@ -1,7 +1,6 @@
 ---
 title: GetSaveGames
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSaveGameCount ()

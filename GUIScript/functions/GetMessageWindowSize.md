@@ -1,7 +1,6 @@
 ---
 title: GetMessageWindowSize
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetMessageWindowSize ()

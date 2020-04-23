@@ -1,7 +1,6 @@
 ---
 title: EvaluateString
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.EvaluateString (String)

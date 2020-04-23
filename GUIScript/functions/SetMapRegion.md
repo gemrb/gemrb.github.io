@@ -1,7 +1,6 @@
 ---
 title: SetMapRegion
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetMapRegion (TrapName[, trapscript])

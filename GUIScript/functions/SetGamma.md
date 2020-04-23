@@ -1,7 +1,6 @@
 ---
 title: SetGamma
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetGamma (brightness, contrast)

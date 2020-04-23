@@ -1,7 +1,6 @@
 ---
 title: SaveGame_GetPortrait
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SaveGame_GetPortrait (save, index)

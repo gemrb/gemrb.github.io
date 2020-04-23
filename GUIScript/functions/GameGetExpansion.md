@@ -1,7 +1,6 @@
 ---
 title: GameGetExpansion
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameGetExpansion ()

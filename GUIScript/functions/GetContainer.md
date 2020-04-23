@@ -1,7 +1,6 @@
 ---
 title: GetContainer
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetContainer (PartyID[, autoselect])

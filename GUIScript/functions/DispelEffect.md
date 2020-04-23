@@ -1,7 +1,6 @@
 ---
 title: DispelEffect
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DispelEffect (globalID, EffectName, Parameter2)

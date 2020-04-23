@@ -1,7 +1,6 @@
 ---
 title: GetStoreItem
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetStoreItem (index[, righthand])

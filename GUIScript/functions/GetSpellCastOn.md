@@ -1,7 +1,6 @@
 ---
 title: GetSpellCastOn
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GetSpellCastOn (pc)

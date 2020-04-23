@@ -1,7 +1,6 @@
 ---
 title: Button_SetFont
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonFont (WindowIndex, ControlIndex, FontResRef)

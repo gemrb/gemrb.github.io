@@ -1,7 +1,6 @@
 ---
 title: Window_SetFrame
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetWindowFrame (WindowIndex)

@@ -1,7 +1,6 @@
 ---
 title: GameSetProtagonistMode
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.GameSetProtagonistMode (Mode)
@@ -10,7 +9,7 @@ layout: gs-function
 works only after a LoadGame().
 
 **Parameters:**
-  *  Mode:
+  *    Mode:
     * 0 no check
     * 1 game over when protagonist dies
     * 2 game over when whole party is dead

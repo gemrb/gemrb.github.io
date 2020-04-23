@@ -1,7 +1,6 @@
 ---
 title: Button_SetAnchor
 module: _GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetButtonAnchor (WindowIndex, ControlIndex, x, y)

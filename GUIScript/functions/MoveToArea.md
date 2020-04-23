@@ -1,7 +1,6 @@
 ---
 title: MoveToArea
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.MoveToArea (resref)

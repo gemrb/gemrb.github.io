@@ -1,7 +1,6 @@
 ---
 title: Button_SetFlags
 module: _GemRB
-classes: wide
 ---
 
 **Prototype:** GemRB.SetButtonFlags (WindowIndex, ControlIndex, Flags, Operation)
@@ -26,10 +25,11 @@ classes: wide
 **Return value:** N/A
 
 **Examples:**
-  GemRB.SetButtonFlags (window, button, IE_GUI_BUTTON_CHECKBOX, OP_OR)
+
+    GemRB.SetButtonFlags (window, button, IE_GUI_BUTTON_CHECKBOX, OP_OR)
 This command will make the button behave like a checkbox.
 
-  Button.SetFlags (IE_GUI_BUTTON_NO_IMAGE, OP_NAND)
+    Button.SetFlags (IE_GUI_BUTTON_NO_IMAGE, OP_NAND)
 This command will re-enable the images of the button (making it visible).
 
 **See also:** [Button_SetSprites](Button_SetSprites.md), [Button_SetPicture](Button_SetPicture.md), [Button_SetBAM](Button_SetBAM.md), [bit_operation](bit_operation.md)

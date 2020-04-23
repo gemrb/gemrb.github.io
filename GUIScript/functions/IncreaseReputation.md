@@ -1,7 +1,6 @@
 ---
 title: IncreaseReputation
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.IncreaseReputation (Donation)
@@ -10,7 +9,7 @@ layout: gs-function
 
 **Parameters:**
   * donation - gold spent to increase reputation. You have to change the
-  party's gold separately.
+    party's gold separately.
 
 **Return value:** Nonzero if the reputation has been increased. The amount
 of increase is multiplied by ten.

@@ -1,7 +1,6 @@
 ---
 title: DeleteSaveGame
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.DeleteSaveGame (Slot)

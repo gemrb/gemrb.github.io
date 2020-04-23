@@ -1,7 +1,6 @@
 ---
 title: SetInfoTextColor
 module: GemRB
-layout: gs-function
 ---
 
 **Prototype:** GemRB.SetInfoTextColor (red, green, blue[, alpha])
