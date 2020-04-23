@@ -102,6 +102,9 @@ what to work on, tools, useful links and more.
 Besides those tools, check our ["Cheats"](Cheats.md) page for a handful of useful
 hotkeys and instructions for using our inbuilt python console.
 
+Open issues with gists or draft pull requests if you want a structured discussion
+of your changes before they are ready for uptake. Otherwise just submit the PR.
+
 
 ### Save game compatibility
 
