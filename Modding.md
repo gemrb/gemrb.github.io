@@ -14,7 +14,7 @@ the 10 player party mod, enabling larger adventuring parties.
 Lastly, GemRB made many aspects of the games configurable by editing text files. What
 follows is a list of mod ideas, with the simpler ones requiring minimal effort on your
 part. Many have been gathered in the [**gemrb-tweaks**](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/gemrb-tweaks)
-mod for an easier install.
+mod for an easier install and have been removed from this list.
 
 ## Mod ideas
 
@@ -26,7 +26,7 @@ is your idea, just write it here and someone else will categorise it.
 These mods are just configuration tweaks or file drop-ins. A few game
 tweaks can be achieved by simply toggling variables in gemrb.ini ([check
 the note in the
-introduction](https://github.com/gemrb/gemrb/blob/master/gemrb/docs/en/gemrb_ini.txt)
+introduction](https://github.com/gemrb/gemrb/blob/master/gemrb/docs/en/gemrb_ini.txt#L21-L26)
 to learn about the candidates).
 
 Some of the table editing can be more complex due to the data involved.
@@ -36,9 +36,6 @@ also have to create them first, not just replace the existing entries.
   - divine spellcaster classes with sorcerer style spellcasting -
       - just set the booktype to 3 in the gemrb clskills.2da (caveat: it
         will affect every npc with that class)
-  - maximum hitpoint rolls in bg1
-      - just add "Maximum HP=1" to gem-baldur.ini (baldur.ini if it
-        doesn't exist yet)
   - different boni for weapon styles 
       - just edit unhardcoded/ws\*.2da as you see fit
   - different wild surges
