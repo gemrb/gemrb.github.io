@@ -24,7 +24,7 @@ it with a tint (like with unusable or unidentified item's icons).
 
 **Examples:**
 
-    GemRB.SetButtonBorder (Window, Icon, 0,  0, 0, 0, 0,  0, 0, 0, 160,  0, 1)
+    GemRB.SetButtonBorder (Window, Icon, 0,    0, 0, 0, 0,    0, 0, 0, 160,    0, 1)
 Not known spells are drawn darkened (the whole button will be overlaid).
 
     Button.SetBorder (FRAME_PC_SELECTED, 1, 1, 2, 2, 0, 255, 0, 255)

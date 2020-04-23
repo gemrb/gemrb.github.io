@@ -24,21 +24,21 @@ avprefix.2da is a gemrb specific table. Its first row contains the base animatio
 **For example:**
 avprefix.2da
           RESOURCE
-0       0x6000
+0         0x6000
 1         avprefr
 2         avprefg
 3         avprefc
 
 avprefr.2da
                   RACE
-TYPE            201
-HUMAN           0
-ELF             1
-HALF_ELF        1
-GNOME           4
-HALFLING        3
-DWARF           2
-HALFORC         5
+TYPE              201
+HUMAN             0
+ELF               1
+HALF_ELF          1
+GNOME             4
+HALFLING          3
+DWARF             2
+HALFORC           5
 
 Based on the avatar's stat (201 == race) the animationID (0x6000) will be increased by the given values. For example an elf's animationID will be 0x6001. The animationID will be further modified by gender and class.
 

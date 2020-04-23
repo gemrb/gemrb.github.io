@@ -25,11 +25,11 @@ control, which has various uses.
     * IE_GUI_BUTTON_FAKEDISABLED = 0x00000005, draws DISABLED bitmap, but it isn't disabled
     * IE_GUI_BUTTON_FAKEPRESSED = 0x00000006, draws PRESSED bitmap, but it isn't shifted
   * Text Edit states
-    * IE_GUI_EDIT_NUMBER    =  0x030000001, the textedit will accept only digits
+    * IE_GUI_EDIT_NUMBER    =    0x030000001, the textedit will accept only digits
   * Map Control States (add 0x09000000 to these):
-    * IE_GUI_MAP_NO_NOTES   =  0, no mapnotes visible
-    * IE_GUI_MAP_VIEW_NOTES =  1, view notes (no setting)
-    * IE_GUI_MAP_SET_NOTE   =  2, allow setting notes
+    * IE_GUI_MAP_NO_NOTES   =    0, no mapnotes visible
+    * IE_GUI_MAP_VIEW_NOTES =    1, view notes (no setting)
+    * IE_GUI_MAP_SET_NOTE   =    2, allow setting notes
 
 **Return value:** N/A
 
