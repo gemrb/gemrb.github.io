@@ -49,9 +49,7 @@ GemRB uses a settings file primarily to know where to look for the game data.
     the game's data files** (`GamePath`, very seldomly `CDx`). **It is crucial you get this right.**
 
 If you are curious, read the detailed explanation of all the [configuration options](Manpage.md).
-The configuration filename is arbitrary, but if you name it like we suggest, the engine
-will pick it up automatically and you won't need to specify where to find it — unless you want to
-play more than one game, in which case you will need several files.
+The configuration filename is arbitrary, but check the note in the last section.
 
 *Setting the paths can be tricky, so carefully read any errors that gemrb
 prints to the output or GemRB.log file before exiting. See [this old
@@ -69,10 +67,12 @@ If you haven't, edit it with a text editor, change all the paths that mention `C
 
 You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
-configuration file as needed. Usually the game path is set wrong.
+configuration file as needed. Usually the game path is set wrong, but also IWD2
+doesn't work at the preset resolution (change to `800x600`).
 
-Run the "gemrb" binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`.
-If you name the config "GemRB.cfg" and put it in the same folder as the binary, it will use
-that configuration file automatically and you don't need to specify anything.
+Run the `gemrb` binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`.
+If you named the configuration file `GemRB.cfg` and put it in the same folder as the binary,
+that file will be used automatically and you don't need to specify anything — you can **just
+click on the program**.
 
 If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
