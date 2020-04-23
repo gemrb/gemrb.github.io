@@ -4,8 +4,10 @@ toc: true
 ---
 
 This is the starting page for most of our technical documentation. Some extra
-nuggets can be found in the gemrb/docs/ subdir, but they're old and very specific.
+nuggets can be found in the `gemrb/docs/` subdir, but they're old and very
+specific.
 
+Quick link: [GUIScript documentation](GUIScript/Index.md)
 
 ## Getting the code
 
