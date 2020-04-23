@@ -44,7 +44,7 @@ defaults:
       layout: single
       toc_sticky: true
   - scope:
-      path: "/GUIScript/functions"
+      path: "GUIScript/functions"
     values:
       layout: gs-function
       classes: wide
