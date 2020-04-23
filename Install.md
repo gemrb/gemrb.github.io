@@ -34,7 +34,7 @@ any that modify the EXE files could lack the functionality those hacks achieved.
 
 # Install
 
-The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2013 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=40784), as GemRB will fail to start without two of its DLLs.
+The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2013 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=40784) (2017 for development builds), as GemRB will fail to start without two of its DLLs.
 
 If you downloaded the sources instead, follow the [compilation instructions](Dev-docs.md##setting-up-a-development-environment).
 GemRB can even run from the build dir without installing.
@@ -45,8 +45,10 @@ GemRB can even run from the build dir without installing.
 GemRB uses a settings file primarily to know where to look for the game data.
 
 1.  Copy `GemRB.cfg.sample` to a new file named `GemRB.cfg` in the same folder.
-2.  **Edit `GemRB.cfg`**. The only thing that **always needs to be changed** is the **path to
+2.  **Edit `GemRB.cfg`**:
+  * The only thing that **always needs to be changed** is the **path to
     the game's data files** (`GamePath`, very seldomly `CDx`). **It is crucial you get this right.**
+  * If you're running from a binary package, set `GemRBPath` to `.`.
 
 If you are curious, read the detailed explanation of all the [configuration options](Manpage.md).
 The configuration filename is arbitrary, but check the note in the last section.
@@ -59,8 +61,8 @@ on how to fix the encountered problems and set up the paths properly.*
 ## Windows
 
 The default config file `GemRB.cfg.sample` is preconfigured as if you unpacked the archive into `C:\`.
-If you haven't, edit it with a text editor, change all the paths that mention `C:\` and remove the hash
-`#` in front of them (`PluginsPath`, `GUIScriptsPath`, `GemRBOverridePath`, `GemRBUnhardcodedPath`).
+If you haven't, edit it with a text editor, change `PluginsPath` to `.\plugins` and remove the hash
+`#` in front of it.
 
 
 # Run GemRB
