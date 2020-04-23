@@ -1,0 +1,17 @@
+---
+title: GameIsPCSelected
+module: GemRB
+layout: gs-function
+---
+
+**Prototype:** GemRB.GameIsPCSelected (Slot)
+
+**Description:** Returns true if the PC is selected.
+
+**Parameters:**
+  * Slot - the PC's position in the party (1 based)
+
+**Return value:** boolean, 1 if the PC is selected
+
+**See also:** [GameSelectPC](GameSelectPC.md), [GameGetFirstSelectedPC](GameGetFirstSelectedPC.md)
+

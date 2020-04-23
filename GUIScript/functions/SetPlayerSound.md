@@ -1,0 +1,17 @@
+---
+title: SetPlayerSound
+module: GemRB
+layout: gs-function
+---
+
+**Prototype:** GemRB.SetPlayerSound (Slot, SoundFolder)
+
+**Description:** Sets the player character's soundset.
+
+**Parameters:**
+  * Slot        - numeric, the character's slot
+  * SoundFolder - string, a folder in Sounds (iwd2 style), or a filename (bg2 style)
+
+**Return value:** N/A
+
+**See also:** [GetPlayerSound](GetPlayerSound.md), [FillPlayerInfo](FillPlayerInfo.md), [SetPlayerString](SetPlayerString.md)

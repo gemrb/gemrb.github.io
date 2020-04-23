@@ -1,5 +1,6 @@
 ---
-title: asdasdasd
+title: GetCombatDetails
+module: GemRB
 layout: gs-function
 ---
 
@@ -17,6 +18,4 @@ equipped weapon.
 'APR', 'CriticalMultiplier', 'CriticalRange', 'ProfDmgBon', 
 'LauncherDmgBon', 'WeaponStrBonus', 'AC' (dict), 'ToHitStats' (dict)
 
-**See also:** [IsDualWielding](Getcombatdetails.md)
-**See also:** [IsDualWielding](/GUIScript/functions/Getcombatdetails.md)
-
+**See also:** [IsDualWielding](IsDualWielding.md)

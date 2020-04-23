@@ -1,0 +1,26 @@
+---
+title: Window_SetFrame
+module: _GemRB
+layout: gs-function
+---
+
+**Prototype:** GemRB.SetWindowFrame (WindowIndex)
+
+**Metaclass Prototype:** SetFrame ()
+
+**Description:** Sets Window to have a frame used to fill screen on higher 
+resolutions. At present all windows having frames have the same one.
+
+To automatically move the windows from the edges and to let GemRB know 
+how much space is there, the LoadWindowPack() function should be called 
+with size parameters.
+
+Make sure to set the frame only for the window on the bottom, because the 
+frames will erase the whole screen before drawing.
+
+**Parameters:**
+  * WindowIndex - the index returned by LoadWindow()
+
+**Return value:** N/A
+
+**See also:** [LoadWindowFrame](LoadWindowFrame.md), [LoadWindowPack](LoadWindowPack.md), [LoadWindow](LoadWindow.md), [Window_SetPos](Window_SetPos.md)
