@@ -43,6 +43,11 @@ defaults:
     values:
       layout: single
       toc_sticky: true
+  - scope:
+      path: "/GUIScript/functions"
+    values:
+      layout: gs-function
+      classes: wide
 
 search: true
 search_provider: algolia
