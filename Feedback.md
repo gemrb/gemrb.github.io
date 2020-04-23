@@ -39,3 +39,5 @@ help upstream any patches  and consider your distributions particular needs.
 
 If it's not fitting for the tracker, pop in on the [forum]({{ site.forum }}),
 [Discord]({{ site.discord }}) or [IRC]({{ site.irc }}) channel and share there.
+If you found a security issue, contact the authors privately or file an issue
+on the [tracker](https://github.com/gemrb/gemrb/issues/new/choose).
