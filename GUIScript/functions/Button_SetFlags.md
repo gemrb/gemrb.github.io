@@ -2,6 +2,7 @@
 title: Button_SetFlags
 module: _GemRB
 layout: gs-function
+classes: wide
 ---
 
 **Prototype:** GemRB.SetButtonFlags (WindowIndex, ControlIndex, Flags, Operation)
