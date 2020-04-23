@@ -1,4 +1,7 @@
-## GetCombatDetails
+---
+title: GetCombatDetails
+layout: gs-function
+---
 
 **Prototype:** GemRB.GetCombatDetails (pc, leftorright)
 
