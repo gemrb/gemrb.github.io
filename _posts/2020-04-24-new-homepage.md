@@ -1,6 +1,8 @@
 ---
 title:  "New homepage! (Minimal Mistakes edition)"
 author: Jaka Kranjc
+header:
+  image: /assets/img/news/dokuwiki-gemrb.jpg
 ---
 
 Welcome to our new website! It has been long overdue, but of course we're
