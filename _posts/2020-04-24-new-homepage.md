@@ -19,7 +19,7 @@ The new site is Jekyll-based and hosted on GitHub Pages, bringing us these
 benefits:
  - lower maintenance burden, so we can focus on the content
    - at the same time it's now possible to override the layout when needed,
-     like on the landing page or the [function index](/GUIScript/Functions.md)
+     like on the landing page or the [function index](/GUIScript/Functions.html)
    - we get SSL without needing to lift a finger, since Let's Encrypt is
      integrated into GitHub Pages
    - greater security and speed, since the pages are static
