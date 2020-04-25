@@ -31,9 +31,10 @@ TODO: add subviews goodies
    - for arbitrary higher resolutions at the same pixel count
    - game window scaling, for more game real estate without the Widescreen mod
  - [custom font support](Fonts.md)
- - in BG chargen, the default portrait is randomised (for our sanity's
+ - in character generation, the default portrait is randomised (for our sanity's
    sake :))
- - some GUI tweaks that allow infinite kits/spells/etc
+ - some GUI tweaks that allow infinite kits, spells and so on or improve usability
+   in other ways
  - better support for [internationalization](Text-encodings.md) of game resources
 
 
