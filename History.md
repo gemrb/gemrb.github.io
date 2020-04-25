@@ -49,7 +49,7 @@ its true home.
 The exact origins of GemRB are lost to time, but on the **21st of August
 2000** the project registered on the SourceForge hosting platform, which
 is our main [file host](https://sourceforge.net/p/gemrb) to this day. So
-**Gemrb development started even before all games were released!**
+**GemRB development started even before all games were released!**
 
 But it's clear the talks started sooner, since the first message to a
 mailing list created the following day mentions older pine mailing
@@ -73,10 +73,10 @@ been migrating to Discord.
 ## Development milestones
 
 Major game milestones, GemRB releases when a certain game became completable:
-- 0.5.1, 2009: BG2:SoA
-- 0.6.0, 2009: BG1, IWD
-- 0.6.3, 2010: IWD:HoW
-- 0.7.0, 2011: full BG saga (BG2:ToB support)
-- 0.8.0, 2013: IWD:TotLM, BG1:TotSC
-- 0.8.4, 2016: PS:T
-- TODO: IWD2
+- **0.5.1**, 2009: BG2:SoA
+- **0.6.0**, 2009: BG1, IWD
+- **0.6.3**, 2010: IWD:HoW
+- **0.7.0**, 2011: full BG saga (BG2:ToB support)
+- **0.8.0**, 2013: IWD:TotLM, BG1:TotSC
+- **0.8.4**, 2016: PS:T
+- [**TODO**](https://github.com/gemrb/gemrb/milestone/4): IWD2
