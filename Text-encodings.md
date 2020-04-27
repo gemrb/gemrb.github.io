@@ -6,14 +6,14 @@ toc: true
 ## Support for non-ASCII (multibyte) languages
 
 If you have a multibyte encoded `dialog.tlk` you will have to add the
-Encoding setting to your gemrb.cfg. Set Encoding = to your language and
+Encoding setting to your gemrb.cfg. Set `Encoding =` to your language and
 make sure that an ini file matching your language exists under
-*unhardcoded/shared*. If no ini file matching your language exists, one
+`unhardcoded/shared`. If no ini file matching your language exists, one
 must be created.
 
-The TTF plugin *must* be either compiled with *iconv* support, or you
-must convert your dialog.tlk (see [tlk_convert](https://github.com/gemrb/gemrb/tree/master/tools/tlk_convert))
-to UTF-8 to use a non-Unicode compatible dialog.tlk/font.
+The TTF plugin *must* be either compiled with **iconv** support, or you
+must convert your `dialog.tlk` (see [tlk_convert](https://github.com/gemrb/gemrb/tree/master/tools/tlk_convert))
+to UTF-8 to use a non-Unicode compatible `dialog.tlk`/font.
 
 To create your own *language*.ini, make a new text file like this
 (Chinese example):
@@ -21,8 +21,9 @@ To create your own *language*.ini, make a new text file like this
     [encoding]
     TLKEncoding = GBK
 
-Consult the following sections to learn what encoding
-your dialog.tlk is in.
+Consult the following sections to learn what encoding your `dialog.tlk`
+is in. Also check out the 
+[format documentation](https://github.com/gemrb/gemrb/blob/master/gemrb/docs/en/default_ini.txt).
 
 After you have a working *language*.ini, you should be able to play
 using either Unicode compatible TTF fonts or the BAM fonts supplied with
@@ -50,6 +51,11 @@ IE.
 Polish for BG1 uses an ad-hoc encoding invented by CDProjekt. It's
 definitely not any Polish encoding mentioned at
 [Wikipedia](http://en.wikipedia.org/wiki/Polish_code_pages).
+
+### German
+
+One of the least problematic TLKs, requiring just a few German characters
+remapped for proper display.
 
 ### Russian
 
