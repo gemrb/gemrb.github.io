@@ -53,7 +53,7 @@ is our main [file host](https://sourceforge.net/p/gemrb) to this day. So
 
 But it's clear the talks started sooner, since the first message to a
 mailing list created the following day mentions older pine mailing
-lists. **Danielle Collantoni** was the initial driving force and after
+lists. **Daniele Collantoni** was the initial driving force and after
 some rough beginnings, serious and full blown development was again
 underway by late 2003, as evidenced by the CVS logs and news items.
 
