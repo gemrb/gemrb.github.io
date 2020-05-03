@@ -101,6 +101,7 @@ Here are some screenshots of gemrb running Infinity Engine games.
 
 {% include gallery id="gallery-mods" caption="All the **mods**." %}
 
+<a name="exotic-platforms"> </a>
 {% include gallery id="gallery-exotics" caption="All the **platforms**." %}
 
 # Videos
