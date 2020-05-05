@@ -92,6 +92,8 @@ There is also a [tiny tech
 demo](https://github.com/gemrb/gemrb/tree/master/demo) bundled with GemRB,
 but it requires more content to be more than a simple test case.
 
+Multiplayer is **not** supported.
+
 If you can't wait to see what improvements the next release will bring, a terse overview of what
 has already been done is in the [changelog in the making](https://github.com/gemrb/gemrb/blob/master/NEWS),
 updated approximately every 100 changes.
