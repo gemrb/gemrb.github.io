@@ -14,7 +14,8 @@ Cheat keys are enabled by default.
 
 ## Pop-up console
 
-You can toggle the console with the **Ctrl+Space** key combination. It accepts all
+You can toggle the console with the **Ctrl+Space** key combination, which will
+open or close it respectively at the top of the screen. It accepts all
 [GUIScript commands](GUIScript/Functions.md)  and python expressions. The GemRB
 module is already imported, so it's enough to call `GameSetPartyGold(1000)`
 instead of `GemRB.GameSetPartyGold(1000)`.
