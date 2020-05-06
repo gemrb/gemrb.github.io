@@ -11,7 +11,9 @@ those include:
   - effects of difficulty on xp and damage are configurable through
     difflvls.2da
   - arbitrary formations are supported: externalised to a 2da table, with an
-    accompanying generator (for the relative coordinates)
+    accompanying generator for the relative coordinates
+  - more file formats are supported (eg. PNG, OGG), so custom portraits and sound sets
+    are easier to create
   - many [ToBEx](ToBEx.md) extensions are also implemented
   
 ... and more, this list is not yet comprehensive
