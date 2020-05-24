@@ -8,7 +8,7 @@ The MSVC Community 2019 edition can be
 [downloaded for free](https://visualstudio.microsoft.com/vs/features/cplusplus/).
 
 The Visual Studio installer presents you with a ton of options for various scenarios you
-might use it for via the ‘Workloads’ landing page.This is fine for general deployment,
+might use it for via the "Workloads" landing page. This is fine for general deployment,
 but the full install weighs around 7 GB, so you may want to choose individual components
 to minimise your download time.
 
@@ -33,7 +33,8 @@ building these libraries (among others) under Windows.
 Open a powershell terminal from within Visual Studio:
 `Tools > Command line- > Developer powershell`
 
-Then run the following commands. Hint: no need to type anything, copy and hit “shift+ins”.
+Then run the following commands. Hint: no need to type anything, copy and hit
+"shift+ins".
 
 Download and configure VCPKG with:
 ```
@@ -54,26 +55,29 @@ And finally tell Visual Studio where to find the new files:
 .\vcpkg integrate install
 ```
 
-## Clone the GemRB repository 
-After solving the previous steps, open Visual Studio again, it should start automatically with several options, pick ‘Clone or check out code’ and point it to your fork or
+## Get GemRB sources and build them
+Open Visual Studio again, pick `Clone or check out code` and point it to your **fork**
+or the main repository ([see note](https://gemrb.github.io/Dev-docs.html#getting-the-code)):
 
-https://github.com/gemrb/gemrb.git (see note: https://gemrb.github.io/Dev-docs.html#getting-the-code)
+    https://github.com/gemrb/gemrb.git 
 
-VS will gladly import GemRB as a CMake based project. The landing page will give you the option to open the built in CMake settings GUI if you wish to change any settings from the default.
+Visual Studio will gladly import GemRB as a CMake based project. The landing page
+will give you the option to open the built-in CMake settings GUI if you wish to
+change any default settings.
 
- When you are happy with the configuration, go to Project->Generate cache for GemRB
+When you are happy with the configuration, go to `Project->Generate cache for GemRB`.
 
-Go to Build->Build all or hit F7 to try to build gemrb.
+To build GemRB go to `Build->Build all` or hit `F7`.
 
-You will more than likely see some compiler warnings. In most cases they shouldn’t be anything to worry about. The regular tool for building GemRB is GCC, and MSVC has its own criteria of things to pick on.
-
-If you get compiler errors on the other hand, in other words, you don’t get a working executable, then save the contents of the log and reach out for support
+If you get any compiler errors instead of a working executable, then save the
+contents of the build log and open an issue on the tracker.
 
 
 ## Configure and run the game
 
-Configure “GamePath=”  in GemRB.cfg to the directory containing your game files
+Follow the common [instructions](https://gemrb.github.io/Install.html#configure-gemrb).
 
-Refer to this page for instructions setting up the game:
-
-https://gemrb.github.io/Install.html#configure-gemrb
+If you want to run GemRB from within Visual Studio with several config files
+to be able to test several games at once, add new launcher configurations that
+specify a path to those config files, so the final invocation is eg. 
+`gemrb.exe -c torment.cfg` or `gemrb.exe -c myiwd2.cfg`.
