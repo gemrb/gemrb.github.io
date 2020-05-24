@@ -30,7 +30,7 @@ x86-64 or ARM)! The up to date list can be found in the
 
 The file also contains general compilation instructions, but here's the gist:
 1. **Windows**:
-Follow the [MSVC]() or the [MSYS2]() guide. https://github.com/gemrb/gemrb/issues/611
+Follow the [MSVC](MSVC-build.md) or the [MSYS2]() guide. https://github.com/gemrb/gemrb/issues/611
 2. **macOS**:
 There's an xcode project file included. You can also try generating it with
 cmake.
@@ -38,12 +38,12 @@ cmake.
 ```
 mkdir build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Debug [some other options] # or cmake-gui ..
+cmake .. -DCMAKE_BUILD_TYPE=Debug
 make -j3
 ```
 
 **Note:** GemRB can run from the build dir, so there's no need to install it by
-running the `install` target.
+running `make install`.
 
 
 ## Project infrastructure
