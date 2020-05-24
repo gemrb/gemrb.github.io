@@ -30,7 +30,8 @@ x86-64 or ARM)! The up to date list can be found in the
 
 The file also contains general compilation instructions, but here's the gist:
 1. **Windows**:
-Follow the [MSVC](MSVC-build.md) or the [MSYS2]() guide. https://github.com/gemrb/gemrb/issues/611
+Follow the [MSVC](MSVC-build.md) or the [MSYS2/MinGW](MSYS2-build.md) guide.
+They include instructions for installing the dependencies.
 2. **macOS**:
 There's an xcode project file included. You can also try generating it with
 cmake.
