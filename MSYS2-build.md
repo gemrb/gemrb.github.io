@@ -47,7 +47,9 @@ pacman -S mingw-w64-x86_64-libpng mingw-w64-x86_64-freetype
 ```
 Iconv should already be present just like Zlib. 
 
-We also use libvlc, but it was untested whether mingw-w64-x86_64-vlc provides it.
+We also use libvlc for videos in mac versions of a game, but that's both very
+rare and requires further tweeking to get `mingw-w64-x86_64-vlc` (a 2GB install)
+recognized.
 
 
 ## Get GemRB sources and build them
@@ -78,9 +80,7 @@ cd gemrb
 
 It is possible to use multiple game configuration files to support running different
 games at the same time. For example, make a copy of `GemRB.cfg` to `Torment.cfg`
-and run the game with the command:
-
-`./gemrb.exe -c Torment.cfg`
+and run the game with the command`./gemrb.exe -c Torment.cfg`.
 
 You can try making a symbolic link to the exe as well. The name of the file is also
 the name of the configuration file that will be sought. Eg. `./myiwd2.exe` will
@@ -106,7 +106,7 @@ does.
 
 Add `C:\msys64\mingw64\bin` if you installed it in the default location, while
 the following screenshot used a different path:
-![setting PATH]()
+![setting PATH](/assets/img/win-envvars.jpg)
 
 At this stage, you should be able to run the game from Windows Explorer
 by just clicking on `gemrb.exe`.
