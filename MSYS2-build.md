@@ -3,9 +3,7 @@ title: MSYS2 (MinGW) compilation guide
 toc: true
 ---
 
-** WIP, placeholder copy of MSVC instructions **
-
-## Install MSYS2 and update the package databases
+## Install MSYS2
 
 MSYS2 provides a simple command line solution that can be used to set up all the required
 tools and libraries to build and run GemRB from source.
@@ -16,9 +14,6 @@ It uses pacman, which is the package management tool used by Arch Linux. It will
 approximately 2.5GB of space to install everything, but the download size is actually
 much smaller.
 
-*Important*: If you want to run GemRB from outside the MSYS2 shell, don't skip the last
-[section](#). It will guide you through the needed steps.
-
 
 ## Install build tools
 
@@ -28,8 +23,7 @@ This command will install the required collection of tools for compilation. *Tip
 can copy it to the clipboard and press *Shift+Insert* to run it in the terminal.
 
 ```
-pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-cmake mingw-w64-x86_64-extra-cmake-modules git
-make
+pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-extra-cmake-modules git make
 ```
 
 
@@ -93,7 +87,13 @@ the name of the configuration file that will be sought. Eg. `./myiwd2.exe` will
 search for `./myiwd2.cfg`.
 
 
-## Add MinGW64 binary path to the Windows search path
+## Configure Windows search paths
+
+On Windows 10, you can simply type `env` in the start menu search box to get to
+the relevant control panel to do this. On other versions you can usually get to
+system properties by right clicking `My Computer`.
+
+### Running from outside the shell
 
 If you want to be able run the game from outside of the MSYS2 terminal, you will
 need to add the MinGW dll file location to the Windows `PATH` environment variable
@@ -104,18 +104,16 @@ conflicts on a user's system, but unless you already have another MinGW or Cygwi
 setup installed, it should not cause any issues, and is easily reversible if it
 does.
 
-On Windows 10, you can simply type `env` in the start menu search box to get to
-the relevant control panel to do this. On other versions you can usually get to
-system properties by right clicking `My Computer`.
- 
 Add `C:\msys64\mingw64\bin` if you installed it in the default location, while
 the following screenshot used a different path:
 ![setting PATH]()
 
+At this stage, you should be able to run the game from Windows Explorer
+by just clicking on `gemrb.exe`.
+
+### Setting the python path
+
 If you are going to use the python package that comes with MSYS2, you will also
 need to set the `PYTHONPATH` variable to `C:\msys64\mingw64\lib\python2.7`.
 Adapt the path if you installed MSYS2 somewhere else.
-
-At this stage, you should be able to run the game from Windows Explorer
-by just clicking on `gemrb.exe`.
 
