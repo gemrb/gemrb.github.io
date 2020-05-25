@@ -16,7 +16,7 @@ It uses pacman, which is the package management tool used by Arch Linux. It will
 approximately 2.5GB of space to install everything, but the download size is actually
 much smaller.
 
-Important: If you want to run GemRB from outside the MSYS2 shell, don't skip the last
+*Important*: If you want to run GemRB from outside the MSYS2 shell, don't skip the last
 [section](#). It will guide you through the needed steps.
 
 
@@ -24,7 +24,7 @@ Important: If you want to run GemRB from outside the MSYS2 shell, don't skip the
 
 If you closed it, open up the MSYS2 shell again.
 
-This command will install the required collection of tools for compilation. Tip: you
+This command will install the required collection of tools for compilation. *Tip*: you
 can copy it to the clipboard and press *Shift+Insert* to run it in the terminal.
 
 ```
@@ -33,77 +33,43 @@ make
 ```
 
 
+## Install dependencies
 
+All the dependencies GemRB requires can also be installed from within MSYS2. 
 
-
-
-The MSVC Community 2019 edition can be 
-[downloaded for free](https://visualstudio.microsoft.com/vs/features/cplusplus/).
-
-The Visual Studio installer presents you with a ton of options for various scenarios you
-might use it for via the "Workloads" landing page. This is fine for general deployment,
-but the full install weighs around 7 GB, so you may want to choose individual components
-to minimise your download time.
-
-When installing include also these individual options:
- * **C++**, version does not matter
- * **Python 2**, pick the 64-bit version
- * **Git**, the github support feature is optional
- * **CMake**
- * **Windows (10) SDK**, any version should do — if not, let us know
-
-
-## Install dependencies — external SDKs
-After you have installed Visual Studio, you will need to install the libraries that
-GemRB depends upon to work.
-
-The required external libraries are **SDL** and **Zlib**. You will want audio too,
-so grab OpenAL and the other optional dependencies.
- 
-To download them, we use VCPKG, a package manager that is specifically made to support
-building these libraries (among others) under Windows. 
-
-Open a powershell terminal from within Visual Studio:
-`Tools > Command line- > Developer powershell`
-
-Then run the following commands. Hint: no need to type anything, copy and hit
-"shift+ins".
-
-Download and configure VCPKG with:
+First the required dependencies:
 ```
-git clone https://github.com/Microsoft/vcpkg
-cd vcpkg
-.\bootstrap-vcpkg.bat
+pacman -S mingw-w64-x86_64-python2 mingw-w64-x86_64-SDL2
 ```
+Zlib has already been installed during the initial MSYS2 setup.
 
-Then install the all the dependencies:
-```
-.\vcpkg install sdl2:x64-windows zlib:x64-windows
-.\vcpkg install openal-soft:x64-windows sdl2-mixer:x64-windows libpng:x64-windows
-.\vcpkg install libogg:x64-windows libvorbis:x64-windows freetype:x64-windows libiconv:x64-windows
-```
+*Note*: If you have python 2.7 installed on your system already, CMake should find it
+and you don't need to install it here.
 
-And finally tell Visual Studio where to find the new files:
+Then come the optional dependencies:
 ```
-.\vcpkg integrate install
+pacman -S mingw-w64-x86_64-openal mingw-w64-x86_64-SDL2_mixer mingw-w64-x86_64-libogg mingw-w64-x86_64-libvorbis
+pacman -S mingw-w64-x86_64-libpng mingw-w64-x86_64-freetype
 ```
+Iconv should already be present just like Zlib. 
+
+We also use libvlc, but it was untested whether mingw-w64-x86_64-vlc provides it.
+
 
 ## Get GemRB sources and build them
-Open Visual Studio again, pick `Clone or check out code` and point it to your **fork**
-or the main repository ([see note](https://gemrb.github.io/Dev-docs.html#getting-the-code)):
 
-    https://github.com/gemrb/gemrb.git 
+Grab your **fork's** Git URL or use the main repository one as in this example
+([see note](https://gemrb.github.io/Dev-docs.html#getting-the-code)). The
+following commands will do everything else:
 
-Visual Studio will gladly import GemRB as a CMake based project. The landing page
-will give you the option to open the built-in CMake settings GUI if you wish to
-change any default settings.
-
-When you are happy with the configuration, go to `Project->Generate cache for GemRB`.
-
-To build GemRB go to `Build->Build all` or hit `F7`.
-
-If you get any compiler errors instead of a working executable, then save the
-contents of the build log and open an issue on the tracker.
+```
+git clone https://github.com/gemrb/gemrb.git gemrb
+mkdir gemrb/build
+# start building
+cd gemrb/build
+cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Debug ..
+make
+```
 
 
 ## Configure and run the game
