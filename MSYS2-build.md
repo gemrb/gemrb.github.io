@@ -76,7 +76,46 @@ make
 
 Follow the common [instructions](https://gemrb.github.io/Install.html#configure-gemrb).
 
-If you want to run GemRB from within Visual Studio with several config files
-to be able to test several games at once, add new launcher configurations that
-specify a path to those config files, so the final invocation is eg. 
-`gemrb.exe -c torment.cfg` or `gemrb.exe -c myiwd2.cfg`.
+Then change to the gemrb directory inside the build directory and run GemRB:
+```
+cd gemrb
+./gemrb.exe
+```
+
+It is possible to use multiple game configuration files to support running different
+games at the same time. For example, make a copy of `GemRB.cfg` to `Torment.cfg`
+and run the game with the command:
+
+`./gemrb.exe -c Torment.cfg`
+
+You can try making a symbolic link to the exe as well. The name of the file is also
+the name of the configuration file that will be sought. Eg. `./myiwd2.exe` will
+search for `./myiwd2.cfg`.
+
+
+## Add MinGW64 binary path to the Windows search path
+
+If you want to be able run the game from outside of the MSYS2 terminal, you will
+need to add the MinGW dll file location to the Windows `PATH` environment variable
+or it will not be able to find them. 
+
+The MSYS2 installer avoids doing this by default to avoid causing potential
+conflicts on a user's system, but unless you already have another MinGW or Cygwin
+setup installed, it should not cause any issues, and is easily reversible if it
+does.
+
+On Windows 10, you can simply type `env` in the start menu search box to get to
+the relevant control panel to do this. On other versions you can usually get to
+system properties by right clicking `My Computer`.
+ 
+Add `C:\msys64\mingw64\bin` if you installed it in the default location, while
+the following screenshot used a different path:
+![setting PATH]()
+
+If you are going to use the python package that comes with MSYS2, you will also
+need to set the `PYTHONPATH` variable to `C:\msys64\mingw64\lib\python2.7`.
+Adapt the path if you installed MSYS2 somewhere else.
+
+At this stage, you should be able to run the game from Windows Explorer
+by just clicking on `gemrb.exe`.
+
