@@ -5,7 +5,38 @@ toc: true
 
 ** WIP, placeholder copy of MSVC instructions **
 
-## Install MSVC, windows runtime libraries and tools
+## Install MSYS2 and update the package databases
+
+MSYS2 provides a simple command line solution that can be used to set up all the required
+tools and libraries to build and run GemRB from source.
+[**Download and install it**](https://www.msys2.org/). More detailed instructions are
+available [here](https://www.msys2.org/wiki/MSYS2-installation/).
+
+It uses pacman, which is the package management tool used by Arch Linux. It will require
+approximately 2.5GB of space to install everything, but the download size is actually
+much smaller.
+
+Important: If you want to run GemRB from outside the MSYS2 shell, don't skip the last
+[section](#). It will guide you through the needed steps.
+
+
+## Install build tools
+
+If you closed it, open up the MSYS2 shell again.
+
+This command will install the required collection of tools for compilation. Tip: you
+can copy it to the clipboard and press *Shift+Insert* to run it in the terminal.
+
+```
+pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-cmake mingw-w64-x86_64-extra-cmake-modules git
+make
+```
+
+
+
+
+
+
 The MSVC Community 2019 edition can be 
 [downloaded for free](https://visualstudio.microsoft.com/vs/features/cplusplus/).
 
