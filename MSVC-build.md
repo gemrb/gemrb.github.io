@@ -34,7 +34,7 @@ Open a powershell terminal from within Visual Studio:
 `Tools > Command line- > Developer powershell`
 
 Then run the following commands. Hint: no need to type anything, copy and hit
-"shift+ins".
+*Shift+Insert*.
 
 Download and configure VCPKG with:
 ```
