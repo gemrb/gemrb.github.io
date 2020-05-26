@@ -53,3 +53,4 @@ TODO: add subviews goodies
        closed the same way
      - many extra buttons are marked as default and default cancel,
        so you can use enter and escape
+   - holding shift while scrolling with the mouse wheel simulates horizontal scrolling
