@@ -42,8 +42,10 @@ TODO: add subviews goodies
 
 ## Input
  - (multi)touch input support
- - most games didn't even support mouse wheels
- - keyboard
+ - mouse
+   - most games didn't even support mouse wheels
+   - holding shift while scrolling with the mouse wheel simulates horizontal scrolling
+  - keyboard
      - if [~~cheat~~debug keys](Cheats.md) are turned on:
        - ctrl-y will also force unlock doors and containers
        - ctrl-shift-y will kill all the enemies in the area
@@ -53,4 +55,3 @@ TODO: add subviews goodies
        closed the same way
      - many extra buttons are marked as default and default cancel,
        so you can use enter and escape
-   - holding shift while scrolling with the mouse wheel simulates horizontal scrolling
