@@ -48,6 +48,11 @@ defaults:
     values:
       layout: gs-function
       classes: wide
+  - scope:
+      path: ""
+      type: posts
+    values:
+      classes: wide
 
 search: true
 search_provider: algolia
