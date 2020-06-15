@@ -9,7 +9,7 @@ of Tempered Steel*. They interpreted the *Main Theme* and the epilogue features 
 
 The video was done with GemRB, since the producers wanted a mix of pseudo-dialog and
 pseudo-cutscenes, not something we're used to in this community. The overview of the process is
-[documented here](https://www.reflexionsital.cat/p/baldurs-gate-tribute-video-howto.html)
+[documented here](https://www.reflexionsital.cat/p/baldurs-gate-tribute-video-howto.html).
 
 After the arduous process and some improvements to GemRB, here's the final version:
 
