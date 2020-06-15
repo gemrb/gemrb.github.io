@@ -112,6 +112,7 @@ This is a list of links to videos showing GemRB in action.
 below](http://www.youtube.com/view_play_list?p=0AE43FB55973C06A) (and many
 more):
 
+  - [Metal cover of BG1 music](https://www.youtube.com/watch?v=GcHZfunvL-o) (GemRB 0.8.6-git)
   - **[how to configure
     GemRB](http://www.youtube.com/watch?v=32BZouraDPM&list=PL0AE43FB55973C06A&index=23&feature=plpp_video)**
   - [Icewind dale I on ZTE
