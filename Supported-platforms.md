@@ -14,7 +14,7 @@ website.
   - Windows (regular, 64-bit versions, RT)
   - Linux (x86, arm, ppc, mips, s390x and their 64-bit versions)
   - Mac OS (various, even pre x86)
-  - FreeBSD, OpenBSD, NetBSD
+  - FreeBSD, OpenBSD, NetBSD, DragonflyBSD
   - Pandora, Haiku,
     [Maemo](http://talk.maemo.org/showthread.php?t=16947), ReactOS,
     SyllableOS, [Raspberry
