@@ -3,8 +3,7 @@ name: CI
 on:
   schedule:
     # once per month, midnight on the 1st
-    #- cron: 0 0 1 1/1
-    - cron: 30 17 * 7 *
+    - cron: 0 0 1 1/1
 
 jobs:
   # This workflow contains a single job called "build"
@@ -24,8 +23,8 @@ jobs:
       with:
         commit_message: Hack CNAME
 
-    - name: Wait 30 min
-      run: sleep 30m
+    - name: Wait 10 min
+      run: sleep 10m
 
     - name: restore CNAME
       run: sed -i 's,^.*$,gemrb.org,' CNAME
