@@ -3,7 +3,7 @@ name: CI
 on:
   schedule:
     # once per month, midnight on the 1st
-    - cron: 0 0 1 1/1
+    - cron: 0 0 1 1/1 *
 
 jobs:
   # This workflow contains a single job called "build"
