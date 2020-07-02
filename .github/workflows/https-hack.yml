@@ -4,7 +4,7 @@ on:
   schedule:
     # once per month, midnight on the 1st
     #- cron: 0 0 1 1/1
-    - cron: 30 20 * 7
+    - cron: 30 20 * 7 *
 
 jobs:
   # This workflow contains a single job called "build"
