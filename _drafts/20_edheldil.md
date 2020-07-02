@@ -4,8 +4,8 @@ author: Jaka Kranjc, Jarda Benkovský
 ---
 
 On the occasion of the anniversary, we asked a few questions from Jarda
-"Edheldil" Benkovský, a long time project maintainer, iesh creator and the
-first web guru.
+"Edheldil" Benkovský, a long time project maintainer, [iesh](https://github.com/gemrb/iesh)
+creator and the first web guru.
 
 **1. How did you find your way into GemRB?**
 
@@ -92,4 +92,4 @@ nice people. I am also proud of the work we have done on the project. 
 Too bad that we did not attract some indie game studio to build a new 
 game using our engine.
 
-TODO: link to other interviews
+**TODO: link to other interviews**
