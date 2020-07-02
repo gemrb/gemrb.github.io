@@ -49,10 +49,8 @@ Beamdog). A minor obstruction was that I got hired by Beamdog, so that
 kinda ended my GemRB involvement. Not like they forbid it, I just couldn't
 work on the "same" code all the time.
 
-**5. Do you remember some contributions that you're really proud of (be
- it a milestone like getting a subsystem to work, first area to draw
- etc. or something else)? Or a problem that was especially infuriating
- to solve?**
+**5. Do you remember some contributions that you're really proud of? Or
+ a problem that was especially infuriating to solve?**
 
 I'm pretty proud of the effect subsystem. The fact that the same GemRB
 version could simulate all the Infinity versions. To some degree, I also
