@@ -59,7 +59,7 @@ different, all the projects are open to contribution.
 
 GitHub hosts the code, the issue trackers and this page.
 [Sourceforge](http://sourceforge.net/projects/gemrb/) hosts the original
-project page and download center. We're also registered on [Open 
+project page, mailing lists and download center. We're also registered on [Open 
 HUB](https://www.openhub.net/p/gemrb?p=GemRB) for some assorted stats.
 
 Check the main [README](https://github.com/gemrb/gemrb/blob/master/README.md)
