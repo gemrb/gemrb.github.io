@@ -51,14 +51,12 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
   - [Ctrl-M](){: .btn .btn--success} (similar) - Prints (on terminal or DOS window) useful info
     on pointed actor, door container or infopoint and current map
     - [Ctrl-Shift-M](){: .btn .btn--info} - Prints a debug dump of the chosen actor's animations
-  - [Ctrl-B](){: .btn .btn--info} (different) - Draws path from start point marked by Ctrl-O to
-    current mouse position.
+  - [Ctrl-B](){: .btn .btn--info} (different) - N/A
   - [Ctrl-I](){: .btn .btn--info} (different) - Triggers an interaction between the last
     pointed npc and a random party member.
   - [Ctrl-L](){: .btn .btn--info} (similar) - Plays the S056ICBL animation over the actor.
     (This exists in PST only)
-  - [Ctrl-O](){: .btn .btn--info} (different) - Marks current mouse position as start point
-    (origin) for path drawn with Ctrl-B
+  - [Ctrl-O](){: .btn .btn--info} (different) - N/A
   - [Ctrl-Shift-V](){: .btn .btn--info} (new) - Dumps the main dictionary
   - [Ctrl-4](){: .btn .btn--info} (same) - Toggles debug flag DEBUG\_SHOW\_INFOPOINTS (show all
     traps, infopoints and wallgroups)
