@@ -25,6 +25,10 @@ which we update approximately every 100 changesets. If you want to know almost
 everything, follow the [commit log](https://github.com/gemrb/gemrb/commits/master)
 instead.
 
+If you want to know only when new releases happen, you can subscribe to the very low
+frequency [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release)
+mailing list.
+
 ## Older news
 
 <ul>
