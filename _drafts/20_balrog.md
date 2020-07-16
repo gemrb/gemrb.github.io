@@ -43,8 +43,23 @@ Unfortunately I don't remember exactly when the project was uploaded to
 SourceForge, if before or after I met Avenger, but that's how it all
 started.
 
+**2. What's up with the odd name? Were acronyms just fashionable back then
+ (eg. SCUMMVM), was there a lack of inspiration (*"There
+ are 2 hard problems in computer science: cache invalidation, naming things,
+ and off-by-1 errors"*) or something else?**
+  
+The story about the name, I guess, is pretty simple. I had to choose a
+name for the project that had nothing in common with the original Infinity
+Engine because of reasons... We were reverse engineering a commercial
+product (still active and selling) without explicit permission, basically
+violating the EULA, so the idea was to be as less visible as possible at
+first. Yes, at that time acronyms were the naming style, but I was still
+lacking inspiration. :) The only idea I had in mind was a Gem... Then I
+tried to stick some kind of acronym to the word "gem". "RB" came after I
+realized I needed at least 2 more words to give sense to the acronym.
 
-**2. Was it hard to get other people interested and slowly turn it from
+
+**3. Was it hard to get other people interested and slowly turn it from
  one guy's hobby to a team effort? How helpful were platforms like
  SourceForge, FLOSS communities of the time and the game fanbase?**
 
@@ -70,7 +85,7 @@ by end-users. It was still a development build, extremely complex to
 setup, build and run.
 
 
-**3. How did you perform reverse engineering in the very early stages? At
+**4. How did you perform reverse engineering in the very early stages? At
 that time there was little tooling available and IESDP (file format
 description project) didn't exist yet.**
 
@@ -83,7 +98,7 @@ was already available, but all the work I did before was all done by trial
 and error.
 
 
-**4. Was there any help or obstruction from official developers at any
+**5. Was there any help or obstruction from official developers at any
  point?**
 
 I never heard anything from the official developers. No help, no
@@ -91,7 +106,7 @@ obstruction. They just ignored us, which was good and bad at the same
 time. :D
 
 
-**5. You were very prolific once the project really got going. Do you
+**6. You were very prolific once the project really got going. Do you
  remember some contributions that you're really proud of? Or a
  problem that was especially infuriating to solve?**
 
@@ -113,7 +128,7 @@ on. Too many things to remember really, I'm very proud of GemRB and I'm
 proud of the people that continued working on the project in all these years.
 
 
-**6. Do you remember any amusing anecdotes, discoveries or original
+**7. Do you remember any amusing anecdotes, discoveries or original
  engine quirks? What's the worst hack or most silly design that you
  encountered?**
 
@@ -128,7 +143,7 @@ really slow, so months later we moved to SDL (I even made an OpenGL renderer
 at some point).
 
 
-**7. Do you still play IE or other old games? Or contribute to other
+**8. Do you still play IE or other old games? Or contribute to other
  reverse-engineering/reimplementation projects?**
 
 Unfortunately no, I don't play IE games anymore. With a family and a
@@ -136,7 +151,29 @@ Unfortunately no, I don't play IE games anymore. With a family and a
 to find. :D
 
 
-**8. Any final thoughts about IE games and GemRB 20 years later?**
+**9. When you started out, did you forsee the longevity of GemRB? In the
+sense of the length of development and the long term resilience of the
+project?**
+
+The initial plan was to create a game to play with my friends, but as soon
+as I started working on the project I realized that multiplayer was a big
+thing (and I had no networking knowledge at all... not even what a socket
+was), so the multiplayer part was pretty much immediately excluded from the
+project.
+
+GemRB was always focused on IE games because it was simpler, the assets were
+already there. It was *only* a matter of developing the same features the
+original games had. Making new games from scratch is a huge effort and I was
+not able to create the assets needed to build a new game. So the project was
+resized to a more manageable objective.
+
+I realized the project was a huge effort after a couple of months I started
+writing code, but I never imagined that after 20 years there was still someone
+who maintained the project and continued its development. That's amazing to
+be honest!
+
+
+**10. Any final thoughts about IE games and GemRB 20 years later?**
 
 IE games, for me, are still the best D&D video games ever made. Today
 games are far better in graphics but lacks the storytelling and complexity
@@ -147,3 +184,5 @@ it was. :)
 
 
 **TODO: "link" to other interviews**
+maybe include:
+https://media-exp1.licdn.com/dms/image/C4D03AQFutSWT1TfRVA/profile-displayphoto-shrink_200_200/0?e=1600300800&v=beta&t=cPPq1UAhp25b-ZbLr27qEnqgibUgDU4tt5hdjrVhE5c
