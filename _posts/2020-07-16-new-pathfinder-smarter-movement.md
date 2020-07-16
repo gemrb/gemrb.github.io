@@ -1,6 +1,7 @@
 ---
 title:  "New pathfinder: smarter movement"
 author: Kevin Michael Frick
+author_profile: true
 ---
 
 After a year of work and countless corner cases the pathfinder upgrade is finally
@@ -46,7 +47,7 @@ One last bonus is that, previously, base walking speed was the same for all
 games, while the originals all had different speeds. This is most noticeable
 in Planescape: Torment with its bigger sprites. This pathfinder **unhardcodes
 base speed** into an .ini file variable, allowing varying speed between games
-and providing one more degrees of freedom for making new games with GemRB.
+and providing one more degree of freedom for making new games with GemRB.
 
 So here it is and we hope you will like that your characters now learned
 how to walk smarter. :)
