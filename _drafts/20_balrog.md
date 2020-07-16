@@ -36,8 +36,7 @@ engineering process on the base files from Baldur's Gate.
 
 If I remember correctly I started from the main index file that was
 containing references to all included resources. At the time I was a
-noob at programming and I learned a lot developing GemRB, really a LOT! 
-
+noob at programming and I learned a lot developing GemRB, really a LOT!
 I still remember today the first UI displayed on my old CRT monitor, it
 was the loading progress bar of BG1 with the skull in the middle.
 Unfortunately I don't remember exactly when the project was uploaded to
@@ -118,16 +117,33 @@ proud of the people that continued working on the project in all these years.
  engine quirks? What's the worst hack or most silly design that you
  encountered?**
 
+The original plugin system used by GemRB was inspired by the plugin system
+used by 3D Studio Max. Probably you could take a GemRB plugin and load it
+in 3D Studio Max (the old year 2000 version) without any problems. :)
 
+Originally GemRB was working only under windows and there were no plans to
+make it portable. Since it was running under windows, the original rendering
+was based on GDI (not even GDI+ if I remember correctly), but was really
+really slow, so months later we moved to SDL (I even made an OpenGL renderer
+at some point).
 
 
 **7. Do you still play IE or other old games? Or contribute to other
  reverse-engineering/reimplementation projects?**
 
+Unfortunately no, I don't play IE games anymore. With a family and a
+6-years boy in the house, time for playing long games is almost impossible
+to find. :D
 
 
 **8. Any final thoughts about IE games and GemRB 20 years later?**
 
+IE games, for me, are still the best D&D video games ever made. Today
+games are far better in graphics but lacks the storytelling and complexity
+that older games had. I remember the day I left GemRB and started working,
+it was a really sad day because I knew I would not have time to work on
+"my little creature" anymore. But I knew I left it in good hands, and so
+it was. :)
 
 
 **TODO: "link" to other interviews**
