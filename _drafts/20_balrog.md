@@ -1,0 +1,133 @@
+---
+title: Interview with Daniele "Balrog994" Collantoni on the 20 year anniversary of GemRB
+author: Jaka Kranjc, Daniele Collantoni
+---
+
+On the occasion of the anniversary, we asked a few questions from Daniele "Balrog994" Collantoni,
+the project founder and prolific contributor.
+
+**1. What was the initial motivation to start GemRB, even before all the
+games came out?**
+
+It all started when I was a teenager. I was working in a movie rental shop
+in a little town of 6000 inhabitants in the middle of Italy. At that time,
+the shop was also selling videogames and consoles (you know, the good old
+PS1 times). My job was about showing customers the new games available for
+PS1 and PC and obviously make sales. So I was spending most of my day
+talking about games and trying most of the new games that were coming to
+the market.
+
+While I was working there I met one of my best friends nowadays that
+introduced me to Dungeons & Dragons 2nd edition. We started playing
+tabletop games 2 or 3 times a week for a few years and I loved playing D&D.
+Then "Baldur's Gate" came out in 1998 and obviously I had to buy that game;
+it was based on D&D mechanics and I was a super fan of that. So me and my
+friend played that game every day for a very long time trying to complete
+every single side quest available. We loved that game! In the mean time I
+was learning by myself some C++ while trying to hack the italian pay tv
+(yeah, I know... It was a long time ago and I was too young). In the year
+2000 (I was 18 at that time) I had to leave my small town to go to
+university 200 km away and so I stopped playing tabletop games. I missed
+playing D&D with my friends so much and I decided that I wanted to learn
+more about how Baldur's Gate was made, because I wanted to create my game
+to play with my friends via internet (56k was the best available at that
+time, but it was better than nothing). So I started my personal reverse
+engineering process on the base files from Baldur's Gate.
+
+If I remember correctly I started from the main index file that was
+containing references to all included resources. At the time I was a
+noob at programming and I learned a lot developing GemRB, really a LOT! 
+
+I still remember today the first UI displayed on my old CRT monitor, it
+was the loading progress bar of BG1 with the skull in the middle.
+Unfortunately I don't remember exactly when the project was uploaded to
+SourceForge, if before or after I met Avenger, but that's how it all
+started.
+
+
+**2. Was it hard to get other people interested and slowly turn it from
+ one guy's hobby to a team effort? How helpful were platforms like
+ SourceForge, FLOSS communities of the time and the game fanbase?**
+
+Initially it was my personal project and it was not meant to become a
+team effort, it never was. But I remember that, a few months after I
+started working on GemRB, I realized I would never finish that project
+alone in a decent time, so I opened a "search for help" position on
+SourceForge and so the team effort started. I was not used to working
+in a team and my English was pretty bad, so it was a bit hard at times
+but was really rewarding. Especially after finding out IESDP thanks to
+Avenger. At that time there was a lot less information, but it was
+extremely useful for me. I had the opportunity to understand things
+that were totally obscure before! 
+
+At that time the open source
+community was not as large as today, there were only a few people
+willing to help and without SourceForge it would not be possible to
+develop such a big project and find people who care and want to 
+continue to bring the project forward. The fanbase was pretty much
+unexistant at that time, maybe 1 or 2 people every six months was
+asking something, but obviously the project was not complete nor usable
+by end-users. It was still a development build, extremely complex to
+setup, build and run.
+
+
+**3. How did you perform reverse engineering in the very early stages? At
+that time there was little tooling available and IESDP (file format
+description project) didn't exist yet.**
+
+As I said before, I started reverse engineering the file formats by myself
+using UltraEdit32. It was basically done by trial and error, trying to
+understand what a value meant and what you actually needed to implement
+the feature. This was driving the research on the file formats. When I
+met Avenger he already started working on IESDP, and some documentation
+was already available, but all the work I did before was all done by trial
+and error.
+
+
+**4. Was there any help or obstruction from official developers at any
+ point?**
+
+I never heard anything from the official developers. No help, no
+obstruction. They just ignored us, which was good and bad at the same
+time. :D
+
+
+**5. You were very prolific once the project really got going. Do you
+ remember some contributions that you're really proud of? Or a
+ problem that was especially infuriating to solve?**
+
+Well almost everything about GemRB makes me proud. As I described above,
+probably the thing that I remember the most was that loading screen with
+the skull that was the first thing I worked on. I remember working on GemRB
+on Windows 98 and I remember a lot of BSOD because I was not freeing GDI
+resources (I didn't even know there was something to free at the time) and
+the kernel crashed when reaching 65535 opened handles. I remember
+introducing Python scripting for UI (python was pretty new in the early
+2000) and I choose Python because it was simpler to integrate with C++. I
+remember rage quitting trying to find a stupid memory leak in the UI code
+(Avenger took over that memory leak and fixed it in a night). I remember
+working on the A* pathfinder not even knowing what A* was. I remember
+implementing the fog of war and the first interaction with areas on the map.
+I remember my crazy calculation on how to change the color palette of
+sprites so that character could have customizable dress, skin tone, and so
+on. Too many things to remember really, I'm very proud of GemRB and I'm
+proud of the people that continued working on the project in all these years.
+
+
+**6. Do you remember any amusing anecdotes, discoveries or original
+ engine quirks? What's the worst hack or most silly design that you
+ encountered?**
+
+
+
+
+**7. Do you still play IE or other old games? Or contribute to other
+ reverse-engineering/reimplementation projects?**
+
+
+
+**8. Any final thoughts about IE games and GemRB 20 years later?**
+
+
+
+**TODO: "link" to other interviews**
