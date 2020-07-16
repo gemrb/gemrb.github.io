@@ -53,6 +53,7 @@ defaults:
       type: posts
     values:
       classes: wide
+      author_profile: true
 
 search: true
 search_provider: algolia
