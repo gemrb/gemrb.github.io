@@ -10,11 +10,11 @@ asked him a few questions.
 I'm pretty sure I first learned about the project from the The Linux Game Tome 
 (HappyPenguin) release news website. I kept following the project and its 
 occasional releases and at one point in late 2007 it just became clear that 
-progress is too slow and that I can do something about it. I compiled GemRB, ran 
-it and immediately saw bugs in BG2 character generation. Popping on IRC, some 
-were fixed as soon as they were reported, but as I started providing patches, it 
-didn't take long for Avenger to grant me commit access and not have to bother 
-with manually applying them.
+progress is too slow and that I can do something about it *as a forester*. I
+compiled GemRB, ran it and immediately saw bugs in BG2 character generation.
+Popping on IRC, some were fixed as soon as they were reported, but as I
+started providing patches, it didn't take long for Avenger to grant me commit
+access and not have to bother with manually applying them.
 
 
 **2. Was it hard to get other people interested to contribute? How helpful were 
