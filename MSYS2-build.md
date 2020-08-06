@@ -23,7 +23,11 @@ This command will install the required collection of tools for compilation. *Tip
 can copy it to the clipboard and press *Shift+Insert* to run it in the terminal.
 
 ```
-pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-extra-cmake-modules git make
+pacman -S --needed \
+  mingw-w64-x86_64-gcc \
+  mingw-w64-x86_64-cmake \
+  mingw-w64-x86_64-extra-cmake-modules \
+  git make
 ```
 
 
@@ -33,7 +37,9 @@ All the dependencies GemRB requires can also be installed from within MSYS2.
 
 First the required dependencies:
 ```
-pacman -S mingw-w64-x86_64-python2 mingw-w64-x86_64-SDL2
+pacman -S --needed\
+  mingw-w64-x86_64-python2 \
+  mingw-w64-x86_64-SDL2
 ```
 Zlib has already been installed during the initial MSYS2 setup.
 
@@ -42,8 +48,15 @@ and you don't need to install it here.
 
 Then come the optional dependencies:
 ```
-pacman -S mingw-w64-x86_64-openal mingw-w64-x86_64-SDL2_mixer mingw-w64-x86_64-libogg mingw-w64-x86_64-libvorbis
-pacman -S mingw-w64-x86_64-libpng mingw-w64-x86_64-freetype
+pacman -S --needed \
+  mingw-w64-x86_64-openal \
+  mingw-w64-x86_64-SDL2_mixer \
+  mingw-w64-x86_64-libogg \
+  mingw-w64-x86_64-libvorbis
+
+pacman -S --needed \
+  mingw-w64-x86_64-libpng \
+  mingw-w64-x86_64-freetype
 ```
 Iconv should already be present just like Zlib. 
 
@@ -64,8 +77,11 @@ mkdir gemrb/build
 # start building
 cd gemrb/build
 cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Debug ..
-make
+cmake --build .
 ```
+
+Alternatively, `-G Ninja` can be used for Ninja build system. Being native
+to Windows system, Ninja is generally faster than MSYS2 make build system.
 
 
 ## Configure and run the game
