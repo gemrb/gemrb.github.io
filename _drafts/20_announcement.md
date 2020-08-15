@@ -40,7 +40,7 @@ Full changelog digest:
 
 Thanks to everyone that contributed their time and wit, including:
 
-**insert contributors**
+bholland, burner1024, Biswapriyo Nath, Boris Kruglov, Brad Allred, Bubb, caillean7, fenuks, fizzet, FrElvire, HumanG33k, ifyGecko, Ignat Insarov, Jaka Kranjc, Kapizor, Kevin Michael Frick, Laurie Chilvers, Lukáš Valenta, MarcelHB, Mingun, neula, Rune Morling, schyzophrene-asynchrone, stuffu.
 
 *If anyone is wondering about the release name: a small problem was blocking
 the [famoust PST line](https://www.youtube.com/watch?v=uxs3g0Xgh7k) from being
