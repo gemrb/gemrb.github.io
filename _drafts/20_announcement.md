@@ -4,12 +4,19 @@ author: Jaka Kranjc
 ---
 
 PR: a one pager combining screenshots, some citations from the interviews,
-and perhaps the changelog, (new website since the last release), (suggest subscribing to gemrb-release?),
-CTA (looking for contributors, especially gfx/sdl wizards), mention it's a whole week
 
-WIP
+WIP, NB: third person?
+
+---------
+
+The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
+a week of celebrations of the project's founding anniversary. 20 years ago Danielle Colantoni ...
+Lot of things have happened since that day but G has continued to grow and flourish throughout the years.
 
 
+what is gemrb? ...
+
+/.../
 
 The [new release](link to full regular announcement) brings over 500 changes manifested as bugfixes, smaller features, cleanups
 and an improved setup experience. More than that, it introduces a new [smarter
@@ -19,8 +26,12 @@ on the drawing and GUI handling rewrite — stay tuned for a deeper dive later t
 With this anniversary release out of the way, finishing that rewrite is again our main
 priority. 
 
-directly cued into a CTA? or a quote first, then CTA and perhaps end with an outlook
+As GemRB marks its 20th anniversary, **x** is optimistic about the project's future. "**some quote**". Overall it's clear that after so much time the GemRB effort is still active, slowly building the missing pieces of the Infinity Engine mosaic, revitalising older code, and working throughout the project to keep the effort vibrant for years to come. **CTA  (looking for contributors, especially gfx/sdl wizards)**
 
+A pearl to you!
+
+---
+footer with main links: page, downloads, gemrb-release subscription suggestion?, news (for the rest of the week)
 
 --------------------------
 
