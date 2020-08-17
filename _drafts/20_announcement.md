@@ -13,8 +13,10 @@ The GemRB team announces the availability of GemRB 0.8.7, a new minor release to
 a week of celebrations of the project's founding anniversary. 20 years ago Danielle Colantoni ...
 Lot of things have happened since that day but G has continued to grow and flourish throughout the years.
 
-
-what is gemrb? ...
+GemRB is a portable free/libre open-source implementation of Bioware’s Infinity Engine, which
+powered classic CRPGs like Baldur's Gate, Icewind Dale and Planescape: Torment. The goal of
+the project is to make these games available on a wide range of platforms forever, fix or avoid
+old bugs, add new features and provide a superb platform for mod (and eventually game) development.
 
 /.../
 
@@ -26,12 +28,22 @@ on the drawing and GUI handling rewrite — stay tuned for a deeper dive later t
 With this anniversary release out of the way, finishing that rewrite is again our main
 priority. 
 
-As GemRB marks its 20th anniversary, **x** is optimistic about the project's future. "**some quote**". Overall it's clear that after so much time the GemRB effort is still active, slowly building the missing pieces of the Infinity Engine mosaic, revitalising older code, and working throughout the project to keep the effort vibrant for years to come. **CTA  (looking for contributors, especially gfx/sdl wizards)**
+As GemRB marks its 20th anniversary, **x** is optimistic about the project's future. "**some quote**". Overall it's clear that after so much time the GemRB effort is still active, slowly building the missing pieces of the Infinity Engine mosaic, revitalising older code, and working throughout the project to keep the effort vibrant for years to come. **CTA  (looking for contributors, especially gfx/sdl/shader wizards)**
 
 A pearl to you!
 
+_PS. Check our news section in the following days for a daily retrospective with past maintainers and a look into the future_ 
+
 ---
-footer with main links: page, downloads, gemrb-release subscription suggestion?, news (for the rest of the week)
+Project links:
+- Web site: https://gemrb.org
+- Downloads: https://gemrb.org/Install
+- News: https://gemrb.org/News (RSS available)
+
+If you want to be notified of further releases, subscribe to
+[gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release) (low volume).
+
+If you need to get in touch via email, write to <registracije+gemrb20@lynxlynx.info>.
 
 --------------------------
 
