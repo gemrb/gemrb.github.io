@@ -26,6 +26,7 @@ website.
 
 **Not included yet, source available:**
 
+  - Playstation Vita
   - Dingoo (partly included)
   - IRIX (partly included)
 
@@ -42,8 +43,7 @@ website.
 **Not started:**
 
   - Xbox, [discussion
-    thread](http://gibberlings3.net/forums/topic/21762-a) (incentive
-    available)
+    thread](http://gibberlings3.net/forums/topic/21762-a)
 
 **Killed before starting:**
 
