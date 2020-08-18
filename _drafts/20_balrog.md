@@ -1,10 +1,10 @@
 ---
-title: Interview with Daniele "Balrog994" Collantoni on the 20 year anniversary of GemRB
-author: Jaka Kranjc, Daniele Collantoni
+title: Interview with Daniele Collantoni on the 20 year anniversary of GemRB
+author: Jaka Kranjc
 ---
 
-On the occasion of the anniversary, we asked a few questions from Daniele "Balrog994" Collantoni,
-the project founder and prolific contributor.
+On the occasion of the anniversary, we asked a few questions from Daniele "Balrog994"
+Collantoni, the project founder and prolific contributor.
 
 **1. What was the initial motivation to start GemRB, even before all the
 games came out?**
@@ -183,6 +183,4 @@ it was a really sad day because I knew I would not have time to work on
 it was. :)
 
 
-**TODO: "link" to other interviews**
-maybe include:
-https://media-exp1.licdn.com/dms/image/C4D03AQFutSWT1TfRVA/profile-displayphoto-shrink_200_200/0?e=1600300800&v=beta&t=cPPq1UAhp25b-ZbLr27qEnqgibUgDU4tt5hdjrVhE5c
+_Tune in tomorrow to hear from Edheldil, the maintainer that succeeded Danielle._
