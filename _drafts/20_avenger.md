@@ -1,6 +1,6 @@
 ---
 title: Interview with László "Avenger" Tóth on the 20 year anniversary of GemRB
-author: Jaka Kranjc, László Tóth
+author: Jaka Kranjc
 ---
 
 László "Avenger" Tóth, a long time project maintainer, was one of the most prolific
@@ -80,3 +80,6 @@ with GemRB.
 **8. Any final thoughts about IE games and GemRB 20 years later?**
 
 I hope someone finds GemRB useful and motivating enough to develop a new game.
+
+
+_Tune in tomorrow to hear from lynx, the current maintainer that succeeded Avenger._
