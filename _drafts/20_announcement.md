@@ -11,9 +11,10 @@ WIP, NB: third person
 ---------
 
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
-a week of celebrations of the project's founding anniversary. 20 years ago Danielle Colantoni,
-the project initiator, registered it on SourceForge to try to make it a team effort. A lot of
-things have happened since, but GemRB has continued to grow and flourish throughout the years.
+a week of celebrations of the project's founding anniversary. 20 years ago, on the 21st of
+August, the project initiator Danielle Colantoni registered it on SourceForge to try to make
+it a team effort. A lot of things have happened since, but GemRB has continued to grow and
+flourish throughout the years.
 
 GemRB is a portable free/libre open-source implementation of Bioware’s Infinity Engine, which
 powered classic CRPGs like Baldur's Gate, Icewind Dale and Planescape: Torment. The goal of
