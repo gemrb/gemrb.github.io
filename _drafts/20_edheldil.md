@@ -1,6 +1,6 @@
 ---
 title: Interview with Jarda "Edheldil" Benkovský on the 20 year anniversary of GemRB
-author: Jaka Kranjc, Jarda Benkovský
+author: Jaka Kranjc
 ---
 
 On the occasion of the anniversary, we asked a few questions from Jarda
@@ -93,4 +93,5 @@ nice people. I am also proud of the work we have done on the project. 
 Too bad that we did not attract some indie game studio to build a new 
 game using our engine.
 
-**TODO: link to other interviews**
+
+_Tune in tomorrow to hear about the next big thing for GemRB._
