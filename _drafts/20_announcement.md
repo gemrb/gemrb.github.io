@@ -28,8 +28,8 @@ and an improved setup experience. More than that, it introduces a new [smarter
 pathfinder](https://gemrb.org/2020/07/16/new-pathfinder-smarter-movement.html) with
 bumping support and other movement related improvements. At the same time work continued
 on the drawing and GUI handling rewrite — stay tuned for a deeper dive later this week.
-With this anniversary release out of the way, finishing that rewrite is again our main
-priority. 
+With this anniversary release out of the way, finishing that rewrite is again the team's
+main priority. 
 
 As GemRB marks its 20th anniversary, Jaka Kranjc, the current maintainer, is optimistic about
 the project's future. _"Our work is not finished, but this sort of thing is like an
@@ -52,6 +52,7 @@ Project links:
 - Web site: https://gemrb.org
 - Downloads: https://gemrb.org/Install
 - News: https://gemrb.org/News (RSS available)
+- Screenshots: https://gemrb.org/Media
 
 If you want to be notified of further releases, subscribe to
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release) (low volume).
@@ -65,7 +66,13 @@ GemRB 0.8.7 released! (Updated my journal edition)
 
 The GemRB team is proud to announce a new release.
 
-**insert final blurb from above**
+The new release brings over 500 changes manifested as bugfixes, smaller features, cleanups
+and an improved setup experience. More than that, it introduces a new [smarter
+pathfinder](https://gemrb.org/2020/07/16/new-pathfinder-smarter-movement.html) with
+bumping support and other movement related improvements. At the same time work continued
+on the drawing and GUI handling rewrite — stay tuned for a deeper dive later this week.
+With this anniversary release out of the way, finishing that rewrite is again our main
+priority. 
 
 You can generally get GemRB from [here](https://gemrb.org).
 
