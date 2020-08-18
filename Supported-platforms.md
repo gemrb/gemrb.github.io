@@ -5,9 +5,9 @@ title: Supported platforms
 GemRB runs on various software and hardware platforms, so here is a list
 of various ports and their status. The biggest hurdle in making GemRB
 work is usually making its dependencies work (SDL, Python, zlib). You
-can watch [videos](/video_list) or see some
-[screenshots](/gallery#exotic_platforms) from these platforms on our
-website.
+can watch [videos](https://gemrb.github.io/Media#videos) or see some
+[screenshots](https://gemrb.github.io/Media#exotic-platforms) from these
+platforms on our website.
 
 **Included in our sources / work by default:**
 
