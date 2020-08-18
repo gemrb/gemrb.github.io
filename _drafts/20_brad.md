@@ -36,19 +36,18 @@ use further help?**
 
 
 
-**6. **
-post-subviews
+**6. What comes after that? (post-subviews, py3, your own plans/wishes)**
 
 
 
-**5. Do you remember some contributions that you're really proud of? Or
- a problem that was especially infuriating to solve?**
+**7. Do you have a favourite IE game and do you still play it? Do you
+contribute to other reimplementation projects?**
 
-**7. Which one was your favourite IE game and do you still play it? Or
- other old games? Or contribute to other
- reverse-engineering/reimplementation projects?**
+
 
 **8. Any final thoughts about IE games and GemRB 20 years later?**
+
+
 
 
 _Tune in tomorrow to hear from Avenger, the maintainer that succeeded Edheldil._
