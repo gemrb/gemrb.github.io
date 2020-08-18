@@ -4,15 +4,17 @@ author: Jaka Kranjc
 ---
 
 Brad "SyntaxError" Allred, a long contributor, that focuses mainly on internal
-subsystems like text rendering, multibyte font support, the iOS port and more.
-On the occasion of the anniversary, we talked to him about the current big
+subsystems like text rendering, multibyte font support, input, the iOS port and
+more. On the occasion of the anniversary, we talked to him about the current big
 project, which will represent a leap forward for GemRB.
 
-**1. How did you find your way into GemRB?**
+**1. First, how did you find your way into GemRB?**
 
 
 **2. **
-
+looong projects/branches
+subviews, what's that about
+post-subviews
 
 **3. **
 
@@ -35,3 +37,5 @@ project, which will represent a leap forward for GemRB.
 
 **8. Any final thoughts about IE games and GemRB 20 years later?**
 
+
+_Tune in tomorrow to hear from Avenger, the maintainer that succeeded Edheldil._
