@@ -3,15 +3,17 @@ title: The GemRB project celebrates 20 year anniversary with a new release
 author: Jaka Kranjc
 ---
 
-PR: a one pager combining screenshots, some citations from the interviews,
+screenshot:
+https://gemrb.org/assets/img/screenshots/fonts.png
 
-WIP, NB: third person?
+WIP, NB: third person
 
 ---------
 
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
-a week of celebrations of the project's founding anniversary. 20 years ago Danielle Colantoni ...
-Lot of things have happened since that day but G has continued to grow and flourish throughout the years.
+a week of celebrations of the project's founding anniversary. 20 years ago Danielle Colantoni,
+the project initiator, registered it on SourceForge to try to make it a team effort. A lot of
+things have happened since, but GemRB has continued to grow and flourish throughout the years.
 
 GemRB is a portable free/libre open-source implementation of Bioware’s Infinity Engine, which
 powered classic CRPGs like Baldur's Gate, Icewind Dale and Planescape: Torment. The goal of
@@ -28,7 +30,17 @@ on the drawing and GUI handling rewrite — stay tuned for a deeper dive later t
 With this anniversary release out of the way, finishing that rewrite is again our main
 priority. 
 
-As GemRB marks its 20th anniversary, **x** is optimistic about the project's future. "**some quote**". Overall it's clear that after so much time the GemRB effort is still active, slowly building the missing pieces of the Infinity Engine mosaic, revitalising older code, and working throughout the project to keep the effort vibrant for years to come. **CTA  (looking for contributors, especially gfx/sdl/shader wizards)**
+As GemRB marks its 20th anniversary, Jaka Kranjc, the current maintainer, is optimistic about
+the project's future. _"Our work is not finished, but this sort of thing is like an
+ultramarathon — for most of the run the goal is not within reach. Companies come and go, but
+FLOSS persists!"_ 
+
+Overall it's clear that after all this time the GemRB effort is still active, slowly building
+missing pieces of the Infinity Engine mosaic, revitalising older code, extending features and
+working throughout the project to keep the effort vibrant for years to come. The team is
+looking for [new contributors](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md),
+especially programmers with OpenGL experience, who could help them finish a drawing backend
+refactoring — for better performance and to remain available on a wide berth of platforms.
 
 A pearl to you!
 
