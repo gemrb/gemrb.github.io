@@ -1,6 +1,6 @@
 ---
 title:  "Discord channel opened on the Gibberlings3 server"
-author: Jaka Kranjc
+author: Jaka Kranjc, miki miška
 ---
 
 You can now also join the community on a dedicated GemRB channel on the wider
