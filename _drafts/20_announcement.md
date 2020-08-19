@@ -3,8 +3,8 @@ title: The GemRB project celebrates 20 year anniversary with a new release
 author: Jaka Kranjc
 ---
 
-screenshot:
-https://gemrb.org/assets/img/screenshots/fonts.png
+construct a crazy screenshot in one of the non-bg2 beautiful areas (eg. from iwds - kuldahar, lava forge ...)
+with some mods on top and plenty of action
 
 WIP, NB: third person
 
@@ -13,8 +13,8 @@ WIP, NB: third person
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
 a week of celebrations of the project's founding anniversary. 20 years ago, on the 21st of
 August, the project initiator Danielle Colantoni registered it on SourceForge to try to make
-it a team effort. A lot of things have happened since, but GemRB has continued to grow and
-flourish throughout the years.
+it a team effort. Many things have happened since, the path was convoluted and bumpy, but
+GemRB has continued to grow throughout the years.
 
 GemRB is a portable free/libre open-source implementation of Bioware’s Infinity Engine, which
 powered classic CRPGs like Baldur's Gate, Icewind Dale and Planescape: Torment. The goal of
@@ -87,4 +87,4 @@ bholland, burner1024, Biswapriyo Nath, Boris Kruglov, Brad Allred, Bubb, caillea
 
 *If anyone is wondering about the release name: a small problem was blocking
 the [famoust PST line](https://www.youtube.com/watch?v=uxs3g0Xgh7k) from being
-heard.*
+heard. And it's appropriate for the anniversary.*
