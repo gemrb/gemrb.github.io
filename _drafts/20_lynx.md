@@ -1,5 +1,7 @@
---- title: Interview with Jaka "lynx" Kranjc on the 20 year anniversary of GemRB 
-author: Marcel Heing-Becker ---
+---
+title: Interview with Jaka "lynx" Kranjc on the 20 year anniversary of GemRB 
+author: Marcel Heing-Becker
+---
 
 Jaka "lynx" Kranjc is the current project maintainer, long time release manager, 
 experimental modder and IESDP steward. On the occasion of the anniversary, we 
@@ -26,7 +28,7 @@ solve, from fixing bugs, enhancing original behaviour, reverse engineering, code
 review and refactoring ... to less technical ones like maintaining project 
 infrastructure, community engagement, testing, research, promotion, modding and 
 more (*[check your fit 
-here](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)*).
+here]({{ site.contribute }})*).
 
 And all 
 these tasks and roles attract different people at different stages. I think the 
