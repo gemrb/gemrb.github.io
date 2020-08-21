@@ -46,7 +46,7 @@ last occurrence is used.
 
 Empty lines and lines starting with \`\#' (hash sign) are ignored.
 
-At least the *GameType* and *GamePath* parameters need to be changed.
+At least the *GamePath* parameter needs to be changed.
 That is often enough, so do not fiddle with the other paths too much.
 
 # General Parameters:
@@ -55,7 +55,7 @@ That is often enough, so do not fiddle with the other paths too much.
     Type of the game. The value is a name of subdirectory in override/
     and GUIScripts/ directories with game type-specific files and
     scripts. It is at present also used for various tweaks hardcoded in
-    the GemRB engine. To autodetect the game type, use "auto".
+    the GemRB engine. To autodetect the game type, use the default "auto".
 
 <!-- end list -->
 
@@ -65,9 +65,8 @@ That is often enough, so do not fiddle with the other paths too much.
 
 <!-- end list -->
 
-  - **Encoding**=(default|polish|czech)  
-    Specify language used in the game data. Except of polish version of
-    BG1, it's safe to leave it commented out.
+  - **Encoding**=(default|polish|czech|german)  
+    Specify language used in the game data.
 
 <!-- end list -->
 
@@ -386,10 +385,16 @@ The default is *0*.
 
 <!-- end list -->
 
-  - **@DATA\_DIR@/override/**  
+  - **@DATA\_DIR@/unhardcoded/**  
     directory with **GemRB**-distributed data files. These used to be
     hardcoded in the original engine. The files are sorted into
     directories for specific games.
+    
+<!-- end list -->
+
+  - **@DATA\_DIR@/override/**  
+    directory with **GemRB**-distributed data files. These files
+    override their namesakes in the original data.
 
 <!-- end list -->
 
@@ -411,10 +416,10 @@ The default is *0*.
 
 # BUGS
 
-Many. **GemRB** is still in development and not complete.
+Many. **GemRB** is still in development stage and not complete.
 
 If you stumble over something which is supposed to work but doesn't,
-either file an issue at https://github.com/gemrb/gemrb or visit the
+file an issue at https://github.com/gemrb/gemrb or first visit the 
 official IRC channel *\#GemRB* on the FreeNode IRC network.
 
 # AUTHOR
