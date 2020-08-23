@@ -23,7 +23,8 @@ old bugs, add new features and provide a superb platform for mod (and eventually
 
 /.../
 
-The [new release](link to full regular announcement) brings over 500 changes manifested as bugfixes, smaller features, cleanups
+The [new release](link to full regular announcement)
+brings over 500 changes manifested as bugfixes, smaller features, cleanups
 and an improved setup experience. More than that, it introduces a new [smarter
 pathfinder](https://gemrb.org/2020/07/16/new-pathfinder-smarter-movement.html) with
 bumping support and other movement related improvements. At the same time work continued
@@ -58,33 +59,3 @@ If you want to be notified of further releases, subscribe to
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release) (low volume).
 
 If you need to get in touch via email, write to <registracije+gemrb20@lynxlynx.info>.
-
---------------------------
-
-
-GemRB 0.8.7 released! (Updated my journal edition)
-
-The GemRB team is proud to announce a new release.
-
-The new release brings over 500 changes manifested as bugfixes, smaller features, cleanups
-and an improved setup experience. More than that, it introduces a new [smarter
-pathfinder](https://gemrb.org/2020/07/16/new-pathfinder-smarter-movement.html) with
-bumping support and other movement related improvements. At the same time work continued
-on the drawing and GUI handling rewrite — stay tuned for a deeper dive later this week.
-With this anniversary release out of the way, finishing that rewrite is again our main
-priority. 
-
-You can generally get GemRB from [here](https://gemrb.org).
-
-Full changelog digest:
-
-    insert NEWS blurb
-
-
-Thanks to everyone that contributed their time and wit, including:
-
-bholland, burner1024, Biswapriyo Nath, Boris Kruglov, Brad Allred, Bubb, caillean7, fenuks, fizzet, FrElvire, HumanG33k, ifyGecko, Ignat Insarov, Jaka Kranjc, Kapizor, Kevin Michael Frick, Laurie Chilvers, Lukáš Valenta, MarcelHB, Mingun, neula, Northfear, Rune Morling, schyzophrene-asynchrone, stuffu.
-
-*If anyone is wondering about the release name: a small problem was blocking
-the [famoust PST line](https://www.youtube.com/watch?v=uxs3g0Xgh7k) from being
-heard. And it's appropriate for the anniversary.*
