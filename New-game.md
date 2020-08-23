@@ -102,6 +102,9 @@ Mod "Sarevok Recovery Mod" (
 <http://www.baldursgate-refugium.de/mods/sarevok-wiederherstellung/> ),
 licensed under CC BY-NC-SA 3.0 by Nicolas Peters.
 
+For various [icons these CC-BY](https://game-icons.net/) licensed ones
+could be used.
+
 ### Audio
 
 In order of importance:
