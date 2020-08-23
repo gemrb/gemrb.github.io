@@ -35,7 +35,7 @@ any that modify the EXE files could lack the functionality those hacks achieved.
 
 # Install
 
-The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2013 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=40784) (2017 for development builds), as GemRB will fail to start without two of its DLLs.
+The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2017 Redistributable](https://aka.ms/vs/15/release/VC_redist.x64.exe), as GemRB will fail to start without two of its DLLs.
 
 If you downloaded the sources instead, follow the [compilation instructions](Dev-docs.md##setting-up-a-development-environment).
 GemRB can even run from the build dir without installing.
