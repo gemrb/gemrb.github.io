@@ -28,15 +28,6 @@ gallery:
     title: "Showcasing custom font support"
 ---
 
-main screenshot:
-iwd2-kuldahar-gem.jpg
-![image-center](/assets/images/filename.jpg){: .align-center}
-"IWD2 remains to be fully understood"
-
-WIP, NB: third person
-
----------
-
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
 a week of celebrations of the project's founding anniversary. 20 years ago, on the 21st of
 August, the project initiator Daniele Colantoni registered it on SourceForge to try to make
@@ -53,8 +44,6 @@ _"I missed playing D&D with my friends so much /.../ I wanted to create my game 
 via internet. So I started my personal reverse engineering process on the base files
 from Baldur's Gate."_
 
-{% include gallery id="gallery" caption="Various screenshots." %}
-
 Predictably it turned out to be much more complicated and time consuming than first
 imagined, but the effort continued. From its Windows-only 32-bit beginnings GemRB was
 made to run on all common and many niche platforms (from AmigaOS to IRIX and Symbian;
@@ -62,6 +51,8 @@ x86 to PPC, ARM, MIPS and WebAssembly). This was largely made possible through u
 of open source libraries that are themselves very portable (SDL, OpenAL, libpython, zlib).
 Without an open development model and supporting infrastructure, the project would have
 never succeeded.
+
+{% include gallery id="gallery" caption="Various screenshots." %}
 
 The engine can be used to play the full Baldur's Gate saga, the first Icewind Dale and
 Planescape: Torment. The latter requires more reverse engineering and polishing, but
