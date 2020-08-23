@@ -12,7 +12,7 @@ WIP, NB: third person
 
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
 a week of celebrations of the project's founding anniversary. 20 years ago, on the 21st of
-August, the project initiator Danielle Colantoni registered it on SourceForge to try to make
+August, the project initiator Daniele Colantoni registered it on SourceForge to try to make
 it a team effort. Many things have happened since, the path was convoluted and bumpy, but
 GemRB has continued to grow throughout the years.
 
@@ -21,9 +21,14 @@ powered classic CRPGs like Baldur's Gate, Icewind Dale and Planescape: Torment. 
 the project is to make these games available on a wide range of platforms forever, fix or avoid
 old bugs, add new features and provide a superb platform for mod (and eventually game) development.
 
+It was started 20 years ago by a student fresh out of town, Daniele Colantoni:
+_"I missed playing D&D with my friends so much /.../ I wanted to create my game to play
+via internet. So I started my personal reverse engineering process on the base files
+from Baldur's Gate."_
+
 /.../
 
-The [new release](link to full regular announcement)
+The [new release](https://gemrb.org/2020/08/24/gemrb-0-8-7-released.html)
 brings over 500 changes manifested as bugfixes, smaller features, cleanups
 and an improved setup experience. More than that, it introduces a new [smarter
 pathfinder](https://gemrb.org/2020/07/16/new-pathfinder-smarter-movement.html) with
@@ -46,7 +51,7 @@ refactoring — for better performance and to remain available on a wide berth o
 
 A pearl to you!
 
-_PS. Check our news section in the following days for a daily retrospective with past maintainers and a look into the future_ 
+_PS: check our news section in the following days for a daily retrospective with past maintainers and a look into the project's future._ 
 
 ---
 Project links:
@@ -58,4 +63,4 @@ Project links:
 If you want to be notified of further releases, subscribe to
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release) (low volume).
 
-If you need to get in touch via email, write to <registracije+gemrb20@lynxlynx.info>.
+If you _need_ to get in touch via email, write to <registracije+gemrb20@lynxlynx.info>.
