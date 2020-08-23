@@ -183,4 +183,4 @@ it was a really sad day because I knew I would not have time to work on
 it was. :)
 
 
-_Tune in tomorrow to hear from Edheldil, the maintainer that succeeded Danielle._
+_Tune in tomorrow to hear from Edheldil, the maintainer that succeeded Daniele._

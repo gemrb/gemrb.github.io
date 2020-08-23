@@ -1,10 +1,37 @@
 ---
 title: The GemRB project celebrates 20 year anniversary with a new release
 author: Jaka Kranjc
+gallery:
+  - url: assets/img/screenshots/iwd2-kuldahar-gem.jpg
+    image_path: assets/img/screenshots/thumb/iwd2-kuldahar-gem.jpg
+    alt: "IWD2 GemRB battle screenshot"
+    title: "IWD2 remains to be fully understood"
+  - url: assets/img/screenshots/10pp6.jpg
+    image_path: assets/img/screenshots/thumb/10pp6.jpg
+    alt: "10pp6.jpg"
+    title: "10pp6.jpg"
+  - url: assets/img/screenshots/iwd2stylecombat2.jpg
+    image_path: assets/img/screenshots/thumb/iwd2stylecombat2.jpg
+    alt: "IWD2-style combat output"
+    title: "IWD2-style combat output"
+  - url: assets/img/screenshots/goi.jpg
+    image_path: assets/img/screenshots/thumb/goi.jpg
+    alt: "Glory of Istar game shot"
+    title: "Glory of Istar game shot"
+  - url: assets/img/screenshots/sorcerer_monk.jpg
+    image_path: assets/img/screenshots/thumb/sorcerer_monk.jpg
+    alt: "Sorcerer/monk multiclass"
+    title: "Sorcerer/monk multiclass"
+  - url: assets/img/screenshots/fonts.png
+    image_path: assets/img/screenshots/thumb/fonts.png
+    alt: "Showcasing custom font support"
+    title: "Showcasing custom font support"
 ---
 
-construct a crazy screenshot in one of the non-bg2 beautiful areas (eg. from iwds - kuldahar, lava forge ...)
-with some mods on top and plenty of action
+main screenshot:
+iwd2-kuldahar-gem.jpg
+![image-center](/assets/images/filename.jpg){: .align-center}
+"IWD2 remains to be fully understood"
 
 WIP, NB: third person
 
@@ -26,7 +53,26 @@ _"I missed playing D&D with my friends so much /.../ I wanted to create my game 
 via internet. So I started my personal reverse engineering process on the base files
 from Baldur's Gate."_
 
-/.../
+{% include gallery id="gallery" caption="Various screenshots." %}
+
+Predictably it turned out to be much more complicated and time consuming than first
+imagined, but the effort continued. From its Windows-only 32-bit beginnings GemRB was
+made to run on all common and many niche platforms (from AmigaOS to IRIX and Symbian;
+x86 to PPC, ARM, MIPS and WebAssembly). This was largely made possible through use
+of open source libraries that are themselves very portable (SDL, OpenAL, libpython, zlib).
+Without an open development model and supporting infrastructure, the project would have
+never succeeded.
+
+The engine can be used to play the full Baldur's Gate saga, the first Icewind Dale and
+Planescape: Torment. The latter requires more reverse engineering and polishing, but
+one can finish the game already. Icewind Dale 2 is a different matter — while it
+appears more polished than Torment, only the first two chapters of the game are
+playable.
+
+As GemRB marks its 20th anniversary, Jaka Kranjc, the current maintainer, is optimistic about
+the project's future. _"Our work is not finished, but this sort of thing is like an
+ultramarathon — for most of the run the goal is not within reach. Companies come and go, but
+FLOSS persists!"_
 
 The [new release](https://gemrb.org/2020/08/24/gemrb-0-8-7-released.html)
 brings over 500 changes manifested as bugfixes, smaller features, cleanups
@@ -36,11 +82,6 @@ bumping support and other movement related improvements. At the same time work c
 on the drawing and GUI handling rewrite — stay tuned for a deeper dive later this week.
 With this anniversary release out of the way, finishing that rewrite is again the team's
 main priority. 
-
-As GemRB marks its 20th anniversary, Jaka Kranjc, the current maintainer, is optimistic about
-the project's future. _"Our work is not finished, but this sort of thing is like an
-ultramarathon — for most of the run the goal is not within reach. Companies come and go, but
-FLOSS persists!"_ 
 
 Overall it's clear that after all this time the GemRB effort is still active, slowly building
 missing pieces of the Infinity Engine mosaic, revitalising older code, extending features and
