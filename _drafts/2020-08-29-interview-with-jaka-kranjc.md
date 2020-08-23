@@ -27,8 +27,7 @@ Projects like this have a nearly endless stream of interesting problems to
 solve, from fixing bugs, enhancing original behaviour, reverse engineering, code 
 review and refactoring ... to less technical ones like maintaining project 
 infrastructure, community engagement, testing, research, promotion, modding and 
-more (*[check your fit 
-here]({{ site.contribute }})*).
+more (*[check your fit here]({{ site.contribute }})*).
 
 And all 
 these tasks and roles attract different people at different stages. I think the 
@@ -158,6 +157,13 @@ originals used quite an exotic way to figure out round timing (a picture), which
 we don't support yet. Externalizing more of the combat logic is also important 
 for anyone else that may want to use the engine.
 
+At some point we'll also have to clean up our character animation subsystem.
+It's my least favourite part of the codebase and I barely touched it, but it's
+again something that can reduce the need for a bunch of hacks and also make
+adding new animations much easier to understand and implement. It definitely
+won't be done by me though!
+
+
 **9. Is there any organizational or financial support on your wishlist? 
 Something else you consider still missing or worth improving?**
 
@@ -208,6 +214,7 @@ noticing, and while a lot is achieved, I have to remind myself of the loading
 hint from BG2: _While your character does not have to eat, remember that YOU do. 
 We don't want to lose any dedicated players._
 
+
 **11. Any final thoughts about IE games and GemRB 20 years later?**
 
 From the onset it has been a gargantuan task, so I'm immensely grateful to 
@@ -219,5 +226,4 @@ Companies come and go, but FLOSS persists and GemRB is even archived in GitHub's
 [Arctic code vault](https://archiveprogram.github.com/), ensuring our beloved 
 games will be able to be played for decades to come. Come and help us continue 
 [our run](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md)!
-
 

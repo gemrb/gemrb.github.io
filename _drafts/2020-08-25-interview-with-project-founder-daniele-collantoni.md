@@ -1,5 +1,5 @@
 ---
-title: Interview with Daniele Collantoni on the 20 year anniversary of GemRB
+title: Interview with project founder Daniele Collantoni on the 20 year anniversary of GemRB
 author: Jaka Kranjc
 ---
 
