@@ -12,7 +12,7 @@ page](http://sourceforge.net/projects/gemrb/files/)**. Here is a handy table wit
 
 |  | Release downloads | Development downloads |
 | --- | :---: | :---: |
-| **Binaries** | [<i class="fab fa-windows"></i> Windows]({{ page.sf }}/{{ site.version }}/gemrb-win32-196c54e.zip),<br>[<i class="fab fa-linux"></i> Linux]({{ page.sf }}/{{ site.version }}/gemrb-linux-v{{ site.version }}.tar.bz2),<br>[<i class="fab fa-apple"></i> macOS]({{ page.sf }}/{{ site.version }}/gemrb-macos-v{{ site.version }}.tar.bz2) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
+| **Binaries** | [<i class="fab fa-windows"></i> Windows]({{ page.sf }}/{{ site.version }}/gemrb-win32-v{{ site.version }}.zip),<br>[<i class="fab fa-linux"></i> Linux]({{ page.sf }}/{{ site.version }}/gemrb-linux-v{{ site.version }}.tar.bz2),<br>[<i class="fab fa-apple"></i> macOS]({{ page.sf }}/{{ site.version }}/gemrb-macos-v{{ site.version }}.tar.bz2) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
 | Source | [Tarball]({{ page.sf }}/{{ site.version }}/gemrb-{{ site.version }}-sources.tar.gz) | See [dev docs](Dev-docs.html#getting-the-code) |
 | Version | {{ site.version }} | {{ site.version }}-git with build number |
 
@@ -45,11 +45,8 @@ GemRB can even run from the build dir without installing.
 
 GemRB uses a settings file primarily to know where to look for the game data.
 
-1.  Copy `GemRB.cfg.sample` to a new file named `GemRB.cfg` in the same folder.
-2.  **Edit `GemRB.cfg`**:
-  * The only thing that **always needs to be changed** is the **path to
-    the game's data files** (`GamePath`, very seldomly `CDx`). **It is crucial you get this right.**
-  * If you're running from a binary package, set `GemRBPath` to `.`.
+Edit the shipped **`GemRB.cfg`**: the only thing that **always needs to be changed** is the **path to
+the game's data files** (`GamePath`). **It is crucial you get this right.**
 
 If you are curious, read the detailed explanation of all the [configuration options](Manpage.md).
 The configuration filename is arbitrary, but check the note in the last section.
@@ -59,19 +56,12 @@ prints to the output or GemRB.log file before exiting. See [this old
 video](http://www.youtube.com/watch?v=32BZouraDPM) for a walkthrough
 on how to fix the encountered problems and set up the paths properly.*
 
-## Windows
-
-The default config file `GemRB.cfg.sample` is preconfigured as if you unpacked the archive into `C:\`.
-If you haven't, edit it with a text editor, change `PluginsPath` to `.\plugins` and remove the hash
-`#` in front of it.
-
 
 # Run GemRB
 
 You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
-configuration file as needed. Usually the game path is set wrong, but also IWD2
-doesn't work at the preset resolution (change to `800x600`).
+configuration file as needed. Usually the game path is set wrong.
 
 Run the `gemrb` binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`.
 If you named the configuration file `GemRB.cfg` and put it in the same folder as the binary,
