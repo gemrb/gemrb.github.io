@@ -13,7 +13,7 @@ on the drawing and GUI handling rewrite — stay tuned for a deeper dive later t
 With this anniversary release out of the way, finishing that rewrite is again our main
 priority.
 
-You can generally get GemRB from [here](https://gemrb.org).
+You can generally get GemRB from [here](https://gemrb.org/Install).
 
 Full changelog digest:
 
