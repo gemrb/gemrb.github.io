@@ -9,7 +9,7 @@ gallery:
   - url: assets/img/screenshots/10pp6.jpg
     image_path: assets/img/screenshots/thumb/10pp6.jpg
     alt: "10pp6.jpg"
-    title: "10pp6.jpg"
+    title: "Larger player parties is one of the most popular features"
   - url: assets/img/screenshots/iwd2stylecombat2.jpg
     image_path: assets/img/screenshots/thumb/iwd2stylecombat2.jpg
     alt: "IWD2-style combat output"
@@ -22,10 +22,10 @@ gallery:
     image_path: assets/img/screenshots/thumb/sorcerer_monk.jpg
     alt: "Sorcerer/monk multiclass"
     title: "Sorcerer/monk multiclass"
-  - url: assets/img/screenshots/fonts.png
+  - url: https://lynxlynx.info/bugs/mushroom.madness.jpg
     image_path: assets/img/screenshots/thumb/fonts.png
-    alt: "Showcasing custom font support"
-    title: "Showcasing custom font support"
+    alt: "Sometimes things just go wrong ..."
+    title: "Sometimes things go hilariously wrong ...""
 ---
 
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
