@@ -87,10 +87,10 @@ _PS: check our news section in the following days for a daily retrospective with
 
 ---
 Project links:
-- Web site: https://gemrb.org
-- Downloads: https://gemrb.org/Install
-- News: https://gemrb.org/News (RSS available)
-- Screenshots: https://gemrb.org/Media
+- Web site: [https://gemrb.org](https://gemrb.org)
+- Downloads: [https://gemrb.org/Install](https://gemrb.org/Install)
+- News: [https://gemrb.org/News](https://gemrb.org/News) (RSS available)
+- Screenshots: [https://gemrb.org/Media](https://gemrb.org/Media)
 
 If you want to be notified of further releases, subscribe to
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release) (low volume).
