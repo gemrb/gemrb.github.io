@@ -25,7 +25,7 @@ gallery1:
   - url: https://lynxlynx.info/bugs/mushroom.madness.jpg
     image_path: assets/img/screenshots/thumb/fonts.png
     alt: "Sometimes things just go wrong ..."
-    title: "Sometimes things go hilariously wrong ...""
+    title: "Sometimes things go hilariously wrong ..."
 ---
 
 The GemRB team announces the availability of GemRB 0.8.7, a new minor release to kick off
