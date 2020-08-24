@@ -14,6 +14,9 @@ scattered). It is possible to play a movie or dream too.
   * movie - a number, see restmov.2da
   * hp    - hit points healed, 0 means full healing
 
-**Return value:** N/A
+**Return value:** dict
+  * Error: True if resting was prevented by one of the checks
+  * ErrorMsg: a strref with a reason for the error
+  * Cutscene: True if a cutscene needs to run
 
 **See also:** StartStore(gamescript)

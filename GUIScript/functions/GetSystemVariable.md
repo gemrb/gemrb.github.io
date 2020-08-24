@@ -14,6 +14,7 @@ module: GemRB
     * SV_HEIGHT = 2 - screen height
     * SV_GAMEPATH = 3 - game path
     * SV_TOUCH = 4 - are we using touch input mode?
+    * SV_SAVEPATH = 5 - path to the parent of save/mpsave/bpsave dir
 
 **Return value:** This function returns -1 if the index is invalid.
 
