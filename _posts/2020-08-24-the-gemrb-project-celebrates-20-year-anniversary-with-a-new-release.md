@@ -1,7 +1,7 @@
 ---
 title: The GemRB project celebrates 20 year anniversary with a new release
 author: Jaka Kranjc
-gallery:
+gallery1:
   - url: assets/img/screenshots/iwd2-kuldahar-gem.jpg
     image_path: assets/img/screenshots/thumb/iwd2-kuldahar-gem.jpg
     alt: "IWD2 GemRB battle screenshot"
@@ -52,7 +52,7 @@ of open source libraries that are themselves very portable (SDL, OpenAL, libpyth
 Without an open development model and supporting infrastructure, the project would have
 never succeeded.
 
-{% include gallery id="gallery" caption="Various screenshots." %}
+{% include gallery id="gallery1" caption="Various screenshots." %}
 
 The engine can be used to play the full Baldur's Gate saga, the first Icewind Dale and
 Planescape: Torment. The latter requires more reverse engineering and polishing, but
