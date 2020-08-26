@@ -3,7 +3,7 @@ title: Interview with Jarda "Edheldil" Benkovský on the 20 year anniversary of 
 author: Jaka Kranjc
 ---
 
-On the occasion of the anniversary, we asked a few questions from Jarda
+For the third day of anniversary celebrations, we asked a few questions from Jarda
 "Edheldil" Benkovský, a long time project maintainer, [iesh](https://github.com/gemrb/iesh)
 creator and the first web guru.
 
@@ -94,4 +94,3 @@ Too bad that we did not attract some indie game studio to build a new
 game using our engine.
 
 
-_Tune in tomorrow to hear about the next big thing for GemRB._
