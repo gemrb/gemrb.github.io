@@ -64,7 +64,7 @@ count.
 Oh, I do not know ... I was very proud when I converted the adhoc 
 Makefiles we used when I joined to automake + autoconf + libtool. 
 Fortunately it has been since replaced with cmake. I spent a lot of
-time with PS:T's [GUIScripts](GUIScript/Index.html), so perhaps that counts as well.
+time with PS:T's [GUIScripts](/GUIScript/Index.html), so perhaps that counts as well.
 
 
 **6. Do you remember any amusing anecdotes, discoveries or original
