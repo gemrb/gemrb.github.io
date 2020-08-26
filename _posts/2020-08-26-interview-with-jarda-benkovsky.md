@@ -93,4 +93,5 @@ nice people. I am also proud of the work we have done on the project. 
 Too bad that we did not attract some indie game studio to build a new 
 game using our engine.
 
+_Tune in tomorrow to hear about the next big thing for GemRB._
 
