@@ -1,5 +1,5 @@
 ---
-title: A look into the next big thing for GemRB with Brad Allred
+title: GemRB at 20: a look into the next big thing with Brad Allred
 author: Jaka Kranjc
 ---
 
