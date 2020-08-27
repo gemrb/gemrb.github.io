@@ -1,5 +1,5 @@
 ---
-title: "GemRB at 20: a look into the next big thing with Brad Allred"
+title: "GemRB at 20&#58; a look into the next big thing with Brad Allred"
 author: Jaka Kranjc
 ---
 
