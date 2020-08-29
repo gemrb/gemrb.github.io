@@ -59,16 +59,24 @@ underway by late 2003, as evidenced by the CVS logs and news items.
 
 That was the start of version tracking for the project, which later
 transitioned to SVN and finally GIT. Code hosting was moved to GitHub in
-2013, which made fly-by contributions much easier. Eventually in 2019, the
+2013, which made flyby contributions much easier. Eventually in 2019, the
 bug tracker was moved there as well and now in 2020, it hosts the project
 home page.
 
 Forums were initially hosted on SourceForge, but by early 2005, we opened
-a subforum on the Gibberlings3 community forums, which we still use today.
+a subforum on the Gibberlings3 community forums, which is still used today.
 Another change through the years was in instant messaging. Some of the first
 talks happened over ICQ, since 2003 on IRC, but most recently users have
 been migrating to Discord.
 
+For the [20 year anniversary](/2020/08/24/the-gemrb-project-celebrates-20-year-anniversary-with-a-new-release.html)
+in 2020, retrospective interviews with several promininet contributors to
+the project were made
+([1](https://gemrb.org/2020/08/25/interview-with-project-founder-daniele-collantoni.html), 
+[2](https://gemrb.org/2020/08/26/interview-with-jarda-benkovsky.html), 
+[3](https://gemrb.org/2020/08/27/a-look-into-the-next-big-thing-for-gemrb-with-brad-allred.html), 
+[4](https://gemrb.org/2020/08/28/interview-with-laszlo-toth.html), 
+[5](https://gemrb.org/2020/08/29/interview-with-jaka-kranjc.html)).
 
 ## Development milestones
 
