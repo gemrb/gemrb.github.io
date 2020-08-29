@@ -3,7 +3,7 @@ title: Interview with project founder Daniele Collantoni on the 20 year annivers
 author: Jaka Kranjc
 ---
 
-On the occasion of the anniversary, we asked a few questions from Daniele "Balrog994"
+On the occasion of the anniversary, we asked a few questions of Daniele "Balrog994"
 Collantoni, the project founder and prolific contributor.
 
 **1. What was the initial motivation to start GemRB, even before all the

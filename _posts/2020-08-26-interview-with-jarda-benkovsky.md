@@ -3,7 +3,7 @@ title: Interview with Jarda "Edheldil" Benkovský on the 20 year anniversary of 
 author: Jaka Kranjc
 ---
 
-For the third day of anniversary celebrations, we asked a few questions from Jarda
+For the third day of anniversary celebrations, we asked a few questions of Jarda
 "Edheldil" Benkovský, a long time project maintainer, [iesh](https://github.com/gemrb/iesh)
 creator and the first web guru.
 

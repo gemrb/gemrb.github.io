@@ -3,7 +3,7 @@ title: Interview with Jaka "lynx" Kranjc on the 20 year anniversary of GemRB
 author: Marcel Heing-Becker
 ---
 
-For the final day of anniversary celebrations, we asked a few questions from
+For the final day of anniversary celebrations, we asked a few questions of
 Jaka "lynx" Kranjc. He is the current project maintainer, long time release manager,
 experimental modder and IESDP steward.
 
