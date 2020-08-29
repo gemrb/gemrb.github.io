@@ -72,11 +72,11 @@ been migrating to Discord.
 For the [20 year anniversary](/2020/08/24/the-gemrb-project-celebrates-20-year-anniversary-with-a-new-release.html)
 in 2020, retrospective interviews with several promininet contributors to
 the project were made
-([1](https://gemrb.org/2020/08/25/interview-with-project-founder-daniele-collantoni.html), 
-[2](https://gemrb.org/2020/08/26/interview-with-jarda-benkovsky.html), 
-[3](https://gemrb.org/2020/08/27/a-look-into-the-next-big-thing-for-gemrb-with-brad-allred.html), 
-[4](https://gemrb.org/2020/08/28/interview-with-laszlo-toth.html), 
-[5](https://gemrb.org/2020/08/29/interview-with-jaka-kranjc.html)).
+([1](/2020/08/25/interview-with-project-founder-daniele-collantoni.html), 
+[2](/2020/08/26/interview-with-jarda-benkovsky.html), 
+[3](/2020/08/27/a-look-into-the-next-big-thing-for-gemrb-with-brad-allred.html), 
+[4](/2020/08/28/interview-with-laszlo-toth.html), 
+[5](/2020/08/29/interview-with-jaka-kranjc.html)).
 
 ## Development milestones
 
