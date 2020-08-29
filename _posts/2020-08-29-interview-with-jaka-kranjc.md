@@ -3,9 +3,9 @@ title: Interview with Jaka "lynx" Kranjc on the 20 year anniversary of GemRB
 author: Marcel Heing-Becker
 ---
 
-Jaka "lynx" Kranjc is the current project maintainer, long time release manager, 
-experimental modder and IESDP steward. On the occasion of the anniversary, we 
-asked him a few questions.
+For the final day of anniversary celebrations, we asked a few questions from
+Jaka "lynx" Kranjc. He is the current project maintainer, long time release manager,
+experimental modder and IESDP steward.
 
 **1. How did you find your way into GemRB?**
 
@@ -73,7 +73,7 @@ tool is great for answering questions like "Is this field/bit unused?", since
 you can script it to check all files in all games. Using it or ielister to 
 pretty-print binary files is also very useful. For one to enable a readable `git 
 log` for the unhardcoded binary data that we ship, but also to compare savegames 
-between the engines (which is important for compatibility).
+between the engines, which is important for compatibility.
 
 
 **4. Was there any help or obstruction from official developers at any point?**
@@ -118,11 +118,10 @@ asking for help. A new contributor joined soon after and did much more than was
 asked for. Appears serendipitous, but surely just a thing of chance.
 
 If we weren't stuck with the game data, I'd retroactively change the scripting 
-design: allow normal/full assignment, disallow triggers with side effects and 
-most importantly, have linear execution, so successful trigger execution is 
+design to have linear execution, so successful trigger evaluation is 
 immediately followed by the execution of their action block. Probably would end 
-up just using LUA directly. All things to make the experience more like reading 
-books and other programming languages.
+up just using Python directly. For all the other features that would bring and
+to make the experience more like reading books and other programming languages.
 
 
 **7. Which one was your favourite IE game and do you still play it? Or other old 
@@ -146,11 +145,12 @@ passion.
 
 **8. What's on the GemRB feature/tech plan for the future?** 
 
-I'll let Brad talk 
-about the major plans in a separate article, but personally I'd like to get the 
+[Brad talked about the major plans](/2020/08/27/a-look-into-the-next-big-thing-for-gemrb-with-brad-allred.html)
+in a separate article, but personally I'd like to get the 
 time to work more on IWD2. It's already a surprisingly polished experience, but 
 the game remains unfinishable after a few chapters. And it's our last original 
-game to be conquered!
+game to be conquered! However, the subviews branch needs to be finished, so
+I have to help with that first.
 
 I also have an old stash of the beginning of a combat code refactor, since the 
 originals used quite an exotic way to figure out round timing (a picture), which 
@@ -177,10 +177,10 @@ organizational support would be required (eg. from the Software Freedom
 Conservancy).
 
 One obvious thing that should always be worked on is getting more people on 
-board and increasing the bus factor. In a technical sense, finding someone 
+board and increasing the bus factor. In a technical sense, recruiting someone 
 strong in graphics programming would really help for our next release and making 
-the SDL2 backend the best it can be. Our mobile ports have bitrotted, so until 
-someone that cares enough comes along, they remain unusable.
+the SDL backends the best they can be. Our mobile ports have bitrotten, so until 
+someone that cares enough comes along, they will remain unusable.
 
 Project communication is also something that can always be improved; both 
 external and internal. How to get more people to notice our news, is syndication 
@@ -206,7 +206,7 @@ It varies with time, work stress and motivation. At
 minimum I check the Gibberlings3 forums almost every day, to see if anyone needs 
 help, any new discoveries have been made or if anything else interesting 
 happened. Similarly with email to see the latest chatter on the issue tracker, 
-do code review and triage bugs.
+review code changes and triage bugs.
 
 Sometimes things just align and I fall into the Zone, deep hack mode or however 
 you want to call it. Then time just disappears, a whole day is gone without 
