@@ -16,6 +16,17 @@ follows is a list of mod ideas, with the simpler ones requiring minimal effort o
 part. Many have been gathered in the [**gemrb-tweaks**](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/gemrb-tweaks)
 mod for an easier install and have been removed from this list.
 
+### Installing mods
+
+If you're new to modding IE games, first install the latest release of
+[WeiDU](https://github.com/WeiDUorg/weidu/releases). It's a tool that allows
+several mods to be installed at once, even if they modify the same files. Most
+mods already bundle the Windows version — this will be the EXE file in the 
+downloaded mod. You can run it to trigger the install.
+
+Each mod has to be extracted to the game dir, so there's one folder per mod.
+Then you just run it through WeiDU to install: `weinstall somemodfolder`.
+
 ## Mod ideas
 
 Separated by difficulty/time requirement. If you don't know how doable
@@ -148,12 +159,16 @@ also have to create them first, not just replace the existing entries.
 
 ## Modding on Mac
 
-Since the extra game data, including the GemRB override directory, is inside the app bundle, when you need to modify
-an override file you will need to right click the application and select “Show Package Contents” and navigate to “Contents/Resources/override”.
+Since the extra game data, including the GemRB override directory, is
+inside the app bundle, when you need to modify an override file you will
+need to right click the application and select “Show Package Contents”
+and navigate to `Contents/Resources/override`.
 
 ## Notes to modders
 
 Since WeiDU 247 you don't have to treat GemRB any differently than the rest of the games.
+Once GemRB is ran on an installed game, it will leave a `gemrb_path.txt` file with the
+path to engine files. WeiDU will then automatically use that for extra search paths.
 
 For the curious, here is a table of the common paths involved. If you find a reason to
 mod something in gemrb/override, do let us know.
