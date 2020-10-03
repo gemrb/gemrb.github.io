@@ -16,7 +16,7 @@ follows is a list of mod ideas, with the simpler ones requiring minimal effort o
 part. Many have been gathered in the [**gemrb-tweaks**](https://github.com/lynxlynxlynx/gemrb-mods/tree/master/gemrb-tweaks)
 mod for an easier install and have been removed from this list.
 
-### Installing mods
+## Installing mods
 
 If you're new to modding IE games, first install the latest release of
 [WeiDU](https://github.com/WeiDUorg/weidu/releases). It's a tool that allows
