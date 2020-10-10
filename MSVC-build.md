@@ -14,11 +14,12 @@ to minimise your download time.
 
 When installing include also these individual options:
  * **C++**, version does not matter
- * **Python 2**, pick the 64-bit version
  * **Git**, the github support feature is optional
  * **CMake**
  * **Windows (10) SDK**, any version should do — if not, let us know
 
+The installer does ship Python, but not its debug build, so it's better to use the one
+provided by vcpkg. It will be installed in the following section.
 
 ## Install dependencies — external SDKs
 After you have installed Visual Studio, you will need to install the libraries that
@@ -45,7 +46,7 @@ cd vcpkg
 
 Then install the all the dependencies:
 ```
-.\vcpkg install sdl2:x64-windows zlib:x64-windows
+.\vcpkg install sdl2:x64-windows zlib:x64-windows python2:x64-windows
 .\vcpkg install openal-soft:x64-windows sdl2-mixer:x64-windows libpng:x64-windows
 .\vcpkg install libogg:x64-windows libvorbis:x64-windows freetype:x64-windows libiconv:x64-windows
 ```
