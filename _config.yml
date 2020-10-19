@@ -36,7 +36,7 @@ footer:
       url: "https://github.com/gemrb"
     - label: "Edit this page"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/gemrb/gemrb.github.io/"
+      url: "https://github.com/gemrb/gemrb.github.io/blob/master/{{ page.path }}"
 
 defaults:
   - scope:
