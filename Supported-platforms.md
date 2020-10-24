@@ -15,18 +15,14 @@ platforms on our website.
   - Linux (x86, arm, ppc, mips, s390x and their 64-bit versions)
   - Mac OS (various, even pre x86)
   - FreeBSD, OpenBSD, NetBSD, DragonflyBSD
-  - Pandora, Haiku,
-    [Maemo](http://talk.maemo.org/showthread.php?t=16947), ReactOS,
-    SyllableOS, [Raspberry
-    Pi](http://www.raspians.com/Knowledgebase/gemrb-baldurs-gate-on-the-raspberry-pi/)
-  - AmigaOS
+  - Pandora,, [Raspberry
+    Pi](http://www.raspians.com/Knowledgebase/gemrb-baldurs-gate-on-the-raspberry-pi/), Playstation Vita
+  - Haiku, ReactOS, SyllableOS, AmigaOS, [Solaris](http://forums.nekochan.net/viewtopic.php?f=17&t=16730822&p=7391249)
   - Android, iOS: currently unmaintained
-  - Ubuntu Phone, Symbian
-  - [Solaris](http://forums.nekochan.net/viewtopic.php?f=17&t=16730822&p=7391249)
+  - Ubuntu Phone, Symbian, [Maemo](http://talk.maemo.org/showthread.php?t=16947)
 
 **Not included yet, source available:**
 
-  - Playstation Vita
   - Dingoo (partly included)
   - IRIX (partly included)
 
