@@ -6,7 +6,7 @@ author: Jaka Kranjc
 GemRB has been running on the PlayStation Vita since roughly the last
 release, when **Taras "Northfear" Rohozhynskyi** published his work for the
 [first time](https://vitadb.rinnegatamante.it/#/info/572). The port
-includes the necessary input support, some performance improvements, a
+includes the necessary input support, some performance improvements,
 an aspect-ratio preserving display mode and
 easy launching through its LiveArea content manager. All of the games
 should be working, but BG2 is still limited by I/O performance, so it's
