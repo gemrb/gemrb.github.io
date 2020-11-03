@@ -37,8 +37,9 @@ development]({{ site.contribute }}).
 # Latest news
 
 <ul>
-  {% for post in site.posts reversed limit:1 %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  {% for post in site.posts reversed limit:2 %}
+    <div style="font-size: 0.8em;">{{ post.date | date: "%e. %B %Y" }}</div>
+    <h3 style="margin-top: 0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <div>
       {{ post.excerpt }}
     </div>
