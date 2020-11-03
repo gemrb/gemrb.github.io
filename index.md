@@ -37,13 +37,18 @@ development]({{ site.contribute }}).
 # Latest news
 
 <ul>
+  {% assign workaround = "" %}
   {% for post in site.posts reversed limit:2 %}
+    {% capture onePost %}
     <div style="font-size: 0.8em;">{{ post.date | date: "%e. %B %Y" }}</div>
     <h3 style="margin-top: 0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <div>
       {{ post.excerpt }}
     </div>
+    {% endcapture %}
+    {% assign workaround = workaround | prepend: onePost %}
   {% endfor %}
+  {{ workaround }}
 </ul>
 
 Looking for something older or even newer? Check our [news page](News.md#news-in-the-making).
