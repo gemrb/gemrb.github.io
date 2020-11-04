@@ -1,5 +1,5 @@
 ---
-title: "MniDebConf Gaming Edition: GemRB talk and Q&A on 23rd November"
+title: "MiniDebConf Gaming Edition: GemRB talk and Q&A on 23rd November"
 author: Jaka Kranjc
 ---
 
