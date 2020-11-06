@@ -30,7 +30,7 @@ platforms on our website.
 
   - webOS [discussion
     thread](http://forums.precentral.net/webos-development/291559-request-gemrb-port-webos.html)
-  - MorphOS
+  - MorphOS, WarpOS
 
 **Unfinished:**
 
