@@ -25,12 +25,12 @@ platforms on our website.
 
   - Dingoo (partly included)
   - IRIX (partly included)
+  - MorphOS, WarpOS
 
 **Source unavailable:**
 
   - webOS [discussion
     thread](http://forums.precentral.net/webos-development/291559-request-gemrb-port-webos.html)
-  - MorphOS, WarpOS
 
 **Unfinished:**
 
