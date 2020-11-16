@@ -17,7 +17,7 @@ a trivial GemRB dataset (aka "game").
 
 The goal is to create a completely free (in the OSS sense) dataset which
 could be distributed with GemRB and also serve as a reference for
-writing comprehensive documentation if we ever get to it. Preferably it could be done
+writing comprehensive content creation documentation. Preferably it could be done
 with free tools, so that the process is repeatable by users.
 
 ### Options
@@ -39,23 +39,25 @@ much more easily from our (coder's) point of view. Scripting,
 story-telling and dialog is also something the modding community is well
 versed in, so it all comes down to classical art.
 
-This includes at minimum <span class="underline">area backgrounds,
-character animations, gui skins, various icons (and cursors)</span>,
+This includes at minimum _area backgrounds,
+character animations, gui skins, various icons (and cursors)_,
 music and sounds. While this amounts to a lot of work, do not forget
-that some appropriate art already exists out there (eg
+that some appropriate art already exists out there (eg.
 **[this](http://opengameart.org/)** or
 [this](http://search.freegamedev.net/) and
-[this](http://soundbible.com/)) and possibly *just* needs a conversion
+[this](http://soundbible.com/)) and possibly just needs a conversion
 to one of the IE formats.
 
 But, there is also some self initiative shown and we already have some
 new character animations (one of the hardest/most tedius things to do):
 
-  - [this one](http://gibberlings3.net/forums/topic/21396-a) by
+  - [this one](https://gibberlings3.net/forums/topic/21396-a) by
     deepinthewoods (including some spell effects)
-  - [this one](http://gibberlings3.net/forums/topic/20190-a),
+  - [this one](https://gibberlings3.net/forums/topic/20190-a),
     [converted](http://opengameart.org/content/big-one-character) by
     joc-wi
+  - a full workflow is being drafted [on this wiki page](https://github.com/gemrb/gemrb/wiki/Production-workflow-for-sprite-creation)
+    and its linked bug
 
 Also area graphics:
 
@@ -63,7 +65,7 @@ Also area graphics:
     by Aranthor
 
 Here's a discussion about the [details of creating
-them](http://gibberlings3.net/forums/topic/20189-a). You can also find a
+them](https://gibberlings3.net/forums/topic/20189-a). You can also find a
 begining of a [3d modelling tutorial
 here](http://www.bhaalspawn.org/3d.html), with a focus on area graphics.
 
@@ -91,8 +93,7 @@ is a lot that can be salvaged from existing efforts.**
     skeletal one would hopefully suffice.
   - TLK and KEY files. Should be trivial to create.
 
-Some of this is already done for the bundled demo stub, so check [there]
-(/demo/data).
+Some of this is already done for the bundled demo stub, so check `/demo/data`.
 
 Potentially these item description and portrait graphics could be used
 (consult the author): <http://ruloc.deviantart.com/gallery/?offset=72>
