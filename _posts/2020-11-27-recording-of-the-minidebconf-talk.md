@@ -3,7 +3,7 @@ title: "Recording of the MiniDebConf GemRB talk now available"
 author: Jaka Kranjc
 ---
 
-The talk and Q&A [mentioned in the previous post](2020/11/04/minidebconf-gaming-edition-gemrb-talk.md)
+The talk and Q&A [mentioned in the previous post](../04/minidebconf-gaming-edition-gemrb-talk.html)
 are now available as an online recording for anyone that missed it.
 
 {% include video id="Ybif2SgGMdA" provider="youtube" %}
