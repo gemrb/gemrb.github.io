@@ -167,8 +167,10 @@ and navigate to `Contents/Resources/override`.
 ## Notes to modders
 
 Since WeiDU 247 you don't have to treat GemRB any differently than the rest of the games.
-Once GemRB is ran on an installed game, it will leave a `gemrb_path.txt` file with the
-path to engine files. WeiDU will then automatically use that for extra search paths.
+Once GemRB is ran on an installed game, it will leave a `gemrb_path.txt` file in the top
+game directory (alongside keymap.ini) with the path to engine files. WeiDU will then
+automatically use that for extra search paths. You can also check for this file manually
+if you need to do any GemRB-only operations.
 
 For the curious, here is a table of the common paths involved. If you find a reason to
 mod something in gemrb/override, do let us know.
