@@ -9,8 +9,9 @@ approached the project before, but in the end nothing came of it.
 
 What follows is a collection of what little existing work has been done towards a
 new and Free game. Some of it has been integrated into the bundled tech demo. See
-[#](https://github.com/gemrb/gemrb/issues/313)
-for a growing list of things that need to be done to round it up.
+[#313](https://github.com/gemrb/gemrb/issues/313)
+for a growing list of things that need to be done to round it up. The list hasn't
+been there since the begining, but nonetheless aims to be comprehensive.
 
 ## Creating a new game
 
