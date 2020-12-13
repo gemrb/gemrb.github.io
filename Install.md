@@ -23,7 +23,7 @@ The Android and iOS builds are [currently unmaintained](https://github.com/gemrb
 
 You will need one of the original Infinity Engine games or **the free
 [BG II demo](https://duckduckgo.com/?q=bg2+demo).** If you're not using Windows, here are
-[some ideas](Installing-games.md) on how to complete the install. GemRB comes with its own demo, but it is trivial.
+[some ideas](Installing-games.md) on how to complete the install. GemRB comes with its own demo, but it is tiny.
 
 Due to low interest, GemRB does [not support the EE versions](https://github.com/gemrb/gemrb/issues/164)
 of the games, though there has always been considerable feature overlap.
