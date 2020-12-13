@@ -8,7 +8,9 @@ that people wonder and sometimes want to create new games. Even some smaller stu
 approached the project before, but in the end nothing came of it.
 
 What follows is a collection of what little existing work has been done towards a
-new and Free game. Some of it has been integrated into the tiny tech demo.
+new and Free game. Some of it has been integrated into the bundled tech demo. See
+[#](https://github.com/gemrb/gemrb/issues/313)
+for a growing list of things that need to be done to round it up.
 
 ## Creating a new game
 
@@ -134,7 +136,7 @@ conceptually free for non-commercial)
     separation would be better, like moving things (if possible) to a
     plugin.
   - Use the bundled demo as a starting point
-  - WRT the ruleset, Pathfinder looks promising and is licensed under
+  - WRT the ruleset, Pathfinder and most D&D editions are licensed under
     the Open Game License
   - WRT the setting, not much thought was given to it, but there are
     also (semi)free ones out there like
@@ -161,10 +163,11 @@ Items
 
 1.  When you need to use existing GemRB actions, add their
     (bg2/iwd2/desired) signature to `data/action.ids`. Same holds true
-    for trigger, instant and object IDS files. You can look them up on
-    IESDP (see sidebar).
+    for trigger, instant, object and effect IDS files. You can look them up on
+    [IESDP](https://gibberlings3.github.io/iesdp/).
 2.  You can add new strings to dialog.tlk with `WeiDU --nogame --strapp
     "String1" demo/dialog.tlk --tlkout demo/dialog.tlk` and look them up
     with `WeiDU --nogame --string 1 demo/dialog.tlk`.
 3.  New actor animations require new entries to avatars.2da with a
     matching animation id and type.
+4.  See this wiki page with [various asset creation notes](https://github.com/gemrb/gemrb/wiki/Asset-creation-notes).
