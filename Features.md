@@ -68,6 +68,12 @@ or perhaps the [FAQ](FAQ.md).
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20iwd2">iwd2</a></td>
     </tr>
     <tr>
+      <td style="text-align: left">GemRB demo</td>
+      <td style="background: chocolate;">yes</td>
+      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">no</td>
+      <td><a hre
+    <tr>
       <td style="text-align: left">New game</td>
       <td style="background: chocolate;">no</td>
       <td style="background: chocolate;">no</td>
