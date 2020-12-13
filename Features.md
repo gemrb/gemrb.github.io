@@ -73,6 +73,7 @@ or perhaps the [FAQ](FAQ.md).
       <td style="background: chocolate;">no</td>
       <td style="background: chocolate;">no</td>
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20demo">demo</a></td>
+    </tr>
     <tr>
       <td style="text-align: left">New game</td>
       <td style="background: chocolate;">no</td>
@@ -94,9 +95,7 @@ PST is completable, but has some notable missing features, making it the least p
 IWD2 is playable quite nicely up until the Ice Temple. Both still require [a lot more
 love]({{ site.contribute }}) to reach the level of the other games.
 
-There is also a [tiny tech
-demo](https://github.com/gemrb/gemrb/tree/master/demo) bundled with GemRB,
-but it requires more content to be more than a simple test case.
+Th GemRB demo is bundled with GemRB, so it can be ran immediately.
 
 Multiplayer is **not** supported.
 
