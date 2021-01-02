@@ -53,6 +53,7 @@ The [organisation](https://github.com/gemrb) currently has these repositories:
 - gemrb - the main project
 - gemrb.github.io — this very website
 - iesh - IE python shell
+- gemrb-assets - for demo data source files, misc project art and more
 
 The engine sees by far the most action, but if you're interested in something
 different, all the projects are open to contribution.
