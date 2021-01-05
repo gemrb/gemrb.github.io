@@ -42,10 +42,10 @@ gallery-games:
     image_path: assets/img/screenshots/thumb/pstmac.jpg
     alt: "Planescape: Torment game shot on a mac"
     title: "Planescape: Torment game shot on a mac" 
-  - url: assets/img/screenshots/pst2.jpg
-    image_path: assets/img/screenshots/thumb/pst2.jpg
-    alt: "Planescape: Torment game shot"
-    title: "Planescape: Torment game shot"
+  - url: assets/img/screenshots/gemrb-demo-aarch64.jpg
+    image_path: assets/img/screenshots/thumb/gemrb-demo-aarch64.jpg
+    alt: "GemRB demo running on rg351p"
+    title: "GemRB demo running on rg351p"
 gallery-mods:
   - url: assets/img/screenshots/goi.jpg
     image_path: assets/img/screenshots/thumb/goi.jpg
