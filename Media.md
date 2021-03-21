@@ -106,7 +106,9 @@ Here are some screenshots of gemrb running Infinity Engine games.
 
 # Videos
 
-This is a list of links to videos showing GemRB in action.
+This is a list of links to videos showing GemRB in action. But first, a 15 minute
+introduction to the engine and its history:
+{% include video id="Ybif2SgGMdA" provider="youtube" %}
 
 [Youtube playlist of all the videos
 below](http://www.youtube.com/view_play_list?p=0AE43FB55973C06A) (and many
