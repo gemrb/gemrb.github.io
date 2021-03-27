@@ -72,38 +72,17 @@ them](https://gibberlings3.net/forums/topic/20189-a). You can also find a
 begining of a [3d modelling tutorial
 here](http://www.bhaalspawn.org/3d.html), with a focus on area graphics.
 
-**So, to create a new game or just a demo that can be bundled alongside
-GemRB, both more artists and some coordinators are needed, since there
-is a lot that can be salvaged from existing efforts.**
+**So, to create a new game, both more artists and some coordinators are needed, since there
+is a lot that can be salvaged from existing efforts.** Additional programming is the
+smallest of the problems.
 
-  - At least one avatar, preferably two. It does not have to be pretty,
-    it just has to be able to express stand and walk animations. Could
-    be done in Blender with some GIMP work. The avatars available on the
-    net are mostly nonfree, unfortunately.
-  - One or two rooms. They could be connected with a door and should
-    contain some containers.
-  - Item or two.
-  - Some simple GUI and associated scripts. If the scripts are simple
-    enough, only a small amount of windows is needed - intro screen,
-    game window and e.g. inventory window could be enough for a humble
-    beginning.
-  - Half a dozen of GUI feedback sounds like pushing a button or closing
-    a window. At least the former one is needed.
-  - Optionally a musical score. It does not have to be a great piece of
-    art, something atmospheric would be Good Enough™.
-  - A minimal set of IDS and 2DA files to make the engine happy.
-    Probably a whole lot of them is required now, but in many cases a
-    skeletal one would hopefully suffice.
-  - TLK and KEY files. Should be trivial to create.
-
-Some of this is already done for the bundled demo stub, so check `/demo/data`.
+To see what a minimal playable dataset looks like, inspect the bundled demo in `demo/data`.
 
 Potentially these item description and portrait graphics could be used
 (consult the author): <http://ruloc.deviantart.com/gallery/?offset=72>
 
 The custom BAMs for armor and helmet were created by Tantalus for his
-Mod "Sarevok Recovery Mod" (
-<http://www.baldursgate-refugium.de/mods/sarevok-wiederherstellung/> ),
+[Sarevok Recovery Mod](http://www.baldursgate-refugium.de/mods/sarevok-wiederherstellung/),
 licensed under CC BY-NC-SA 3.0 by Nicolas Peters.
 
 For various [icons these CC-BY](https://game-icons.net/) licensed ones
