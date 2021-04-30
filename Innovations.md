@@ -28,11 +28,11 @@ those include:
     in IWD2)
 
 ## GUI and high resolutions
-TODO: add subviews goodies
  - window scaling
-   - for arbitrary higher resolutions at the same pixel count
-   - game window scaling, for more game real estate without the Widescreen mod
+   - for arbitrary higher resolutions at the same pixel count (resize the window while in windowed mode)
+   - game window scaling, for more game real estate even without the Widescreen mod (just set a higher resolution)
  - [custom font support](Fonts.md)
+ - general window dragging support
  - in character generation, the default portrait is randomised (for our sanity's
    sake :))
  - some GUI tweaks that allow infinite kits, spells and so on or improve usability
