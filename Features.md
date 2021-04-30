@@ -95,10 +95,28 @@ PST is completable, but has some notable missing features, making it the least p
 IWD2 is playable quite nicely up until the Ice Temple. Both still require [a lot more
 love]({{ site.contribute }}) to reach the level of the other games.
 
-Th GemRB demo is bundled with GemRB, so it can be ran immediately.
+The GemRB demo is bundled with GemRB, so it can be ran immediately.
 
 Multiplayer is **not** supported.
 
 If you can't wait to see what improvements the next release will bring, a terse overview of what
 has already been done is in the [changelog in the making](https://github.com/gemrb/gemrb/blob/master/NEWS),
 updated approximately every 100 changes.
+
+# Wide screen, higher resolutions
+
+The original games only supported a fixed list of resolutions through their data, with the
+widescreen mod enabling more choice. GemRB on the other hand supports whole-window scaling,
+which in effect produces larger pixels and looks best at integer multiples of the base
+resolution (eg. 3x bigger). GemRB also supports arbitrary resolutions without the widescreen
+mod, but in that case the GUIs will remain the same size, only centered.
+
+Setup        | Resolution | Pixel scaling | Requires mod
+-------------|------------|---------------|-------------
+Originals    | Fixed      | no       | no
+GemRB 0.8.7  | Fixed      | optional | no
+GemRB 0.8.8+ | Arbitrary  | optional | no
+Widescreen   | Arbitrary  | no       | yes
+
+So feel free to run at any resolution and if you're discontent with the GUI, consider
+installing the widescreen mod and bigger fonts.
