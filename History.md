@@ -70,7 +70,7 @@ talks happened over ICQ, since 2003 on IRC, but most recently users have
 been migrating to Discord.
 
 For the [20 year anniversary](/2020/08/24/the-gemrb-project-celebrates-20-year-anniversary-with-a-new-release.html)
-in 2020, retrospective interviews with several promininet contributors to
+in 2020, retrospective interviews with several prominent contributors to
 the project were made
 ([1](/2020/08/25/interview-with-project-founder-daniele-collantoni.html), 
 [2](/2020/08/26/interview-with-jarda-benkovsky.html), 
