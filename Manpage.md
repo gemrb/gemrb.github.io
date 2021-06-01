@@ -9,7 +9,8 @@ GemRB - emulator for Infinity Engine-based games
 
 # SYNOPSIS
 
-**gemrb** \[-c *CONFIG-FILE*\]  
+**gemrb** \[-q\] \[-c *CONFIG-FILE*\]  
+**gemrb** *PATH-TO-GAME*  
 **torment**  
 
 # DESCRIPTION
@@ -24,6 +25,9 @@ settings in the engine configuration file below. A full install is
 recommended.
 
 # OPTIONS
+
+  - **-q**  
+    Disable audio completely, regardless of supported audio plugins.
 
   - **-c** *FILE*  
     Use the specified configuration file *FILE* instead of the default
@@ -91,9 +95,17 @@ That is often enough, so do not fiddle with the other paths too much.
 <!-- end list -->
 
   - **MaxPartySize**=INT  
-    EXPERIMENTAL: Set this to 1-10 if you want more party members or enforce fewer. 6 by default. **NOTE:** You need to choose a big
-enough resolution, so there will be enough room for all the party
-portraits\! Does nothing for PST and IWD2.
+    Set this to 1-10 if you want more party members or enforce fewer. 6 by default. **NOTE:** 
+    For bigger parties you need to choose a big enough resolution, so there will be
+    enough room for all the party portraits! No space for that in PST or IWD2. The
+    10pp mod is required to fix various game scripts, so the extra party members
+    don't get stuck in cutscenes.
+
+  - **Logging**=(0|1)
+    By default (set to 1) logging is enabled and several loggers are used depending
+    on the plaftorm. Use 0 to disable all logging, which can help in performance
+    critical settings.
+
 
 # Video Parameters:
 
@@ -376,6 +388,12 @@ The default is *0*.
     Set this parameter to *1*, if you want to ignore the settings from
     the original configuration files - baldur.ini / icewind.ini /
     torment.ini. It is disabled by default.
+
+  - **GamepadPointerSpeed**=INT
+    Pointer movement speed with gamepads. The default is 10.
+
+  - **VitaKeepAspectRatio**=(0|1)
+    If set to *1*, original aspect ratio is preserved while game area is scaled to native PS Vita resolution. It is enabled by default.
 
 
 # FILES
