@@ -115,7 +115,7 @@ Setup        | Resolution | Pixel scaling | Requires mod
 -------------|------------|---------------|-------------
 Originals    | Fixed      | no       | no
 GemRB 0.8.7  | Fixed      | optional | no
-GemRB 0.8.8+ | Arbitrary  | optional | no
+GemRB 0.9.0+ | Arbitrary  | optional | no
 Widescreen   | Arbitrary  | no       | yes
 
 So feel free to run at any resolution and if you're discontent with the GUI, consider
