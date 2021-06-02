@@ -35,7 +35,7 @@ any that modify the EXE files could lack the functionality those hacks achieved.
 
 # Install
 
-The downloads do not come with installers, so just unpack them and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2017 Redistributable](https://aka.ms/vs/15/release/VC_redist.x86.exe) (32-bit), as GemRB will fail to start without two of its DLLs.
+The downloads do not come with installers, so just unpack them in a game folder and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2017 Redistributable](https://aka.ms/vs/15/release/VC_redist.x86.exe) (32-bit), as GemRB will fail to start without two of its DLLs.
 
 If you downloaded the sources instead, follow the [compilation instructions](Dev-docs.md##setting-up-a-development-environment).
 GemRB can even run from the build dir without installing.
@@ -43,18 +43,19 @@ GemRB can even run from the build dir without installing.
 
 # Configure GemRB
 
-GemRB uses a settings file primarily to know where to look for the game data.
+{: .notice} Consider changing settings only after running GemRB for the first time. In this case you can
+skip this whole section.
 
-Edit the shipped **`GemRB.cfg`**: the only thing that **always needs to be changed** is the **path to
-the game's data files** (`GamePath`). **It is crucial you get this right.**
+GemRB uses a settings file primarily to know where to look for the game data when not
+running from within a game folder or when the path is not passed to it. The other reason you
+might want to edit it is to change other settings like resolution, input tweaks or debugging toggles.
+
+Edit the shipped **`GemRB.cfg`**: the only thing that always needs to be changed (unless you installed
+GemRB in a game folder) is the **path to the game's data files** (`GamePath`). It is crucial you get
+this right to be able to use the configuration.
 
 If you are curious, read the detailed explanation of all the [configuration options](Manpage.md).
 The configuration filename is arbitrary, but check the note in the last section.
-
-*Setting the paths can be tricky, so carefully read any errors that gemrb
-prints to the output or GemRB.log file before exiting. See [this old
-video](http://www.youtube.com/watch?v=32BZouraDPM) for a walkthrough
-on how to fix the encountered problems and set up the paths properly.*
 
 
 # Run GemRB
@@ -63,7 +64,8 @@ You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
 configuration file as needed. Usually the game path is set wrong.
 
-Run the `gemrb` binary, specifying the desired configuration: `gemrb.exe -c torment.cfg`.
+Run the `gemrb` binary, optionally specifying the desired configuration: `gemrb.exe -c torment.cfg`
+or game path: `gemrb.exe /games/gog/iwd2`.
 If you named the configuration file `GemRB.cfg` and put it in the same folder as the binary,
 that file will be used automatically and you don't need to specify anything — you can **just
 click on the program**.
