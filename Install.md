@@ -23,7 +23,7 @@ The Android and iOS builds are [currently unmaintained](https://github.com/gemrb
 
 You will need one of the original Infinity Engine games or **the free
 [BG II demo](https://duckduckgo.com/?q=bg2+demo).** If you're not using Windows, here are
-[some ideas](Installing-games.md) on how to complete the install. GemRB comes with its own demo, but it is tiny.
+[some ideas](Installing-games.md) on how to complete the install. GemRB comes with its own demo, but it is short.
 
 Due to low interest, GemRB does [not support the EE versions](https://github.com/gemrb/gemrb/issues/164)
 of the games, though there has always been considerable feature overlap.
@@ -35,7 +35,8 @@ any that modify the EXE files could lack the functionality those hacks achieved.
 
 # Install
 
-The downloads do not come with installers, so just unpack them in a game folder and run GemRB. MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2017 Redistributable](https://aka.ms/vs/15/release/VC_redist.x86.exe) (32-bit), as GemRB will fail to start without two of its DLLs.
+The downloads do not come with installers, so **just unpack them in a game folder** and run GemRB.
+MacOS is the only exception with its bundle. On Windows make sure you have the [Visual Studio 2017 Redistributable](https://aka.ms/vs/15/release/VC_redist.x86.exe) (32-bit), as GemRB will fail to start without two of its DLLs.
 
 If you downloaded the sources instead, follow the [compilation instructions](Dev-docs.md##setting-up-a-development-environment).
 GemRB can even run from the build dir without installing.
@@ -43,8 +44,9 @@ GemRB can even run from the build dir without installing.
 
 # Configure GemRB
 
-{: .notice} Consider changing settings only after running GemRB for the first time. In this case you can
+Consider changing settings only after running GemRB for the first time. In this case you can
 skip this whole section.
+{: .notice}
 
 GemRB uses a settings file primarily to know where to look for the game data when not
 running from within a game folder or when the path is not passed to it. The other reason you
@@ -60,12 +62,16 @@ The configuration filename is arbitrary, but check the note in the last section.
 
 # Run GemRB
 
+Run it as any other program. :)
+{: .notice}
+
 You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
 configuration file as needed. Usually the game path is set wrong.
 
 Run the `gemrb` binary, optionally specifying the desired configuration: `gemrb.exe -c torment.cfg`
 or game path: `gemrb.exe /games/gog/iwd2`.
+
 If you named the configuration file `GemRB.cfg` and put it in the same folder as the binary,
 that file will be used automatically and you don't need to specify anything — you can **just
 click on the program**.
