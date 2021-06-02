@@ -53,6 +53,7 @@ GemRB sources consist of:
       - Effects
   - GUIScripts
   - Override and unhardcoded
+  - Platforms
   - Includes
   - Docs
 
@@ -143,6 +144,12 @@ potential conflicts with mods.
 
 See this [tabular overview](Modding.md#notes-to-modders) to better
 understand how they relate to the data shipped with the games.
+
+#### Platforms: `platforms`
+
+Special files for various platforms, including custom includes for
+building (eg. additional cmake logic, scaffolding, polyfills),
+art assets and configuration files.
 
 #### Includes: `gemrb/includes`
 
