@@ -46,7 +46,7 @@ GemRB can even run from the build dir without installing.
 
 Consider changing settings only after running GemRB for the first time. In this case you can
 skip this whole section.
-{: .notice}
+{: .notice--warning}
 
 GemRB uses a settings file primarily to know where to look for the game data when not
 running from within a game folder or when the path is not passed to it. The other reason you
@@ -63,7 +63,7 @@ The configuration filename is arbitrary, but check the note in the last section.
 # Run GemRB
 
 Run it as any other program. :)
-{: .notice}
+{: .notice--warning}
 
 You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
