@@ -20,7 +20,7 @@ open or close it respectively at the top of the screen. It accepts all
 module is already imported, so it's enough to call `GameSetPartyGold(1000)`
 instead of `GemRB.GameSetPartyGold(1000)`.
 
-Additionally, a few common functions have [shorthands defined](https://github.com/gemrb/gemrb/blob/master/gemrb/GUIScripts/include.py),
+Additionally, a few common functions have [shorthands defined](https://github.com/gemrb/gemrb/blob/master/gemrb/GUIScripts/Console.py#L40),
 so things can be done faster (eg. `mta()` for `MoveToArea()`).
 
 When you want to see the output of functions, remember to `print` it. You can also redirect
