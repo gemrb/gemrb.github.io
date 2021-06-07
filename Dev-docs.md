@@ -80,18 +80,22 @@ Read about our [support for non-ASCII characters](Text-encodings.md).
 
 When you run GemRB, here is what happens:
 
-1. The core initialises, loads all the plugins and preloads some data
-2. The main game loop is started
-3. Start.py in the game's guiscript directory is run
+1. The core initialises, loads all the plugins and preloads some data.
+2. The main game loop is started.
+3. Main.py in the main GUIScript directory is ran. If unset, GameType
+is autodetected through Autodetect.py files.
+4. More core functionality and asset loading occurs.
+5. The main loop starts.
+6. Start.py's OnLoad method in the game's GUIScript directory is ran:
      - LoadGame(None) will set up a new game by loading the default GAM
        file and linked resources.
      - Party members can be created with CreatePlayer().
      - ...
      - EnterGame() to start the GameControl and enter the map.
-4. MessageWindow.py is run.
-5. Game is up and drawing.
-6. ...
-6. QuitGame() and Quit() to terminate.
+7. MessageWindow.py is run.
+8. Game is up and drawing.
+9. ...
+10. QuitGame() and Quit() to terminate.
 
 Other guiscripts are run on demand, but mostly by direct calls from the
 guiscript side. Read the GUIScript [introduction](GUIScript/Index.md) to
