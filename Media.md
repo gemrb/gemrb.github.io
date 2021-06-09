@@ -4,8 +4,8 @@ toc: true
 gallery-games:
   - url: assets/img/screenshots/bg24hires.jpg
     image_path: assets/img/screenshots/thumb/bg24hires-small.jpg
-    alt: "Baldur's Gate 2 menu shot at high resolution"
-    title: "Baldur's Gate 2 menu shot"
+    alt: "Baldur's Gate 2 high resolution"
+    title: "Baldur's Gate 2 at 1280x1024"
   - url: assets/img/screenshots/bg22.jpg
     image_path: assets/img/screenshots/thumb/bg22.jpg
     alt: "Baldur's Gate 2 menu shot"
