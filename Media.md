@@ -2,9 +2,9 @@
 title: Multimedia files
 toc: true
 gallery-games:
-  - url: assets/img/screenshots/bg2_3.jpg
-    image_path: assets/img/screenshots/thumb/bg2_3.jpg
-    alt: "Baldur's Gate 2 menu shot"
+  - url: assets/img/screenshots/bg24hires.jpg
+    image_path: assets/img/screenshots/thumb/bg24hires-small.jpg
+    alt: "Baldur's Gate 2 menu shot at high resolution"
     title: "Baldur's Gate 2 menu shot"
   - url: assets/img/screenshots/bg22.jpg
     image_path: assets/img/screenshots/thumb/bg22.jpg
