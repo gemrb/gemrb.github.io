@@ -80,5 +80,5 @@ If you're using a touch screen, read this page for the [gesture information](Tou
 
 ## How to run the GemRB demo?
 
-The quickest way, without any configuration, is to **just run GemRB**. It will run the demo if it can't
+The quickest way, without any configuration, is to **just run GemRB** without any parameters. It will run the demo if it can't
 find any other game data. So make sure you haven't unpacked it in a game dir and voilà!
