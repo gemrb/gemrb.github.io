@@ -34,17 +34,12 @@ in the next few lines will show you the actual error. Send us this part
 and we should be able to fix it pretty fast.
 
 ## 4. Playing X at larger resolutions messes up the GUI. Parts are overlapping and flickering.
-You couldn't play the original game at high or random resolutions either. To
-fix this, you have to install the [Widescreen
-mod](http://www.gibberlings3.net/widescreen/). For IWD install Heart of
-Winter too (if it is not preinstalled), since it brought some higher
-resolutions and lots of other improvements.
+You couldn't play the original game at high or random resolutions either.
 
-GemRB supports both linear scaling (start in windowed mode and resize the
-window, integer factors work best) and an approximation to the widescreen
-mod, where we skip the window frames and center the windows to arbitrary
-resolutions. The game area is the main thing that increases in size. You
-can also increase the font size through mods or using TTF fonts.
+GemRB supports various ways to [scale and high-res](http://gemrb.org/Features.html#wide-screen-higher-resolutions)
+the games. As of 0.9.0 practically for arbitrarily high resolutions.
+Due to original data limits, they may not look perfect, but mods can
+fix that.
 
 
 # Uncommon problems
