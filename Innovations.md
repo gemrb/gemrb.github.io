@@ -28,10 +28,11 @@ those include:
     in IWD2)
 
 ## GUI and high resolutions
- - window scaling
+ - [window scaling, high resolutions support](http://gemrb.org/Features.html#wide-screen-higher-resolutions)
    - for arbitrary higher resolutions at the same pixel count (resize the window while in windowed mode)
    - game window scaling, for more game real estate even without the Widescreen mod (just set a higher resolution)
  - [custom font support](Fonts.md)
+ - expanded debug console
  - general window dragging support
  - in character generation, the default portrait is randomised (for our sanity's
    sake :))
