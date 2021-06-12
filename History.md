@@ -78,6 +78,11 @@ the project were made
 [4](/2020/08/28/interview-with-laszlo-toth.html), 
 [5](/2020/08/29/interview-with-jaka-kranjc.html)).
 
+With 0.9.0 a major internal project dubbed *subviews* was completed after
+over five years of effort, modernizing the GUI, drawing and input handling
+among other things. A [technical overview](https://github.com/gemrb/gemrb/wiki/Subviews---Origins-and-Summary-of-Changes)
+is available.
+
 ## Development milestones
 
 Major game milestones, GemRB releases when a certain game became completable:
@@ -87,4 +92,5 @@ Major game milestones, GemRB releases when a certain game became completable:
 - **0.7.0**, 2011: full BG saga (BG2:ToB support)
 - **0.8.0**, 2013: IWD:TotLM, BG1:TotSC
 - **0.8.4**, 2016: PS:T
+- **0.9.0**, 2021: GemRB Demo
 - [**TODO**](https://github.com/gemrb/gemrb/milestone/4): IWD2
