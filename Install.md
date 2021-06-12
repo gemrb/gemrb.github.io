@@ -77,3 +77,8 @@ that file will be used automatically and you don't need to specify anything — 
 click on the program**.
 
 If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
+
+## How to run the GemRB demo?
+
+The quickest way, without any configuration, is to **just run GemRB**. It will run the demo if it can't
+find any other game data. So make sure you haven't unpacked it in a game dir and voilà!
