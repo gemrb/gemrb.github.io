@@ -14,4 +14,4 @@ status, dialog textarea size).
 
 **Return value:** N/A
 
-**See also:** [Window_SetVisible](Window_SetVisible.md), [bit_operation](bit_operation.md)
+**See also:** [bit_operation](bit_operation.md)

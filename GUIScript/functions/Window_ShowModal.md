@@ -20,4 +20,3 @@ MODAL_SHADOW_BLACK, they are blacked out.
 
 **Return value:** N/A
 
-**See also:** [Window_SetVisible](Window_SetVisible.md)

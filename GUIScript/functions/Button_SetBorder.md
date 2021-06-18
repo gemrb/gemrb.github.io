@@ -3,31 +3,27 @@ title: Button_SetBorder
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetButtonBorder (WindowIndex, ControlIndex, BorderIndex, dx1, dy1, dx2, dy2, R, G, B, A, [enabled, filled])
+**Prototype:** GemRB.SetButtonBorder (GButton, BorderIndex, Color, [enabled=0, filled=0, Rect=None])
 
-**Metaclass Prototype:** SetBorder (BorderIndex, dx1, dy1, dx2, dy2, R, G, B, A, [enabled, filled])
+**Metaclass Prototype:** SetBorder (BorderIndex, Color, [enabled=0, filled=0, Rect=None])
 
 **Description:** Sets border/frame/overlay parameters for a button. This 
 command can be used for drawing a border around a button, or to overlay 
 it with a tint (like with unusable or unidentified item's icons).
 
 **Parameters:** 
-  * WindowIndex, ControlIndex - the control's reference
+  * GButton - the control's reference
   * BorderIndex - 0, 1 or 2
-  * dx1,dy1 - Upper left corner
-  * dx2,dy2 - Offset from the lower right corner
   * RGBA - red,green,blue,opacity components of the border colour
   * enabled - 1 means enable it immediately
   * filled - 1 means draw it filled (overlays)
+  * Rect - the border rectangle (the button frame if None)
 
 **Return value:** N/A
 
 **Examples:**
 
-    GemRB.SetButtonBorder (Window, Icon, 0,    0, 0, 0, 0,    0, 0, 0, 160,    0, 1)
+    GemRB.SetButtonBorder (Icon, 0, color,    0, 1, rect)
 Not known spells are drawn darkened (the whole button will be overlaid).
-
-    Button.SetBorder (FRAME_PC_SELECTED, 1, 1, 2, 2, 0, 255, 0, 255)
-This will draw a green frame around the portrait.
 
 **See also:** [Button_EnableBorder](Button_EnableBorder.md)

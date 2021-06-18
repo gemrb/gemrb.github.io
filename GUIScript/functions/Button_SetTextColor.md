@@ -7,14 +7,12 @@ module: _GemRB
 
 **Metaclass Prototype:** SetTextColor (red, green, blue[, invert=0])
 
-**Description:** Sets the text color of a Button control. Invert is used 
-for fonts with swapped background and text colors.
+**Description:** Sets the text color of a Button control.
 
 **Parameters:**
   * WindowIndex, ControlIndex - the control's reference
-  * red, green, blue - the rgb color values
-  * invert - swap background and text colors?
+  * red, green, blue - the rgb color values as a rgb dict
 
 **Return value:** N/A
 
-**See also:** [Label_SetUseRGB](Label_SetUseRGB.md), [Label_SetTextColor](Label_SetTextColor.md)
+**See also:** [Label_SetTextColor](Label_SetTextColor.md)

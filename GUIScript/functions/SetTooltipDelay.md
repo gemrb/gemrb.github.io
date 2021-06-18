@@ -10,5 +10,5 @@ module: GemRB
 **Parameters:**
   * time - 0-10
 
-**See also:** [Control_SetTooltip](Control_SetTooltip.md), [SetMouseScrollSpeed](SetMouseScrollSpeed.md)
+**See also:** [View_SetTooltip](View_SetTooltip.md), [SetMouseScrollSpeed](SetMouseScrollSpeed.md)
 

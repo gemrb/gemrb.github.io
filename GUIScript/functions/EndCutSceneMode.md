@@ -14,5 +14,3 @@ This is mainly a debugging command.
 
 **Return value:** N/A
 
-**See also:** [HideGUI](HideGUI.md), [UnhideGUI](UnhideGUI.md)
-

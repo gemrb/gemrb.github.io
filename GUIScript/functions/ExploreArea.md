@@ -3,16 +3,14 @@ title: ExploreArea
 module: GemRB
 ---
 
-**Prototype:** ExploreArea ([bitvalue=-1])
+**Prototype:** ExploreArea ([explored=True])
 
-**Description:** Explores or unexplores the whole area. Basically fills the 
-explored bitmap with the value given. If there was no value given, it will 
-fill with -1 (all bit set).
+**Description:** Explores or unexplores the whole area.
 
 **Parameters:**
-  * bitvalue:
-    * 0 - undo explore
-    * -1 - explore
+  * explored:
+    * False - undo explore
+    * True - explore
     * all other values give meaningless results
 
 **Return value:** N/A

@@ -12,6 +12,7 @@ module: _GemRB
 **Parameters:** 
   * WindowIndex, ControlIndex - control IDs
   * type - one of CHR_PORTRAITS, CHR_SOUNDS, CHR_EXPORTS or CHR_SCRIPTS
-  * flags -    currently only used for CHR_PORTRAITS: 0 means the portraits with 'M' as the suffix, anything else 'S'
+  * flags:
+    - for CHR_PORTRAITS chooses suffix: 0 'M', 1 'S', 2 'L'
 
-**Return value:** int - the number of options added to the TextArea
+**Return value:** list - the list of options added to the TextArea
