@@ -5,7 +5,7 @@ toc: true
 
 # NAME
 
-GemRB - emulator for Infinity Engine-based games
+GemRB - a reimplementation of the Infinity Engine
 
 # SYNOPSIS
 
@@ -15,8 +15,8 @@ GemRB - emulator for Infinity Engine-based games
 
 # DESCRIPTION
 
-**GemRB** is an emulator for Infinity Engine-based games, fine RPGs like
-Baldur's Gate, Icewind Dale and Planescape: Torment.
+**GemRB** is a portable open-source implementation of Bioware’s Infinity Engine, which run
+fine RPGs like Baldur's Gate, Icewind Dale and Planescape: Torment.
 
 **GemRB** reimplements only the game engine. To actually play anything,
 you have to have the data from the original game(s), installed or
@@ -131,22 +131,29 @@ custom resolutions the widescreen mod needs to be used.
 
 <!-- end list -->
 
-  - **TooltipDelay**=INT  
-    Delay (in milliseconds) before tooltips are displayed when the mouse
-    is not moving. A reasonable number for this option is e.g. *500*.
-    The default is *100*.
-
-<!-- end list -->
-
   - **SkipIntroVideos**=(0|1)  
     If set to *1*, the intro and logo videos are skipped to save
     developer's nerves. The default is *0*.
 
 <!-- end list -->
 
-  - **FogOfWar**=(0|1)  
-    If set to *1*, the unexplored parts of an area are blacked out. It
-    is enabled by default.
+  - **GCDebug**=(0|2047)
+    Bitfield with reserved bits for drawing Map debug layers.
+     * No Debugging features = 0 (default)
+     * DEBUG_SHOW_INFOPOINTS                = 1
+     * DEBUG_SHOW_CONTAINERS                = 2
+     * DEBUG_SHOW_DOORS                             = 4
+     * DEBUG_SHOW_DOORS_SECRET              = 8
+     * DEBUG_SHOW_DOORS_DISABLED            = 16
+     * DEBUG_SHOW_DOORS_ALL                 = 28
+     * DEBUG_SHOW_LIGHTMAP                  = 32
+     * DEBUG_SHOW_WALLS                             = 64
+     * DEBUG_SHOW_WALLS_ANIM_COVER  = 128
+     * DEBUG_SHOW_WALLS_ALL                 = 192
+     * DEBUG_SHOW_SEARCHMAP                 = 256
+     * DEBUG_SHOW_FOG_UNEXPLORED            = 512
+     * DEBUG_SHOW_FOG_INVISIBLE             = 1024
+     * DEBUG_SHOW_FOG_ALL                   = 1536
 
 # Audio Parameters:
 
@@ -325,6 +332,13 @@ Set this parameter to *1* on Unix-like systems.
     mouse+tooltips = 0 (default) Hide mouse = 1 Hide tooltips = 2 Hide
     mouse+tooltips = 3
 
+  - **TouchInput**=(0-1)
+    Override setting for when autodetection does not have satisfactory results.
+     * Autodetect         = -1 (default)
+     * Force disable      = 0
+     * Enable             = 1
+
+
 # Development parameters:
 
   - **EnableCheatKeys**=(0|1)  
@@ -341,7 +355,7 @@ Set this parameter to *1* on Unix-like systems.
 
 <!-- end list -->
 
-  - **ScriptDebugMode**=(n)  
+  - **DebugMode**=(n)  
     This parameter is meant for developers. It is a combination of bit
     values
 
@@ -354,6 +368,14 @@ Set this parameter to *1* on Unix-like systems.
 *8* - display action warnings,
 
 *16* - display trigger warnings.
+
+*32* - enable views debug mode.
+
+*64* - enable window debug mode.
+
+*128* - enable font debug mode.
+
+*256* - enable text debug mode.
 
 The default is *0*.
 
@@ -446,7 +468,7 @@ The GemRB Project development team at https://gemrb.org
 
 # COPYING
 
-Copyright (C) 2003-2020 The GemRB Project
+Copyright (C) 2003-2021 The GemRB Project
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the
