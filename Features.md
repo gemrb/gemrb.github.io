@@ -70,7 +70,7 @@ or perhaps the [FAQ](FAQ.md).
     <tr>
       <td style="text-align: left">GemRB demo</td>
       <td style="background: chartreuse;">yes</td>
-      <td style="background: chocolate;">yes</td>
+      <td style="background: chartreuse;">yes</td>
       <td style="background: chocolate;">no</td>
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20demo">demo</a></td>
     </tr>
