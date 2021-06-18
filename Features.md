@@ -70,7 +70,7 @@ or perhaps the [FAQ](FAQ.md).
     <tr>
       <td style="text-align: left">GemRB demo</td>
       <td style="background: chartreuse;">yes</td>
-      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">yes</td>
       <td style="background: chocolate;">no</td>
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20demo">demo</a></td>
     </tr>
@@ -113,10 +113,14 @@ mod, but in that case the GUIs will remain the same size, only centered.
 
 Setup        | Resolution | Pixel scaling | Requires mod
 -------------|------------|---------------|-------------
-Originals    | Fixed      | no       | no
+Originals    | [Fixed](https://github.com/gemrb/gemrb/blob/master/gemrb/GemRB.cfg.sample.in#L64-L70)      | no       | no
 GemRB 0.8.7  | Fixed      | optional | no
 GemRB 0.9.0+ | Arbitrary  | optional | no
 Widescreen   | Arbitrary  | no       | yes
 
 So feel free to run at any resolution and if you're discontent with the GUI, consider
 installing the widescreen mod and bigger fonts.
+
+Confused? Watch [this video explainer](https://youtu.be/nn1v-yG4-lo).
+{: .notice--warning}
+
