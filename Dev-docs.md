@@ -189,6 +189,15 @@ DLL injection to do minor fixes and extensions (ToBex, EEex, something for iwd2)
 they sometimes contain useful info.
 
 
+## Maximizing performance
+
+This is something particularly interesting to porters to platforms with
+comparatively weak hardware. Some tricks to lower memory usage, I/O and/or
+CPU use: change [the settings](Manpage.md) `Logging=0`, `AudioDriver=None`,
+`GCDebug=1536`. If OpenGL(ES) is available, building with that enabled
+will of course help avoid software rendering.
+
+
 ## Cocoa Application Wrapper
 
 Apple platforms (Mac OS X & iOS) are built with a special wrapper. This
