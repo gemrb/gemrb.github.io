@@ -60,6 +60,7 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
   - [Ctrl-Shift-V](){: .btn .btn--info} (new) - Dumps the main dictionary
   - [Ctrl-4](){: .btn .btn--info} (same) - Toggles debug flag DEBUG\_SHOW\_INFOPOINTS (show all
     traps, infopoints and wallgroups)
+  - [Ctrl-5](){: .btn .btn--info} (different) - Cycles through a few debug modes related to wall polygons
   - [Ctrl-6](){: .btn .btn--info} (different) - Toggles debug flag DEBUG\_SHOW\_LIGHTMAP (show
     the lightmap)
   - [Ctrl-8](){: .btn .btn--info} (different) - Toggle drawing of searchmap over the area in
