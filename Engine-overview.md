@@ -113,6 +113,14 @@ console.
 
 Note that GameScript, scripting language used in Infinity Engine scripts
 (sometimes called IEScritp), is implemented in the Core Library instead.
+See these explanations:
+- [general overview](https://www.pocketplane.net/tutorials/simscript.html)
+- [code aspects](https://github.com/gemrb/gemrb/blob/69c980aeb3566735d8c8c381781481ba15ca5062/gemrb/core/GameScript/GameScript.cpp#L21)
+- [actions](https://gibberlings3.github.io/iesdp/scripting/actions/index.htm),
+[triggers](https://gibberlings3.github.io/iesdp/scripting/triggers/index.htm),
+[objects](https://gibberlings3.github.io/iesdp/files/ids/bgee/object.htm),
+[variables](https://gibberlings3.github.io/iesdp/appendices/variables.htm)
+- [file format](https://gibberlings3.github.io/iesdp/file_formats/ie_formats/bcs.htm) (scripts are compiled, while snippets in dialogs aren't)
 
 ##### Effects
 
