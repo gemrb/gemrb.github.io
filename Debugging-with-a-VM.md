@@ -1,5 +1,6 @@
 ---
 title: Debugging with a virtual machine and Linux
+toc: true
 ---
 
 Sometimes a problem can be reproduced only on a user's machine. Since most GemRB developers are not
@@ -8,7 +9,8 @@ presents itself as solving several obstacles — building GemRB manually on a Li
 That way the environment is predictable, known and all the usual developer tools and tricks are
 available.
 
-This page is a guide on how to set everything up.
+This page is a guide on how to set everything up. By the end of it you will be running Linux on your
+Windows system without affecting it.
 
 ## What is a virtual machine?
  
@@ -16,7 +18,12 @@ A virtual machine (VM) allows you to run one operating system inside a sandbox i
 machine inside another. A *host* is your operating system (probably Windows), a *guest* is the
 system that is running inside the virtual machine.
 
-The virtual machine in this guide is VirtualBox. It's easy to set up, but it doesn't work if you have
+The virtual machine in this guide is [VirtualBox](https://www.virtualbox.org/), a free software
+project as well. In the last two sections, you can find brief instructions also for
+[VMWare](#VMWare)
+and [WSL2](#WSL2).
+
+It's easy to set up, but it doesn't work if you have
 turned on Hyper-V on your Windows machine. If you don't know what that is - good, then it's most
 likely not on. 
  
@@ -102,7 +109,6 @@ cmake -DCMAKE_BUILD_TYPE=Debug ..
 make clean && make -j3
 ```
  
- 
 ## About Git & Git Bisect
  
 Git is a tool to track changes in files and especially useful for collaboration. You have a file and someone changes a line; you can go back, a year later, and check who added this line, and if they wrote why it was changed. You'll be using git mainly for two things:
@@ -133,3 +139,25 @@ Git bisect is used to nail down the commit that broke a certain thing. Something
   - You cannot test it because of some other error, for example it doesn't build at all? `git bisect skip`
 - A couple of runs later, you will be presented with the "first bad commit", i.e. the first commit that broke a certain thing. 
 - To end the bisect, enter `git bisect reset`. This will bring you back to where you were before. 
+
+## Alternatives for advanced users
+
+### VMWare
+[VMWare](https://www.vmware.com/products/workstation-player.html) is another popular virtual machine project.
+It is a little more complicated to set up, but still follows the same basic process. You will just need to
+follow the documentation that comes with VMWare a lot more closely to get it going.
+
+You are going to want Workstation Player, the free version of VMWare. You will also need VMWare Tools for
+passthrough. Scroll down the list here: https://my.vmware.com/en/web/vmware/downloads/#all_products
+
+There is a lot more to tweak and a lot more instructions to set VMWare up, but it is well documented.    
+Tips: 
+- Make sure to set your VM space as big as you will need during the initial setup because you will break
+all of your fake partitions if you try to expand it after the VM is set up.
+- Copy from inside the VM terminal and not from the host. Your hard drive will be at
+`cd /mnt/”letter”/` and copying from inside is much faster than copying from without.
+- Remember to install your VMTools plugin. It will have its own setup process that will not be as easy to set
+up and it will need to be set up from within the Workstation Player.
+
+### WSL2
+
