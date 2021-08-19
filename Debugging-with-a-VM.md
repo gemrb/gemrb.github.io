@@ -20,38 +20,41 @@ system that is running inside the virtual machine.
 
 The virtual machine in this guide is [VirtualBox](https://www.virtualbox.org/), a free software
 project as well. In the last two sections, you can find brief instructions also for
-[VMWare](#vmware)
-and [WSL2](#wsl2).
+[VMWare](#vmware) and [WSL2](#wsl2).
 
 It's easy to set up, but it doesn't work if you have
 turned on Hyper-V on your Windows machine. If you don't know what that is - good, then it's most
-likely not on. 
- 
-Performance when running in a VM will be worse than on your real operating system, but it largely
-depends on how good your hardware is and what you are doing.
- 
- 
+likely not on.
+  
+
 ## A few general Linux notes
  
-If you picked either Kubuntu (KDE) or Xubuntu (XFCE) your virtual machine will be slightly similar to windows. You'll have a start menu where you can find all your programs, default programs like Mozilla Firefox, a text editor, a file browser etc. Some things are quite different, though: 
+If you picked either Kubuntu (KDE) or Xubuntu (XFCE) your virtual machine will be slightly similar
+to windows. You'll have a start menu where you can find all your programs, default programs like
+Mozilla Firefox, a text editor, a file browser etc. Some things are quite different, though: 
  
 - Linux is case sensitive. GemRB, gemrb and Gemrb would all be different files. 
 - Linux uses forward slash instead of backwards slash for file paths. 
-- Linux doesn't have drive letters. There is no C:\ etc. Drives and devices can be mounted anywhere, but are often under /mnt or /media. 
-- Your main directory for user files is "home" which is found under /home/YourUserName. 
-- `Sudo` is used to run something with basically admin privileges. While it's needed to install things (that's why we'll be using that), you should not use it for random commands, and also not just blindly copy stuff from the internet without knowing what it does (Oh, the irony). 
-- You can open the manual for most commands with `man command`, for example, if you don't trust the usermod command, enter `man usermod` and you can read up exactly what this command does. 
-- To navigate in the terminal, the main command is `cd` to `c`hange `d`irectory. `cd ..` moves one level up. `cd ~` will bring you back to your home directory. Also, if you have file paths with spaces or apostrophes in them, to use them in the terminal you'll need to *escape* them like so `~/Baldur\'s\ Gate\ 2`
-- Careful: If you want to run something in your current directory, you need to use `./stuff`. With dot and slash. Just `stuff` would search for it in your installed apps and libraries, while `/stuff` would search for it in root. 
-- By default, files are not executable. If you write a script, you need to allow the system to execute it. You can do that in (probably) every graphical file manager by right clicking on the file and finding the option for it under *Permissions*. Alternatively, you could enter `chmod +x FILENAME` in your terminal. 
-- You can copy from and paste into the terminal, but (usually) not with Ctrl-C and Ctrl-V. Ctrl-C *terminates* the current proces. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`. 
-- You create a directory with `mkdir`, a file with `touch`, copy a file with `cp` and move a file with `mv`. 
-- For most software, you don't download files from the internet in Linux, but use your package manager. On Ubuntu like Systems that is apt, which will be used in these instructions. Different Linux distros use different package managers.
+- Linux doesn't have drive letters (no `C:\`). Drives are available under `/mnt` or `/media`. 
+- Your main directory for user files is "home" which is found under `/home/YourUserName`. 
+- `sudo` is used to run something with admin privileges. It's needed to install things system-wide.
+- To navigate in the terminal, the main command is `cd` to `c`hange `d`irectory. `cd ..` moves
+one level up. `cd ~` will bring you back to your home directory. Also, if you have file paths
+with spaces or apostrophes in them, to use them in the terminal you'll need to *escape* them like
+so `~/Baldur's\ Gate\ 2` or `"~/Baldur's Gate 2"`.
+- Careful: If you want to run something in your current directory, you need to use `./stuff`.
+With dot and slash. Just `stuff` would search for it in your installed apps and libraries, while
+`/stuff` would search for it in the root of the disk.
+- You can copy from and paste into the terminal, but (usually) not with Ctrl-C and Ctrl-V. Ctrl-C
+*terminates* the current proces. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
+- For most software, you don't download files from the internet in Linux, but use your package
+manager (apt on Ubuntu).
  
  
-## Setting up a Linux VM
+## Setting up a Linux VM with VirtualBox
  
-- First download VirtualBox from [this](https://www.virtualbox.org/wiki/Downloads) page, select the one for Windows hosts. 
+- First download VirtualBox from [this](https://www.virtualbox.org/wiki/Downloads) page, select the
+one for Windows hosts. 
 - Install Virtual Box, reboot if prompted.
 - Download a Linux distro of your choice. If you have no preference, something Ubuntu based is a good idea. I'd suggest [Kubuntu](https://kubuntu.org/) or [Xubuntu](https://xubuntu.org/), as their look is slightly similar to Windows - you have a start menu and a familiar task bar. Download the iso file. LTS (Long Term Support) releases have support for multiple years, so those are preferable if you don't want to mess with it; doesn't matter too much for a VM that probably won't even last that long. 
 - Create a new virtual machine. 
@@ -170,8 +173,9 @@ You may need to turn off fast boot in Windows to get into your BIOS.
   1. Go to Control Panel.
   2. Select "Power Options".
   3. Click "Choose what the power buttons do".
-  4. Click "Change settings that are currently unavailable". (Yes, that’s a real setting.)![image](https://user-images.githubusercontent.com/121515/130135435-7b2d384d-aaa7-4332-abe6-c0a8942382ce.png)
-  5. Uncheck "Turn On Fast Startup" and click Save.
+  4. Click "Change settings that are currently unavailable". (Yes, that’s a real setting.)
+![image](https://user-images.githubusercontent.com/121515/130135435-7b2d384d-aaa7-4332-abe6-c0a8942382ce.png)
+  6. Uncheck "Turn On Fast Startup" and click Save.
 
 Navigating your BIOS can be tricky, so caution is advised. You will need to search through your BIOS
 options for something about Virtualization or VT. On some systems it's under "Security". Enable it,
