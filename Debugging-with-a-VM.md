@@ -79,8 +79,10 @@ virtual machine will now reboot.
 
 ### Making your existing files visible to the virtual machine
 
-- Open a terminal ("Konsole") and enter `sudo apt install virtualbox-guest-additions-iso`. This
-will install dependencies needed for guest additions to work, if any are missing.
+- Open a terminal ("Konsole") and install dependencies for guest additions:
+```
+sudo apt install virtualbox-guest-additions-iso
+```
 - When it's done, in the VirtualBox menu, select Devices > Insert Guest Additions CD Image.
 - If it didn't autorun/open, find the disc directory in your file manager.
   - If you are lucky, double clicking autorun.sh will ask you if you want to run it and ask for
@@ -110,9 +112,11 @@ access it from your VM and move it into your VM.
  
 - Open a terminal ("Konsole").
 - Install the dependencies needed to build GemRB. 
-```sudo apt install git cmake make clang libsdl2-2.0-0 libsdl2-dev libopenal1 libopenal-dev libpython3-dev gdb```
+```
+sudo apt install git cmake make clang libsdl2-2.0-0 libsdl2-dev libopenal1 libopenal-dev libpython3-dev gdb
+```
 - Grab the GemRB code and prepare directories for building (a `gemrb` folder will appear in your home):
-```sh
+```bash
 git clone https://github.com/gemrb/gemrb ~/gemrb
 cd gemrb
 mkdir build
@@ -131,7 +135,7 @@ sed -i 's,^#CaseSensitive,CaseSensitive,' GemRB.cfg
 ```
 - Open the file by clicking on it in Dolphin, the file manager. Find and set
 `GamePath` to point to where you copied or mounted the game data (eg. `~/bg2`)
-  - See [Manpage] for other settings
+  - See [Manpage.md] for other settings
 
 ## Running GemRB in the debugger
 
@@ -148,45 +152,59 @@ confirm that you want to close the process, or `r` to restart the engine.
 
 ## Updating to the latest code
 
-The developers might ask you to test a fix, so you'll need to get the latest code.
-This doesn't mean you have to go through the whole process again though! As usual
-open a terminal and run:
+The developers might ask you to test a fix, so you'll need to get the latest code. This
+doesn't mean you have to go through the whole process again though! As usual open a
+terminal and run:
 ```sh
 cd ~/gemrb/build
 git pull
 make -j2
 ```
+You can ignore warnings from git.
+
+## Git Bisect
  
-## About Git & Git Bisect
- 
-Git is a tool to track changes in files and especially useful for collaboration. You have a file and someone changes a line; you can go back, a year later, and check who added this line, and if they wrote why it was changed. You'll be using git mainly for two things:
- 
-- To update your local code to the last version from github
-- To possibly revert to any older version and check when something broke
- 
-### Updating
- 
-- Go anywhere in your gemrb directory. Enter `git pull` into the terminal. 
-- The first time you do this, git will complain about something that probably doesn't concern you if you don't do any changes yourself. You can still enter `git config pull.rebase false` and it will shut up.
-- After pulling the latest version, you need to build it again (run the cmake and make commands from above again). 
- 
+Git is a tool to track changes in files and especially useful for collaboration. You have a
+file and someone changes a line; you can go back, a year later, and check who added this line,
+and if they wrote why, mentioned test cases or any other useful info.
+
+So when something breaks and you don't want to wait for it to get fixed, it's easy to switch
+to a known working version.
+
+It also enables bisection, a quick search to find with what change a problem started occuring.
+Something was working 2 weeks ago, but isn't now? You feed git this info, and it will
+automatically present you with the least amount of necessary checks (changes to verify) to find
+the exact commit that broke it. 
+
 ### Bisecting
  
-Git bisect is used to nail down the commit that broke a certain thing. Something was working 2 weeks ago, but isn't now? You feed git this info, and it will automatically present you with the least amount of necessary checks to find the exact commit that broke it. 
- Git bisect commands only work on the top directory of the repository (= the main gemrb folder). To start one: 
-- In the gemrb top directory, enter `git bisect start` to start a new bisect. 
+`git bisect` is used to nail down the change (commit) that broke the thing you're testing. 
+These commands only work on the top directory of the repository (`~/gemrb`).
+
+To start a bisection:
+- `git bisect start` 
 - Assuming the latest revision has the problem, enter `git bisect bad`
-- Find the commit (that big line of numbers and letters) that still worked. Enter `git bisect good COMMITNUMBERHERE`. Release points like `v0.9.0` work, too.
-- Git will then find one commit in the middle and check it out. You then have to build it and run it and see if it works. 
-  - `cd build`
-  - Build it, start the game, test it, close it
-  - You can use the example script I posted further up, just remove the `git pull` line
-- `cd ..` to get back to the top level
-  - It works? `git bisect good`
-  - It doesn't? `git bisect bad`
-  - You cannot test it because of some other error, for example it doesn't build at all? `git bisect skip`
-- A couple of runs later, you will be presented with the "first bad commit", i.e. the first commit that broke a certain thing. 
-- To end the bisect, enter `git bisect reset`. This will bring you back to where you were before. 
+
+Now we need to find a state when things were working fine. Since you probably
+have to guess, let's try 50 changes before now: `git checkout HEAD~50`. Rebuild as usual:
+```sh
+cd build
+make -j2
+```
+If it's bad, run git checkout again and repeat until you find a good version. Once you
+have it:
+`git bisect good COMMITNUMBERHERE`. COMMITNUMBERHERE is a long string of text git will give you.
+ 
+Now the main cycle starts. Git will suggest a new commit to test and repeat until it finds the
+point in time, the change of code, the commit that introduced the problem.
+- Rebuild as above
+- It works? `git bisect good`
+- It doesn't? `git bisect bad`
+- You cannot test it because of some other error, for example it doesn't build at all? `git bisect skip`
+
+A couple of runs later, you will be presented with the "first bad commit", which you should report. 
+
+To end the bisect, enter `git bisect reset`. This will bring you back to where you were before. 
 
 ## Alternatives for advanced users
 
