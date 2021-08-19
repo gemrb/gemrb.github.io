@@ -112,7 +112,7 @@ It is used in place of Lua, which the originals used to power the cheat
 console.
 
 Note that GameScript, scripting language used in Infinity Engine scripts
-(sometimes called IEScritp), is implemented in the Core Library instead.
+(sometimes called IEScript), is implemented in the Core Library instead.
 See these explanations:
 - [general overview](https://www.pocketplane.net/tutorials/simscript.html)
 - [code aspects](https://github.com/gemrb/gemrb/blob/69c980aeb3566735d8c8c381781481ba15ca5062/gemrb/core/GameScript/GameScript.cpp#L21)
