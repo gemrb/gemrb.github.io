@@ -23,7 +23,7 @@ project as well. In the last two sections, you can find brief instructions also 
 [VMWare](#vmware) and [WSL2](#wsl2).
 
 It's easy to set up, but it doesn't work if you have
-turned on Hyper-V on your Windows machine. If you don't know what that is - good, then it's most
+turned on Hyper-V on your Windows machine. If you don't know what that is — good, then it's most
 likely not on.
   
 
@@ -33,7 +33,7 @@ If you picked either Kubuntu (KDE) or Xubuntu (XFCE) your virtual machine will b
 to windows. You'll have a start menu where you can find all your programs, default programs like
 Mozilla Firefox, a text editor, a file browser etc. Some things are quite different, though: 
  
-- Linux is case sensitive. GemRB, gemrb and Gemrb would all be different files. 
+- Linux is case sensitive. `GemRB`, `gemrb` and `Gemrb` would all be different files. 
 - Linux uses forward slash instead of backwards slash for file paths. 
 - Linux doesn't have drive letters (no `C:\`). Drives are available under `/mnt` or `/media`. 
 - Your main directory for user files is "home" which is found under `/home/YourUserName`. 
@@ -47,39 +47,63 @@ With dot and slash. Just `stuff` would search for it in your installed apps and 
 `/stuff` would search for it in the root of the disk.
 - You can copy from and paste into the terminal, but (usually) not with Ctrl-C and Ctrl-V. Ctrl-C
 *terminates* the current proces. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
-- For most software, you don't download files from the internet in Linux, but use your package
-manager (apt on Ubuntu).
+- To install software, you don't download files manually, but let the package manager do that for
+you (`apt` on Ubuntu).
  
  
 ## Setting up a Linux VM with VirtualBox
  
-- First download VirtualBox from [this](https://www.virtualbox.org/wiki/Downloads) page, select the
-one for Windows hosts. 
+- First download VirtualBox from [this](https://www.virtualbox.org/wiki/Downloads) page, **select
+the one for Windows hosts**. 
 - Install Virtual Box, reboot if prompted.
-- Download a Linux distro of your choice. If you have no preference, something Ubuntu based is a good idea. I'd suggest [Kubuntu](https://kubuntu.org/) or [Xubuntu](https://xubuntu.org/), as their look is slightly similar to Windows - you have a start menu and a familiar task bar. Download the iso file. LTS (Long Term Support) releases have support for multiple years, so those are preferable if you don't want to mess with it; doesn't matter too much for a VM that probably won't even last that long. 
+- Download a Linux distribution, which is an assortment of packages that makes a full system. We
+suggest [Kubuntu](https://kubuntu.org/) as it looks slightly similar to Windows — you have a start
+menu and a familiar task bar. Download the latest LTS (Long Term Support) release ISO file. 
 - Create a new virtual machine. 
   - Give it a name
   - Select Type Linux and Version Ubuntu (64 bit)
-  - Allocate it a good bit of RAM (depending on the RAM your system has, it probably shouldn't be more than half of that, but if you can spare it, 4-8 GB is good)
-  - Keep the settings for virtual hard disks at default, but change the size. If you just want to debug one or two unmodded games, 25GB should be enough. If you plan to install any huge mods or debug more games, you'll probably want to give that virtual drive 100GB+.
-  - Once the setup wizard has finished, open settings again and go to the Display tab. Max out the Video Memory slider to 128MB. 
-- Now it's time to start the virtual machine. It will ask you for a file, select the iso you just downloaded. It will take a moment, then the installer will start. Select "install" instead of "try", enter your preferred settings for keyboard, names and passwords and when asked, select "erase disk". Don't worry, this is just your virtual (25GB or more) disk. 
-- After it's done installing, it will ask you to reboot. Do so, then when it asks you to remove the installation medium, go to Devices > Optical Drives > Remove disk from virtual drive. Your virtual machine will now reboot. 
-- If you have picked an ubuntu-based guest system, open a terminal and enter `sudo apt install virtualbox-guest-additions-iso`. This will install dependencies needed for guest additions to work, if any are missing. 
+  - Allocate it a good bit of memory, RAM (depending on the RAM your system has, it shouldn't be
+more than half of that, 4-8 GB is enough)
+  - Keep the settings for virtual hard disks at default, but change the size. If you just want to
+debug one or two unmodded games, 25GB should be enough. If you plan to install any huge mods or
+debug more games, you'll probably want to give that virtual drive 100GB+.
+  - Once the setup wizard has finished, open settings again and go to the Display tab. Max out
+the Video Memory slider to 128MB. 
+- Now it's time to start the virtual machine. It will ask you for a file, select the ISO you
+just downloaded. It will take a moment, then the installer will start. Select "install" instead
+of "try", enter your preferred settings for keyboard, names and passwords and when asked, select
+"erase disk". Don't worry, this is just your virtual disk, no the real one. 
+- After it's done installing, it will ask you to reboot. Agree, then when it asks you to remove
+the installation medium, go to Devices > Optical Drives > Remove disk from virtual drive. Your
+virtual machine will now reboot.
+
+### Making your existing files visible to the virtual machine
+
+- Open a terminal ("Konsole") and enter `sudo apt install virtualbox-guest-additions-iso`. This
+will install dependencies needed for guest additions to work, if any are missing.
 - When it's done, in the VirtualBox menu, select Devices > Insert Guest Additions CD Image.
-- If it didn't autorun/open, find the disc directory it in your file manager.
-  - If you are lucky, double clicking autorun.sh will ask you if you want to run it and ask for your password (Most likely on Kubuntu).
-  - If you are a bit less lucky, double clicking it will just open it as a text file, you need to right click somewhere in that folder and open a terminal and enter `sudo ./autorun.sh` (Most likely on Xubuntu) 
-- Guest additions allows you to
+- If it didn't autorun/open, find the disc directory in your file manager.
+  - If you are lucky, double clicking autorun.sh will ask you if you want to run it and ask for
+your password.
+  - If opens it as a text file instead, you need to right click somewhere in that folder and
+open a terminal (Actions > Open Terminal Here) and enter `sudo ./autorun.sh`
+- Guest additions allows you to:
   - Share your clipboard with the guest (enable under Devices > Shared Clipboard)
   - Share a folder on your host's drive with the guest
-  - Arbitrary window resizing for the guest
-- Enter `sudo usermod -a -G vboxsf $USER`, this will add your current user to the vboxsf group, allowing you to access the shared folder in the next step. 
+  - Arbitrary resize windows for the guest
+- Enter `sudo usermod -a -G vboxsf $USER`, this will add your current user to the vboxsf group,
+allowing you to access the shared folder in the next step. 
 - Turn off the virtual machine. 
-- To add a shared folder, we open the VM's settings again. Shared Folders > Click the green plus icon > Select a folder you want to share, click auto-mount. Everything you place in this folder can be seen and used by both, the host and the guest. 
-  - For easier access, you can set a mount point. A good one would be in your home directory, for example /home/YOURUSERNAME/VirtualBox
-  - You should only use this to give the VM access to a single, isolated, shared folder. **Don't** give it access to C:\ or all your Documents and games or something like that. You can edit *and break* things inside the shared folder from inside your VM. 
-- Boot into your VM. The folder should appear now. You can put your game installation in there, access it from your VM and move it into your VM. Since Windows uses a different file system than Linux, I would *not* recommend running the game from the shared folder. 
+- To add a shared folder, we open the VM's settings again. Shared Folders > Click the green plus
+icon > Select a folder you want to share, click auto-mount. Everything you place in this folder can
+be seen and used by both, the host and the guest. 
+  - For easier access, you can set a mount point. A good one would be in your home directory, for
+example ~/VirtualBox
+  - You should only use this to give the VM access to a single, isolated, shared folder. **Don't**
+give it access to `C:\` or all your Documents and games or anything like that. You can edit
+*and break* things inside the shared folder from inside your VM.
+- Boot into your VM. The folder should appear now. You can put your game installation in there,
+access it from your VM and move it into your VM.
  
  
 ## Installing GemRB and the debugger
@@ -187,8 +211,8 @@ You will need to head back into the Control Panel after your system reboots.
   2. Select "Turn Windows features on or off".
 ![image](https://user-images.githubusercontent.com/121515/130136030-1b057e9a-f0e0-4514-a237-e6107931890b.png)
   3. Make sure Hyper-V is unchecked. This will only allow you to install Windows-based virtual machines
-and will block WSL. (Also, if you find Virtual Box or VMWare unable to create an Ubuntu VM for no
-particular error code, this is probably why.)
+and will block WSL. (Same reason for your Virtual Box or VMWare not being unable to create an Ubuntu VM with no
+particular error code.)
 ![image](https://user-images.githubusercontent.com/121515/130136063-afbb25e2-1f29-48ac-bac2-2e8350f0a867.png)
   4. Scroll down and check the boxes for "Virtual Machine Platform", "Windows Hypervisor Platform", and
 "Windows Powershell" and click OK.
