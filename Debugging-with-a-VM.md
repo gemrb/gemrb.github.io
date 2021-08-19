@@ -35,7 +35,7 @@ Mozilla Firefox, a text editor, a file browser etc. Some things are quite differ
  
 - Linux is case sensitive. `GemRB`, `gemrb` and `Gemrb` would all be different files. 
 - Linux uses forward slash instead of backwards slash for file paths. 
-- Linux doesn't have drive letters (no `C:\`). Drives are available under `/mnt` or `/media`. 
+- Linux doesn't have drive letters (no `C:\`). Drives are available under `/media`. 
 - Your main directory for user files is "home" which is found under `/home/YourUserName`. 
 - `sudo` is used to run something with admin privileges. It's needed to install things system-wide.
 - To navigate in the terminal, the main command is `cd` to `c`hange `d`irectory. `cd ..` moves
@@ -49,8 +49,8 @@ With dot and slash. Just `stuff` would search for it in your installed apps and 
 *terminates* the current proces. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
 - To install software, you don't download files manually, but let the package manager do that for
 you (`apt` on Ubuntu).
- 
- 
+
+
 ## Setting up a Linux VM with VirtualBox
  
 - First download VirtualBox from [this](https://www.virtualbox.org/wiki/Downloads) page, **select
@@ -108,32 +108,53 @@ access it from your VM and move it into your VM.
  
 ## Installing GemRB and the debugger
  
-- Open a terminal. 
-- Install the dependencies needed to build GemRB. `sudo apt install git cmake make clang libsdl2-2.0-0 libsdl2-dev libopenal1 libopenal-dev python-is-python2 libpython2.7-dev gdb python-is-python3 libpython3.8-dev`
-- Clone the GemRB repository `git clone https://github.com/gemrb/gemrb`
-  - This will create a gemrb folder right in your home directory. 
-- Enter it with `cd gemrb`
-- You need to create a directory called "build" inside it. You can do that in the terminal `mkdir build` or in your file manager as you would on Windows. 
-- Enter in the terminal `cd build` to go into that directory. 
-- To build GemRB (we do a debug build), you enter those commands into the terminal: `cmake -DCMAKE_BUILD_TYPE=Debug ..; make -j3`
-- To run with the debugger, you need a cfg file in the build directory. Copy the example file "GemRB.cfg.noinstall.sample" from gemrb/gemrb into the build directory as "GemRB.cfg". You can do that in the terminal, too with `cp ../gemrb/GemRB.cfg.noinstall.sample GemRB.cfg`
-- Edit at least the following things in this file. If any of those lines have a # in front in the cfg file, remove the #: 
-  - GameType=auto
-  - CaseSensitive=1
-  - GamePath=/path/to/your/Game
-  - You might have to set the paths for CD1-CD6 as well, for example for the GOG version of Baldur's Gate 2 all those would be set to /path/to/your/Game/data
-  - You can change other things like the resolution or skipping intro videos as well, if you want to. 
-  - The name doesn't actually have to be GemRB.cfg, it can be anything, especially if you want to test different games and each one needs its own config. You'll just have to adjust the run command accordingly below.
-- To run the game with the debugger, enter from inside the build directory `../admin/run.gdb GemRB.cfg`
-- While the game is running, you'll have the terminal in the background. If the game crashes at any point, switch to the terminal, you'll see some message that the game crashed. Enter `bt` to get a backtrace. You can copy that out of the terminal with `Ctrl-Shift-C`. There are other commands that the devs might ask you to enter into that window, that can give them more information.
-- When you are ready to terminate the crashed game, enter `q` in the debugger window and confirm that you want to close the process, or `r` to restart it. 
-- I found it useful to put all the build commands into a short script, so I wouldn't have to type them again. Here is my example script to pull the latest version from git, delete all the build files and build it from scratch. I saved it into the gemrb/build directory as update.sh (make it executable) and run it from inside the build directory with `./update.sh`. 
+- Open a terminal ("Konsole").
+- Install the dependencies needed to build GemRB. 
+```sudo apt install git cmake make clang libsdl2-2.0-0 libsdl2-dev libopenal1 libopenal-dev libpython3-dev gdb```
+- Grab the GemRB code and prepare directories for building (a `gemrb` folder will appear in your home):
+```sh
+git clone https://github.com/gemrb/gemrb ~/gemrb
+cd gemrb
+mkdir build
+cd build
 ```
-#!/bin/bash
-rm -r CMake*
-git pull
+- Build GemRB
+```sh
 cmake -DCMAKE_BUILD_TYPE=Debug ..
-make clean && make -j3
+make -j2
+```
+- Copy the example settings file into "GemRB.cfg" and automatically fix some settings:
+```sh
+cp ../gemrb/GemRB.cfg.noinstall.sample GemRB.cfg
+sed -i 's,GameType=test,GameType=auto,' GemRB.cfg
+sed -i 's,^#CaseSensitive,CaseSensitive,' GemRB.cfg
+```
+- Open the file by clicking on it in Dolphin, the file manager. Find and set
+`GamePath` to point to where you copied or mounted the game data (eg. `~/bg2`)
+  - See [Manpage] for other settings
+
+## Running GemRB in the debugger
+
+- Open a terminal
+- If you're not already in the build dir: `cd ~/gemrb/build`
+- Run it with `../admin/run.gdb GemRB.cfg`
+- While the game is running, you'll have the terminal in the background. If
+the game crashes at any point, switch to the terminal and you'll see some message that
+the game crashed. Enter `bt` to get a backtrace. You can copy that out of the terminal
+with `Ctrl-Shift-C`. There are other commands that the devs might ask you to enter into that
+window, that can give them more information.
+- When you are ready to terminate the crashed game, enter `q` in the debugger window and
+confirm that you want to close the process, or `r` to restart the engine.
+
+## Updating to the latest code
+
+The developers might ask you to test a fix, so you'll need to get the latest code.
+This doesn't mean you have to go through the whole process again though! As usual
+open a terminal and run:
+```sh
+cd ~/gemrb/build
+git pull
+make -j2
 ```
  
 ## About Git & Git Bisect
@@ -212,7 +233,7 @@ You will need to head back into the Control Panel after your system reboots.
 ![image](https://user-images.githubusercontent.com/121515/130136030-1b057e9a-f0e0-4514-a237-e6107931890b.png)
   3. Make sure Hyper-V is unchecked. This will only allow you to install Windows-based virtual machines
 and will block WSL. (Same reason for your Virtual Box or VMWare not being unable to create an Ubuntu VM with no
-particular error code.)
+particular error.)
 ![image](https://user-images.githubusercontent.com/121515/130136063-afbb25e2-1f29-48ac-bac2-2e8350f0a867.png)
   4. Scroll down and check the boxes for "Virtual Machine Platform", "Windows Hypervisor Platform", and
 "Windows Powershell" and click OK.
