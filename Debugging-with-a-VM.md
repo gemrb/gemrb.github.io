@@ -10,7 +10,7 @@ That way the environment is predictable, known and all the usual developer tools
 available.
 
 This page is a guide on how to set everything up. By the end of it you will be running Linux on your
-Windows system without affecting it.
+Windows system without one affecting the other.
 
 ## What is a virtual machine?
  
@@ -20,8 +20,8 @@ system that is running inside the virtual machine.
 
 The virtual machine in this guide is [VirtualBox](https://www.virtualbox.org/), a free software
 project as well. In the last two sections, you can find brief instructions also for
-[VMWare](#VMWare)
-and [WSL2](#WSL2).
+[VMWare](#vmware)
+and [WSL2](#wsl2).
 
 It's easy to set up, but it doesn't work if you have
 turned on Hyper-V on your Windows machine. If you don't know what that is - good, then it's most
@@ -155,9 +155,47 @@ Tips: 
 - Make sure to set your VM space as big as you will need during the initial setup because you will break
 all of your fake partitions if you try to expand it after the VM is set up.
 - Copy from inside the VM terminal and not from the host. Your hard drive will be at
-`cd /mnt/”letter”/` and copying from inside is much faster than copying from without.
+`/mnt/”letter”/` and copying from inside is much faster than copying from without.
 - Remember to install your VMTools plugin. It will have its own setup process that will not be as easy to set
 up and it will need to be set up from within the Workstation Player.
 
 ### WSL2
 
+The third option is interesting for Windows 10 users and has built-in GUI support. It's a small linux
+system embedded within Windows. Setting this up can still be tricky because it will require changing BIOS
+settings. Most modern chipset have Virtualization technology built in, but do not have it enabled.
+
+Restart Windows and hammer the F10 (or F2, or whatever key opens your BIOS). key while your PC posts.
+You may need to turn off fast boot in Windows to get into your BIOS.
+  1. Go to Control Panel.
+  2. Select "Power Options".
+  3. Click "Choose what the power buttons do".
+  4. Click "Change settings that are currently unavailable". (Yes, that’s a real setting.)![image](https://user-images.githubusercontent.com/121515/130135435-7b2d384d-aaa7-4332-abe6-c0a8942382ce.png)
+  5. Uncheck "Turn On Fast Startup" and click Save.
+
+Navigating your BIOS can be tricky, so caution is advised. You will need to search through your BIOS
+options for something about Virtualization or VT. On some systems it's under "Security". Enable it,
+save changes and reboot.
+
+You will need to head back into the Control Panel after your system reboots.
+
+  1. Select "Programs and Features".
+  2. Select "Turn Windows features on or off".
+![image](https://user-images.githubusercontent.com/121515/130136030-1b057e9a-f0e0-4514-a237-e6107931890b.png)
+  3. Make sure Hyper-V is unchecked. This will only allow you to install Windows-based virtual machines
+and will block WSL. (Also, if you find Virtual Box or VMWare unable to create an Ubuntu VM for no
+particular error code, this is probably why.)
+![image](https://user-images.githubusercontent.com/121515/130136063-afbb25e2-1f29-48ac-bac2-2e8350f0a867.png)
+  4. Scroll down and check the boxes for "Virtual Machine Platform", "Windows Hypervisor Platform", and
+"Windows Powershell" and click OK.
+![image](https://user-images.githubusercontent.com/121515/130136083-a35aa294-f59d-438e-acf5-08e4bdd7f716.png)
+  5. Now open Windows Powershell elevated. 
+Type: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all`
+  7. This will take a moment. When it is through, you will be prompted to reboot. Do so.
+  8. Go back into an elevated Windows Powershell. Type: `wsl --set-default-version 2`
+  9. The upgrade should happen quickly. Now, this will make our Linux friends really grind their teeth,
+but open the Microsoft Store. Search for "Ubuntu" and click "Install" when it comes up.
+
+The installation will only take a few minutes, but you will have an Ubuntu Start Menu icon.
+Click it and VOY-LAH! Up pops an Ubuntu terminal natively in Windows that will run GUI software,
+including GemRB. You will be able to find your drives under `/media/`.
