@@ -29,14 +29,15 @@ likely not on.
 
 ## A few general Linux notes
  
-If you picked either Kubuntu (KDE) or Xubuntu (XFCE) your virtual machine will be slightly similar
-to windows. You'll have a start menu where you can find all your programs, default programs like
+If you picked either Kubuntu (KDE) your virtual machine will be slightly similar
+to Windows. You'll have a start menu where you can find all your programs, default programs like
 Mozilla Firefox, a text editor, a file browser etc. Some things are quite different, though: 
  
 - Linux is case sensitive. `GemRB`, `gemrb` and `Gemrb` would all be different files. 
 - Linux uses forward slash instead of backwards slash for file paths. 
 - Linux doesn't have drive letters (no `C:\`). Drives are available under `/media`. 
-- Your main directory for user files is "home" which is found under `/home/YourUserName` or `~` fo short. 
+- Your main directory for user files is "home" which is found under `/home/YourUserName` or `~`
+for short. 
 - `sudo` is used to run something with admin privileges. It's needed to install things system-wide.
 - To navigate in the terminal, the main command is `cd` to `c`hange `d`irectory. `cd ..` moves
 one level up. `cd ~` will bring you back to your home directory. Also, if you have file paths
@@ -53,9 +54,8 @@ you (`apt` on Ubuntu).
 - First download VirtualBox from [this](https://www.virtualbox.org/wiki/Downloads) page, **select
 the one for Windows hosts**. 
 - Install Virtual Box, reboot if prompted.
-- Download a Linux distribution, which is an assortment of packages that makes a full system. We
-suggest [Kubuntu](https://kubuntu.org/) as it looks slightly similar to Windows — you have a start
-menu and a familiar task bar. Download the latest LTS (Long Term Support) release ISO file. 
+- Get [Kubuntu](https://kubuntu.org/), a so called Linux distribution, representing a full system.
+Download the latest LTS (Long Term Support) release ISO file. 
 - Create a new virtual machine. 
   - Give it a name
   - Select Type Linux and Version Ubuntu (64 bit)
@@ -108,7 +108,7 @@ access it from your VM and move it into your VM.
 ## Installing GemRB and the debugger
  
 - Open a terminal ("Konsole").
-- Install the dependencies needed to build GemRB. 
+- Install the dependencies needed to build GemRB. Remember you can just copy and paste commands.
 ```
 sudo apt install git cmake make clang libsdl2-2.0-0 \
   libsdl2-dev libopenal1 libopenal-dev libpython3-dev gdb
@@ -116,7 +116,7 @@ sudo apt install git cmake make clang libsdl2-2.0-0 \
 - Grab the GemRB code and prepare directories for building (a `gemrb` folder will appear in your home):
 ```bash
 git clone https://github.com/gemrb/gemrb ~/gemrb
-cd gemrb
+cd ~/gemrb
 mkdir build
 cd build
 ```
@@ -206,7 +206,7 @@ A couple of runs later, you will be presented with the "first bad commit", which
 
 To end the bisect, enter `git bisect reset`. This will bring you back to where you were before. 
 
-## Virtual Box alternatives for advanced users10401040
+## Virtual Box alternatives for advanced users
 
 ### VMWare
 [VMWare](https://www.vmware.com/products/workstation-player.html) is another popular virtual machine project.
