@@ -29,7 +29,7 @@ likely not on.
 
 ## A few general Linux notes
  
-If you picked either Kubuntu (KDE) your virtual machine will be slightly similar
+If you picked Kubuntu (KDE) your virtual machine will be slightly similar
 to Windows. You'll have a start menu where you can find all your programs, default programs like
 Mozilla Firefox, a text editor, a file browser etc. Some things are quite different, though: 
  
@@ -43,10 +43,10 @@ for short.
 one level up. `cd ~` will bring you back to your home directory. Also, if you have file paths
 with spaces or apostrophes in them, to use them in the terminal you'll need to *escape* them like
 so `~/Baldur's\ Gate\ 2` or `"~/Baldur's Gate 2"`.
-- You can copy from and paste into the terminal, but (usually) not with Ctrl-C and Ctrl-V. Ctrl-C
-*terminates* the current proces. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
+- You can copy from and paste into the terminal, but not with Ctrl-C and Ctrl-V. Ctrl-C
+*terminates* the currently running program. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
 - To install software, you don't download files manually, but let the package manager do that for
-you (`apt` on Ubuntu).
+you (`apt` on Kubuntu).
 
 
 ## Setting up a Linux VM with VirtualBox
