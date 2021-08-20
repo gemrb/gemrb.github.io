@@ -43,8 +43,8 @@ for short.
 one level up. `cd ~` will bring you back to your home directory. Also, if you have file paths
 with spaces or apostrophes in them, to use them in the terminal you'll need to *escape* them like
 so `~/Baldur's\ Gate\ 2` or `"~/Baldur's Gate 2"`.
-- You can copy from and paste into the terminal, but not with Ctrl-C and Ctrl-V. Ctrl-C
-*terminates* the currently running program. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
+- **You can copy from and paste into the terminal, but not with Ctrl-C and Ctrl-V. Ctrl-C
+*terminates* the currently running program. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.**
 - To install software, you don't download files manually, but let the package manager do that for
 you (`apt` on Kubuntu).
 
