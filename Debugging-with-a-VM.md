@@ -81,11 +81,8 @@ virtual machine will now reboot.
 sudo apt install virtualbox-guest-additions-iso
 ```
 - When it's done, in the VirtualBox menu, select Devices > Insert Guest Additions CD Image.
-- If it didn't autorun/open, find the disc directory in your file manager.
-  - If you are lucky, double clicking autorun.sh will ask you if you want to run it and ask for
-your password.
-  - If opens it as a text file instead, you need to right click somewhere in that folder and
-open a terminal (Actions > Open Terminal Here) and enter `sudo ./autorun.sh`
+- Follow the popup suggestion and open it in your file manager.
+- Double click `autorun.sh` to run it and enter your password.
 - Guest additions allows you to:
   - Share your clipboard with the guest (enable under Devices > Shared Clipboard)
   - Share a folder on your host's drive with the guest
