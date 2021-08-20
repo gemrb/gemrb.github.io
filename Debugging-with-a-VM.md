@@ -160,48 +160,6 @@ make -j2
 ```
 You can ignore warnings from git.
 
-## Git Bisect
- 
-Git is a tool to track changes in files and especially useful for collaboration. You have a
-file and someone changes a line; you can go back, a year later, and check who added this line,
-and if they wrote why, mentioned test cases or any other useful info.
-
-So when something breaks and you don't want to wait for it to get fixed, it's easy to switch
-to a known working version.
-
-It also enables bisection, a quick search to find with what change a problem started occuring.
-Something was working 2 weeks ago, but isn't now? You feed git this info, and it will
-automatically present you with the least amount of necessary checks (changes to verify) to find
-the exact commit that broke it. 
-
-### Bisecting
- 
-`git bisect` is used to nail down the change (commit) that broke the thing you're testing. 
-These commands only work on the top directory of the repository (`~/gemrb`).
-
-To start a bisection:
-- `git bisect start` 
-- Assuming the latest revision has the problem, enter `git bisect bad`
-
-Now we need to find a state when things were working fine. Since you probably
-have to guess, let's try 50 changes before now: `git checkout HEAD~50`. Rebuild as usual:
-```sh
-cd build
-make -j2
-```
-If it's bad, run git checkout again and repeat until you find a good version. Once you
-have it: `git bisect good`.
- 
-Now the main cycle starts. Git will suggest a new commit to test and repeat until it finds the
-point in time, the change of code, the commit that introduced the problem.
-- Rebuild as above
-- It works? `git bisect good`
-- It doesn't? `git bisect bad`
-- You cannot test it because of some other error, for example it doesn't build at all? `git bisect skip`
-
-A couple of runs later, you will be presented with the "first bad commit", which you should report. 
-
-To end the bisect, enter `git bisect reset`. This will bring you back to where you were before. 
 
 ## Virtual Box alternatives for advanced users
 
