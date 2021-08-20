@@ -229,3 +229,49 @@ Apple specific features that could be implemented with the wrapper:
   - a quick launch GUI to prompt for game type on launch.
   - setup special environments (ex. Python for iOS)
 
+
+## Git Bisect
+ 
+Git is a tool to track changes in files and especially useful for collaboration.
+You have a file and someone changes a line; you can go back, a year later, and
+check who added this line, and if they wrote why, mentioned test cases or any
+other useful info.
+
+It also enables bisection, a quick search to find with what change a problem
+started occuring. Something was working 2 weeks ago, but isn't now? You feed git
+this info, and it will automatically present you with the least amount of
+necessary checks (changes to verify) to find the exact commit that broke it. 
+
+### Bisecting
+ 
+`git bisect` is the subcommand used to nail down the commit that broke the
+thing you're testing. 
+
+To start a bisection:
+- `git bisect start` 
+- Assuming the current revision has the problem, enter `git bisect bad`
+
+Now we need to find a state when things were working fine. Since you probably
+have to guess, let's try 50 changes before now with `git checkout HEAD~50`.
+Rebuild as usual, eg. on linux:
+```sh
+cd build
+make -j2
+```
+If it's bad, run git checkout again and repeat until you find a good version.
+Once you have it: `git bisect good`.
+ 
+Now the main cycle starts. Git will suggest a new commit to test, estimate
+the number of steps and repeat the bisection until it finds the commit that
+introduced the problem.
+- Rebuild as usual
+- It works? `git bisect good`
+- It doesn't? `git bisect bad`
+- You cannot test it because of some other error, for example it doesn't
+build at all? `git bisect skip`
+
+A couple of runs later, you will be presented with the "first bad commit",
+which you should report (or use yourself).
+
+To end the bisect, enter `git bisect reset`. This will bring you back to
+where you were before in git history. 
