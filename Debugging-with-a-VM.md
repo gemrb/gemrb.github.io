@@ -36,15 +36,12 @@ Mozilla Firefox, a text editor, a file browser etc. Some things are quite differ
 - Linux is case sensitive. `GemRB`, `gemrb` and `Gemrb` would all be different files. 
 - Linux uses forward slash instead of backwards slash for file paths. 
 - Linux doesn't have drive letters (no `C:\`). Drives are available under `/media`. 
-- Your main directory for user files is "home" which is found under `/home/YourUserName`. 
+- Your main directory for user files is "home" which is found under `/home/YourUserName` or `~` fo short. 
 - `sudo` is used to run something with admin privileges. It's needed to install things system-wide.
 - To navigate in the terminal, the main command is `cd` to `c`hange `d`irectory. `cd ..` moves
 one level up. `cd ~` will bring you back to your home directory. Also, if you have file paths
 with spaces or apostrophes in them, to use them in the terminal you'll need to *escape* them like
 so `~/Baldur's\ Gate\ 2` or `"~/Baldur's Gate 2"`.
-- Careful: If you want to run something in your current directory, you need to use `./stuff`.
-With dot and slash. Just `stuff` would search for it in your installed apps and libraries, while
-`/stuff` would search for it in the root of the disk.
 - You can copy from and paste into the terminal, but (usually) not with Ctrl-C and Ctrl-V. Ctrl-C
 *terminates* the current proces. Instead, use `Ctrl-Shift-C` and `Ctrl-Shift-V`.
 - To install software, you don't download files manually, but let the package manager do that for
@@ -113,7 +110,8 @@ access it from your VM and move it into your VM.
 - Open a terminal ("Konsole").
 - Install the dependencies needed to build GemRB. 
 ```
-sudo apt install git cmake make clang libsdl2-2.0-0 libsdl2-dev libopenal1 libopenal-dev libpython3-dev gdb
+sudo apt install git cmake make clang libsdl2-2.0-0 \
+  libsdl2-dev libopenal1 libopenal-dev libpython3-dev gdb
 ```
 - Grab the GemRB code and prepare directories for building (a `gemrb` folder will appear in your home):
 ```bash
@@ -135,13 +133,16 @@ sed -i 's,^#CaseSensitive,CaseSensitive,' GemRB.cfg
 ```
 - Open the file by clicking on it in Dolphin, the file manager. Find and set
 `GamePath` to point to where you copied or mounted the game data (eg. `~/bg2`)
-  - See [Manpage.md] for other settings
+  - Check [the docs](Manpage.md) if you're curious about other settings
 
 ## Running GemRB in the debugger
 
 - Open a terminal
 - If you're not already in the build dir: `cd ~/gemrb/build`
-- Run it with `../admin/run.gdb GemRB.cfg`
+- Run it with 
+```
+../admin/run.gdb GemRB.cfg
+```
 - While the game is running, you'll have the terminal in the background. If
 the game crashes at any point, switch to the terminal and you'll see some message that
 the game crashed. Enter `bt` to get a backtrace. You can copy that out of the terminal
@@ -192,8 +193,7 @@ cd build
 make -j2
 ```
 If it's bad, run git checkout again and repeat until you find a good version. Once you
-have it:
-`git bisect good COMMITNUMBERHERE`. COMMITNUMBERHERE is a long string of text git will give you.
+have it: `git bisect good`.
  
 Now the main cycle starts. Git will suggest a new commit to test and repeat until it finds the
 point in time, the change of code, the commit that introduced the problem.
@@ -206,7 +206,7 @@ A couple of runs later, you will be presented with the "first bad commit", which
 
 To end the bisect, enter `git bisect reset`. This will bring you back to where you were before. 
 
-## Alternatives for advanced users
+## Virtual Box alternatives for advanced users10401040
 
 ### VMWare
 [VMWare](https://www.vmware.com/products/workstation-player.html) is another popular virtual machine project.
@@ -220,8 +220,8 @@ There is a lot more to tweak and a lot more instructions to set VMWare up, but i
 Tips: 
 - Make sure to set your VM space as big as you will need during the initial setup because you will break
 all of your fake partitions if you try to expand it after the VM is set up.
-- Copy from inside the VM terminal and not from the host. Your hard drive will be at
-`/mnt/”letter”/` and copying from inside is much faster than copying from without.
+- Copy from inside the VM terminal and not from the host. Your hard drive will be inside
+`/mnt/` and copying from inside is much faster than copying from without.
 - Remember to install your VMTools plugin. It will have its own setup process that will not be as easy to set
 up and it will need to be set up from within the Workstation Player.
 
