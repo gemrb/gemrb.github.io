@@ -240,7 +240,9 @@ other useful info.
 It also enables bisection, a quick search to find with what change a problem
 started occuring. Something was working 2 weeks ago, but isn't now? You feed git
 this info, and it will automatically present you with the least amount of
-necessary checks (changes to verify) to find the exact commit that broke it. 
+necessary checks (changes to verify) to find the exact commit that broke it.
+Check out [Tower's explanation](https://www.git-tower.com/learn/git/faq/git-bisect/)
+for a visualization of the process.
 
 ### Bisecting
  
