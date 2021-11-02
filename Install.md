@@ -59,7 +59,7 @@ this right to be able to use the configuration.
 If you are curious, read the detailed explanation of all the [configuration options](Manpage.md).
 The configuration filename is arbitrary, but check the note in the *Options* section.
 
-You can create a config file with only the keys that you want to change. For example, you can set just the `Width` and `Height` resolution options if the game and engine data is found some other way (eg. in Linux AppVeyor packages).
+You can create a config file with only the keys that you want to change. For example, you can set just the `Width` and `Height` resolution options if the game and engine data is found some other way (eg. in Linux AppImage packages).
 {: .notice--warning}
 
 # Run GemRB
