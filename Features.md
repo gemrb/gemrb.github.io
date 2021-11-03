@@ -106,7 +106,7 @@ updated approximately every 100 changes.
 # Wide screen, higher resolutions
 
 The original games only supported a fixed list of resolutions through their data, with the
-widescreen mod enabling more choice. GemRB on the other hand supports whole-window scaling,
+widescreen mod enabling more choice. GemRB on the other hand supports whole-window scaling (resize the window to see),
 which in effect produces larger pixels and looks best at integer multiples of the base
 resolution (eg. 3x bigger). GemRB also supports arbitrary resolutions without the widescreen
 mod, but in that case the GUIs will remain the same size, only centered.
