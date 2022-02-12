@@ -47,7 +47,7 @@ also have to create them first, not just replace the existing entries.
   - divine spellcaster classes with sorcerer style spellcasting -
       - just set the booktype to 3 in the gemrb clskills.2da (caveat: it
         will affect every npc with that class)
-  - different boni for weapon styles 
+  - different and extra boni for weapon styles 
       - just edit unhardcoded/ws\*.2da as you see fit
   - different wild surges
       - just edit unhardcoded/wildmag.2da
