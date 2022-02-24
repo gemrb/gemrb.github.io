@@ -43,8 +43,8 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
     - [Ctrl-Shift-Y](){: .btn .btn--success} (new) - Kills all enemies in the area
   - [ALT](){: .btn .btn--success} (same) - Toggles debug flag DEBUG\_SHOW\_CONTAINERS (show all
     containers and doors)
-  - [Ctrl-7](){: .btn .btn--info} (different) - Toggle drawing of Fog of war (actually explored
-    bitmap atm.).
+  - [Ctrl-7](){: .btn .btn--info} (different) - Toggle drawing of Fog of war and the explored
+    bitmap.
 
 ## Debugging
 
@@ -57,8 +57,8 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
   - [Ctrl-L](){: .btn .btn--info} (similar) - Plays the S056ICBL animation over the actor.
     (This exists in PST only)
   - [Ctrl-O](){: .btn .btn--info} (different) - N/A
-  - [Ctrl-u](){: .btn .btn--info} (different) - Dumps GLOBAL GameScript variables.
-  - [Ctrl-U](){: .btn .btn--info} (different) - Dumps death variables.
+  - [Ctrl-U](){: .btn .btn--info} (different) - Dumps GLOBAL GameScript variables.
+  - [Ctrl-Shift-U](){: .btn .btn--info} (different) - Dumps death variables.
   - [Ctrl-Shift-V](){: .btn .btn--info} (new) - Dumps the main dictionary (eg. baldur.ini options and other engine vars).
   - [Ctrl-4](){: .btn .btn--info} (same) - Toggles debug flag DEBUG\_SHOW\_INFOPOINTS (show all
     traps, infopoints and wallgroups).
