@@ -74,6 +74,7 @@ also have to create them first, not just replace the existing entries.
       - just edit unhardcoded/\*/splwizkn.2da (or splbrdkn.2da)
   - different monk ac/apr progression
       - just change unhardcoded/bg2/monkbon.2da
+  - different turn undead level differences, reputation cut-off points for falling, default AC/save/attack dice size (gemrb/unhardcoded/shared/miscrule.2da)
 
 ### Easy
 
