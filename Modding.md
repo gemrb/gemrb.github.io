@@ -45,36 +45,33 @@ For example, to add brand new spells to the wild surge table, one would
 also have to create them first, not just replace the existing entries.
 
   - divine spellcaster classes with sorcerer style spellcasting -
-      - just set the booktype to 3 in the gemrb clskills.2da (caveat: it
+      - just set the booktype to 3 in the gemrb `clskills.2da` (caveat: it
         will affect every npc with that class)
   - different and extra boni for weapon styles 
-      - just edit unhardcoded/ws\*.2da as you see fit
-  - different wild surges
-      - just edit unhardcoded/wildmag.2da
-          - replace spell resrefs with your own and/or add modifiers
-              - check Scriptable::HandleHardcodedSurge to see how the
-                extra modifiers work (+ and all the numbers)
-  - spell icon sorting in the action bar
-      - just edit unhardcoded/shared/spldisp.2da
-  - different damage and/or XP boni/mali for game difficulty levels 
-      - just edit unhardcoded/\*/difflvls.2da as you see fit
+      - just edit `unhardcoded/ws\*.2da` as you see fit
+  - different wild surges: just edit `unhardcoded/wildmag.2da`
+      - replace spell resrefs with your own and/or add modifiers
+          - check `Scriptable::HandleHardcodedSurge` to see how the
+            extra modifiers work (+ and all the numbers)
+  - spell icon sorting in the action bar: just edit `unhardcoded/shared/spldisp.2da`
+  - different damage and/or XP boni/mali for game difficulty levels: just edit `unhardcoded/\*/difflvls.2da`
   - simplified "concentration" ala ToBEx — just set
     SimplifiedDisruption=1 in gemrb.ini
   - autocast any memorized self-targetting spells on rest (stoneskin
     anyone?)
-      - add their resref to splspec.2da and use a value of 8
+      - add their resref to `splspec.2da` and use a value of 8
   - game is not over if protagonist dies (only if the whole party does)
-      - in gemrb/GUIScripts/bg\*/MessageWindow.py change protagonist
+      - in `GUIScripts/bg\*/Game.py` change protagonist
         mode from 1 to 2 (`GemRB.GameSetProtagonistMode(2)`)
   - change the class restrictions for extraordinary strength (bgs,
     iwd1):
-      - just edit 0 to 1 of STREXTRA in unhardcoded/\*/classes.2da
+      - just edit 0 to 1 of STREXTRA in `unhardcoded/\*/classes.2da`
   - change how many spells mages and bards get for free at character
     generation
-      - just edit unhardcoded/\*/splwizkn.2da (or splbrdkn.2da)
-  - different monk ac/apr progression
-      - just change unhardcoded/bg2/monkbon.2da
-  - different turn undead level differences, reputation cut-off points for falling, default AC/save/attack dice size (gemrb/unhardcoded/shared/miscrule.2da)
+      - just edit `unhardcoded/\*/splwizkn.2da` (or `splbrdkn.2da`)
+  - different monk ac/apr progression: just change `unhardcoded/bg2/monkbon.2da`
+  - different turn undead level differences, reputation cut-off points for falling, default AC/save/attack dice size (`unhardcoded/shared/miscrule.2da`)
+  - XP award for successful pickpocketing: add a line with the awards to the existing `xpbonus.2da`
 
 ### Easy
 
@@ -83,45 +80,45 @@ also have to create them first, not just replace the existing entries.
         themselves
   - quickload button on the startup screen for the games that lack it
       - edit start.chu to add the button
-      - edit all the Start.py scripts to use it and make it quickload
+      - edit all the `Start.py` scripts to use it and make it quickload
         (see iwd2 for the code)
   - different layout for the PST modron maze
-      - change unhardcoded/pst/easymaze.2da (or others when they become
+      - change `unhardcoded/pst/easymaze.2da` (or others when they become
         available)
-      - for more complications also change gemrb/GUIScript/pst/Maze.py
+      - for more complications also change `GUIScript/pst/Maze.py`
   - new feats for iwd2
-    * edit feats.2da
+    * edit `feats.2da`
     * create the wanted spell to be applied (like with class abilities)
     * if you want something more complex like Critical Strike, code changes will be needed, pushing this into the hard category
 * new formations:
-  * edit/extend unhardcoded/*/formatio.2da (the easiest way by modifying admin/make_formation.py)
+  * edit/extend `unhardcoded/*/formatio.2da` (the easiest way by modifying `admin/make_formation.py`)
 * spontaneous casting for other games or spellbook types (in iwd2 it works only for cleric spells, not even domain):
-  - create a table like sponcast.2da (iwd2) with the target replacement spells
-  - put its name in the SPONCAST column of unhardcoded/*/clsskills.2da for whichever class you want
+  - create a table like `sponcast.2da` (iwd2) with the target replacement spells
+  - put its name in the SPONCAST column of `unhardcoded/*/clsskills.2da` for whichever class you want
 * more racial enemies in iwd2
-  * just extend unhardcoded/iwd2/haterace.2da (IDS column is from [race.ids](http://gemrb.org/iesdp/files/ids/iwd2/race.htm))
+  * just extend `unhardcoded/iwd2/haterace.2da` (IDS column is from [race.ids](http://gemrb.org/iesdp/files/ids/iwd2/race.htm))
   * add new strings for name and description as necessary (column 1 and 3)
 * resting movies in games that don't have them or have only one (bg1)
   * get appropriate videos
-  * create/edit restmov.2da in a similar shape that bg2 already has, referencing the videos
+  * create/edit `restmov.2da` in a similar shape that bg2 already has, referencing the videos
   
 ### Medium
 
   - a new race
-      - add all the required text strings (races.2da)
+      - add all the required text strings (`races.2da`)
       - decide which avatars will be (re)used and calculate the
         animation ids
       - decide which-if-any bonuses the race will grant (original 2das +
-        dsrace.2da)
+        `dsrace.2da`)
   - subraces in bg2
       - write a new guiscript with a borrowed window pack from the kit
         selection
       - add subrace boni/mali
   - new multi/dual class choices
       - update a bunch of tables in the gemrb and game overrides
-        (classes.2da and clskills.2da being the most important)
+        (`classes.2da` and clskills.2da being the most important)
           - the MULTI column can be computed with this formula:
-            1\<\<(ID1-1)|1\<\<(ID2-1)|1\<\<(ID3-1) (where the ids are
+            `1\<\<(ID1-1)|1\<\<(ID2-1)|1\<\<(ID3-1)` (where the ids are
             the singleclass values in the ID column)
       - add missing tables (eg. clabxxxx.2da) and strings
       - maybe there'll be a need to update some game scripts
@@ -134,7 +131,7 @@ also have to create them first, not just replace the existing entries.
         strings
       - swap the guiscript folders and possibly some of the files in the
         gemrb override
-      - swap / update gemrb.ini
+      - swap / update `gemrb.ini`
   - character name generator
       - the only reason this is under medium and not easy is the fact
         that you have to create a long list of possible names or words
