@@ -76,15 +76,9 @@ That is often enough, so do not fiddle with the other paths too much.
 
   - **GUIEnhancements**=INT  
     The value is a bitfield. Set it to 1 to enable a few GUI
-    enhancements, mostly in BG2. Set to 2 or 3 to try to autoidentify
-    items on transfer (if the character has enough lore). Disabled by
-    default.
-
-<!-- end list -->
-
-  - **EndianSwitch**=(0|1)  
-    Set this to 1 if you are running GemRB on a big-endian machine.
-    Disabled by default.
+    enhancements, mostly in BG2. Add or set to 2 to try to autoidentify items on
+    transfer (if the character has enough lore). Add or set 4 if you want to skip
+    the item description window when opening bags. Enabled by default.
 
 <!-- end list -->
 
@@ -111,15 +105,11 @@ That is often enough, so do not fiddle with the other paths too much.
 
   - **Width**=INT  
     Game window width (in pixels).
-
-**WARNING:** This is not arbitrary but depends on the game data. For
-custom resolutions the widescreen mod needs to be used.
+This can be arbitrary, but results depend on the game data.
+Check the website for a detailed explanation of resolution modes.
 
   - **Height**=INT  
     Game window height (in pixels).
-
-**WARNING:** This is not arbitrary but depends on the game data. For
-custom resolutions the widescreen mod needs to be used.
 
   - **Bpp**=INT  
     Color depth of the game window (in bits per pixel).
@@ -377,6 +367,8 @@ Set this parameter to *1* on Unix-like systems.
 
 *256* - enable text debug mode.
 
+*512* - enable pathfinding debug mode.
+
 The default is *0*.
 
   - **DelayPlugin**=FILENAME  
@@ -405,11 +397,6 @@ The default is *0*.
     exiting GemRB. It is disabled by default.
 
 <!-- end list -->
-
-  - **IgnoreOriginalINI**=(0|1)  
-    Set this parameter to *1*, if you want to ignore the settings from
-    the original configuration files - baldur.ini / icewind.ini /
-    torment.ini. It is disabled by default.
 
   - **GamepadPointerSpeed**=INT
     Pointer movement speed with gamepads. The default is 10.
