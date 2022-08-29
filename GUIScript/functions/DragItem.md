@@ -6,7 +6,7 @@ module: GemRB
 **Prototype:** GemRB.DragItem (PartyID, Slot, ResRef, [Count=0, Type])
 
 **Description:** Start dragging specified item. If Count is given, it will 
-try to split the item. If an    item is already dragged, it won't do 
+try to split the item. If an  item is already dragged, it won't do 
 anything. If Slot is negative, drag the actor's party portrait instead.
 
 **Parameters:**

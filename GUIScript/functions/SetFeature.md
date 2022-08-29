@@ -15,5 +15,6 @@ module: GemRB
 
 **Examples:**
 
-      GemRB.SetFeature(GF_ALL_STRINGS_TAGGED, True)
+    GemRB.SetFeature(GF_ALL_STRINGS_TAGGED, True)
 
+**See also:** [SetVar](SetVar.md)

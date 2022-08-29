@@ -13,10 +13,10 @@ this script has terminated.
 
 **Return value:** N/A
 
-**Example:**
+**Examples:**
 
-      GemRB.SetNextScript ('CharGen')
-      return
+    GemRB.SetNextScript ('CharGen')
+    return
 
 **See also:** [QuitGame](QuitGame.md)
 

@@ -13,6 +13,6 @@ module: _GemRB
   * TableIndex - returned by a previous LoadTable command.
   * RowName - a row label
 
-**Return value:** numeric, -1 if row doesn't exist
+**Return value:** numeric, None if row doesn't exist
 
 **See also:** [LoadTable](LoadTable.md)

@@ -17,9 +17,9 @@ module: _GemRB
 
 **Examples:**
 
-      Bar.SetAction (OnWindowClose, ACTION_WINDOW_CLOSED)
+    Bar.SetAction (OnWindowClose, ACTION_WINDOW_CLOSED)
     ...
     def OnWindowClose (Window):
-    ...
+      ...
 
 **See also:** [Control_SetAction](Control_SetAction.md)

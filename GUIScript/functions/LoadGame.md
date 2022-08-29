@@ -17,10 +17,10 @@ The game won't be loaded before the current GUIScript function returns!
 
 **Return value:** N/A
 
-**Example:**
+**Examples:**
 
-      GemRB.SetVar ('PlayMode', 0)
-      GemRB.LoadGame (-1, 22)
+    GemRB.SetVar ('PlayMode', 0)
+    GemRB.LoadGame (-1, 22)
 
 **See also:** [EnterGame](EnterGame.md), [CreatePlayer](CreatePlayer.md), [SetVar](SetVar.md), [SaveGame](SaveGame.md)
 

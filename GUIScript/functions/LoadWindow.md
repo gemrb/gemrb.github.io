@@ -14,4 +14,4 @@ then moved by (screen size - winpack size) / 2
 
 **Return value:** GWindow (index)
 
-**See also:** [LoadWindowPack](LoadWindowPack.md), [Window_GetControl](Window_GetControl.md), [Window_ShowModal](Window_ShowModal.md), [accessing_gui_controls](accessing_gui_controls.md)
+**See also:** [LoadWindowPack](LoadWindowPack.md), [Window_GetControl](Window_GetControl.md), [Window_ShowModal](Window_ShowModal.md)

@@ -16,9 +16,10 @@ resource associated with the state.
 
 **Return value:** N/A
 
-**Examples:**
- 
+**Examples:** 
+
     GemRB.SetModalState (pc, MS_TURNUNDEAD)
+
 The above example makes the player start the turn undead action.
 
 **See also:** [SetPlayerStat](SetPlayerStat.md), [SetPlayerName](SetPlayerName.md)

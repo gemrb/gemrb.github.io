@@ -13,7 +13,7 @@ module: GemRB
   * FrameRect - a dict with the View's frame (origin and size)
   * OtherArgs - further arguments depending on the View type
 
-**Example:**
+**Examples:**
 
     view = CreateView (control, IE_GUI_SCROLLBAR, frame, CreateScrollbarARGs(bam))
 

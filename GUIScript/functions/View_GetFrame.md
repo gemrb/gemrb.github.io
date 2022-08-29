@@ -11,7 +11,7 @@ module: _GemRB
 
 **Parameters:** N/A
 
-**Example:**
+**Examples:**
 
     StartWindow.GetFrame ()
 

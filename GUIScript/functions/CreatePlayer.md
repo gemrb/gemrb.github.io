@@ -24,13 +24,15 @@ Note: if the slot is already filled, it will delete that pc instead!
 
     MyChar = GemRB.GetVar ('Slot')
     GemRB.CreatePlayer ('charbase', MyChar)
+
 The above example will create a new player character in the slot selected
 by the Slot variable.
 
     MyChar = GemRB.GetVar ('Slot')
     ImportName = 'avenger'
     GemRB.CreatePlayer (ImportName, MyChar, 1)
+
 The above example would import avenger.chr into the slot selected by the 
-Slot Variable. (If it exists in the Characters directory of the game).
+Slot Variable. If it exists in the Characters directory of the game.
 
 **See also:** [LoadGame](LoadGame.md), [EnterGame](EnterGame.md), [QuitGame](QuitGame.md), [FillPlayerInfo](FillPlayerInfo.md), [SetPlayerStat](SetPlayerStat.md)

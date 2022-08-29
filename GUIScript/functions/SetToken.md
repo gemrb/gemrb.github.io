@@ -25,15 +25,15 @@ be avoided. The hardcoded token list:
   * PRO_*        - same as above with protagonist
 
 **Parameters:**
-  *    VariableName - the name of the variable (shorter than 32!)
-  *    Value        - string, the value of the token
+  *  VariableName - the name of the variable (shorter than 32!)
+  *  Value        - string, the value of the token
 
-**Example:**
+**Examples:**
 
     ClassTitle = CommonTables.Classes.GetValue (Class, 'CAP_REF', GTV_REF)
     GemRB.SetToken ('CLASS', ClassTitle)
     # force an update of the string by refetching it
-    TA.SetText (GemRB.GetString (16480))
+    TextArea.SetText (GemRB.GetString (16480))
 
 **Return value:** N/A
 

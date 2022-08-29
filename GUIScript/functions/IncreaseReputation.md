@@ -9,7 +9,7 @@ module: GemRB
 
 **Parameters:**
   * donation - gold spent to increase reputation. You have to change the
-    party's gold separately.
+  party's gold separately.
 
 **Return value:** Nonzero if the reputation has been increased. The amount
 of increase is multiplied by ten.

@@ -24,12 +24,7 @@ core, these are described in different places:
 
 **Examples:**
 
-    GemRB.SetVar('ActionsWindow', ActionsWindow)
-    GemRB.SetVar('OptionsWindow', OptionsWindow)
-    GemRB.SetVar('MessageWindow', MessageWindow)
-    GemRB.SetVar('ActionsPosition', 4) #BottomAdded
-    GemRB.SetVar('OptionsPosition', 0) #Left
-    GemRB.SetVar('MessagePosition', 4) #BottomAdded
-The above lines set up some windows of the main game screen.
+    GemRB.SetVar ('ActWinID', ActionsWindow.ID)
+    GemRB.SetVar ('ActionsPosition', 4)
 
-**See also:** [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetToken](SetToken.md), [LoadGame](LoadGame.md), [HideGUI](HideGUI.md), [data_exchange](data_exchange.md)
+**See also:** [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetToken](SetToken.md), [LoadGame](LoadGame.md), [HideGUI](HideGUI.md)

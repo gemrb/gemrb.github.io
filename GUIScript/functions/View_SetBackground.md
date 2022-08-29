@@ -13,7 +13,7 @@ module: _GemRB
   * GView - the control's reference
   * ResRef - name of the image to use
   * Color - a dict with colors to use for a plain fill
-  * None - if the None object is passed, the backgroud is cleared
+  * None - if the None object is passed, the background is cleared
 
 **Examples:**
 

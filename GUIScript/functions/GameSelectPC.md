@@ -17,11 +17,12 @@ different PC selection mechanism (dialogs and stores are not unified yet).
 
 **Return value:** N/A
 
-**Example:**
+**Examples:**
 
-def SelectAllOnPress ():
-    GemRB.GameSelectPC (0, 1)
-    return
+    def SelectAllOnPress ():
+      GemRB.GameSelectPC (0, 1)
+      return
+
 The above function is associated to the 'select all' button of the GUI screen.
 
 **See also:** [GameIsPCSelected](GameIsPCSelected.md), [GameSelectPCSingle](GameSelectPCSingle.md), [GameGetSelectedPCSingle](GameGetSelectedPCSingle.md), [GameGetFirstSelectedPC](GameGetFirstSelectedPC.md)

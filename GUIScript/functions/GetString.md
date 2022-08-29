@@ -18,14 +18,14 @@ level value without a token, you'll need this.
     * 4   - speech (stop previous sound)
     * 256 - strref off (overrides cfg)
 
-**Return value:** A string with resolved tokens. To resolve %d's, you must
-either use StatComment or do it manually.
+**Return value:** A string with resolved tokens.
 
-**Example:**
+**Examples:**
 
      Level = GemRB.GetPlayerStat (pc, IE_LEVEL) # 1 at character generation
      Label.SetText (GemRB.GetString(12137) + str(Level)) 
+
 The above example will display 'Level: 1' in the addressed label.
 
-**See also:** [StatComment](StatComment.md), [Control_SetText](Control_SetText.md)
+**See also:** [Control_SetText](Control_SetText.md)
 

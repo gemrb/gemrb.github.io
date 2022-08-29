@@ -15,10 +15,11 @@ CreatePlayer call.
 
 **Return value:** N/A
 
-**Example:**
- 
+**Examples:** 
+
     pc = GemRB.GameGetSelectedPCSingle ()
     GemRB.SaveCharacter (pc, ExportFileName)
+
 The above example exports the currently selected character.
 
 **See also:** [CreatePlayer](CreatePlayer.md)

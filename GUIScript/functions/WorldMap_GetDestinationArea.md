@@ -23,4 +23,4 @@ encounters will be evaluated too.
   * Destination - The area resource reference where the player arrives (if there was a random encounter, it differs from Target)
   * Entrance    - The area entrance in the Destination area, it could be empty, in this casethe player should appear in middle of the area
 
-**See also:** [Window_CreateWorldMapControl](Window_CreateWorldMapControl.md), [CreateMovement](CreateMovement.md), [accessing_gui_controls](accessing_gui_controls.md)
+**See also:** [Window_CreateWorldMapControl](Window_CreateWorldMapControl.md), [CreateMovement](CreateMovement.md)

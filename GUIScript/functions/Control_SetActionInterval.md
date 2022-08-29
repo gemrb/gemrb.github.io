@@ -14,7 +14,4 @@ module: _GemRB
 
 **Return value:** N/A
 
-**Examples:**
-
-Button.SetActionInterval (50)
 **See also:** [Control_SetEvent](Control_SetEvent.md)

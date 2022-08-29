@@ -16,6 +16,6 @@ Table. If StartRowis omitted, the search starts from the beginning.
   * Value - value to find in the table
   * StartRow - integer, starting row (offset)
 
-**Return value:** numeric, -1 if the value isn't to be found
+**Return value:** numeric, None if the value isn't to be found
 
 **See also:** [LoadTable](LoadTable.md), [Table_GetValue](Table_GetValue.md)

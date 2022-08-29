@@ -12,7 +12,7 @@ module: GemRB
   * GView - the window's reference or a string with the alias
   * ID - look for a view with a specific numeric ID
 
-**Example:**
+**Examples:**
 
     GemRB.GetView ('ACTWIN')
 

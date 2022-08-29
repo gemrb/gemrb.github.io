@@ -20,4 +20,4 @@ of the running engine.
 
 **Return value:** 0 on success, -1 otherwise
 
-**See also:** [Control_QueryText](Control_QueryText.md), [DisplayString](DisplayString.md), [Window_GetControl](Window_GetControl.md), [accessing_gui_controls](accessing_gui_controls.md)
+**See also:** [Control_QueryText](Control_QueryText.md), [DisplayString](DisplayString.md), [Window_GetControl](Window_GetControl.md)

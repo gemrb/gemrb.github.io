@@ -12,7 +12,7 @@ module: _GemRB
 **Parameters:**
   * GView - the control's reference
   * Flags - the bits to enable
-  * Operation - the bit operation to use, defaults to OP_SET
+  * Operation - the bit operation to use, defaults to SET
 
 **Examples:**
 

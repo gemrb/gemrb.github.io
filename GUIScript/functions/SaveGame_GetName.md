@@ -7,7 +7,7 @@ module: _GemRB
 
 **Metaclass Prototype:** GetName ()
 
-**Description:**    Returns name of the saved game.
+**Description:**  Returns name of the saved game.
 
 **Return value:** string/int
 

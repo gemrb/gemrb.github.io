@@ -17,8 +17,8 @@ to a specific SAV version.
 
 **Return value:** N/A
 
-**Example:**
- 
+**Examples:** 
+
     GemRB.SaveGame (10, 'After meeting Dhall')
 
 **See also:** [LoadGame](LoadGame.md), [SaveCharacter](SaveCharacter.md)

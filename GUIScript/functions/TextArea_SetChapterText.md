@@ -16,7 +16,7 @@ to beyond the top.
   * Ctrl - textarea id
   * Text - The text to set in the TA
 
-**Example:**
+**Examples:**
 
     TextArea = ChapterWindow.GetControl (5)
     TextArea.SetChapterText (text)

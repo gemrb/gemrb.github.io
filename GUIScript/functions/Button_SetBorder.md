@@ -23,7 +23,9 @@ it with a tint (like with unusable or unidentified item's icons).
 
 **Examples:**
 
-    GemRB.SetButtonBorder (Icon, 0, color,    0, 1, rect)
+    color = {'r' : 200, 'g' : 0, 'b' : 0, 'a' : 64}
+    IconButton.SetBorder (0, color, 0, 1)
+
 Not known spells are drawn darkened (the whole button will be overlaid).
 
 **See also:** [Button_EnableBorder](Button_EnableBorder.md)

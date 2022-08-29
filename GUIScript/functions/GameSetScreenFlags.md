@@ -13,5 +13,3 @@ status, dialog textarea size).
   * Operation - The usual bit operations
 
 **Return value:** N/A
-
-**See also:** [bit_operation](bit_operation.md)

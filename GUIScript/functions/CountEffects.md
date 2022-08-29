@@ -17,9 +17,9 @@ If a parameter is set to -1, it will be ignored.
 
 **Return value:** N/A
 
-**Example:**
+**Examples:**
 
-      res = GemRB.CountEffect (MyChar, 'HLA', -1, -1, AbilityName)
+    res = GemRB.CountEffect (MyChar, 'HLA', -1, -1, AbilityName)
 
 The above example returns how many HLA effects were applied on the character.
 

@@ -12,10 +12,10 @@ module: _GemRB
 **Parameters:**
   * GView - the control's reference
   * Flags - the bits to enable
-  * Operation - the bit operation to use, defaults to OP_SET
+  * Operation - the bit operation to use, defaults to SET
 
-**Example:**
+**Examples:**
 
-    TextArea.SetResizeFlags (IE_GUI_VIEW_RESIZE_ALL, OP_OR)
+    TextArea.SetResizeFlags (IE_GUI_VIEW_RESIZE_ALL, OR)
 
 **Return value:** boolean marking success or failure

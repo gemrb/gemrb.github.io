@@ -16,13 +16,15 @@ numbered actor's context.
 
 **Return value:** N/A
 
-**Example:**
+**Examples:**
 
     GemRB.ExecuteString('ActionOverride([PC], Attack(NearestEnemyOf(Myself)) )')
+
 The above example will force a player (most likely Player1) to attack an enemy, issuing the command as it would come from the current area's script. The current gametype must support the scripting action.
 
 
     GemRB.ExecuteString('Attack(NearestEnemyOf(Myself))', 2)
+
 The above example will force Player2 to attack an enemy, as the example will run in that actor's script context.
 
 **See also:** [EvaluateString](EvaluateString.md), gamescripts

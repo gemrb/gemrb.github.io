@@ -13,7 +13,7 @@ module: _GemRB
   * GView - the control's reference
   * ProxyView - another View
 
-**Example:**
+**Examples:**
 
     RaceWindow.SetEventProxy (ScrollBarControl)
 

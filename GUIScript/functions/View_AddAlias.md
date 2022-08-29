@@ -7,7 +7,9 @@ module: _GemRB
 
 **Metaclass Prototype:** AddAlias (AliasGroup[, AliasID, Overwrite])
 
-**Description:** Adds an additional entry to the Scripting engine under AliasGroup with AliasID and binds it to the view, optionally overwriteing an existing entry.
+**Description:** Adds an additional entry to the Scripting engine under
+AliasGroup with AliasID and binds it to the view, optionally
+overwriteing an existing entry.
 
 **Parameters:**
   * GView - the control's reference
@@ -15,7 +17,7 @@ module: _GemRB
   * AliasID - force to this alias numeric ID
   * Overwrite - overwrite any existing alias
 
-**Example:**
+**Examples:**
 
     PortraitWindow.AddAlias ('HIDE_CUT', 3)
 

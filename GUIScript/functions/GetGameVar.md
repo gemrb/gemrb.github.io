@@ -13,7 +13,8 @@ is what gamescripts know as GLOBAL variables.
 
 **Return value:**
 
-**Example:**
- Chapter = GemRB.GetGameVar ('chapter')
+**Examples:**
+
+    Chapter = GemRB.GetGameVar ('chapter')
 
 **See also:** [GetVar](GetVar.md), [GetToken](GetToken.md), [CheckVar](CheckVar.md)

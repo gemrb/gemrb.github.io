@@ -5,7 +5,7 @@ module: GemRB
 
 **Prototype:** GemRB.VerbalConstant (globalID, str)
 
-**Description:**    Plays a Character's SoundSet entry.
+**Description:**  Plays a Character's SoundSet entry.
 
 **Parameters:** 
   * globalID - party ID or global ID of the actor to use

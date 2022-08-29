@@ -15,7 +15,7 @@ module: _GemRB
   * siblingView - View to add
   * id - assign this numeric ID to the new view (useful if it's already taken)
 
-**Example:**
+**Examples:**
 
     RaceWindow.AddSubview (ScrollBarControl)
 

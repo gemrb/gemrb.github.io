@@ -24,4 +24,4 @@ identifies an item.
 
 **Return value:** Returns 0 if the item was not found.
 
-**See also:** [GetSlotItem](GetSlotItem.md), [bit_operation](bit_operation.md)
+**See also:** [GetSlotItem](GetSlotItem.md)

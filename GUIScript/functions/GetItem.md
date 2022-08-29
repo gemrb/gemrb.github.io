@@ -9,7 +9,6 @@ module: GemRB
 
 **Parameters:**
   * ResRef - the resource reference of the item
-  * PartyID - the pc you want to check usability against (defaults to the selected one)
 
 **Return value:** dictionary
   * 'ItemName'           - strref of unidentified name.

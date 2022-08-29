@@ -9,7 +9,7 @@ module: GemRB
 
 **Parameters:**
   * flag:
-    * -1 -    toggle fullscreen mode
+    * -1 -  toggle fullscreen mode
     * 0 - set windowed mode
     * 1 - set fullscreen mode
 

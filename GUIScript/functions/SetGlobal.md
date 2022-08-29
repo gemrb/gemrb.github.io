@@ -14,4 +14,4 @@ module: GemRB
 
 **Return value:** N/A
 
-**See also:** [SetVar](SetVar.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetToken](SetToken.md), [data_exchange](data_exchange.md)
+**See also:** [SetVar](SetVar.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetToken](SetToken.md)

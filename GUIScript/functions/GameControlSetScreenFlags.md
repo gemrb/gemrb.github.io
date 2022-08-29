@@ -20,5 +20,4 @@ Don't confuse it with the saved screen flags set by GameSetScreenFlags.
 
 **Return value:** N/A
 
-**See also:** [GameSetScreenFlags](GameSetScreenFlags.md), [bit_operation](bit_operation.md)
-
+**See also:** [GameSetScreenFlags](GameSetScreenFlags.md)

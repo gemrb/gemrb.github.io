@@ -20,14 +20,15 @@ module: _GemRB
 
 **Examples:**
 
-      Bar.SetAction (EndLoadScreen, IE_GUI_PROGRESS_END_REACHED)
+    Bar.OnEndReached (EndLoadScreen)
     ...
     def EndLoadScreen ():
       Skull = LoadScreen.GetControl (1)
-      Skull.SetMOS ('GSKULON')
+      Skull.SetPicture ('GSKULON')
+
 The above example changes the image on the loadscreen when the progressbar reaches the end.
 
-    Button.SetAction (Buttons.YesButton, IE_GUI_MOUSE_PRESS, 1, 0, 1)
+  Button.SetAction (Buttons.YesButton, IE_GUI_MOUSE_PRESS, 1, 0, 1)
 The above example sets up the 'YesButton' function from the Buttons module to be called when the button is pressed with the left mouse button one time.
 
-**See also:** [Window_GetControl](Window_GetControl.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetTimedEvent](SetTimedEvent.md), [accessing_gui_controls](accessing_gui_controls.md)
+**See also:** [Window_GetControl](Window_GetControl.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [SetTimedEvent](SetTimedEvent.md)

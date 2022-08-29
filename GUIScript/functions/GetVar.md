@@ -18,5 +18,5 @@ controls could affect the same variable.
 
     selected = GemRB.GetVar ('SelectedMovie')
 
-**See also:** [SetVar](SetVar.md), [Control_SetVarAssoc](Control_SetVarAssoc.md), [data_exchange](data_exchange.md)
+**See also:** [SetVar](SetVar.md), [Control_SetVarAssoc](Control_SetVarAssoc.md)
 

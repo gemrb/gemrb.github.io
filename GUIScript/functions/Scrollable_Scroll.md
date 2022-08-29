@@ -15,7 +15,7 @@ module: _GemRB
   * y - y coordinate of point to scroll to
   * relative - optional, set if you don't want an absolute scroll
 
-**Example:**
+**Examples:**
 
     WorldMapControl.Scroll (0, 0, False)
 

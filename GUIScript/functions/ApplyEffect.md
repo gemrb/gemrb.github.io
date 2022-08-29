@@ -14,22 +14,21 @@ This function cam be used to add stats that are stored in effect blocks.
   * opcode   - the effect opcode (for values see effects.ids)
   * param1   - parameter 1 for the opcode
   * param2   - parameter 2 for the opcode
-  * resref   - optional resource reference to set in effect
+  * resref   - (optional) resource reference to set in effect
   * resref2  - (optional) resource reference to set in the effect
   * resref3  - (optional) resource reference to set in the effect
-  * resref4  - (optional) resource reference to set in the effect
   * source   - (optional) source to set in the effect
   * timing   - (optional) timing mode to set in the effect
 
 **Return value:** N/A
 
-**Example:**
+**Examples:**
 
-      for i in range(ProfCount-8):
-          StatID = GemRB.GetTableValue (TmpTable, i+8, 0)
-          Value = GemRB.GetVar ('Prof '+str(i))
-          if Value:
-              GemRB.ApplyEffect (MyChar, 'Proficiency', Value, StatID)
+    for i in range(ProfCount-8):
+      StatID = GemRB.GetTableValue (TmpTable, i+8, 0)
+      Value = GemRB.GetVar ('Prof ' + str(i))
+      if Value:
+        GemRB.ApplyEffect (MyChar, 'Proficiency', Value, StatID)
 
 The above example sets the weapon proficiencies in a bg2's CharGen9.py script.
 
