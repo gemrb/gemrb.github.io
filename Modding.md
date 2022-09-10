@@ -53,6 +53,7 @@ also have to create them first, not just replace the existing entries.
       - replace spell resrefs with your own and/or add modifiers
           - check `Scriptable::HandleHardcodedSurge` to see how the
             extra modifiers work (+ and all the numbers)
+  - different wild magic casting level modifications: arbitrarily extend `unhardcoded/wildmag.2da` (column limit was removed)
   - spell icon sorting in the action bar: just edit `unhardcoded/shared/spldisp.2da`
   - different damage and/or XP boni/mali for game difficulty levels: just edit `unhardcoded/\*/difflvls.2da`
   - simplified "concentration" ala ToBEx — just set
