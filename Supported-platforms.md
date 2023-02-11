@@ -15,9 +15,10 @@ platforms on our website.
   - Linux (x86, arm, ppc, mips, s390x and their 64-bit versions)
   - Mac OS (various, even pre x86)
   - FreeBSD, OpenBSD, NetBSD, DragonflyBSD
-  - Pandora,, [Raspberry
+  - Pandora, [Raspberry
     Pi](http://www.raspians.com/Knowledgebase/gemrb-baldurs-gate-on-the-raspberry-pi/), Playstation Vita
   - Haiku, ReactOS, SyllableOS, AmigaOS, [Solaris](http://forums.nekochan.net/viewtopic.php?f=17&t=16730822&p=7391249)
+  - [Anbernic chips](https://github.com/gemrb/gemrb/pull/1781#issuecomment-1425802260) (AmberElec / ArkOS / UnofficialOS)
   - Android, iOS: currently unmaintained
   - Ubuntu Phone, Symbian, [Maemo](http://talk.maemo.org/showthread.php?t=16947)
 
