@@ -13,7 +13,7 @@ platforms on our website.
 
   - Windows (regular, 64-bit versions, RT)
   - Linux (x86, arm, ppc, mips, s390x and their 64-bit versions)
-  - Mac OS (various, even pre x86)
+  - Mac OS (ppc, x86, arm64)
   - FreeBSD, OpenBSD, NetBSD, DragonflyBSD
   - Pandora, [Raspberry
     Pi](http://www.raspians.com/Knowledgebase/gemrb-baldurs-gate-on-the-raspberry-pi/), Playstation Vita
