@@ -64,7 +64,7 @@ new features [here](https://github.com/gemrb/gemrb/issues/new/choose).
 Sure. Firstly, a minimal dataset needed to run gemrb is included. It
 just makes sure the engine works, so not that fun.
 
-Secondly, a minimal demo is included, which sets up an area and your actor.
+Secondly, a short demo is included, which sets up some puzzles and areas for you to explore.
 
 Thirdly, you could use the
 [bg2 demo](http://www.fileplanet.com/164134/160000/fileinfo/Baldur%27s-Gate-II-Demo-%5BFull-Install%5D)
@@ -72,8 +72,8 @@ to get a better feel of what the games or GemRB are about.
 
 ## Is it possible to create a new game with GemRB?
 
-Of course, but don't underestimate the effort involved. A basic demo is
-bundled with GemRB, but you can only awkwardly walk around there.
+Of course, but don't underestimate the effort involved. A simple demo is
+bundled with GemRB, showcasing some of the engine features.
 
 For more details and discussions, see [newgame](New-game.md) and the linked
 forum threads.
