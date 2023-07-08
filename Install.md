@@ -12,7 +12,7 @@ page](http://sourceforge.net/projects/gemrb/files/)**. Here is a handy table wit
 
 |  | Release downloads | Development downloads |
 | --- | :---: | :---: |
-| **Binaries** | [<i class="fab fa-windows"></i> Windows]({{ page.sf }}/{{ site.version }}/gemrb-win32-v{{ site.version }}.zip),<br>[<i class="fab fa-linux"></i> Linux]({{ page.sf }}/{{ site.version }}/gemrb-linux-v{{ site.version }}.AppImage),<br>[<i class="fab fa-apple"></i> macOS]({{ page.sf }}/{{ site.version }}/gemrb-macos-v{{ site.version }}.tar.bz2) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
+| **Binaries** | [<i class="fab fa-windows"></i> Windows]({{ page.sf }}/{{ site.version }}/gemrb-win32-v{{ site.version }}.zip),<br>[<i class="fab fa-linux"></i> Linux]({{ page.sf }}/{{ site.version }}/gemrb-linux-v{{ site.version }}.AppImage),<br>[<i class="fab fa-apple"></i> macOS x86]({{ page.sf }}/{{ site.version }}/gemrb-macos-v{{ site.version }}.tar.bz2),<br>[<i class="fab fa-apple"></i> macOS ARM64]({{ page.sf }}/{{ site.version }}/gemrb-macos-arm64-v{{ site.version }}.zip) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
 | Source | [Tarball]({{ page.sf }}/{{ site.version }}/gemrb-{{ site.version }}-sources.tar.gz) | See [dev docs](Dev-docs.html#getting-the-code) |
 | Version | {{ site.version }} | {{ site.version }}-git with build number |
 
