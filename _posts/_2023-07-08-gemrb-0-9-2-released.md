@@ -32,7 +32,7 @@ Full changelog digest:
         - bugfixes
 
 Thanks to everyone that contributed their time, including:
-
+Brad Allred, Bubb, burner1024, desecaw13, dikau, fizzet, FrElvire, Jaka Kranjc, kloptops, Konrad Klimaszewski, majcosta, MarcelHB, Mingun, Rod Batten, Rodrigo Santellan, Tomsod, Zoltan Gyokeres.
 
 **Notes to packagers:**
 - optional `CapFPS`, `GameLanguagePath` and `GameMoviesPath` keys have been added to the sample configs
