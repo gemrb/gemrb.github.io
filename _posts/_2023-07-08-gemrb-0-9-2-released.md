@@ -34,7 +34,7 @@ Full changelog digest:
 Thanks to everyone that contributed their time, including:
 
 
-(**Notes to packagers:**)
+**Notes to packagers:**
 - optional `CapFPS`, `GameLanguagePath` and `GameMoviesPath` keys have been added to the sample configs
 - an upgrade to C++14 standard will occur after this release
 
