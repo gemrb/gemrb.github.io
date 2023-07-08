@@ -121,6 +121,14 @@ Check the website for a detailed explanation of resolution modes.
 
 <!-- end list -->
 
+  - **CapFPS**=(-1|0|n)
+    Set FPS handling:
+     * -1: no limit
+     * 0: VSync (SDL2), 30 (SDL1)
+     * n: cap to n FPS
+
+<!-- end list -->
+
   - **SkipIntroVideos**=(0|1)  
     If set to *1*, the intro and logo videos are skipped to save
     developer's nerves. The default is *0*.
@@ -264,6 +272,18 @@ Set this parameter to *1* on Unix-like systems.
   - **GameSoundsPath**=PATH  
     Path to the original game's installed data files, relative to
     GamePath. Usually it's *sounds*.
+
+<!-- end list -->
+
+  - **GameLanguagePath**=PATH
+    Path to the original game's installed data files, relative to
+    GamePath. By default it's *lang/en_US*.
+
+<!-- end list -->
+
+  - **GameMoviesPath**=PATH
+    Path to the original game's installed data files, relative to
+    GamePath. Usually it's *movies*.
 
 <!-- end list -->
 
