@@ -277,3 +277,8 @@ which you should report (or use yourself).
 
 To end the bisect, enter `git bisect reset`. This will bring you back to
 where you were before in git history. 
+
+
+## Using rr for hard to reproduce bugs
+In case you want to use [rr](https://rr-project.org/) to get help tracking down a hard
+to reproduce bug, make sure to build without OpenGL, since it doesn't support it.
