@@ -83,6 +83,7 @@ Fixpacks for:
 - [iwd](https://www.gibberlings3.net/mods/fixes/iwd_fixpack/) at Gibberlings3
 - [iwd2](http://www.shsforums.net/files/file/1085-almaterias-iwd2-fixpack/) at Spellhold Studios
 - [bg1](https://sasha-altherin.webs.com/baldursgatefixpack.htm) from plainab
+- **Additionally** [Infinity Sounds](https://skellytz.github.io/docs/readme-infinitysounds.html) from SHS is suggested
 
 Here's a list of bugs that keep getting reported, but are not for us to fix:
 
