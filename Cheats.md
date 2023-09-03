@@ -6,8 +6,8 @@ toc: true
 Following is a list of cheats you can use during play or development of
 GemRB.
 
-Most of them do the same thing as the [original
-cheats](https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm),
+Most of them do the same thing as the **[original
+cheats](https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm)**,
 so we will list here only the differences and important ones.
 
 Cheat keys are enabled by default. 
