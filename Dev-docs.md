@@ -64,7 +64,7 @@ project page, mailing lists and download center. We're also registered on [Open
 HUB](https://www.openhub.net/p/gemrb?p=GemRB) for some assorted stats.
 
 Check the main [README](https://github.com/gemrb/gemrb/blob/master/README.md)
-file to see our a header with build bot status (Travis, AppVeyor), some
+file to see our a header with build bot status, some
 static code analyzers and more.
 
 
@@ -188,6 +188,9 @@ understanding of the way the originals worked. There are several projects using
 DLL injection to do minor fixes and extensions (ToBex, EEex, something for iwd2) —
 they sometimes contain useful info.
 
+While most games preserved a [debug console](Cheats.md) that can be helpful,
+Planescape: Torment's was too buggy and was disabled for release. See the linked
+page for a mod to remedy that.
 
 ## Maximizing performance
 
