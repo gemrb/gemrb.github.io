@@ -1,5 +1,5 @@
 ---
-title: Text enconding support
+title: Text encoding support
 toc: true
 ---
 
