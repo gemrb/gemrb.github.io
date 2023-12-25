@@ -176,7 +176,8 @@ in a sense, GemRB could be considered a reference implementation. Sometimes it i
 also helpful to look at the sources of other tools like
 [NearInfinity](https://github.com/NearInfinityBrowser/NearInfinity).
 
-Our [iesh](https://github.com/gemrb/iesh) is not polished, but is exceptionally
+Our [iesh](https://github.com/gemrb/iesh) is not polished and in need of porting
+to python3, but also exceptionally
 useful when trying to figure out if anything uses fields or bits previously
 thought unused or not working. Or if you need to do any processing. Basically
 for anything that is much faster when automated, especially since most IE tools
@@ -199,6 +200,13 @@ comparatively weak hardware. Some tricks to lower memory usage, I/O and/or
 CPU use: change [the settings](Manpage.md) `Logging=0`, `AudioDriver=None`,
 `GCDebug=1536`. If OpenGL(ES) is available, building with that enabled
 will of course help avoid software rendering.
+
+### Investigating performance bottlenecks
+
+Besides the usual tools GemRB supports using [tracy](https://github.com/wolfpld/tracy)
+for low cost (appropriate for slow devices) profiling. A few annotations have been
+added to critical or interesting sections already, but refer to the upstream docs for
+details.
 
 
 ## Cocoa Application Wrapper
