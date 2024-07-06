@@ -32,6 +32,7 @@ those include:
    - for arbitrary higher resolutions at the same pixel count (resize the window while in windowed mode)
    - game window scaling, for more game real estate even without the Widescreen mod (just set a higher resolution)
  - [custom font support](Fonts.md)
+ - separate setting for drawing FPS and AI "frame rate"
  - expanded debug console
  - general window dragging support
  - in character generation, the default portrait is randomised (for our sanity's
