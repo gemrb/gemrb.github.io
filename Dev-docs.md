@@ -197,8 +197,8 @@ page for a mod to remedy that.
 
 This is something particularly interesting to porters to platforms with
 comparatively weak hardware. Some tricks to lower memory usage, I/O and/or
-CPU use: change [the settings](Manpage.md) `Logging=0`, `AudioDriver=None`,
-`GCDebug=1536`. If OpenGL(ES) is available, building with that enabled
+CPU use: change [the settings](Manpage.md) `Logging=0`, `AudioDriver=None`, 
+`CapFPS=30`, `GCDebug=1536`. If OpenGL(ES) is available, building with that enabled
 will of course help avoid software rendering.
 
 ### Investigating performance bottlenecks
