@@ -33,6 +33,12 @@ recommended.
     Use the specified configuration file *FILE* instead of the default
     *gemrb.cfg*.
 
+  - **--color** *OPTION*
+    Set the ANSI color option for terminal logging. -1 (the default) will
+    attempt to automatically set this according to the terminal environment.
+    0 will disable color output, 1 will set it to the basic 8 color palette,
+    and 2 will use full 24bit color codes.
+
 **Note:** You can also use the program's name as a mean to select the
 configuration file. For example, if the program's name is *torment*
 instead of *gemrb*, the engine first searches for *torment.cfg* and only
@@ -69,7 +75,7 @@ That is often enough, so do not fiddle with the other paths too much.
 
 <!-- end list -->
 
-  - **Encoding**=(default|polish|czech|german)  
+  - **Encoding**=(default|japanese|korean|chinese)  
     Specify language used in the game data.
 
 <!-- end list -->
@@ -78,7 +84,9 @@ That is often enough, so do not fiddle with the other paths too much.
     The value is a bitfield. Set it to 1 to enable a few GUI
     enhancements, mostly in BG2. Add or set to 2 to try to autoidentify items on
     transfer (if the character has enough lore). Add or set 4 if you want to skip
-    the item description window when opening bags. Enabled by default.
+    the item description window when opening bags. Enabled by default. Add or set 8
+    if you want the game to stop mouse scrolling the area at its edges when the
+    window loses focus.
 
 <!-- end list -->
 
@@ -116,10 +124,8 @@ Check the website for a detailed explanation of resolution modes.
 
 <!-- end list -->
 
-  - **Fullscreen**=(0|1)  
-    Whether the game should run in fullscreen mode.
-
-<!-- end list -->
+  - **ScaleQuality**=(best|linear|nearest)
+    Use the specified quality for the texture scaling filter. The default is *best*.
 
   - **CapFPS**=(-1|0|n)
     Set FPS handling:
@@ -451,15 +457,8 @@ The default is *0*.
 
 <!-- end list -->
 
-  - **\~/.gemrb/gemrb.cfg**  
-
-  - **\~/.gemrb/override/**  
-
-  - **\~/.gemrb/GUIScripts/**  
-    user's own configuration and data files.
-
-  - **\~/.gemrb/cache/**  
-    cache directory
+  - **$XDG_CONFIG_PATH/gemrb/**
+    user's own configuration files.
 
 # BUGS
 
