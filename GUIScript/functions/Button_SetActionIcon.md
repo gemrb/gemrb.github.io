@@ -3,16 +3,14 @@ title: Button_SetActionIcon
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetActionIcon (Window, Button, Dict, ActionIndex[, Function])
-
-**Metaclass Prototype:** SetActionIcon (ActionIndex[, Function])
+**Metaclass Prototype:** SetActionIcon (Dict, ActionIndex[, Function])
 
 **Description:** Sets up an action button based on the guibtact table. 
 The ActionIndex should be less than 34. This action will set the button's 
 image, the tooltip and the push button event handler.
 
 **Parameters:**
-  * WindowIndex, ControlIndex - the button's reference
+  * Dict - the environment you want to have access to
   * ActionIndex - the row number in the guibtact.2da file
   * Function - function key to assign
 

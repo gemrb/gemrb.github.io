@@ -3,12 +3,12 @@ title: CreateView
 module: GemRB
 ---
 
-**Prototype:** GemRB.CreateWindow (ControlID, Type, FrameRect[, OtherArgs])
+**Prototype:** GemRB.CreateView (ControlID, Type, FrameRect[, OtherArgs])
 
 **Description:** Creates a new empty view and returns it.
 
 **Parameters:** 
-  * ControlID - the window's ID
+  * ControlID - the desired control ID
   * Type - the View's type
   * FrameRect - a dict with the View's frame (origin and size)
   * OtherArgs - further arguments depending on the View type

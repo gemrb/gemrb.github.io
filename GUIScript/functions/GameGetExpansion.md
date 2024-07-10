@@ -9,6 +9,6 @@ module: GemRB
 
 **Parameters:** N/A
 
-**Return value:** int
+**Return value:** integer version of the current expansion
 
 **See also:** [GameSetExpansion](GameSetExpansion.md)

@@ -3,7 +3,7 @@ title: GameIsBeastKnown
 module: GemRB
 ---
 
-**Prototype:** GameIsBeastKnown (index)
+**Prototype:** GemRB.GameIsBeastKnown (index)
 
 **Description:** Returns whether beast with given index is known to PCs. 
 Works only in PST.

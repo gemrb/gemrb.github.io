@@ -12,5 +12,7 @@ This is useful for removing class abilities (CLAB/HLA AP_* entries).
   * globalID  - party ID or global ID of the actor to use
   * SpellResRef - a spell or item resource reference (source of effects)
 
+**Return value:** N/A
+
 **See also:** [RemoveSpell](RemoveSpell.md), [RemoveItem](RemoveItem.md)
 

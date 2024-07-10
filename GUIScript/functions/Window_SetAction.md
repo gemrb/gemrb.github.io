@@ -3,8 +3,6 @@ title: Window_SetAction
 module: _GemRB
 ---
 
-**Prototype:** _GemRB.Window_SetAction (GWindow, PythonFunction, EventType)
-
 **Metaclass Prototype:** SetAction (PythonFunction, EventType)
 
 **Description:** Ties an event of a control to a python function

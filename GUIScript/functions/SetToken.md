@@ -26,7 +26,7 @@ be avoided. The hardcoded token list:
 
 **Parameters:**
   *  VariableName - the name of the variable (shorter than 32!)
-  *  Value        - string, the value of the token
+  *  Value        - string or None, the value of the token
 
 **Examples:**
 

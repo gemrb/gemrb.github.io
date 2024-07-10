@@ -20,6 +20,6 @@ The tooltip's visual properties must be set in the gemrb.ini file:
   * Strref - a string index from the dialog.tlk table.
   * Function - (optional) function key to prepend
 
-**Return value:** 0 on success, -1 on error
+**Return value:** N/A
 
 **See also:** [Control_SetText](Control_SetText.md)

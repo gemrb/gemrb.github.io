@@ -3,8 +3,6 @@ title: Control_SetVarAssoc
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetVarAssoc (WindowIndex, ControlIndex, VariableName, LongValue)
-
 **Metaclass Prototype:** SetVarAssoc (VariableName, LongValue)
 
 **Description:** It associates a variable name and an optionally bounded 
@@ -13,7 +11,6 @@ The control uses this associated value differently, depending on the
 control. See more about this in 'data_exchange'.
 
 **Parameters:**
-  * WindowIndex, ControlIndex  - the control's reference
   * Variablename - string, a Global Dictionary Name associated with the control
   * LongValue - numeric, a value associated with the control
   * min - numeric, minimum range value (optional)

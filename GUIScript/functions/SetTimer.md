@@ -3,7 +3,7 @@ title: SetTimer
 module: GemRB
 ---
 
-**Prototype:** GemRB.SetTimer (callback[, interval, repeats])
+**Prototype:** GemRB.SetTimer (callback, interval[, repeats])
 
 **Description:** Set callback to be called repeatedly at given interval. 
 This is useful for things like running a twisted reactor.

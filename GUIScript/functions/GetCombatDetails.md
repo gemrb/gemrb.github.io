@@ -14,7 +14,8 @@ equipped weapon.
 
 **Return value:** dict: 'ToHit', 'Flags', 'DamageBonus', 'Speed', 
 'CriticalBonus', 'Style', 'Proficiency', 'Range', 'Enchantment', 'Slot', 
-'APR', 'CriticalMultiplier', 'CriticalRange', 'ProfDmgBon', 
-'LauncherDmgBon', 'WeaponStrBonus', 'AC' (dict), 'ToHitStats' (dict)
+'APR', 'CriticalMultiplier', 'CriticalRange', 'ProfDmgBon', 'HitHeaderNumDice', 
+'HitHeaderDiceSides', 'HitHeaderDiceBonus', 'LauncherDmgBon', 'WeaponStrBonus', 
+'AC' (dict), 'ToHitStats' (dict), 'DamageOpcodes' (dict)
 
 **See also:** [IsDualWielding](IsDualWielding.md)

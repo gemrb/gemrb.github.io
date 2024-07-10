@@ -12,4 +12,4 @@ status, dialog textarea size).
   * Bits - This depends on the game. The lowest 2 bits are the message window size
   * Operation - The usual bit operations
 
-**Return value:** N/A
+**Return value:** boolean denoting success

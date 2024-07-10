@@ -3,8 +3,6 @@ title: Control_SetAction
 module: _GemRB
 ---
 
-**Prototype:** _GemRB.Control_SetAction (GControl, PythonFunction, EventType[, Button, Mod, Count])
-
 **Metaclass Prototype:** SetAction (PythonFunction, EventType[, Button, Mod, Count])
 
 **Description:** Ties an event of a control to a python function

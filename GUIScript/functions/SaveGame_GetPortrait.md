@@ -14,5 +14,3 @@ module: _GemRB
   * index - portrait index
 
 **Return value:** string/int
-
-**See also:**

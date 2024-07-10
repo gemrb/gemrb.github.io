@@ -10,5 +10,3 @@ module: _GemRB
 **Description:** Returns preview of the saved game.
 
 **Return value:** string/int
-
-**See also:**

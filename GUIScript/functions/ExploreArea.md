@@ -3,7 +3,7 @@ title: ExploreArea
 module: GemRB
 ---
 
-**Prototype:** ExploreArea ([explored=True])
+**Prototype:** GemRB.ExploreArea ([explored=True])
 
 **Description:** Explores or unexplores the whole area.
 

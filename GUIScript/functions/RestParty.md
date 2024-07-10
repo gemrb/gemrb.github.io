@@ -19,4 +19,3 @@ scattered). It is possible to play a movie or dream too.
   * ErrorMsg: a strref with a reason for the error
   * Cutscene: True if a cutscene needs to run
 
-**See also:** StartStore(gamescript)

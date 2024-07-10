@@ -22,6 +22,6 @@ identifies an item.
     * IE_INV_ITEM_STACKED       = 0x80 - the item is a stacked item
   * mode    - binary operation type
 
-**Return value:** Returns 0 if the item was not found.
+**Return value:** Returns 0 if the item was not found, 1 otherwise.
 
 **See also:** [GetSlotItem](GetSlotItem.md)

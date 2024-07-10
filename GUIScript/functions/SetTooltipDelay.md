@@ -8,7 +8,7 @@ module: GemRB
 **Description:** Sets the tooltip delay.
 
 **Parameters:**
-  * time - 0-10
+  * time - delay in fifteenth of a second
 
 **See also:** [View_SetTooltip](View_SetTooltip.md), [SetMouseScrollSpeed](SetMouseScrollSpeed.md)
 

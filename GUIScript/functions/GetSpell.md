@@ -27,6 +27,7 @@ is set, nothing will be printed to the console.
   * 'HeaderFlags'     - the spell's header flags
   * 'NonHostile'      - is the spell considered hostile?
   * 'SpellResRef'     - the spell's resource reference
+  * 'SpellLocation'   - the spell's header ability location
 
 **See also:** [GetItem](GetItem.md), [Button_SetSpellIcon](Button_SetSpellIcon.md), spell_structure(IESDP)
 

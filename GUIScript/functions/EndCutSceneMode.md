@@ -3,7 +3,7 @@ title: EndCutSceneMode
 module: GemRB
 ---
 
-**Prototype:** EndCutSceneMode ()
+**Prototype:** GemRB.EndCutSceneMode ()
 
 **Description:** Exits the CutScene Mode. It is similar to the gamescript 
 command of the same name. It gives back the cursor and shows the game GUI 

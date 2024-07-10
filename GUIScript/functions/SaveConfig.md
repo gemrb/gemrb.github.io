@@ -7,4 +7,4 @@ module: GemRB
 
 **Description:** Exports the game configuration to a file.
 
-**Return value:** N/A
+**Return value:** bool denoting success

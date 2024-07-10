@@ -15,7 +15,7 @@ to a specific SAV version.
   * description - the string that will also appear in the filename
   * version - an optional SAV version override
 
-**Return value:** N/A
+**Return value:** 0 on success
 
 **Examples:** 
 

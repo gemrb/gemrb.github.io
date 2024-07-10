@@ -3,8 +3,6 @@ title: WorldMap_GetDestinationArea
 module: _GemRB
 ---
 
-**Prototype:** GemRB.GetDestinationArea (WindowIndex, ControlID[, RndEncounter])
-
 **Metaclass Prototype:** GetDestinationArea ([RndEncounter])
 
 **Description:** Returns a dictionary of the selected area by the worldmap 
@@ -14,7 +12,6 @@ optionally evaluated. If the random encounter flag is set, the random
 encounters will be evaluated too.
 
 **Parameters:**
-  * WindowIndex, ControlIndex - designate a worldmap control
   * RndEncounter - check for random encounters?
 
 **Return value:** Dictionary

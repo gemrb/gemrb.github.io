@@ -3,7 +3,7 @@ title: CountSpells
 module: GemRB
 ---
 
-**Prototype:** GemRB.CountSpells (PartyID, SpellName, SpellType, Flag)
+**Prototype:** GemRB.CountSpells (PartyID, SpellName[, SpellType, Flag])
 
 **Description:** Returns number of memorized spells of given name and type 
 in PC's spellbook. If flag is set then spent spells are also count.

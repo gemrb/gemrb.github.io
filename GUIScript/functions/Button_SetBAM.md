@@ -3,8 +3,6 @@ title: Button_SetBAM
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetButtonBAM (WindowIndex, ControlIndex, BAMResRef, CycleIndex, FrameIndex, col1)
-
 **Metaclass Prototype:** SetBAM (BAMResRef, CycleIndex, FrameIndex[, col1])
 
 **Description:** Sets the Picture of a Button Control from a BAM file. If 
@@ -13,7 +11,6 @@ if it is >=0, then it changes the 4-16 palette entries of the bam. Since it
 uses 12 colors palette, it has issues in PST.
 
 **Parameters:**
-  * WindowIndex, ControlIndex - the control's reference
   * BAMResRef - the name of the BAM animation (a .bam resref)
   * CycleIndex, FrameIndex - the cycle and frame index of the picture in the bam
   * col1 - the gradient number, (-1 no gradient)

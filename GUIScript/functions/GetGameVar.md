@@ -11,7 +11,7 @@ is what gamescripts know as GLOBAL variables.
 **Parameters:**
   * VariableName - name of the variable
 
-**Return value:**
+**Return value:** numeric
 
 **Examples:**
 

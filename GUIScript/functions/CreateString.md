@@ -10,3 +10,5 @@ module: GemRB
 **Parameters:**
   * Strref - string index to use
   * Text - string contents
+
+**Return value:** the actual strref of the new string

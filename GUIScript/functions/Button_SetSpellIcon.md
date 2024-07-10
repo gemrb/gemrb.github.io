@@ -3,8 +3,6 @@ title: Button_SetSpellIcon
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetSpellIcon (WindowIndex, ControlIndex, SPLResRef[, Type, Tooltip, Function])
-
 **Metaclass Prototype:** SetSpellIcon (SPLResRef[, Type, Tooltip, Function])
 
 **Description:** Sets Spell icon image on a Button control. Type determines 
@@ -12,7 +10,6 @@ the icon type, if set to 1 it will use the Memorised Icon instead of the
 Spellbook Icon
 
 **Parameters:**
-  * WindowIndex, ControlIndex - the control's reference
   * SPLResRef - the name of the spell (.spl resref)
   * Type - 0 (default, use parchment background) or 1 (use stone background)
   * Tooltip - 0 (default); if 1, set the tooltip 'F<n> <spell_name>'

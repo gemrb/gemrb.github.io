@@ -8,7 +8,7 @@ module: GemRB
 **Description:** Returns the slot number of the actor's item (or -1).
 
 **Parameters:**
-  * globalID  - party ID or global ID of the actor to use
+  * globalID - party ID or global ID of the actor to use
   * itemname - item resource reference
 
 **Return value:** integer, -1 if not found

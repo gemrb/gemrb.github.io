@@ -3,7 +3,7 @@ title: CreatePlayer
 module: GemRB
 ---
 
-**Prototype:** CreatePlayer (CREResRef, Slot [,Import, VersionOverride])
+**Prototype:** GemRB.CreatePlayer (CREResRef, Slot [,Import, VersionOverride])
 
 **Description:** Adds an actor (PC) to the current game. It works only 
 after a LoadGame() was executed, and should be used before an EnterGame(). 

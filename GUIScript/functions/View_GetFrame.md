@@ -9,7 +9,8 @@ module: _GemRB
 
 **Description:** Return the View's frame rect.
 
-**Parameters:** N/A
+**Parameters:** 
+  * GView - the control's reference
 
 **Examples:**
 

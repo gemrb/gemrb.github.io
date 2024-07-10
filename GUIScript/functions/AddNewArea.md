@@ -12,5 +12,3 @@ Used in bg2 with xnewarea.2da for ToB.
   * 2daresref - 2da table with new area mappings
 
 **Return value:** N/A
-
-**See also:**

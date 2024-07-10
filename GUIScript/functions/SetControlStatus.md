@@ -3,17 +3,14 @@ title: SetControlStatus
 module: GemRB
 ---
 
-**Prototype:** GemRB.SetControlStatus (WindowIndex, ControlIndex, State)
-
 **Metaclass Prototype:** SetStatus (State)
 
 **Description:** Sets the state of a Control. For buttons, this is the 
-same as SetButtonState.
+same as Button_SetState.
 For other controls, this command will set the common value of the 
 control, which has various uses.
 
 **Parameters:**
-  * WindowIndex, ControlIndex - the control's reference
   * Button States:**
     * IE_GUI_BUTTON_ENABLED    = 0x00000000, default state
     * IE_GUI_BUTTON_UNPRESSED  = 0x00000000, same as above

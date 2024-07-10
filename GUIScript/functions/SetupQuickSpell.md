@@ -14,5 +14,5 @@ target type of the selected spell.
   * spellindex - spell to assign
   * type - spell(book) type (255 means any)
 
-**Return value:** integer, target type constant
+**Return value:** integer, target type constant — or None for actors with no quick slots
 

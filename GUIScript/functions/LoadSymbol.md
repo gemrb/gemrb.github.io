@@ -11,7 +11,7 @@ it will return the list's existing reference (won't load it again).
 **Parameters:**
   * IDSResRef - the symbol list's name (.ids resref)
 
-**Return value:** Symbol table reference index
+**Return value:** GSymbol object, None if loading failed
 
 **See also:** [UnloadSymbol](UnloadSymbol.md)
 

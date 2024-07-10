@@ -3,7 +3,7 @@ title: AddGameTypeHint
 module: GemRB
 ---
 
-**Prototype:** GemRB.AddGameTypeHint (type, weight, flags=0)
+**Prototype:** GemRB.AddGameTypeHint (type, weight[, flags=0])
 
 **Description:** Asserts that GameType should be TYPE, with confidence WEIGHT. 
 This is used by Autodetect.py scripts when GameType was set to 'auto'.

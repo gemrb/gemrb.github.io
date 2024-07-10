@@ -3,7 +3,7 @@ title: SetMapnote
 module: GemRB
 ---
 
-**Prototype:** GemRB.SetMapnote(X, Y, color, text)
+**Prototype:** GemRB.SetMapnote(X, Y[, color, text])
 
 **Description:** Adds or removes a mapnote to the current map (area).
 

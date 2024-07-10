@@ -11,7 +11,7 @@ string values, used both by the game scripts and the GUI scripts.
 **Parameters:**
   * VariableName - name of the variable (shorter than 32!)
 
-**Return value:** string, the value of the token
+**Return value:** string value of the token or None if it doesn't exist
 
 **Examples:**
 

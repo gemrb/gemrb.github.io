@@ -3,7 +3,7 @@ title: LoadMusicPL
 module: GemRB
 ---
 
-**Prototype:** LoadMusicPL (MusicPlayListResource[, HardEnd])
+**Prototype:** GemRB.LoadMusicPL (MusicPlayListResource[, HardEnd])
 
 **Description:** Loads and starts a Music PlayList.
 

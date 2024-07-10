@@ -3,14 +3,11 @@ title: Button_SetItemIcon
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetItemIcon (WindowIndex, ControlIndex, ITMResRef[, type, tooltip, Function, ITM2ResRef, BAM3ResRef])
-
-**Metaclass Prototype:** SetItemIcon (ITMResRef[, Type, Tooltip, ITM2ResRef])
+**Metaclass Prototype:** SetItemIcon (ITMResRef[, Type, Tooltip, ITM2ResRef, BAM3ResRef]])
 
 **Description:** Sets Item icon image on a Button control.
 
 **Parameters:**
-  * WindowIndex, ControlIndex - the control's reference
   * ITMResRef                 - the name of the item (.itm resref)
   * Type                      - the icon's type
     * 0 - Inventory Icon1

@@ -13,7 +13,7 @@ Optionally sets the used ability.
   * QWeaponSlot - the quickslot to equip
   * ability     - optional integer, sets the used extended header
 
-**Return value:** 0 success, -1 silent failure
+**Return value:** N/A
 
 **See also:** [GetEquippedQuickSlot](GetEquippedQuickSlot.md), [SetupQuickSlot](SetupQuickSlot.md)
 

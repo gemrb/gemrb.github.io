@@ -3,15 +3,12 @@ title: Button_SetState
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetButtonState (WindowIndex, ControlIndex, State)
-
 **Metaclass Prototype:** SetState (State)
 
 **Description:** Sets the state of a Button Control. Doesn't work if the button 
 is a checkbox or a radio button though, their states are handled internally.
 
 **Parameters:**
-  * WindowIndex, ControlIndex  - the control's reference
   * State - the new state of the button:
     * IE_GUI_BUTTON_ENABLED    = 0x00000000, default state
     * IE_GUI_BUTTON_UNPRESSED  = 0x00000000, same as above

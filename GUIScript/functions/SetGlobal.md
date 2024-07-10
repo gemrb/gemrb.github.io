@@ -5,7 +5,7 @@ module: GemRB
 
 **Prototype:** GemRB.SetGlobal (VariableName, Context, Value)
 
-**Description:** Sets a gamescript variable to the specificed numeric value.
+**Description:** Sets a gamescript variable to the specified numeric value.
 
 **Parameters:** 
   * VariableName - name of the variable

@@ -3,14 +3,11 @@ title: Button_EnableBorder
 module: _GemRB
 ---
 
-**Prototype:** GemRB.EnableButtonBorder (WindowIndex, ControlIndex, BorderIndex, enabled)
-
 **Metaclass Prototype:** EnableBorder (BorderIndex, enabled)
 
 **Description:** Enable or disable specified button border/frame/overlay.
 
 **Parameters:** 
-  * WindowIndex, ControlIndex - the control's reference
   * BorderIndex - 0, 1 or 2
   * enabled - boolean, true enables the border
 

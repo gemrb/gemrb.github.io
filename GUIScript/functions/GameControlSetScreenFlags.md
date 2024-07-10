@@ -18,6 +18,6 @@ Don't confuse it with the saved screen flags set by GameSetScreenFlags.
     * 32 - cutscene (no action queueing)
   * Operation - bit operation to use
 
-**Return value:** N/A
+**Return value:** boolean denoting success
 
 **See also:** [GameSetScreenFlags](GameSetScreenFlags.md)

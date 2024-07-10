@@ -8,7 +8,7 @@ module: _GemRB
 **Metaclass Prototype:** FindValue (ColumnIndex, Value[, StartRow])
 
 **Description:** Returns the first row index of a field value in a 2DA 
-Table. If StartRowis omitted, the search starts from the beginning.
+Table. If StartRow is omitted, the search starts from the beginning.
 
 **Parameters:**
   * TableIndex - integer, returned by a previous LoadTable command.

@@ -17,6 +17,7 @@ and should be at the feet of the player.
 **Return value:** dictionary
   * 'ItemResRef' - the ResRef of the item
   * 'ItemName'   - the StrRef of the item's name (identified or not)
+  * 'ItemDesc'   - the StrRef of the item's description (identified or not)
   * 'Usages0'    - The primary charges of the item (or the item's stack amount if the item is stackable).
   * 'Usages1'    - The secondary charges of the item.
   * 'Usages2'    - The tertiary charges of the item.

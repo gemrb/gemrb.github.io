@@ -3,7 +3,7 @@ title: GetItem
 module: GemRB
 ---
 
-**Prototype:** GemRB.GetItem (ResRef[, PartyID])
+**Prototype:** GemRB.GetItem (ResRef)
 
 **Description:** Returns dictionary with the specified item's data.
 

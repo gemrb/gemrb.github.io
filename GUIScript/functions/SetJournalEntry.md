@@ -3,7 +3,7 @@ title: SetJournalEntry
 module: GemRB
 ---
 
-**Prototype:** GemRB.SetJournalEntry (strref[, section, chapter])
+**Prototype:** GemRB.SetJournalEntry (strref[, section, chapter, feedback])
 
 **Description:** Sets a journal journal entry with given chapter and section. 
 If section was not given, then it will delete the entry. Chapter is 
@@ -14,6 +14,7 @@ strref is -1, then it will delete the whole journal.
   * strref - strref of the journal entry
   * section - the section of the journal (only if the journal has sections)
   * chapter - the chapter of the journal entry
+  * feedback - strref, optional different second half of the feedback message
 
 **Return value:** N/A
 

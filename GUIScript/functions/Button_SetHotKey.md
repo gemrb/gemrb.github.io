@@ -3,7 +3,7 @@ title: Button_SetHotKey
 module: _GemRB
 ---
 
-**Prototype:** _GemRB.Button_SetHotKey(char or keymaping[, modifiers=0, global=False])
+**Metaclass Prototype:** SetHotKey(char or keymaping[, modifiers=0, global=False])
 
 **Description:** Binds a keyboard key to trigger the control event when its window is focused.
 If global is set, the hot key works even if the window does not have focus.

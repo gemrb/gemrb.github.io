@@ -15,7 +15,7 @@ If a parameter is set to -1, it will be ignored.
   * param2   - parameter 2 for the opcode
   * resref   - optional resource reference to match the effect
 
-**Return value:** N/A
+**Return value:** the count
 
 **Examples:**
 

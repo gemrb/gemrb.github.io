@@ -3,16 +3,13 @@ title: Control_QueryText
 module: _GemRB
 ---
  
-**Prototype:** GemRB.QueryText (WindowIndex, ControlIndex)
- 
 **Metaclass Prototype:** QueryText ()
  
  **Description:** Returns the Text of a TextEdit/TextArea/Label control. 
  In case of a TextArea, it will return the selected row, not the entire 
  textarea.
  
- **Parameters:**
- * WindowIndex, ControlIndex - the control's reference
+ **Parameters:** N/A
  
  **Return value:** string, may be empty
  

@@ -12,7 +12,7 @@ This command selects between these two modes.
 **Parameters:**
   * mode - 0 or 1
 
-**Return value:** false if already set
+**Return value:** false if already set, true otherwise
 
 **See also:** [LoadGame](LoadGame.md), [GameGetExpansion](GameGetExpansion.md), GameType(variable)
 

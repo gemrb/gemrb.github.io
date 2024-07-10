@@ -3,15 +3,12 @@ title: Button_SetSprites
 module: _GemRB
 ---
 
-**Prototype:** GemRB.SetButtonSprites (WindowIndex, ControlIndex, ResRef, Cycle, UnpressedFrame, PressedFrame, SelectedFrame, DisabledFrame)
-
 **Metaclass Prototype:** SetSprites (ResRef, Cycle, UnpressedFrame, PressedFrame, SelectedFrame, DisabledFrame)
 
 **Description:** Sets the Button's images. You can disable the images by 
 setting the IE_GUI_BUTTON_NO_IMAGE flag on the control.
 
 **Parameters:**
-  * WindowIndex, ControlIndex - the control's reference
   * ResRef - a .bam animation resource (.bam resref)
   * Cycle - the cycle of the .bam from which all frames of this button will come
   * UnpressedFrame - the frame which will be displayed by default

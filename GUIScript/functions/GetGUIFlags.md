@@ -9,6 +9,4 @@ module: GemRB
 
 **Parameters:** N/A
 
-**Return value:** int (GS_ flag bits)
-
-**See also:**
+**Return value:** integer (GS_ flag bits)
