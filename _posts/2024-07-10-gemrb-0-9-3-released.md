@@ -14,22 +14,22 @@ Sources and packages are available. You can get them from [here](https://gemrb.o
 
 Full changelog digest:
 
-		GemRB v0.9.3 (2024-07-10):
-			New features:
-				- full i18n (language) support, custom journal entries
-				- chunking approximation
-				- BMP v3 and v5 support
-				- small test suite, tracy support
-				- iwd2 identification variants and speed data
-				- nwn-for-bg2 compatibility
+	GemRB v0.9.3 (2024-07-10):
+		New features:
+			- full i18n (language) support, custom journal entries
+			- chunking approximation
+			- BMP v3 and v5 support
+			- small test suite, tracy support
+			- iwd2 identification variants and speed data
+			- nwn-for-bg2 compatibility
 
-			Improved features:
-				- area music, creature & area sounds
-				- colored logging, pathfinding, drawing
-				- ee compat, effects, modals, projectiles, familiars
-				- iwd2 & pst worldmap
-				- switched to c++14, build system
-				- bugfixes
+		Improved features:
+			- area music, creature & area sounds
+			- colored logging, pathfinding, drawing
+			- ee compat, effects, modals, projectiles, familiars
+			- iwd2 & pst worldmap
+			- switched to c++14, build system
+			- bugfixes
 
 **Thanks to everyone that contributed** their time, including:
 11jo, akdjka, alvv-z, Andrea Cardaci, Andrea Palmatè, anijatsu, ArtemS2, blender-girl, Brad Allred, Bubb, burner1024, DarkMalex, davidagnome, DDQW, Domagoj Stolfa, Dreamkins, Fernside2, i30817, Jaka Kranjc, K1ngst0m, Rod Batten, Rodrigo Santellan, MarcelHB, mariomartinezm, Mateusz Hercuń, Matthieu Volat, Mingun, orcutt989, Piotr Kubaj, PowaBanga, SilentMRG, skellytz, Solène Rapenne, Stefan Schlosser, tomasz89, Tom Kidd, traveler-gemrb, ynorsa, zebez.
