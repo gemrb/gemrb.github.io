@@ -31,8 +31,8 @@ Full changelog digest:
 				- switched to c++14, build system
 				- bugfixes
 
-Thanks to everyone that contributed their time, including:
-
+**Thanks to everyone that contributed** their time, including:
+11jo, akdjka, alvv-z, Andrea Cardaci, Andrea Palmatè, anijatsu, ArtemS2, blender-girl, Brad Allred, Bubb, burner1024, DarkMalex, davidagnome, DDQW, Domagoj Stolfa, Dreamkins, Fernside2, i30817, Jaka Kranjc, K1ngst0m, Rod Batten, Rodrigo Santellan, MarcelHB, mariomartinezm, Mateusz Hercuń, Matthieu Volat, Mingun, orcutt989, Piotr Kubaj, PowaBanga, SilentMRG, skellytz, Solène Rapenne, Stefan Schlosser, tomasz89, Tom Kidd, traveler-gemrb, ynorsa, zebez.
 
 **Notes to packagers:**
 - an optional ScaleQuality key has been added to the sample configs,
