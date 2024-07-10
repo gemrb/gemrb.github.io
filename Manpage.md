@@ -30,10 +30,9 @@ recommended.
     Disable audio completely, regardless of supported audio plugins.
 
   - **-c** *FILE*  
-    Use the specified configuration file *FILE* instead of the default
-    *gemrb.cfg*.
+    Use the specified configuration file *FILE* instead of the default *gemrb.cfg*.
 
-  - **--color** *OPTION*
+  - **--color** *OPTION*\
     Set the ANSI color option for terminal logging. -1 (the default) will
     attempt to automatically set this according to the terminal environment.
     0 will disable color output, 1 will set it to the basic 8 color palette,
@@ -124,7 +123,7 @@ Check the website for a detailed explanation of resolution modes.
 
 <!-- end list -->
 
-  - **ScaleQuality**=(best|linear|nearest)
+  - **ScaleQuality**=(best|linear|nearest)\
     Use the specified quality for the texture scaling filter. The default is *best*.
 
   - **CapFPS**=(-1|0|n)
@@ -457,7 +456,7 @@ The default is *0*.
 
 <!-- end list -->
 
-  - **$XDG_CONFIG_PATH/gemrb/**
+  - **$XDG_CONFIG_PATH/gemrb/**\
     user's own configuration files.
 
 # BUGS
