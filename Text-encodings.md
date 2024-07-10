@@ -5,8 +5,9 @@ toc: true
 
 ## Support for non-ASCII (multibyte) languages
 
-If you have a multibyte encoded `dialog.tlk` you will have to add the
-Encoding setting to your gemrb.cfg. Set `Encoding =` to your language and
+If you have a multibyte encoded `dialog.tlk` and text doesn't work for you
+out of the box, you will have to add an
+encoding setting to your gemrb.cfg. Set `Encoding =` to your language and
 make sure that an ini file matching your language exists under
 `unhardcoded/shared`. If no ini file matching your language exists, one
 must be created.
