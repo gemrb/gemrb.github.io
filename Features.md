@@ -121,6 +121,9 @@ Widescreen   | Arbitrary  | no       | yes
 So feel free to run at any resolution and if you're discontent with the GUI, consider
 installing the widescreen mod and bigger fonts.
 
+If you're using scaling, you can change the type of interpolation used with the `ScaleQuality` configuration
+key. It defaults to "best", but if you want a sharper image, "nearest" is a better choice.
+
 Confused? Watch [this video explainer](https://youtu.be/nn1v-yG4-lo).
 {: .notice--warning}
 
