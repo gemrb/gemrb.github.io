@@ -293,3 +293,81 @@ where you were before in git history.
 ## Using rr for hard to reproduce bugs
 In case you want to use [rr](https://rr-project.org/) to get help tracking down a hard
 to reproduce bug, make sure to build without OpenGL, since it doesn't support it.
+
+## Using GemRB libraries in external projects
+**Note: this is an experimental feature. No API or ABI compatibility guarantees exist.**
+
+Here's a few examples with a BG2 install:
+```cpp
+#include <iostream>
+#include <chrono>
+#include <thread>
+#include "Interface.h"
+#include "PluginMgr.h"
+#include "SaveGameMgr.h"
+#include "Map.h"
+#include "MapMgr.h"
+#include "TileMap.h"
+#include "Scriptable/InfoPoint.h"
+//#include "Logging/Loggers/Stdio.h"
+
+using namespace GemRB;
+using namespace std::chrono_literals;
+
+int main(int argc, char** argv) {
+	// basic setup steps - a library caller would construct CoreSettings manually
+	CoreSettings cfg = LoadFromArgs(argc, argv);
+	// if you wanted to use our logging functionality
+	//ToggleLogging(cfg.Logging);
+	//AddLogWriter(createStdioLogWriter());
+	Interface gemrb(std::move(cfg)); // same as core later
+
+	// inspect an item
+	const Item* itm = gamedata->GetItem("sw1h31");
+	const ITMExtHeader* hdr = itm->GetExtHeader(0);
+	String name = core->GetString(itm->ItemNameIdentified);
+	//Log(DEBUG, "Testing", "Item's identified name is: {}", fmt::WideToChar{name});
+	std::cout << "Item's identified name is: " << MBStringFromString(name) << std::endl;
+	std::cout << "Item's first header's effect count is: " << hdr->features.size() << std::endl;
+
+	// inspect an item's description image
+	Holder<Sprite2D> im = gamedata->GetAnySprite(itm->DescriptionIcon, -1, 0);
+	Region frame = im->Frame;
+	std::cout << "Item's description image frame height is: " << frame.h << std::endl;
+
+	// playing a sound
+	auto audio = core->GetAudioDrv();
+	auto handle = audio->Play("AMB_D21D", SFXChannel::GUI);
+	while (handle && handle->Playing()) std::this_thread::sleep_for(25ms);
+
+	// grab the text of the first infopoint on the map
+	// we have to set up a game first
+	auto gamStream = gamedata->GetResourceStream("baldur", IE_GAM_CLASS_ID);
+	auto gamMgr = GetImporter<SaveGameMgr>(IE_GAM_CLASS_ID, gamStream);
+	Game* game = gamMgr->LoadGame(new Game(), 0);
+	core->SetGame(game);
+	ResRef mapRef {"ar0020"};
+	const Map* map = game->GetMap(mapRef, false); // if you want to inspect the live map
+	// DataStream* ds = gamedata->GetResourceStream(mapRef, IE_ARE_CLASS_ID);
+	// auto mM = GetImporter<MapMgr>(IE_ARE_CLASS_ID, ds);
+	// Map* map = mM->GetMap(mapRef, true); // if you just want the base data
+	const InfoPoint* ip = map->GetTileMap()->GetInfoPoint(2);
+	std::cout << "Infopoint's click text is: " << int(ip->StrRef) << std::endl;
+
+	// cleanup to prevent a delay and crash on exit
+	delete game;
+	core->SetGame(nullptr);
+	VideoDriver.reset();
+	return 0;
+}
+```
+
+Let's say it's in a file called `libgemrb.test.cpp`. The way to build it is to start in the source repo:
+```
+cd build
+g++ -I ../gemrb/includes/ -I ../gemrb/core/ -I . -L gemrb/core/ -L gemrb/plugins/ -DFMT_HEADER_ONLY -DFMT_EXCEPTIONS=0 \
+  -Wl,-rpath,$PWD/gemrb/core -o libgemrb.test ../libgemrb.test.cpp gemrb/core/libgemrb_core.so
+```
+
+One would then run it with eg. `./libgemrb.test -c bg2.cfg`. The config has to be set up properly (you can play the game),
+`UseAsLibrary=1` needs to be added to it and `GameType` has to be set manually, not left at `auto`.
