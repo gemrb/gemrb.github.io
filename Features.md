@@ -11,7 +11,7 @@ GemRB is a portable open-source implementation of Bioware's 8 [Infinity Engine v
     \*BSD, Android, iOS and [more](https://gemrb.github.io/Media#exotic-platforms)
   - Free Libre Open Source Software, available under the [GPL](https://github.com/gemrb/gemrb/blob/master/COPYING)
   - Nearly feature-complete ([TODO](https://github.com/gemrb/gemrb/issues?q=is%3Aopen+is%3Aissue+label%3Afeature))
-  - Usability [innovations](Innovations.md), including touch based input and scaling
+  - Usability [innovations](Innovations.md), including touch based input, scaling and arbitrary FPS
   - Extensible plugin-based design that removes many limitations of the
     Infinity Engine
   - Increased [moddability](Modding.md) over the originals
