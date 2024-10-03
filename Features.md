@@ -61,9 +61,9 @@ or perhaps the [FAQ](FAQ.md).
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20bg2">bg2</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Icewind Dale  2</td>
+      <td style="text-align: left">Icewind Dale 2</td>
       <td style="background: chartreuse;">yes</td>
-      <td style="background: chocolate;">no</td>
+      <td style="background: chocolate;">yes</td>
       <td style="background: chocolate;">no</td>
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20iwd2">iwd2</a></td>
     </tr>
@@ -92,8 +92,8 @@ or perhaps the [FAQ](FAQ.md).
 </table>
 
 PST is completable, but has some notable missing features, making it the least polished game.
-IWD2 is playable quite nicely up until the Volcano time loop. Both still require [a lot more
-love]({{ site.contribute }}) to reach the level of the other games.
+Similar holds for IWD2. Both still require [a lot more love]({{ site.contribute }}) to reach
+the level of the other games.
 
 The GemRB demo is bundled with GemRB, so it can be ran immediately.
 
