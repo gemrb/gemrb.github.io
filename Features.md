@@ -63,7 +63,7 @@ or perhaps the [FAQ](FAQ.md).
     <tr>
       <td style="text-align: left">Icewind Dale 2</td>
       <td style="background: chartreuse;">yes</td>
-      <td style="background: chocolate;">yes</td>
+      <td style="background: chartreuse;">yes</td>
       <td style="background: chocolate;">no</td>
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20iwd2">iwd2</a></td>
     </tr>
