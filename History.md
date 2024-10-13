@@ -93,4 +93,4 @@ Major game milestones, GemRB releases when a certain game became completable:
 - **0.8.0**, 2013: IWD:TotLM, BG1:TotSC
 - **0.8.4**, 2016: PS:T
 - **0.9.0**, 2021: GemRB Demo
-- [**TODO**](https://github.com/gemrb/gemrb/milestone/4): IWD2
+- **0.9.4**, 2024: IWD2
