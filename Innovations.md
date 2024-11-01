@@ -20,12 +20,12 @@ those include:
 
 ## Ease of use
   - possibility to never even load the intro videos
+  - a ctrl-w hotkey to consolidate all visible loot in a single pile under the cursor
   - inventory items are autoidentified if you have high enough lore
   - innates can be bound to quick spell slots
   - spell lists can be sorted by various attributes like offensiveness,
     level or spell school
-  - inventory and containers show blue borders around magic items (like
-    in IWD2)
+  - learnable spell scrolls have a special border
 
 ## GUI and high resolutions
  - [window scaling, high resolutions support](http://gemrb.org/Features.html#wide-screen-higher-resolutions)
@@ -33,6 +33,7 @@ those include:
    - game window scaling, for more game real estate even without the Widescreen mod (just set a higher resolution)
  - [custom font support](Fonts.md)
  - drawing FPS is settable and defaults to matching the screen refresh rate, rather than 30
+   - animations themselves have FPS configurable, so newer assets displayed at e.g. 60 FPS can be created, instead of the 15 default
  - expanded debug console
  - general window dragging support
  - in character generation, the default portrait is randomised (for our sanity's
@@ -44,6 +45,7 @@ those include:
 
 ## Input
  - (multi)touch input support
+ - joystick support
  - mouse
    - most games didn't even support mouse wheels
    - holding shift while scrolling with the mouse wheel simulates horizontal scrolling
