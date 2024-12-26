@@ -7,6 +7,7 @@ and enhancements are in the core or targetted at [power users and modders](Moddi
 there are also a few that directly benefit the players. Besides the obvious bugfixes,
 those include:
 
+  - stereo spatial sound where there was none before
   - an extensive array of commands for the ["Cheat" console](Cheats.md).
   - effects of difficulty on xp and damage are configurable through
     difflvls.2da
