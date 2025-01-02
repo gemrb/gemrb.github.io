@@ -94,3 +94,20 @@ Major game milestones, GemRB releases when a certain game became completable:
 - **0.8.4**, 2016: PS:T
 - **0.9.0**, 2021: GemRB Demo
 - **0.9.4**, 2024: IWD2
+
+## Enhanced editions of the games
+
+The Enhanced editions made several upgrades, sometimes by merging features from different engine versions (bg2 and iwd).
+By the time of the release of BG:EE, GemRB was still busy improving support for the original games. Some might think
+the project didn't welcome the new releases, but that couldn't be farther from the truth. Sure, the project lost its
+lead developer and some of its "market", but the EEs revitalized the community and Beamdog even publicly shared some
+new technical information. Renewed interest in the games brought in new users, modders and explorers, which ultimately
+benefited GemRB as well. Since these editions worked on all major platforms, there was no rush in adding support while
+they remained maintained. With time this has changed, all the while GemRB was improving, and it might eventually become
+the best way to play also the enhanced edition's content.
+
+The project didn't have much direct contact with Beamdog, but there was no grief on either side. To quote an interview
+for [Gaming On Linux](https://www.gamingonlinux.com/2017/04/an-interview-with-beamdog-about-linux-gaming-they-say-its-worth-it/):
+> Q: What are your thoughts on GemRB, the open-source implementation of Bioware's Infinity Engine?
+>
+> Scott Brooks: GemRB is a wonderful project. It’s amazing what they have been able to accomplish by reverse engineering everything. This kind of relates to the question above about choosing a game like Baldur’s Gate, having a game that people are passionate enough about to re-implement the client speaks volumes to how good of games these are.
