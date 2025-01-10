@@ -14,14 +14,14 @@ Sources and packages are available. You can get them from [here](https://gemrb.o
 Full changelog digest:
 NEWS entry (indented to be formatted as code)
 
-Thanks to everyone that contributed their time, including:
+**Thanks to everyone that contributed** their time, including:
 Ashvith10, Bubb13, DarthRevan501st, HJ000001, MarcelHB, Mariihmp, Mingun, Peppersawce, Kassandra Pucher, arosenow, bhbuehler, burner1024, duy64, elde-n, Jan Palus, Jaka Kranjc,
-Sergej Alikov, rfht, Rodrigo Santellan, Tim Lancina, Tom Kidd
+Sergej Alikov, rfht, Rodrigo Santellan, Tim Lancina, Tom Kidd.
 
 **Notes to packagers:**
-The unmaintained SDL1 backend will be removed in next release.
-A new `UseAsLibrary` key has been added to the config.
-A new bit was added to the `GUIEnhancements` bit field, so if you ship your own configs, an update to the new higher default value is encouraged.
+- The unmaintained SDL1 backend will be removed in next release.
+- A new `UseAsLibrary` key has been added to the config.
+- A new bit was added to the `GUIEnhancements` bit field, so if you ship your own configs, an update to the new higher default value is encouraged.
 
 If you want to be notified of GemRB releases via email, subscribe to the
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release)
