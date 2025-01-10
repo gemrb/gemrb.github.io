@@ -29,6 +29,10 @@ recommended.
   - **-q**  
     Disable audio completely, regardless of supported audio plugins.
 
+   - **-f**  
+    Start in full screen. Try this if the game window suffers from bad aspect ratio. Otherwise
+    just switch to your preference in the game's video options.
+
   - **-c** *FILE*  
     Use the specified configuration file *FILE* instead of the default *gemrb.cfg*.
 
@@ -85,7 +89,7 @@ That is often enough, so do not fiddle with the other paths too much.
     transfer (if the character has enough lore). Add or set 4 if you want to skip
     the item description window when opening bags. Enabled by default. Add or set 8
     if you want the game to stop mouse scrolling the area at its edges when the
-    window loses focus.
+    window loses focus. Add or set 16 if you want scrolls for spells the pc does not know yet highlighted.
 
 <!-- end list -->
 
@@ -423,12 +427,15 @@ The default is *0*.
 
 <!-- end list -->
 
-  - **GamepadPointerSpeed**=INT
+  - **GamepadPointerSpeed**=INT  
     Pointer movement speed with gamepads. The default is 10.
 
-  - **VitaKeepAspectRatio**=(0|1)
+  - **VitaKeepAspectRatio**=(0|1)  
     If set to *1*, original aspect ratio is preserved while game area is scaled to native PS Vita resolution. It is enabled by default.
 
+  - **UseAsLibrary**=INT  
+    If set to non-zero, disables some engine features to facilitate independent
+    use of GemRB libraries. The default is 0.
 
 # FILES
 
@@ -456,7 +463,7 @@ The default is *0*.
 
 <!-- end list -->
 
-  - **$XDG_CONFIG_PATH/gemrb/**\
+  - **$XDG_CONFIG_HOME/gemrb/**\
     user's own configuration files.
 
 # BUGS
