@@ -1,5 +1,5 @@
 ---
-title: GemRB 0.9.4 released! ( edition)
+title: GemRB 0.9.4 released! (Izbelah edition)
 author: Jaka Kranjc
 ---
 
