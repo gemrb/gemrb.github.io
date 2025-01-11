@@ -82,7 +82,14 @@ or perhaps the [FAQ](FAQ.md).
       <td><a href="/New-game.html">New game</a></td>
     </tr>
     <tr>
-      <td style="text-align: left">Any Enhanced Edition</td>
+      <td style="text-align: left">Baldur's Gate 2: Enhanced Edition</td>
+      <td>yes</td>
+      <td style="background: #d69975;">?</td>
+      <td style="background: chocolate;">no</td>
+      <td><a href="https://github.com/gemrb/gemrb/issues/164">EE</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Other Enhanced Editions</td>
       <td style="background: chocolate;">no</td>
       <td style="background: chocolate;">no</td>
       <td style="background: chocolate;">no</td>
