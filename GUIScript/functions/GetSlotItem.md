@@ -30,5 +30,7 @@ the slot will not be looked up again.
     * IE_INV_ITEM_STACKED = 0x80,   The item is a stacked item.
   * 'Header'  - Item's extended header assigned to the inventory slot (the
   ability to use). Only applicable to quickslots.
+  * 'Slot'  - The same as the slot parameter.
+  * 'LauncherSlot' - The slot of the launcher, if any, 0 otherwise.
 
 **See also:** [GetItem](GetItem.md), [Button_SetItemIcon](Button_SetItemIcon.md), [ChangeItemFlag](ChangeItemFlag.md)

@@ -19,4 +19,4 @@ Sets up the palette based on the eight given gradient colors.
 
 **Return value:** N/A
 
-**See also:** [Button_SetBAM](Button_SetBAM.md)
+**See also:** [Button_SetPicture](Button_SetPicture.md)

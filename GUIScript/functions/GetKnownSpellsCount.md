@@ -12,7 +12,7 @@ number of all spells of the given type.
 **Parameters:**
   * PartyID   - the PC's position in the party
   * SpellType - 0 - priest, 1 - wizard, 2 - innate
-  * Level     - the known spell's level
+  * Level     - the known spell's level (-1 for any level)
 
 **Return value:** numeric
 

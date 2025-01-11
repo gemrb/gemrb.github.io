@@ -18,7 +18,7 @@ the PC's inventory.
     * 2 - sell
     * 4 - identify
     * 8 - steal
-    * Add 0x40 for selection (in case of buy/sell only)
+    * Add 0x20000 for selection (in case of buy/sell only)
 
 **Return value:**
   * 0 - failure

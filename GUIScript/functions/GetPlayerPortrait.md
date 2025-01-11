@@ -12,7 +12,7 @@ new character you must use FillPlayerInfo().
   * Slot         - the PC's position in the party
   * SmallOrLarge - boolean, specify 1 if you want to get the large portrait
 
-**Return value:** dict
+**Return value:** dict or None
   * Sprite - the player's portrait (image)
   * ResRef - the portrait's name (image resref)
 

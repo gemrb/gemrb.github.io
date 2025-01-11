@@ -9,7 +9,7 @@ module: _GemRB
 
 **Description:** Adds an additional entry to the Scripting engine under
 AliasGroup with AliasID and binds it to the view, optionally
-overwriteing an existing entry.
+overwriting an existing entry.
 
 **Parameters:**
   * GView - the control's reference

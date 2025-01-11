@@ -3,7 +3,7 @@ title: LoadWindow
 module: GemRB
 ---
 
-**Prototype:** GemRB.LoadWindow (WindowID[, windowPack, position])
+**Prototype:** GemRB.LoadWindow (WindowID, windowPack[, position])
 
 **Description:** Returns a Window. You must call LoadWindowPack before using 
 this command. The window won't be displayed. If LoadWindowPack() set nonzero 
@@ -12,7 +12,7 @@ then moved by (screen size - winpack size) / 2
 
 **Parameters:**
   * a window ID, see the .chu file specification
-  * windowPack: which window pack (.chu) to take the window from (defaults to current)
+  * windowPack: which window pack (.chu) to take the window from
   * position: where to place it on screen (defaults to WINDOW_CENTER, see GUIDefines.py)
 
 **Return value:** GWindow

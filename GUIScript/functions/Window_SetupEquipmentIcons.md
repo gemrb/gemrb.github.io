@@ -18,4 +18,4 @@ If Start is supplied, it will skip the first few items.
 
 **Return value:** N/A
 
-**See also:** [Window_SetupControls](Window_SetupControls.md), [UseItem](UseItem.md)
+**See also:** [UseItem](UseItem.md)

@@ -16,4 +16,4 @@ image, the tooltip and the push button event handler.
 
 **Return value:** N/A
 
-**See also:** [Button_SetSpellIcon](Button_SetSpellIcon.md), [Button_SetItemIcon](Button_SetItemIcon.md), [Window_SetupControls](Window_SetupControls.md)
+**See also:** [Button_SetSpellIcon](Button_SetSpellIcon.md), [Button_SetItemIcon](Button_SetItemIcon.md)

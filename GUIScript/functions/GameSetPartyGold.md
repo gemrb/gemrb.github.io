@@ -9,6 +9,7 @@ module: GemRB
 
 **Parameters:**
   * Gold - the target party gold amount
+  * feedback - optional, off by default
 
 **Return value:** N/A
 

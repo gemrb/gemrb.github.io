@@ -14,5 +14,3 @@ like in iwd2. Also sets up the first three default action types.
 
 **Return value:** N/A
 
-**See also:** [Window_SetupControls](Window_SetupControls.md)
-

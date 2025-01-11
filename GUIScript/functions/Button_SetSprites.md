@@ -18,4 +18,4 @@ setting the IE_GUI_BUTTON_NO_IMAGE flag on the control.
 
 **Return value:** N/A
 
-**See also:** [Button_SetFlags](Button_SetFlags.md), [Button_SetBAM](Button_SetBAM.md), [Button_SetPicture](Button_SetPicture.md)
+**See also:** [Button_SetFlags](Button_SetFlags.md), [Button_SetPicture](Button_SetPicture.md), [Button_SetPicture](Button_SetPicture.md)

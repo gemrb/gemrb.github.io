@@ -6,12 +6,12 @@ module: GemRB
 **Prototype:** GemRB.ApplyEffect (globalID, opcode, param1, param2[, resref, resref2, resref3, source, timing])
 
 **Description:** Creates a basic effect and applies it on the actor marked 
-by PartyID. 
+by globalID. 
 This function cam be used to add stats that are stored in effect blocks.
 
 **Parameters:**
   * globalID - party ID or global ID of the actor to use
-  * opcode   - the effect opcode (for values see effects.ids)
+  * opcode   - the effect opcode name (for values see effects.ids)
   * param1   - parameter 1 for the opcode
   * param2   - parameter 2 for the opcode
   * resref   - (optional) resource reference to set in effect

@@ -14,7 +14,13 @@ operator is >=.
   * partyslot - the characters position in the party
   * a_stat ... d_stat - stat IDs
   * a_value ... d_value - stat value limits
-  * a_op ... d_op - operator to use for comparing x_stat to x_value
+  * a_op ... d_op - operator to use for comparing x_stat to x_value:
+    * 0: less or equals
+    * 1: equals
+    * 2: less than
+    * 3: greater than
+    * 4: greater or equals
+    * 5: not equals
 
 **Return value:** bool
 

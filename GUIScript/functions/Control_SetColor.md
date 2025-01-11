@@ -14,11 +14,11 @@ Specifics depend on control type:
     * TA_COLOR_OPTIONS: color of pick-one selection options
     * TA_COLOR_HOVER: color of options on hover
     * TA_COLOR_SELECTED: color of the selected option
-  * button: set the text color
+  * button: set the text color (same as passing TA_COLOR_NORMAL)
+    * TA_COLOR_BACKGROUND: text background color (only for fonts that have background enabled in fonts.2da)
   * label: set the text color and enable color mode (black background by default)
 
 **Parameters:**
-  * GTextArea - the TextArea to set a color for
   * Color - Python dictionary of r,g,b,a color values
   * Index - the COLOR_TYPE
 

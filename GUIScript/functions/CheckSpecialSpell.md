@@ -8,7 +8,7 @@ module: GemRB
 **Description:** Checks if an actor's spell is considered special (splspec.2da).
 
 **Parameters:**
-  * globalID - global ID of the actor to use
+  * globalID - global or party ID of the actor to use
   * SpellResRef - spell resource to check
 
 **Return value:** bitfield

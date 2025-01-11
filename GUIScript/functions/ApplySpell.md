@@ -12,7 +12,7 @@ This function can be used to add abilities that are stored as spells
 **Parameters:**
   * globalID - party ID or global ID of the actor to use
   * resref   - spell resource reference
-  * casterID - global id of the desired caster
+  * casterID - global id of the desired caster or the index in the party
 
 **Return value:** N/A
 

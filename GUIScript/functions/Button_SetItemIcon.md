@@ -19,7 +19,7 @@ module: _GemRB
     * 6 - Item ability icon for first extended header
     * 7 - Item ability icon for second extended header
     * 8 - etc.
-  * Tooltip  - if set to 1, the tooltip for the item will also be set
+  * Tooltip  - if set to 1 or 2 (identified), the tooltip for the item will also be set
   * ITM2ResRef - if set, a second item to display in the icon. ITM2 is drawn first. The tooltip of ITM is used. Only valid for Type 4 and 5
   * BAM3ResRef - if set, a third image will be stacked on top of the others
 

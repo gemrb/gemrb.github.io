@@ -13,4 +13,4 @@ module: _GemRB
 
 **Return value:** N/A
 
-**See also:** [Button_SetBAM](Button_SetBAM.md), [Button_SetPLT](Button_SetPLT.md), [Button_SetSprites](Button_SetSprites.md), [Button_SetPictureClipping](Button_SetPictureClipping.md), [Window_SetPicture](Window_SetPicture.md)
+**See also:** [Button_SetPicture](Button_SetPicture.md), [Button_SetPLT](Button_SetPLT.md), [Button_SetSprites](Button_SetSprites.md), [Button_SetPictureClipping](Button_SetPictureClipping.md), [Window_SetPicture](Window_SetPicture.md)
