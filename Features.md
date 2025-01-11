@@ -83,7 +83,7 @@ or perhaps the [FAQ](FAQ.md).
     </tr>
     <tr>
       <td style="text-align: left">Baldur's Gate 2: Enhanced Edition</td>
-      <td>yes</td>
+      <td style="background: chartreuse;">yes</td>
       <td style="background: #d69975;">?</td>
       <td style="background: chocolate;">no</td>
       <td><a href="https://github.com/gemrb/gemrb/issues/164">EE</a></td>

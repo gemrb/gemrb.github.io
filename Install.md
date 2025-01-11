@@ -26,7 +26,7 @@ You will need one of the original Infinity Engine games or **the free
 [some ideas](Installing-games.md) on how to complete the install. GemRB comes with its own demo, but it is short.
 
 Due to low interest, GemRB does [not support the EE versions](https://github.com/gemrb/gemrb/issues/164)
-of the games, though there has always been considerable feature overlap.
+of the games yet. Experimental support for bg2ee is present, but it is not ready for prime time yet.
 
 After you have the games, you can also install [any mods](Modding.md). They should work out of the box, but
 any that modify the EXE files could lack the functionality those hacks achieved. Installing the
