@@ -120,7 +120,7 @@ mod, but in that case the GUIs will remain the same size, only centered.
 
 Setup        | Resolution | Pixel scaling | Requires mod
 -------------|------------|---------------|-------------
-Originals    | [Fixed](https://github.com/gemrb/gemrb/blob/master/gemrb/GemRB.cfg.sample.in#L64-L70)      | no       | no
+Originals    | [Fixed](https://github.com/gemrb/gemrb/blob/master/gemrb/GemRB.cfg.sample.in#L41-L45)      | no       | no
 GemRB 0.8.7  | Fixed      | optional | no
 GemRB 0.9.0+ | Arbitrary  | optional | no
 Widescreen   | Arbitrary  | no       | yes
