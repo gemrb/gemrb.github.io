@@ -39,6 +39,7 @@ those include:
  - general window dragging support
  - in character generation, the default portrait is randomised (for our sanity's
    sake :))
+ - in IWD2, one can pick weapon abilities and ammo from the weapon set actionbar (no need to go to the inventory)
  - some GUI tweaks that allow infinite kits, spells and so on or improve usability
    in other ways
  - better support for [internationalization](Text-encodings.md) of game resources
