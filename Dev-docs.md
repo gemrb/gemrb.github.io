@@ -82,20 +82,21 @@ When you run GemRB, here is what happens:
 
 1. The core initialises, loads all the plugins and preloads some data.
 2. The main game loop is started.
-3. Main.py in the main GUIScript directory is ran. If unset, GameType
-is autodetected through Autodetect.py files.
+3. `Main.py` in the main GUIScript directory is ran. If unset, `GameType`
+is autodetected through `Autodetect.py` files.
 4. More core functionality and asset loading occurs.
 5. The main loop starts.
-6. Start.py's OnLoad method in the game's GUIScript directory is ran:
-     - LoadGame(None) will set up a new game by loading the default GAM
+6. `Start.py`'s OnLoad method in the game's GUIScript directory is ran:
+     - `GemRB.LoadGame(None)` will set up a new game by loading the default GAM
        file and linked resources.
-     - Party members can be created with CreatePlayer().
+     - Party members can be created with `GemRB.CreatePlayer()`.
      - ...
-     - EnterGame() to start the GameControl and enter the map.
-7. MessageWindow.py is run.
+     - `GemRB.EnterGame()` to start the GameControl and enter the map.
+7. `Game.py`'s `EnterGame()` is ran.
+7. `MessageWindow.py` is ran.
 8. Game is up and drawing.
 9. ...
-10. QuitGame() and Quit() to terminate.
+10. `GemRB.QuitGame()` and `GemRB.Quit()` to terminate.
 
 Other guiscripts are run on demand, but mostly by direct calls from the
 guiscript side. Read the GUIScript [introduction](GUIScript/Index.md) to
