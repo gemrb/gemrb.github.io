@@ -23,10 +23,14 @@ those include:
   - possibility to never even load the intro videos
   - a ctrl-w hotkey to consolidate all visible loot in a single pile under the cursor
   - inventory items are autoidentified if you have high enough lore
+  - identification affects all identical items
   - innates can be bound to quick spell slots
   - spell lists can be sorted by various attributes like offensiveness,
     level or spell school
   - learnable spell scrolls have a special border
+  - empty containers have a different highlight color
+
+Many of these extras are configurable through an in-game options window.
 
 ## GUI and high resolutions
  - [window scaling, high resolutions support](http://gemrb.org/Features.html#wide-screen-higher-resolutions)
