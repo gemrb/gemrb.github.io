@@ -126,7 +126,8 @@ GemRB 0.9.0+ | Arbitrary  | optional | no
 Widescreen   | Arbitrary  | no       | yes
 
 So feel free to run at any resolution and if you're discontent with the GUI, consider
-installing the widescreen mod and bigger fonts.
+installing the widescreen mod and bigger fonts. You can change the resolution by setting the `Width` and
+`Height` configuration keys.
 
 If you're using scaling, you can change the type of interpolation used with the `ScaleQuality` configuration
 key. It defaults to "best", but if you want a sharper image, "nearest" is a better choice.
