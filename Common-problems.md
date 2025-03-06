@@ -12,7 +12,8 @@ Don't worry about printed ERRORS and WARNINGS — when they are critical, they w
 
 ## 1. GemRB exits just after starting it up.
 GemRB needs a [configuration file](/Install.md#configure-gemrb) to know
-where to look for the installed game.
+where to look for the installed game — if it is not installed within a
+game folder or the path to it passed via the command line.
 
 If you have it and GemRB sees it (first lines in the log), check the
 file again, as you probably have the **GamePath** variable
@@ -67,7 +68,7 @@ Solution: Try running again, without clicking too wildly.
 
 Possible cause: You have got a wrong version of OpenAL.
 
-Solution: Install OpenAL Soft 15.1. The best is if you copy
+Solution: Install OpenAL Soft 15.1 or newer. The best is if you copy
 soft\_oal.dll as OpenAL32.dll somewhere on your game's dll path.
 
 
@@ -88,11 +89,11 @@ Fixpacks for:
 Here's a list of bugs that keep getting reported, but are not for us to fix:
 
   * BG1: Kelddath at the Song of the Morning in Temple (AR3400) should buy
-    Wyvern heads (MISC52)- he does not. He gives gp for first one, but
+    Wyvern heads (MISC52) - he does not. He gives gp for first one, but
     you can't sell anything in his store. 
       * like any temple, you can't sell stuff there; he is also scripted
         to only accept one wyvern head
-  * BG1: Flooding mine (Cha.5) should trigger Wyrm's Crossing opening- does
+  * BG1: Flooding mine (Cha.5) should trigger Wyrm's Crossing opening - does
     it? Here not, but maybe I didn't use elevator (trigger) like I
     should (prior to talking to miner)... (Pure speculation- similar
     thing reported in original, as well as in
