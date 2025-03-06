@@ -74,7 +74,7 @@ soft\_oal.dll as OpenAL32.dll somewhere on your game's dll path.
 # Game bugs
 The games are full of complexity which inevitably led to a large amount
 of bugs and inconsistencies. You're **advised to install the community
-fixpacks** (especially for bg2 and pst) and to consider whether a problem
+fixpacks** (required for bg2) and to consider whether a problem
 you're having is from a fault in the data or in GemRB.
 
 Fixpacks for:
@@ -83,7 +83,7 @@ Fixpacks for:
 - [iwd](https://www.gibberlings3.net/mods/fixes/iwd_fixpack/) at Gibberlings3
 - [iwd2](http://www.shsforums.net/files/file/1085-almaterias-iwd2-fixpack/) at Spellhold Studios
 - [bg1](http://web.archive.org/web/20230130080430/https://sasha-altherin.webs.com/baldursgatefixpack.htm) from plainab
-- **Additionally** [Infinity Sounds](https://skellytz.github.io/docs/readme-infinitysounds.html) from SHS is suggested
+- **Additionally** [Infinity Sounds](https://spellhold-studios.github.io/readmes/infinity-sounds/readme-infinitysounds.html) from SHS is suggested
 
 Here's a list of bugs that keep getting reported, but are not for us to fix:
 
