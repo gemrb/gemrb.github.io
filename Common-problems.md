@@ -83,7 +83,7 @@ Fixpacks for:
 - [pst](http://www.spellholdstudios.net/ie/pst-fixpack) at Spellhold Studios
 - [iwd](https://www.gibberlings3.net/mods/fixes/iwd_fixpack/) at Gibberlings3
 - [iwd2](http://www.shsforums.net/files/file/1085-almaterias-iwd2-fixpack/) at Spellhold Studios
-- [bg1](http://web.archive.org/web/20230130080430/https://sasha-altherin.webs.com/baldursgatefixpack.htm) from plainab
+- [bg1](http://web.archive.org/web/20230130080430/https://sasha-altherin.webs.com/baldursgatefixpack.htm) / [bg1](https://github.com/Sasha-alTherin/BGFixPack) from plainab
 - **Additionally** [Infinity Sounds](https://spellhold-studios.github.io/readmes/infinity-sounds/readme-infinitysounds.html) from SHS is suggested
 
 Here's a list of bugs that keep getting reported, but are not for us to fix:
