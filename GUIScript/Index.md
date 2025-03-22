@@ -85,7 +85,6 @@ All scripts automagically import all symbols from
 `gemrb/GUIScripts/GUIDefines.py`, which contains definition of constants
 commonly used in the scripts. Other files in this directory can be
 imported too.
-GemRB.SetNextScript ("MessageWindow")
 
 ## Typical GUIScript
 
@@ -174,8 +173,8 @@ various control issues and questions about their default state.
     directly the strrefs as they are displayed instead of the labels.
     This however does not work with Planescape: Torment.
 7.  Put the strrefs into the SetText() functions in the script.
-8.  Now that the trivial parts are done, the real fun can begin. But
-    that's a subject too advanced for this page. :-)
+8.  Now that the trivial parts are done, the real fun can begin by adding
+    actual logic to the window and its controls.
 
 ## Coding style
 
@@ -192,3 +191,5 @@ in particular:
   - if a function does not return a value, do NOT end it with 'return'
   - keep naming convention for windows, callback etc.
   - comment your code
+
+Part of this is enforced when creating a pull request.
