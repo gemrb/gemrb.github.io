@@ -16,11 +16,16 @@ platforms on our website.
   - Mac OS (ppc, x86, arm64)
   - FreeBSD, OpenBSD, NetBSD, DragonflyBSD
   - Pandora, [Raspberry
-    Pi](http://www.raspians.com/Knowledgebase/gemrb-baldurs-gate-on-the-raspberry-pi/), Playstation Vita
-  - Haiku, ReactOS, SyllableOS, AmigaOS, [Solaris](http://forums.nekochan.net/viewtopic.php?f=17&t=16730822&p=7391249)
+    Pi](http://www.raspians.com/Knowledgebase/gemrb-baldurs-gate-on-the-raspberry-pi/)
+  - Haiku, ReactOS, SyllableOS, [Solaris](http://forums.nekochan.net/viewtopic.php?f=17&t=16730822&p=7391249)
   - [Anbernic chips](https://github.com/gemrb/gemrb/pull/1781#issuecomment-1425802260) (AmberElec / ArkOS / UnofficialOS)
-  - Android, iOS: currently unmaintained
   - Ubuntu Phone, Symbian, [Maemo](http://talk.maemo.org/showthread.php?t=16947)
+
+**Only older versions:**
+
+  - Playstation Vita (lack of python3)
+  - AmigaOS, MorphOS, WarpOS  (lack of python3)
+  - Android, iOS: currently unmaintained
 
 **Not included yet, source available:**
 
