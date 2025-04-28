@@ -6,6 +6,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Include the file containing the Flathub verification token
+include: [".well-known"]
+
 # some variables for easier writing
 forum: "https://www.gibberlings3.net/forums/forum/91-gemrb/"
 discord: "https://discord.gg/64rEVAk"
