@@ -60,7 +60,7 @@ underway by late 2003, as evidenced by the CVS logs and news items.
 That was the start of version tracking for the project, which later
 transitioned to SVN and finally GIT. Code hosting was moved to GitHub in
 2013, which made flyby contributions much easier. Eventually in 2019, the
-bug tracker was moved there as well and now in 2020, it hosts the project
+bug tracker was moved there as well and since 2020, it hosts the project
 home page.
 
 Forums were initially hosted on SourceForge, but by early 2005, we opened
