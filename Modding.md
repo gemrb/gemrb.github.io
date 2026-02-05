@@ -3,7 +3,7 @@ title: Modding
 toc: true
 ---
 
-GemRB works with mods for the original games, which should work out of the
+GemRB works with [mods for the original games](https://riwspy.github.io/lcc-docs/en/), which should work out of the
 box ([let us know](https://github.com/gemrb/gemrb/issues/new/choose) otherwise).
 Of course, any that modify the EXE files could lack the functionality those hacks achieved.
 
