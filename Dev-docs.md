@@ -87,11 +87,12 @@ is autodetected through `Autodetect.py` files.
 4. More core functionality and asset loading occurs.
 5. The main loop starts.
 6. `Start.py`'s `OnLoad()` method in the game's `GUIScript` directory is ran:
-     - `GemRB.LoadGame(None)` will set up a new game by loading the default `GAM`
-       file and linked resources.
-     - Party members can be created with `GemRB.CreatePlayer()`.
+     - `GemRB.LoadGame(None)` will set up a new game (`Game` class) by loading the default `GAM`
+       file and linked resources. If a save game is passed, it will load that, set up the party
+       and in general restore the state of the world.
+     	- Party members can be created with `GemRB.CreatePlayer()`.
      - ...
-     - `GemRB.EnterGame()` to start the `GameControl` and enter the map.
+     - `GemRB.EnterGame()` to start the `GameControl` and enter the game with a loaded map (`Map`).
 7. `Game.py`'s `EnterGame()` is ran.
 7. `MessageWindow.py` is ran.
 8. Game is up and drawing.
