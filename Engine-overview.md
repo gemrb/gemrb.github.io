@@ -3,7 +3,7 @@ title: Engine overview
 toc: true
 ---
 
-### Overview of the GemRB Engine
+## Overview of the GemRB Engine
 
 GemRB is a game engine that strives to be compatible with Bioware's
 Infinity Engine (IE), the engine**s** that drives Baldur's Gate, Icewind Dale
@@ -34,7 +34,7 @@ means of **GameType**, which in turn selects appropriate Game Flags,
 GemRB's own override files, plugins and scripts. GameType is set in the
 main config file (usually autodetected).
 
-### GemRB Sources
+## GemRB Sources
 
 GemRB sources consist of:
 
@@ -57,34 +57,50 @@ GemRB sources consist of:
   - Includes
   - Docs
 
-#### Main program: `gemrb/GemRB.cpp`
+### Main program: `gemrb/GemRB.cpp`
 
 Trivial main() function that just calls the engine's `Init()` and `Main()`
 functions.
 
-#### Core library: `gemrb/core/`
+### Core library: `gemrb/core/`
 
 Core library is the main part of GemRB. It contains parts of the engine
 common to all the games. The goal is to make it as universal as
 possible, but some AD\&D rules-specific stuff is hard to get rid of.
 
-##### Interface Class: `gemrb/core/Interface.cpp`
+#### Interface Class: `gemrb/core/Interface.cpp`
 
 The library's central hub is `Interface` class, which binds the various
 parts of the engine together (including the plugins), contains global
 initialization, main loop, utility functions etc. It needs to lose some
 weight!
 
-##### PluginManager Class: `gemrb/core/PluginManager.cpp`
+#### PluginManager Class: `gemrb/core/PluginManager.cpp`
 
 This is the class responsible for loading GemRB plugins.
 
-##### User Interface: `gemrb/core/GUI`
+#### User Interface: `gemrb/core/GUI`
 
 These are classes defining window management, GUI controls (eg. buttons)
 and our text handling subsystem.
 
-#### Plugins: `gemrb/plugins`
+#### Scriptable Classes: `gemrb/core/Scriptable`
+
+These classes host most of the interactive objects a player sees in the world. They are all scriptable
+in the sense that they can have one or more `GameScript` scripts associated, which enables complex
+behaviour (NPCs, combat AI, traps, general scripting).
+
+`Scriptable` is the (grand)parent class. There is always only one `Game`, then one or more loaded maps
+(`Map`) that can contain creatures (`Actor`), three types of regions (`InfoPoint`), doors (`Door`) and
+loot containers (`Container`).
+
+##### Actor Class: `gemrb/core/Scriptable/Actor`
+
+This is another big class (needing more sub-encapsulation) with most of the logic related to PCs, NPCs
+and other creatures. It hosts the stats, the combat calculations and links to `Inventory`,
+`Spellbook`, `EffectQueue`, `CharAnimations` ...
+
+### Plugins: `gemrb/plugins`
 
 Plugins in GemRB are used for:
 
@@ -93,25 +109,25 @@ Plugins in GemRB are used for:
   - Scripting language
   - Effects
 
-##### I/O Drivers
+#### I/O Drivers
 
-These plugins are used for graphic and audio output (SDLVideo, SDLAudio,
-OpenALAudio, NullSound) and input (SDLVideo again).
+These plugins are used for graphic and audio output (`SDLVideo`, `SDLAudio`,
+`OpenALAudio`, `NullSound`) and input (`SDLVideo` again).
 
-##### Resource Loaders
+#### Resource Loaders
 
 These plugins implement readers and writers for data files used by the
 engine, many of which are in [custom formats](https://gibberlings3.github.io/iesdp/file_formats/index.htm)
-(INIImporter, AREImporter, MVEPlayer, ...) and in case of
-audio/video files also provide streaming (ACMReader, ...).
+(`INIImporter`, `AREImporter`, `MVEPlayer`, ...) and in case of
+audio/video files also provide streaming (`ACMReader`, ...).
 
-##### Scripting Language
+#### Scripting Language
 
-GemRB's support for Python scripts is contained in the GUIScript plugin.
+GemRB's support for Python scripts is contained in the `GUIScript` plugin.
 It is used in place of Lua, which the originals used to power the cheat
-console.
+console and the EEs used for the GUI glue.
 
-Note that GameScript, scripting language used in Infinity Engine scripts
+Note that `GameScript`, scripting language used in Infinity Engine scripts
 (sometimes called IEScript), is implemented in the Core Library instead.
 See these explanations:
 - [general overview](https://www.pocketplane.net/tutorials/simscript.html)
@@ -122,14 +138,14 @@ See these explanations:
 [variables](https://gibberlings3.github.io/iesdp/appendices/variables.htm)
 - [file format](https://gibberlings3.github.io/iesdp/file_formats/ie_formats/bcs.htm) (scripts are compiled, while snippets in dialogs aren't)
 
-##### Effects
+#### Effects
 
 These plugins implement effects used in the Infinity Engine spells and
 scripts like *RetreatFrom*, *SetPoisonedState*, *Damage* ... Common
-effects are in the FXOpcodes plugin, game-while specific ones are in
-IWDOpcodes and PSTOpcodes.
+effects are in the `FXOpcodes` plugin, game-while specific ones are in
+`IWDOpcodes` and `PSTOpcodes`.
 
-#### GUIScripts: `gemrb/GUIScripts/`
+### GUIScripts: `gemrb/GUIScripts/`
 
 These are Python scripts implementing GemRB's user interface and many
 game rules, which were hardwired into the executable in the original
@@ -137,7 +153,7 @@ games. The scripts are organized by game type, while the top dir contains
 shared files. Hacking the scripts provides a gentle path into GemRB
 development and you can find [specific documentation here](GUIScript/Index.md).
 
-#### Overrides and unhardcoded data: `gemrb/override/`
+### Overrides and unhardcoded data: `gemrb/override/`
 
 `gemrb/override/` and `gemrb/unhardcoded/` are two directories
 containing GemRB's own data files for all (`shared`) or a given game
@@ -153,17 +169,17 @@ potential conflicts with mods.
 See this [tabular overview](Modding.md#notes-to-modders) to better
 understand how they relate to the data shipped with the games.
 
-#### Platforms: `platforms`
+### Platforms: `platforms`
 
 Special files for various platforms, including custom includes for
 building (eg. additional cmake logic, scaffolding, polyfills),
 art assets and configuration files.
 
-#### Includes: `gemrb/includes`
+### Includes: `gemrb/includes`
 
 Common include files used by Core Library and the plugins.
 
-#### Docs: `gemrb/docs`
+### Docs: `gemrb/docs`
 
 Initial GemRB documentation. `Tables/` contains descriptions of
 GemRB's override tables ([not for long](https://github.com/gemrb/gemrb/issues/685))
