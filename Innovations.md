@@ -15,6 +15,7 @@ those include:
     accompanying generator for the relative coordinates
   - more file formats are supported (eg. PNG, OGG), so custom portraits and sound sets
     are easier to create
+  - support for bigger maps (over 80x60 tiles)
   - many [ToBEx](ToBEx.md) extensions are also implemented
   
 ... and more, this list is not yet comprehensive
