@@ -60,12 +60,12 @@ If you are curious, read the detailed explanation of all the [configuration opti
 The configuration filename is arbitrary, but check the note in the *Options* section.
 
 You can create a config file with only the keys that you want to change. For example, you can set just the `Width` and `Height` resolution options if the game and engine data is found some other way (eg. in Linux AppImage packages).
-{: .notice--warning}
+{: .notice--info}
 
 # Run GemRB
 
 Run it as any other program. :)
-{: .notice--warning}
+{: .notice--success}
 
 You will know GemRB is set up correctly once you can see the main game
 screen. If that doesn't happen, check the end of the log for errors and fix the
@@ -79,6 +79,9 @@ that file will be used automatically and you don't need to specify anything — 
 click on the program**.
 
 If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
+
+On Linux, BSDs and similar, the configuration file will be searched for in `$XDG_CONFIG_HOME/gemrb`, `~/.config/gemrb`, `/etc/gemrb`, `~/.gemrb` and the current working directory.
+{: .notice--info}
 
 ## How to run the GemRB demo?
 
