@@ -72,11 +72,12 @@ screen. If that doesn't happen, check the end of the log for errors and fix the
 configuration file as needed. Usually the game path is set wrong.
 
 Run the `gemrb` binary, optionally specifying the desired configuration: `gemrb.exe -c torment.cfg`
-or game path: `gemrb.exe /games/gog/iwd2`.
+or game path: `gemrb /games/gog/iwd2`.
 
 If you named the configuration file `GemRB.cfg` and put it in the same folder as the binary,
-that file will be used automatically and you don't need to specify anything — you can **just
-click on the program**.
+that file will be used automatically. If the GemRB files are put into a game folder, it will
+try to run that game. In both cases you don't need to set or specify any configuratoinn — you
+can **just click on the program**.
 
 If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
 
@@ -87,3 +88,7 @@ On Linux, BSDs and similar, the configuration file will be searched for in `$XDG
 
 The quickest way, without any configuration, is to **just run GemRB** without any parameters. It will run the demo if it can't
 find any other game data. So make sure you haven't unpacked it in a game dir and voilà!
+
+If you're getting the demo instead of the game you want to play, this is a clear sign that GemRB wasn't told where to find
+that game. Recheck that you're running it as described above and if any configuration files are involved, that they are either
+passed to the binary directly or are appropriately named in one of the standard search paths.
