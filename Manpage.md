@@ -427,7 +427,14 @@ The default is *0*.
 
 <!-- end list -->
 
-  - **GamepadPointerSpeed**=INT  
+  - **GamepadSupport**=(0|1)
+    Set this to *0* to disable gamepad/joystick support entirely.
+    On some Windows systems, SDL's joystick subsystem initialization can
+    hang for 30+ seconds due to device enumeration issues (e.g. WMI
+    timeouts). If the game takes abnormally long to start, try disabling
+    this. It is enabled by default.
+
+  - **GamepadPointerSpeed**=INT
     Pointer movement speed with gamepads. The default is 10.
 
   - **VitaKeepAspectRatio**=(0|1)  
