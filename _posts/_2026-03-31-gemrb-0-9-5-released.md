@@ -36,6 +36,7 @@ and then prefer real names to nicks, clean up and dedupe the list, sort.
    * `GamepadPointerAccel`, `GamepadLDeadZone`, `GamepadRDeadZone` are keys for customizing controller input parameters
    * `UseSoftKeyboard` was unused and has been removed
    * `EdgeScrollOffset` determines when to trigger area scrolling when the cursor is close to the window edge
+   * `GamepadSupport` replaces the compile time define `USE_SDL_CONTROLLER_API`
 
 If you want to be notified of GemRB releases via email, subscribe to the
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release)
