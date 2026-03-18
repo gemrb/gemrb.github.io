@@ -7,9 +7,9 @@ The GemRB team is proud to announce a new major release.
 
 It features significant changes in several areas. The audio subsystem received many improvements and input handling was upgraded especially for users of controllers. The pathfinding performance was dramatically increased, some tests quantifying that as 13-161 % for short paths, 48-196 % for medium paths, 68-146 % for long paths.
 
-On the game support side of things this release brings many improvements for IWD2, now considered as polished as the other games, several fixes for PST and more work on compatibility with the EEs.
+On the game support side of things this release brings many improvements for IWD2, now considered as polished as the other games, several fixes for PST and more work on compatibility with the EEs. Support for BG2EE is still experimental, but the Shadows of Amn portion is known to be completable.
 
-Due to user feedback the SDL1 backend has not been deprecated, but provisionally updated. There is a plan to move to C++17 in the next release cycle. If this would negatively impact your platform, let us know.
+Due to user feedback the SDL1 backend has not been deprecated, but provisionally updated. There is a plan to move to C++17 in the next release cycle. If this would negatively impact your platform, do let us know.
 
 Sources and packages are available. You can get them from [here](https://gemrb.org/Install).
 
