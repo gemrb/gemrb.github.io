@@ -98,9 +98,11 @@ or perhaps the [FAQ](FAQ.md).
   </tbody>
 </table>
 
-PST is completable, but has some notable missing features, making it the least polished game.
-Similar holds for IWD2. Both still require [a lot more love]({{ site.contribute }}) to reach
-the level of the other games.
+**PST** is completable, but has a few notable missing features, making it the least polished game of the original releases.
+The situation is similar for **BG2EE**, support for which is **still experiemental**.
+Both still require [a lot more love]({{ site.contribute }}) to reach the level of the other games.
+Other EE games are in a worse state due to upstream changes and BGEE will require
+[DLCMerger](https://github.com/Argent77/A7-DlcMerger) to be installed.
 
 The GemRB demo is bundled with GemRB, so it can be ran immediately.
 
