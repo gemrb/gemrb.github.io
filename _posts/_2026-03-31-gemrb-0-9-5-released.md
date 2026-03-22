@@ -7,7 +7,7 @@ The GemRB team is proud to announce a new major release.
 
 It features significant changes in several areas. The audio subsystem received many improvements and input handling was upgraded especially for users of controllers. The pathfinding performance was dramatically increased, some tests quantifying that as 13-161 % for short paths, 48-196 % for medium paths, 68-146 % for long paths. EE-like zoom is now available in all games, just set "Zoom Lock" to 0 in the gem-*.ini file in your game folder.
 
-On the game support side of things this release brings many improvements for IWD2, now considered as polished as the other games, several fixes for PST and more work on compatibility with the EEs. Support for BG2EE is still experimental, but the Shadows of Amn portion is known to be completable.
+On the game support side of things this release brings many improvements for IWD2, now considered as polished as the other games, several fixes for PST and more work on compatibility with the EEs. Support for BG2EE is still experimental, but the Shadows of Amn portion is known to be completable. Our demo received a much nicer avatar and new asset creation capabilities were added (like animations not limited to 15 FPS).
 
 Due to user feedback the SDL1 backend has not been deprecated, but provisionally updated. There is a wish to move to C++17 in the next release cycle. If this would negatively impact your platform, do let us know.
 
