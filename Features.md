@@ -64,7 +64,7 @@ or perhaps the [FAQ](FAQ.md).
       <td style="text-align: left">Icewind Dale 2</td>
       <td style="background: chartreuse;">yes</td>
       <td style="background: chartreuse;">yes</td>
-      <td style="background: chocolate;">no</td>
+      <td style="background: chartreuse;">yes</td>
       <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20iwd2">iwd2</a></td>
     </tr>
     <tr>
@@ -84,25 +84,25 @@ or perhaps the [FAQ](FAQ.md).
     <tr>
       <td style="text-align: left">Baldur's Gate 2: Enhanced Edition</td>
       <td style="background: chartreuse;">yes</td>
-      <td style="background: #d69975;">?</td>
-      <td style="background: chocolate;">no</td>
-      <td><a href="https://github.com/gemrb/gemrb/issues/164">EE</a></td>
+      <td style="background: chartreuse">yes</td>
+      <td style="background: red;">no</td>
+      <td><a href="https://github.com/gemrb/gemrb/labels/game%3A%20ees">EE</a></td>
     </tr>
     <tr>
       <td style="text-align: left">Other Enhanced Editions</td>
       <td style="background: chocolate;">no</td>
-      <td style="background: chocolate;">no</td>
-      <td style="background: chocolate;">no</td>
-      <td><a href="https://github.com/gemrb/gemrb/issues/164">EE</a></td>
+      <td style="background: chocolate;">?</td>
+      <td style="background: red;">no</td>
+      <td><a href="https://github.com/gemrb/gemrb/issues/164">EE (meta)</a></td>
     </tr>
   </tbody>
 </table>
 
 **PST** is completable, but has a few notable missing features, making it the least polished game of the original releases.
-The situation is similar for **BG2EE**, support for which is **still experiemental**.
+The situation is similar for **BG2EE**, support for which is **still experimental**.
 Both still require [a lot more love]({{ site.contribute }}) to reach the level of the other games.
-Other EE games are in a worse state due to upstream changes and BGEE will require
-[DLCMerger](https://github.com/Argent77/A7-DlcMerger) to be installed.
+Other **EE** games are in a worse state due to upstream changes and **BGEE SoD** will require
+[DLCMerger](https://github.com/Argent77/A7-DlcMerger) to be installed. Lua mods will have no effect.
 
 The GemRB demo is bundled with GemRB, so it can be ran immediately.
 
