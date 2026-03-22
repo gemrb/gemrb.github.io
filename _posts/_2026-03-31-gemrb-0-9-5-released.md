@@ -22,7 +22,7 @@ Full changelog digest:
 2play, Andrej Pancik, ArminiusTux, arosenow, Ashvith10, Balxkodehodet, BinBashBanana, Boris Kruglov, Brad Allred, Bubb13, burner1024, CalamariDetective, Clort, CodeSpartan, Dariusz Pyś, DartPower, dbojan, dolio, exhuman, Florian Piesche, HugeTaffer, Jaka Kranjc, Jens Kleine-Herzbruch, JohnSmithBH84, Juan Mathews Rebello Santos, jvgp100, Lucas Z., MarcelHB, mark-314159, markfoged, MvKord, orcutt989, packrat0x, nerifuture, Peppersawce, quangtrinhvan93, Rodrigo Santellan, rubyFeedback, Stefan Schlosser, StVitruvius, Timo Gurr, traveler-gemrb, Tugcga, Ulroxiel, Warphi.
 
 **Notes to packagers:**
- * There is a plan to move to C++17 in the next release. If this would negatively impact your platform, let us know.
+ * There is a wish to move to C++17 in the next release. If this would negatively impact your platform, let us know.
  * New config keys were added and some removed, so if you ship your own config defaults, we recommend syncing them with these changes:
    * `GUIEnhancements` has been removed and is now stored in the main game ini file plus configurable through the options screen
    * `GamepadPointerAccel`, `GamepadLDeadZone`, `GamepadRDeadZone` are keys for customizing controller input parameters
