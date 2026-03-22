@@ -9,7 +9,7 @@ It features significant changes in several areas. The audio subsystem received m
 
 On the game support side of things this release brings many improvements for IWD2, now considered as polished as the other games, several fixes for PST and more work on compatibility with the EEs. Support for BG2EE is still experimental, but the Shadows of Amn portion is known to be completable.
 
-Due to user feedback the SDL1 backend has not been deprecated, but provisionally updated. There is a plan to move to C++17 in the next release cycle. If this would negatively impact your platform, do let us know.
+Due to user feedback the SDL1 backend has not been deprecated, but provisionally updated. There is a wish to move to C++17 in the next release cycle. If this would negatively impact your platform, do let us know.
 
 Sources and packages are available. You can get them from [here](https://gemrb.org/Install).
 
@@ -19,15 +19,7 @@ Full changelog digest:
     GemRB v0.9.5 (2026-03-31):
 
 **Thanks to everyone that contributed** their time, including:
-remove bmcc-DEV, add nerifuture
-
-git shortlog -s $PREVIOUS_VERSION_TAG.. gets just the committers, so
-https://github.com/mntnr/name-your-contributors is preferred, eg.
-  export GITHUB_TOKEN=<get a token first>
-  ../node_modules/.bin/name-your-contributors -o gemrb -a 2021-06-02 > names.json
-  jq '[.[][] | {login, name}] | unique[] | if .name then "\(.name), \(.login)"
-      else .login end' names.json | sed 's/^"//; s/"$/, /'
-and then prefer real names to nicks, clean up and dedupe the list, sort.
+2play, Andrej Pancik, ArminiusTux, arosenow, Ashvith10, Balxkodehodet, BinBashBanana, Boris Kruglov, Brad Allred, Bubb13, burner1024, CalamariDetective, Clort, CodeSpartan, Dariusz Pyś, DartPower, dbojan, dolio, exhuman, Florian Piesche, HugeTaffer, Jaka Kranjc, Jens Kleine-Herzbruch, JohnSmithBH84, Juan Mathews Rebello Santos, jvgp100, Lucas Z., MarcelHB, mark-314159, markfoged, MvKord, orcutt989, packrat0x, nerifuture, Peppersawce, quangtrinhvan93, Rodrigo Santellan, rubyFeedback, Stefan Schlosser, StVitruvius, Timo Gurr, traveler-gemrb, Tugcga, Ulroxiel, Warphi.
 
 **Notes to packagers:**
  * There is a plan to move to C++17 in the next release. If this would negatively impact your platform, let us know.
