@@ -83,16 +83,6 @@ That is often enough, so do not fiddle with the other paths too much.
 
 <!-- end list -->
 
-  - **GUIEnhancements**=INT  
-    The value is a bitfield. Set it to 1 to enable a few GUI
-    enhancements, mostly in BG2. Add or set to 2 to try to autoidentify items on
-    transfer (if the character has enough lore). Add or set 4 if you want to skip
-    the item description window when opening bags. Enabled by default. Add or set 8
-    if you want the game to stop mouse scrolling the area at its edges when the
-    window loses focus. Add or set 16 if you want scrolls for spells the pc does not know yet highlighted.
-
-<!-- end list -->
-
   - **MultipleQuickSaves**=(0|1)  
     EXPERIMENTAL. Set this to 1 if you want GemRB to keep multiple
     quicksaves around. Disabled by default.
@@ -321,12 +311,6 @@ Set this parameter to *1* on Unix-like systems.
 
 <!-- end list -->
 
-  - **UseSoftKeyboard**=(0|1)  
-    Toggles use of software keyboard on devices that support one. It
-    pops up when text input is required. Disabled by default.
-
-<!-- end list -->
-
   - **NumFingScroll**=(2|3|4)  
     Number of fingers for multitouch to trigger scrolling. The default
     is 2.
@@ -350,6 +334,10 @@ Set this parameter to *1* on Unix-like systems.
     Bitfield with reserved bits for disabling the mouse. Show
     mouse+tooltips = 0 (default) Hide mouse = 1 Hide tooltips = 2 Hide
     mouse+tooltips = 3
+
+  - **EdgeScrollOffset**=INT
+    An offset in pixels that is used to determine when to trigger area scrolling when the cursor
+    is close to the window edge. The default is 5.
 
   - **TouchInput**=(0-1)
     Override setting for when autodetection does not have satisfactory results.
@@ -398,6 +386,8 @@ Set this parameter to *1* on Unix-like systems.
 
 *512* - enable pathfinding debug mode.
 
+*1024* - enable projectiles debug mode.
+
 The default is *0*.
 
   - **DelayPlugin**=FILENAME  
@@ -436,6 +426,15 @@ The default is *0*.
 
   - **GamepadPointerSpeed**=INT
     Pointer movement speed with gamepads. The default is 10.
+
+  - **GamepadPointerAccel**=INT
+    Pointer movement acceleration factor. The default is 103, while 100 means no acceleration.
+
+  - **GamepadLDeadZone**=INT
+    Gamepad left stick threshold value for registering movement. The default is 5000.
+
+  - **GamepadRDeadZone**=INT
+    Gamepad right stick threshold value for registering movement. The default is 5000.
 
   - **VitaKeepAspectRatio**=(0|1)  
     If set to *1*, original aspect ratio is preserved while game area is scaled to native PS Vita resolution. It is enabled by default.
