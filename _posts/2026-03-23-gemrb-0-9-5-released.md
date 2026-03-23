@@ -15,7 +15,7 @@ Sources and packages are available. You can get them from [here](https://gemrb.o
 
 Full changelog digest:
 
-    GemRB v0.9.5 (2026-03-31):
+    GemRB v0.9.5 (2026-03-23):
       New features:
         - partial audio system rewrite for better (spatial) audio and music
         - iwd2: customizable action bar, weapon set switching, item usability info
