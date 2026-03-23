@@ -21,4 +21,4 @@ is a checkbox or a radio button though, their states are handled internally.
 
 **Return value:** N/A
 
-**See also:** [Button_SetFlags](Button_SetFlags.md)
+**See also:** [View_SetFlags](View_SetFlags.md)

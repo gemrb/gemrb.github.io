@@ -13,6 +13,6 @@ at the specified point (takes precedence if both are specified).
   * CreResRef  - the creature's name (.cre resref)
   * posX, posY - position to create at
 
-**Return value:** N/A
+**Return value:** global ID of the created creature
 
 **See also:** [CreateItem](CreateItem.md)

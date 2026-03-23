@@ -12,4 +12,4 @@ module: GemRB
 
 **Return value:** N/A
 
-**See also:** [SetTooltipDelay](SetTooltipDelay.md)
+**See also:** [UpdateTooltipDelay](UpdateTooltipDelay.md)

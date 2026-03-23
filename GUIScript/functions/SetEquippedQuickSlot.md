@@ -15,5 +15,5 @@ Optionally sets the used ability.
 
 **Return value:** N/A
 
-**See also:** [GetEquippedQuickSlot](GetEquippedQuickSlot.md), [SetupQuickSlot](SetupQuickSlot.md)
+**See also:** [GetEquippedQuickSlot](GetEquippedQuickSlot.md), [SetupQuickItemSlot](SetupQuickItemSlot.md)
 

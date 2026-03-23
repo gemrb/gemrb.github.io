@@ -3,7 +3,7 @@ title: GetSprite
 module: GemRB
 ---
 
-**Prototype:** GemRB.GetSprite (resref[, grad, cycle, frame])
+**Prototype:** GemRB.GetSprite (resref[, grad, cycle, frame, size])
 
 **Description:** Return a Sprite2D for a given resref. If 
 the supplied color gradient value is the default -1, then no palette change, 
@@ -14,5 +14,6 @@ uses 12 colors palette, it has issues in PST.
   * resref - the name of the BAM animation (a .bam resref)
   * grad - the gradient number, (-1 is no gradient)
   * cycle, frame - the cycle and frame index of the picture in the bam
+  * size - get the sprite dimensions instead
 
 **Return value:** N/A

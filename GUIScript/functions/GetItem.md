@@ -30,6 +30,8 @@ module: GemRB
   * 'Tooltips'           - the item tooltips
   * 'Locations'          - the item extended header's ability locations
   * 'Spell'              - the spell's strref if the item is a copyable scroll
+  * 'UsabilityBitmask'   - class usability bitmask
+  * 'KitUsability'       - kit usability bitmask
   * 'Function'           - returns special function
     * 0 - no special function
     * 1 - item is a copyable scroll (2nd header's 1st feature is 'Learn spell')

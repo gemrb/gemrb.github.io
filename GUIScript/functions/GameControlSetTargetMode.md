@@ -14,9 +14,9 @@ all by default). Changes the cursor.
     * 0 TARGET_MODE_NONE
     * 1 TARGET_MODE_TALK
     * 2 TARGET_MODE_ATTACK (also for bashing)
-    * 4 TARGET_MODE_CAST
-    * 8 TARGET_MODE_DEFEND
-    * 16 TARGET_MODE_PICK
+    * 3 TARGET_MODE_CAST
+    * 4 TARGET_MODE_DEFEND
+    * 5 TARGET_MODE_PICK
   * (target) Types - bitfield:
     * GA_SELECT (selectable actor)
     * GA_NO_DEAD

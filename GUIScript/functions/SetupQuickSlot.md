@@ -3,25 +3,18 @@ title: SetupQuickSlot
 module: GemRB
 ---
 
-**Prototype:** GemRB.SetupQuickSlot (PartyID, QuickSlotID, InventorySlot[, AbilityIndex])
+**Prototype:** GemRB.SetupQuickSlot (globalID, quickSlotID, actionID)
 
-**Description:** Sets up a quickslot or weapon slot to point to a particular 
-inventory slot. Also sets the used ability for that given quickslot. 
-If the abilityindex is omitted, it will be assumed as 0. 
-If the InventorySlot is -1, then it won't be assigned to the quickslot 
-(this way you can alter the used Ability index only). 
-If the QuickSlotID is 0, then it will try to find the quickslot/weaponslot 
-by the InventorySlot, and assign the AbilityIndex to it. 
-(Use this if you don't know the exact quick slot, or don't care to find it).
+**Description:** Changes the action assigned to the specified action bar button.
+It only changes it for the specified creature, so it does not use the class 
+default any more. This is only used in iwd2.
 
 **Parameters:**
-  * PartyID       - the PC's position in the party (1 based)
-  * QuickSlotID   - the quickslot to set up
-  * InventorySlot - the inventory slot assigned to this quickslot, this is
-usually constant and taken care by the core
-  * AbilityIndex  - the number of the item extended header to use with this quickslot
+  * globalID - the PC's position in the party (1 based) or global ID
+  * quickSlotID - the quickslot (button) to set up (0-11) or -1 to revert all to class defaults
+  * actionID - the actionbar action id to assign to this quickslot
 
 **Return value:** N/A
 
-**See also:** [GetEquippedQuickSlot](GetEquippedQuickSlot.md), [SetEquippedQuickSlot](SetEquippedQuickSlot.md)
+**See also:** [SetupQuickItemSlot](SetupQuickItemSlot.md), [SetEquippedQuickSlot](SetEquippedQuickSlot.md)
 

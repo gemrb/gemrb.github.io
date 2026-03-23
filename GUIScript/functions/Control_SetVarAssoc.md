@@ -20,4 +20,4 @@ control. See more about this in 'data_exchange'.
 
 **Special:** If the 'DialogChoose' variable was set to -1 or 0 during a dialog session, it will terminate (-1) or pick the first available option (0) from the dialog automatically. (0 is used for 'continue', -1 is used for 'end dialogue').
 
-**See also:** [Button_SetFlags](Button_SetFlags.md), [SetVar](SetVar.md), [GetVar](GetVar.md)
+**See also:** [View_SetFlags](View_SetFlags.md), [SetVar](SetVar.md), [GetVar](GetVar.md)

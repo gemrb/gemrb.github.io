@@ -9,7 +9,7 @@ module: GemRB
 
 **Parameters:**
   * globalID - global ID of the actor to use
-  * type - spell(book) type (255 means any)
+  * type - spell(book) type (2047 means any)
 
-**Return value:** tuple of spell resresfs
+**Return value:** tuple of uppercase spell resresfs
 

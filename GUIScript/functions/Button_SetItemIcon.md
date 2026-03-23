@@ -3,7 +3,7 @@ title: Button_SetItemIcon
 module: _GemRB
 ---
 
-**Metaclass Prototype:** SetItemIcon (ITMResRef[, Type, Tooltip, ITM2ResRef, BAM3ResRef]])
+**Metaclass Prototype:** SetItemIcon (ITMResRef[, Type, Tooltip, FunctionKey, ITM2ResRef, BAM3ResRef]])
 
 **Description:** Sets Item icon image on a Button control.
 
@@ -20,6 +20,7 @@ module: _GemRB
     * 7 - Item ability icon for second extended header
     * 8 - etc.
   * Tooltip  - if set to 1 or 2 (identified), the tooltip for the item will also be set
+  * FunctionKey  - F-key to map to [1-12]
   * ITM2ResRef - if set, a second item to display in the icon. ITM2 is drawn first. The tooltip of ITM is used. Only valid for Type 4 and 5
   * BAM3ResRef - if set, a third image will be stacked on top of the others
 

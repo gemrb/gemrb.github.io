@@ -13,4 +13,4 @@ module: _GemRB
 
 **Return value:** N/A
 
-**See also:** [Button_SetPicture](Button_SetPicture.md), [Button_SetFlags](Button_SetFlags.md), [Button_SetBorder](Button_SetBorder.md)
+**See also:** [Button_SetPicture](Button_SetPicture.md), [View_SetFlags](View_SetFlags.md), [Button_SetBorder](Button_SetBorder.md)
