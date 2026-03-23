@@ -15,8 +15,20 @@ Sources and packages are available. You can get them from [here](https://gemrb.o
 
 Full changelog digest:
 
-    NEWS entry
     GemRB v0.9.5 (2026-03-31):
+      New features:
+        - partial audio system rewrite for better (spatial) audio and music
+        - iwd2: customizable action bar, weapon set switching, item usability info
+        - detect illusions, spell info on right-click, various hardcoded pst bonuses
+        - smooth keyboard scrolling, in-game zoom
+        - GUI enhancements are now configurable from within the game
+
+      Improved features:
+        - pathfinder and drawing speedups
+        - video players, animations, controller input
+        - iwd2 weapon sets, pst GUI, pst level up, ee compatibility
+        - scripting, effects, projectiles
+        - bugfixes
 
 **Thanks to everyone that contributed** their time, including:
 2play, Andrej Pancik, ArminiusTux, arosenow, Ashvith10, Balxkodehodet, BinBashBanana, Boris Kruglov, Brad Allred, Bubb13, burner1024, CalamariDetective, Clort, CodeSpartan, Dariusz Pyś, DartPower, dbojan, dolio, exhuman, Florian Piesche, HugeTaffer, Jaka Kranjc, Jens Kleine-Herzbruch, JohnSmithBH84, Juan Mathews Rebello Santos, jvgp100, Lucas Z., MarcelHB, mark-314159, markfoged, MvKord, orcutt989, packrat0x, nerifuture, Peppersawce, quangtrinhvan93, Rodrigo Santellan, rubyFeedback, Stefan Schlosser, StVitruvius, Timo Gurr, traveler-gemrb, Tugcga, Ulroxiel, Warphi.
