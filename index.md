@@ -6,7 +6,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/img/site/main-header.jpg
   actions:
-    - label: "Download 0.9.4"
+    - label: "Download 0.9.5"
       url: "Install.html"
     - label: "Status"
       url: "Features.html#status"
