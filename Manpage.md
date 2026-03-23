@@ -424,6 +424,9 @@ The default is *0*.
     timeouts). If the game takes abnormally long to start, try disabling
     this. It is enabled by default.
 
+  - **GamepadSupport**=(0|1)
+    Set to 0 to disable. Sometimes needed on Windows if startup is delayed.
+
   - **GamepadPointerSpeed**=INT
     Pointer movement speed with gamepads. The default is 10.
 
