@@ -45,3 +45,15 @@ Full changelog digest:
 If you want to be notified of GemRB releases via email, subscribe to the
 [gemrb-release](https://sourceforge.net/projects/gemrb/lists/gemrb-release)
 mailing list.
+
+**What's next?**
+
+The plan for 0.9.6 is to work on polishing, improving moddability and new game support,
+maybe getting bg2ee out of experimental status, deal with some postponed issues, and
+whatever piques the contributor's fancy.
+
+We're looking for ninjas to help with replacing FreeType (with SDL_ttf) and libvlc,
+[GLESv2 support](https://github.com/gemrb/gemrb/issues/938)), general Enhanced Edition
+[compatibility](https://github.com/gemrb/gemrb/labels/game%3A%20ees) and several
+problems unique to [apple devices](https://github.com/gemrb/gemrb/labels/portability).
+Other contributions are of course [welcome as well](https://github.com/gemrb/gemrb/blob/master/CONTRIBUTING.md).
