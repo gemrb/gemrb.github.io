@@ -345,6 +345,27 @@ Set this parameter to *1* on Unix-like systems.
      * Force disable      = 0
      * Enable             = 1
 
+  - **GamepadSupport**=(0|1)
+    Set this to *0* to disable gamepad/joystick support entirely.
+    On some Windows systems, SDL's joystick subsystem initialization can
+    hang for 30+ seconds due to device enumeration issues (e.g. WMI
+    timeouts). If the game takes abnormally long to start, try disabling
+    this. It is enabled by default.
+
+  - **GamepadSupport**=(0|1)
+    Set to 0 to disable. Sometimes needed on Windows if startup is delayed.
+
+  - **GamepadPointerSpeed**=INT
+    Pointer movement speed with gamepads. The default is 10.
+
+  - **GamepadPointerAccel**=INT
+    Pointer movement acceleration factor. The default is 103, while 100 means no acceleration.
+
+  - **GamepadLDeadZone**=INT
+    Gamepad left stick threshold value for registering movement. The default is 5000.
+
+  - **GamepadRDeadZone**=INT
+    Gamepad right stick threshold value for registering movement. The default is 5000.
 
 # Development parameters:
 
@@ -416,28 +437,6 @@ The default is *0*.
     exiting GemRB. It is disabled by default.
 
 <!-- end list -->
-
-  - **GamepadSupport**=(0|1)
-    Set this to *0* to disable gamepad/joystick support entirely.
-    On some Windows systems, SDL's joystick subsystem initialization can
-    hang for 30+ seconds due to device enumeration issues (e.g. WMI
-    timeouts). If the game takes abnormally long to start, try disabling
-    this. It is enabled by default.
-
-  - **GamepadSupport**=(0|1)
-    Set to 0 to disable. Sometimes needed on Windows if startup is delayed.
-
-  - **GamepadPointerSpeed**=INT
-    Pointer movement speed with gamepads. The default is 10.
-
-  - **GamepadPointerAccel**=INT
-    Pointer movement acceleration factor. The default is 103, while 100 means no acceleration.
-
-  - **GamepadLDeadZone**=INT
-    Gamepad left stick threshold value for registering movement. The default is 5000.
-
-  - **GamepadRDeadZone**=INT
-    Gamepad right stick threshold value for registering movement. The default is 5000.
 
   - **VitaKeepAspectRatio**=(0|1)  
     If set to *1*, original aspect ratio is preserved while game area is scaled to native PS Vita resolution. It is enabled by default.
