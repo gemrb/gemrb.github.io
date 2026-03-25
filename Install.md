@@ -12,7 +12,7 @@ page](http://sourceforge.net/projects/gemrb/files/)**. Here is a handy table wit
 
 |  | Release downloads | Development downloads |
 | --- | :---: | :---: |
-| **Binaries** | [<i class="fab fa-windows"></i> Windows]({{ page.sf }}/{{ site.version }}/gemrb-win32-v{{ site.version }}.zip),<br>[<i class="fab fa-linux"></i> Linux]({{ page.sf }}/{{ site.version }}/gemrb-linux-v{{ site.version }}.AppImage),<br>[<i class="fab fa-apple"></i> macOS x86]({{ page.sf }}/{{ site.version }}/gemrb-macos-v{{ site.version }}.tar.bz2),<br>[<i class="fab fa-apple"></i> macOS ARM64]({{ page.sf }}/{{ site.version }}/gemrb-macos-arm64-v{{ site.version }}.zip) ([Mac Source Ports alternative](https://www.macsourceports.com/sourceport/gemrb)) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
+| **Binaries** | [<i class="fab fa-windows"></i> Windows]({{ page.sf }}/{{ site.version }}/gemrb-win32-v{{ site.version }}.zip),<br>[<i class="fab fa-linux"></i> Linux]({{ page.sf }}/{{ site.version }}/gemrb-linux-v{{ site.version }}.AppImage),<br>[<i class="fab fa-linux"></i> Linux (Flatpak)](https://flathub.org/apps/org.gemrb.gemrb),<br>[<i class="fab fa-apple"></i> macOS x86]({{ page.sf }}/{{ site.version }}/gemrb-macos-v{{ site.version }}.tar.bz2),<br>[<i class="fab fa-apple"></i> macOS ARM64]({{ page.sf }}/{{ site.version }}/gemrb-macos-arm64-v{{ site.version }}.zip) ([Mac Source Ports alternative](https://www.macsourceports.com/sourceport/gemrb)) | [Build bots](https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/) |
 | Source | [Tarball]({{ page.sf }}/{{ site.version }}/gemrb-{{ site.version }}-sources.tar.gz) | See [dev docs](Dev-docs.html#getting-the-code) |
 | Version | {{ site.version }} | {{ site.version }}-git with build number |
 
@@ -56,6 +56,11 @@ Edit the shipped **`GemRB.cfg`**: the only thing that always needs to be changed
 GemRB in a game folder) is the **path to the game's data files** (`GamePath`). It is crucial you get
 this right to be able to use the configuration.
 
+Please note that the Linux Flatpak distribution of GemRB does not include a `GemRB.cfg` that's accessible
+immediately after installation. You will need to run GemRB once for this to be created in
+`~/.var/app/org.gemrb.gemrb/config/gemrb/GemRB.cfg`.
+{: .notice--warning}
+
 If you are curious, read the detailed explanation of all the [configuration options](Manpage.md).
 The configuration filename is arbitrary, but check the note in the *Options* section.
 
@@ -72,7 +77,8 @@ screen. If that doesn't happen, check the end of the log for errors and fix the
 configuration file as needed. Usually the game path is set wrong.
 
 Run the `gemrb` binary, optionally specifying the desired configuration: `gemrb.exe -c torment.cfg`
-or game path: `gemrb /games/gog/iwd2`.
+or game path: `gemrb /games/gog/iwd2`. This also works with the Flatpak version:
+`flatpak run org.gemrb.gemrb ~/.var/app/org.gemrb.gemrb/data/iwd2`.
 
 If you named the configuration file `GemRB.cfg` and put it in the same folder as the binary,
 that file will be used automatically. If the GemRB files are put into a game folder, it will
@@ -81,7 +87,8 @@ can **just click on the program**.
 
 If you're using a touch screen, read this page for the [gesture information](Touch-input.md).
 
-On Linux, BSDs and similar, the configuration file will be searched for in `$XDG_CONFIG_HOME/gemrb`, `~/.config/gemrb`, `/etc/gemrb`, `~/.gemrb` and the current working directory.
+On Linux, BSDs and similar, the configuration file will be searched for in
+`$XDG_CONFIG_HOME/gemrb`, `~/.config/gemrb`, `/etc/gemrb`, `~/.gemrb` and the current working directory.
 {: .notice--info}
 
 ## How to run the GemRB demo?
