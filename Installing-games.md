@@ -27,3 +27,17 @@ the optical media — if you still have them. Check out the
 [detailed instructions](https://github.com/gemrb/gemrb/wiki/Unshield:-alternative-game-install-method)
 on the wiki.
 
+## GemRB Linux Flatpak
+
+Please note that the Flatpak distribution of GemRB is heavily sandboxed by default;
+this is a regular security feature of Flatpak. In the default setup, the easiest approach
+is to copy your games to **`~/.var/app/org.gemrb.gemrb/data/`**; if you want to store your
+games in a different location you will need to explicitly give the GemRB Flatpak
+permission to access this location.
+
+You can adjust permissions for Flatpak apps using the built-in graphical configuration tools on many modern
+Linux desktops such as KDE (`System Settings > Flatpak Permissions`) or GNOME (`Settings > Apps`), using external
+graphical configuration tools such as [Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal)
+or [Warehouse](https://flathub.org/en/apps/io.github.flattool.Warehouse), or with the
+[`flatpak override`](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override)
+command in a terminal.
