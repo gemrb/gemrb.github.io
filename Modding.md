@@ -182,3 +182,8 @@ mod something in gemrb/override, do let us know.
 | gemrb/unhardcoded | no                   | weidu                       | 3            |
 
 \* *requires write access to where gemrb is installed*
+
+If you want to ship replacements of our python (GUI) code, install it to a `python`
+subdirectory of the game path (parallel to override, sounds, data and so on). GemRB will
+use any files from there preferentially to its own. This feature was added right after the
+0.9.5 release and will be officially available as of 0.9.6.
