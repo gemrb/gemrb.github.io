@@ -27,6 +27,12 @@ downloaded mod. You can run it to trigger the install.
 Each mod has to be extracted to the game dir, so there's one folder per mod.
 Then you just run it through WeiDU to install: `weinstall somemodfolder`.
 
+If you're using the Linux AppImage or Flatpak build, make sure GemRB is running
+while you install GemRB-specific mods. Otherwise the files will not be found and
+WeiDU will error out. This is because these packages create temporary filesystems
+in memory each time you run them, so the path is different every time.
+{: .notice--warning}
+
 ## Mod ideas
 
 Separated by difficulty/time requirement. If you don't know how doable
