@@ -122,6 +122,33 @@ of your changes before they are ready for uptake. Otherwise just submit the PR.
 in how they want the file and fields to look, so it can be a hard problem
 to address. 
 
+#### Systematic testing
+
+GemRB now has test infrastructure that can handle loading a save, resaving and comparing
+the results automatically. It takes a bit of work to set up, but it is a good way to
+start removing the differences in handling fields and formats. For example, the bg1
+mission pack save is included and tested against if the rest of the system is configured.
+
+After building GemRB, a copy of `saveTesting.ini` will be put in the build dir, under
+`gemrb/core/tests/resources/saves/`. Edit it and add paths to the installed game you want
+to test with. It will get nuked on new builds, so it may be better to edit the one in
+the source tree.
+
+If the game doesn't feature a test save yet, copy it as `0 - $gametype` near
+`saveTesting.ini`. 
+
+Grab the latest `iesh` and optionally `ielister` (a bit more reliable parser than
+`ieparse.oy` from `iesh`) or any other program that can turn GAM, WMP and SAV files
+into text representation. You will need to set some environmental variables, so
+these programs can be found — follow the instructions in the ini file.
+
+Running `make test` will then also run the save game resaving test, and it will
+be clear from the output whether the files and programs were found. If all is set up
+correctly, expect to see a diff view between the original save and the resaved one.
+
+
+#### Debugging crashes of GemRB saves in the original games
+
 The general approach is to load a save from the original, resave
 it in GemRB and then try loading it again. If it works, great, if not, check
 the difference between the two files. Reduce it step by step (manually or
