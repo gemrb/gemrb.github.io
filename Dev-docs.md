@@ -146,6 +146,9 @@ Running `make test` will then also run the save game resaving test, and it will
 be clear from the output whether the files and programs were found. If all is set up
 correctly, expect to see a diff view between the original save and the resaved one.
 
+A BG1 save is included in the main tree, while saves for other games are available in
+the [gemrb-assets](https://github.com/gemrb/gemrb-assets/tree/master/tests/resources/saves)
+repository.
 
 #### Debugging crashes of GemRB saves in the original games
 
