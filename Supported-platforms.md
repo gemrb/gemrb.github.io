@@ -9,6 +9,13 @@ can watch [videos](https://gemrb.github.io/Media#videos) or see some
 [screenshots](https://gemrb.github.io/Media) from these
 platforms on our website.
 
+The biggest hurdle in maintaining the ports is a lack of testing and
+communication from the porters as time passes. That's why the best
+option is to include the bulk (if not all) of needed changes upstream,
+so the maintenance burden is shared at least as far as internal changes
+to code go. So take the "work by default" with a grain of salt, since
+for some platforms it has been years since anyone reported trying them.
+
 **Included in our sources / work by default:**
 
   - Windows (regular, 64-bit versions, RT)
