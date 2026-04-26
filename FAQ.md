@@ -26,7 +26,7 @@ Click the Feedback link on the top of the page.
 ## Does GemRB work on platform X/Y/Z?
 
 GemRB already supports a [wide array of software and hardware
-platforms](Supported-platforms.md) and so it shouldn't be hard to extend to
+platforms](Supported-platforms.html) and so it shouldn't be hard to extend to
 new ones. Get in touch if you are interested, we are happy to help!
 
 ## Which engines are supported at a playable state?
