@@ -90,7 +90,7 @@ is autodetected through `Autodetect.py` files.
      - `GemRB.LoadGame(None)` will set up a new game (`Game` class) by loading the default `GAM`
        file and linked resources. If a save game is passed, it will load that, set up the party
        and in general restore the state of the world.
-     	- Party members can be created with `GemRB.CreatePlayer()`.
+       - Party members can be created with `GemRB.CreatePlayer()`.
      - ...
      - `GemRB.EnterGame()` to start the `GameControl` and enter the game with a loaded map (`Map`).
 7. `Game.py`'s `EnterGame()` is ran.
