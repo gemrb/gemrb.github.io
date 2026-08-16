@@ -56,7 +56,7 @@ the log to also display in the game message window with `MessageWindowDebug(5)`.
     pointed npc and a random party member.
   - [Ctrl-L](){: .btn .btn--info} (similar) - Plays the S056ICBL animation over the actor.
     (This exists in PST only)
-  - [Ctrl-O](){: .btn .btn--info} (different) - N/A
+  - [Ctrl-O](){: .btn .btn--info} (different) - Dumps LOCALS variables of the pointed to object (actor, container, door, region or area if none is found).
   - [Ctrl-U](){: .btn .btn--info} (different) - Dumps GLOBAL GameScript variables.
   - [Ctrl-Shift-U](){: .btn .btn--info} (different) - Dumps death variables.
   - [Ctrl-Shift-V](){: .btn .btn--info} (new) - Dumps the main dictionary (eg. baldur.ini options and other engine vars).
