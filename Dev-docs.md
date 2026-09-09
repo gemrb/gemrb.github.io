@@ -126,7 +126,7 @@ to address.
 
 GemRB now has test infrastructure that can handle loading a save, resaving and comparing
 the results automatically. It takes a bit of work to set up, but it is a good way to
-start removing the differences in handling fields and formats. For example, the bg1
+start removing any differences in handling fields and formats. For example, the bg1
 mission pack save is included and tested against if the rest of the system is configured.
 
 After building GemRB, a copy of `saveTesting.ini` will be put in the build dir, under
@@ -138,9 +138,9 @@ If the game doesn't feature a test save yet, copy it as `0 - $gametype` near
 `saveTesting.ini`. 
 
 Grab the latest `iesh` and optionally `ielister` (a bit more reliable parser than
-`ieparse.oy` from `iesh`) or any other program that can turn GAM, WMP and SAV files
-into text representation. You will need to set some environmental variables, so
-these programs can be found — follow the instructions in the ini file.
+`ieparse.oy` from `iesh`) or any other program that can turn GAM, ARE, CRE, WMP and SAV
+files into text representation. You will need to set some environmental variables, so
+these programs can be found — follow the instructions in the INI file.
 
 Running `make test` will then also run the save game resaving test, and it will
 be clear from the output whether the files and programs were found. If all is set up
