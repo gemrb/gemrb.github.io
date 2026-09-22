@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>faster</title>
+<style>
+:root { color-scheme: light dark; }
+body {
+  margin: 0 auto; max-width: 1100px; padding: 1.75rem 1.5rem 4rem;
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+h1 { margin-top: 0; font-size: 1.9rem; }
+h2 { margin-top: 2.25rem; border-bottom: 1px solid rgba(128,128,128,0.3); padding-bottom: 0.25rem; }
+p { margin: 0.6rem 0; }
+a { color: #1a66cc; }
+nav.toc ul { list-style: none; display: flex; gap: 1.25rem; padding: 0; margin: 0.5rem 0 1.5rem; }
+nav.toc a { text-decoration: none; font-weight: 600; }
+.backlink { margin: 0 0 1.25rem; font-size: 0.9rem; }
+.backlink a { text-decoration: none; }
+.cats { list-style: none; padding: 0; }
+.cats li { margin: 0.35rem 0; }
+.cats .cat { font-weight: 600; }
+.cats .note { opacity: 0.8; }
+figure { margin: 1.6rem 0 2.2rem; }
+figure img {
+  display: block; max-width: 100%; height: auto; margin: 0 auto;
+  border: 1px solid rgba(128, 128, 128, 0.28); border-radius: 6px;
+}
+figcaption {
+  margin-top: 0.5rem; text-align: center; font-size: 0.92rem; opacity: 0.8;
+}
+code {
+  background: rgba(128, 128, 128, 0.15); padding: 0.1em 0.35em; border-radius: 3px;
+  font-size: 0.9em;
+}
+hr { border: 0; border-top: 1px solid rgba(128, 128, 128, 0.3); margin: 2.5rem 0; }
+@media (prefers-color-scheme: dark) {
+  body { background: #1b1e24; color: #e7e7e7; }
+  figure img { border-color: #3a3f47; }
+  a { color: #7fb3ff; }
+}
+</style>
+</head>
+<body>
+<p class="backlink"><a href="../../index.html">&larr; all galleries</a></p>
+<h1>faster</h1>
+<p>the largest reductions in search time </p>
+<p>Keep in mind it's only a hint, as I took only one sample per request, on one machine.</p>
+<p>This patch is <strong>expected to be slower</strong>, as it is doing in general more work than before (2x more frontier tiles per iteration, actually respecting non-bumpable actors on walkability lines, more robust open-set's priority queue, post-process path straightening pass). However, there are some parts of the system more optimized now - per-node heuristic is cheaper, traversability cache is simplified, search is now done in searchmap space). In some scenarios (well, it turns out - in quite few of them) it yields faster calculations.</p>
+<p>Faster paths: 2345 out of 5200 requests searched faster, showing only 24 exemplary illustrations.</p>
+<figure><img alt="ar3400_0052" src="ar3400_0052.webp" /><figcaption>AR3400 ar3400_0052 - 12763 -&gt; 2978 us</figcaption></figure>
+<figure><img alt="ar3400_0035" src="ar3400_0035.webp" /><figcaption>AR3400 ar3400_0035 - 10872 -&gt; 1674 us</figcaption></figure>
+<figure><img alt="ar3400_0354" src="ar3400_0354.webp" /><figcaption>AR3400 ar3400_0354 - 8326 -&gt; 1509 us</figcaption></figure>
+<figure><img alt="ar3400_0377" src="ar3400_0377.webp" /><figcaption>AR3400 ar3400_0377 - 8517 -&gt; 1783 us</figcaption></figure>
+<figure><img alt="ar0800_0198" src="ar0800_0198.webp" /><figcaption>AR0800 ar0800_0198 - 6386 -&gt; 209 us</figcaption></figure>
+<figure><img alt="ar0800_0104" src="ar0800_0104.webp" /><figcaption>AR0800 ar0800_0104 - 6235 -&gt; 94 us</figcaption></figure>
+<figure><img alt="ar0800_0109" src="ar0800_0109.webp" /><figcaption>AR0800 ar0800_0109 - 6302 -&gt; 330 us</figcaption></figure>
+<figure><img alt="ar0800_0008" src="ar0800_0008.webp" /><figcaption>AR0800 ar0800_0008 - 6045 -&gt; 161 us</figcaption></figure>
+<figure><img alt="ar0400_0196" src="ar0400_0196.webp" /><figcaption>AR0400 ar0400_0196 - 12384 -&gt; 6753 us</figcaption></figure>
+<figure><img alt="ar3400_0270" src="ar3400_0270.webp" /><figcaption>AR3400 ar3400_0270 - 6285 -&gt; 676 us</figcaption></figure>
+<figure><img alt="ar3400_0299" src="ar3400_0299.webp" /><figcaption>AR3400 ar3400_0299 - 6414 -&gt; 829 us</figcaption></figure>
+<figure><img alt="ar0400_0274" src="ar0400_0274.webp" /><figcaption>AR0400 ar0400_0274 - 6252 -&gt; 670 us</figcaption></figure>
+<figure><img alt="ar0400_0258" src="ar0400_0258.webp" /><figcaption>AR0400 ar0400_0258 - 3178 -&gt; 440 us</figcaption></figure>
+<figure><img alt="ar0400_0137" src="ar0400_0137.webp" /><figcaption>AR0400 ar0400_0137 - 2975 -&gt; 461 us</figcaption></figure>
+<figure><img alt="ar0700_0256" src="ar0700_0256.webp" /><figcaption>AR0700 ar0700_0256 - 7970 -&gt; 5552 us</figcaption></figure>
+<figure><img alt="ar1000_0369" src="ar1000_0369.webp" /><figcaption>AR1000 ar1000_0369 - 1972 -&gt; 52 us</figcaption></figure>
+<figure><img alt="ar0400_0275" src="ar0400_0275.webp" /><figcaption>AR0400 ar0400_0275 - 2222 -&gt; 336 us</figcaption></figure>
+<figure><img alt="ar1000_0392" src="ar1000_0392.webp" /><figcaption>AR1000 ar1000_0392 - 2040 -&gt; 334 us</figcaption></figure>
+<figure><img alt="ar0400_0211" src="ar0400_0211.webp" /><figcaption>AR0400 ar0400_0211 - 3371 -&gt; 1764 us</figcaption></figure>
+<figure><img alt="ar0700_0019" src="ar0700_0019.webp" /><figcaption>AR0700 ar0700_0019 - 1963 -&gt; 441 us</figcaption></figure>
+<figure><img alt="ar0700_0345" src="ar0700_0345.webp" /><figcaption>AR0700 ar0700_0345 - 2147 -&gt; 669 us</figcaption></figure>
+<figure><img alt="ar0403_0370" src="ar0403_0370.webp" /><figcaption>AR0403 ar0403_0370 - 1533 -&gt; 141 us</figcaption></figure>
+<figure><img alt="ar0700_0154" src="ar0700_0154.webp" /><figcaption>AR0700 ar0700_0154 - 1686 -&gt; 353 us</figcaption></figure>
+<figure><img alt="ar0700_0379" src="ar0700_0379.webp" /><figcaption>AR0700 ar0700_0379 - 3773 -&gt; 2469 us</figcaption></figure>
+</body>
+</html>

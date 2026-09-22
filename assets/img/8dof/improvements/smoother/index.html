@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>smoother</title>
+<style>
+:root { color-scheme: light dark; }
+body {
+  margin: 0 auto; max-width: 1100px; padding: 1.75rem 1.5rem 4rem;
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+h1 { margin-top: 0; font-size: 1.9rem; }
+h2 { margin-top: 2.25rem; border-bottom: 1px solid rgba(128,128,128,0.3); padding-bottom: 0.25rem; }
+p { margin: 0.6rem 0; }
+a { color: #1a66cc; }
+nav.toc ul { list-style: none; display: flex; gap: 1.25rem; padding: 0; margin: 0.5rem 0 1.5rem; }
+nav.toc a { text-decoration: none; font-weight: 600; }
+.backlink { margin: 0 0 1.25rem; font-size: 0.9rem; }
+.backlink a { text-decoration: none; }
+.cats { list-style: none; padding: 0; }
+.cats li { margin: 0.35rem 0; }
+.cats .cat { font-weight: 600; }
+.cats .note { opacity: 0.8; }
+figure { margin: 1.6rem 0 2.2rem; }
+figure img {
+  display: block; max-width: 100%; height: auto; margin: 0 auto;
+  border: 1px solid rgba(128, 128, 128, 0.28); border-radius: 6px;
+}
+figcaption {
+  margin-top: 0.5rem; text-align: center; font-size: 0.92rem; opacity: 0.8;
+}
+code {
+  background: rgba(128, 128, 128, 0.15); padding: 0.1em 0.35em; border-radius: 3px;
+  font-size: 0.9em;
+}
+hr { border: 0; border-top: 1px solid rgba(128, 128, 128, 0.3); margin: 2.5rem 0; }
+@media (prefers-color-scheme: dark) {
+  body { background: #1b1e24; color: #e7e7e7; }
+  figure img { border-color: #3a3f47; }
+  a { color: #7fb3ff; }
+}
+</style>
+</head>
+<body>
+<p class="backlink"><a href="../../index.html">&larr; all galleries</a></p>
+<h1>smoother</h1>
+<p>the largest reductions in 'legs under one tile'</p>
+<p>In general, this patch is expected to introduce <strong>more</strong> 'legs under one tile' - this is coming from moving the search on the tile centers - it is allowed to have one short leg from the actor's position to its tile center, if there is no direct route from actor's position to the next waypoint. Moreover, 8 degrees of freedom allowed for very sharp U-turns, it's clearly visible in the Thieve's Maze. Any reductions in this metric are coming from very bad habit of the old version to hug diagonal walls.</p>
+<p>Smoother paths: 589 out of 4663 requests had fewer one-tile legs, showing only 24 exemplary illustrations.</p>
+<figure><img alt="ar0602_0184" src="ar0602_0184.webp" /></figure><figure><img alt="ar0602_0198" src="ar0602_0198.webp" /></figure><figure><img alt="ar0700_0056" src="ar0700_0056.webp" /></figure><figure><img alt="ar5201_0196" src="ar5201_0196.webp" /></figure><figure><img alt="ar0146_0026" src="ar0146_0026.webp" /></figure><figure><img alt="ar0403_0091" src="ar0403_0091.webp" /></figure><figure><img alt="ar0602_0045" src="ar0602_0045.webp" /></figure><figure><img alt="ar0602_0051" src="ar0602_0051.webp" /></figure><figure><img alt="ar0700_0384" src="ar0700_0384.webp" /></figure><figure><img alt="ar0800_0040" src="ar0800_0040.webp" /></figure><figure><img alt="ar3400_0211" src="ar3400_0211.webp" /></figure><figure><img alt="ar5201_0023" src="ar5201_0023.webp" /></figure><figure><img alt="ar0403_0009" src="ar0403_0009.webp" /></figure><figure><img alt="ar0403_0346" src="ar0403_0346.webp" /></figure><figure><img alt="ar0503_0039" src="ar0503_0039.webp" /></figure><figure><img alt="ar0506_0109" src="ar0506_0109.webp" /></figure><figure><img alt="ar0510_0010" src="ar0510_0010.webp" /></figure><figure><img alt="ar0600_0129" src="ar0600_0129.webp" /></figure><figure><img alt="ar0600_0251" src="ar0600_0251.webp" /></figure><figure><img alt="ar0602_0124" src="ar0602_0124.webp" /></figure><figure><img alt="ar0700_0067" src="ar0700_0067.webp" /></figure><figure><img alt="ar0700_0074" src="ar0700_0074.webp" /></figure><figure><img alt="ar0700_0083" src="ar0700_0083.webp" /></figure><figure><img alt="ar0700_0105" src="ar0700_0105.webp" /></figure>
+</body>
+</html>
