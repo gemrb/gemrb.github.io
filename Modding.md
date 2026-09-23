@@ -3,9 +3,11 @@ title: Modding
 toc: true
 ---
 
-GemRB works with [mods for the original games](https://riwspy.github.io/lcc-docs/en/), which should work out of the
+GemRB works with most [mods for the games](https://riwspy.github.io/lcc-docs/en/), which should work out of the
 box ([let us know](https://github.com/gemrb/gemrb/issues/new/choose) otherwise).
-Of course, any that modify the EXE files could lack the functionality those hacks achieved.
+Of course, any that modify the EXE files could lack the functionality those hacks achieved (most of ToBEx is supported).
+Any that rely on EE LUA editing or EEex hooks will not work, since we don't use the former (yet?), while the latter
+should be reimplemented in our engine, as needed.
 
 Additionally, there are cool mods that are only possible with GemRB and can be found in this
 [mod repository](https://github.com/lynxlynxlynx/gemrb-mods). The most famous one of them is
