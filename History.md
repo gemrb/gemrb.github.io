@@ -16,9 +16,9 @@ were made, David Craddock wrote a nice [interview series
 (book)](https://www.shacknews.com/article/103473/beneath-a-starless-sky-pillars-of-eternity-and-the-infinity-engine-era-of-rpgs?page=1)
 with the authors from the various studios.
 
-In 2012 and onward, all but IWD2 received Enhanced Edition versions, by being
-ported to an upgraded BG2 version of the engine or getting high resolution and
-input upgrades.
+In 2012 and onward, all but IWD2 received Enhanced Edition versions by being
+ported to an upgraded BG2 version of the engine that can now run both the BG
+and IWD1 games.
 
 
 ## Modding communities
@@ -27,6 +27,8 @@ What made the games last so long is their extensibility, as several things are
 easily edited with a text editor and at the same time, the publishers and
 developers didn't discourage serious modding. Some even joined the efforts as
 was the case with the Ascension mod for Throne of Bhaal.
+[More than 2000 mods](https://riwspy.github.io/lcc-docs/) have been published
+to date.
 
 Besides wider RPG communities like Sorcerer's Place and RPG Codex, several
 dedicated ones sprang up and eventually wound down. One notable example is
@@ -97,7 +99,7 @@ Major game milestones, GemRB releases when a certain game became completable:
 
 ## Enhanced editions of the games
 
-The Enhanced editions made several upgrades, sometimes by merging features from different engine versions (bg2 and iwd).
+The Enhanced editions made several upgrades, sometimes by merging features from different engine versions (BG2 and IWD:HoW).
 By the time of the release of BG:EE, GemRB was still busy improving support for the original games. Some might think
 the project didn't welcome the new releases, but that couldn't be farther from the truth. Sure, the project lost its
 lead developer and some of its "market", but the EEs revitalized the community and Beamdog even publicly shared some
