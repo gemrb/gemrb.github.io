@@ -42,7 +42,7 @@ multithreaded:
 ---
 
 The next release will bring several landmark upgrades to pathfinding and movement, all due to meticulous work
-and documentation by Dariusz Pyś. Let's take a closer look at the more interesting bits. All the images were created by Dariusz.
+and documentation by Dariusz Pyś. Let's take a closer look at the more interesting bits. All the images were created by Dariusz.
 
 ## Multithreaded pathfinding
 
@@ -60,6 +60,12 @@ of physical cores will be chosen if the settings are not found.
 
 Anyone interested in the details of the implementation should read the [design documentation](https://github.com/gemrb/gemrb/blob/master/gemrb/docs/en/Engine/Multithreaded_pathfinding.md).
 
+## Diagonal pathfinding and smoothing
+
+Previously GemRB's pathfinder only had 4 degrees of freedom, only ever inspecting perpendicular searchmap cells when looking for the best path ...
+
+https://gemrb.org/assets/img/8dof/
+
 ## Line of sight / performance
 
 Profiling showed that now that searchmap state is effectively cached, line of sight checks are the next hot path bottleneck.
@@ -75,6 +81,11 @@ optimization...
 add perf data
 {% include gallery layout="/half/third" caption="" %}
 overall (pathfinding, not just LOS) x20 speedup?
+
+before PR:
+bench_0: LOS check 21.2x, path request 5.5x
+bench_1: LOS check 16.8x, path request 5.0x
+bench_2: LOS check 17.0x, path request 4.9x
 
 ## Walking skew removal
 
@@ -96,3 +107,11 @@ actor movement and experience being much nicer.
 
 Brave users can already experience these improvements by using our [development builds](Download.md).
 Everyone else should wait for the next release, which is likely to come before the end of the year.
+
+link to the major PRs
+https://github.com/gemrb/gemrb/pull/2509 mt
+https://github.com/gemrb/gemrb/pull/2528 woo
+https://github.com/gemrb/gemrb/pull/2529 perf
+https://github.com/gemrb/gemrb/pull/2533 diagonals
+
+
