@@ -23,7 +23,7 @@ multithreaded:
     image_path: assets/img/news/baseline.immediate.queued.png.webp
     alt: "Multithreaded performance 4"
     title: "Mode comparison"
-- url: assets/img/news/max.frame.time.png.webp
+  - url: assets/img/news/max.frame.time.png.webp
     image_path: assets/img/news/max.frame.time.png.webp
     alt: "Multithreaded performance 1"
     title: "Maximum frame time comparison."
@@ -47,7 +47,7 @@ All the images were created by Dariusz.
 
 ## Multithreaded pathfinding
 
-GemRB prides itself on running on a vast array of hardware and software [platforms](Supported-platforms.md).
+GemRB prides itself on running on a vast array of hardware and software [platforms](Supported-platforms.html).
 But your machine didn't have to be an old resource starved potato for it to sometimes buckle under the worst
 pathfinding requests. Since the algorithm ran on the main thread that meant the engine would block any
 interactivity while waiting, the drawing would skip frames and users would have a bad time.
@@ -90,7 +90,7 @@ In total the algorithm change and the extra fixes significantly improved the per
 sight checks and pathfinding itself. For the used test cases that meant a **22-25x improvement to the former
 and 15-29x to the latter**.
 
-{% include figure popup=true image_path="/assets/img/news/fig-los-perf.webp" alt="Improvement in the worst torture test" caption="Improvement in the worst torture test" %}
+{% include figure popup=true image_path="/assets/img/news/fig-los-perf.webp" alt="Improvement in the worst torture test" caption="Improvement in the worst torture test." %}
 
 ## Walking skew removal
 
@@ -110,12 +110,12 @@ Test driven development is very appropriate for these sort of tasks, since there
 and algorithmic decisions where just reasoning about their correctness easily breaks something else. It
 allows for faster iteration and a calmer mind.
 
-It already resulted in a lower path abandonment rate and the fix where actor bumping could cause
+It also resulted in a lower path abandonment rate and the fix where actor bumping could cause
 impassable wall traversal.
 
 In summary, all this work vastly improved performance and correctness of both pathfinding and actual
 actor movement. That combined with pathfinding not blocking the main thread any more makes the user
 experience much nicer.
 
-Brave users can already test these improvements by using our [development builds](Download.md).
+Brave users can already test these improvements by using our [development builds](Install.html).
 Everyone else should wait for the next release, which is planned for the end of the year.
