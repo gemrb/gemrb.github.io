@@ -27,6 +27,10 @@ multithreaded:
     image_path: assets/img/news/max.frame.time.png.webp
     alt: "Multithreaded performance 1"
     title: "Maximum frame time comparison."
+  - url: assets/img/news/thread.scaling.png.webp
+    image_path: assets/img/news/thread.scaling.png.webp
+    alt: "Multithreaded performance 5"
+    title: "Thread scaling comparison."
   - url: assets/img/news/frame.pacing.case3.png.webp
     image_path: assets/img/news/frame.pacing.case3.png.webp
     alt: "Multithreaded performance 2"
@@ -35,10 +39,6 @@ multithreaded:
     image_path: assets/img/news/baseline.immediate.queued.frame.pacing.png.webp
     alt: "Multithreaded performance 3"
     title: "Frame pacing comparison by mode."
-  - url: assets/img/news/thread.scaling.png.webp
-    image_path: assets/img/news/thread.scaling.png.webp
-    alt: "Multithreaded performance 5"
-    title: "Thread scaling comparison."
 ---
 
 The next release will bring several landmark upgrades to pathfinding and movement, almost completely due
@@ -47,7 +47,7 @@ All the images were created by Dariusz.
 
 ## Multithreaded pathfinding
 
-GemRB prides itself on running on a vast array of hardware and software [platforms](Supported-platforms.html).
+GemRB prides itself on running on a vast array of hardware and software [platforms](/Supported-platforms.html).
 But your machine didn't have to be an old resource starved potato for it to sometimes buckle under the worst
 pathfinding requests. Since the algorithm ran on the main thread that meant the engine would block any
 interactivity while waiting, the drawing would skip frames and users would have a bad time.
@@ -117,5 +117,5 @@ In summary, all this work vastly improved performance and correctness of both pa
 actor movement. That combined with pathfinding not blocking the main thread any more makes the user
 experience much nicer.
 
-Brave users can already test these improvements by using our [development builds](Install.html).
+Brave users can already test these improvements by using our [development builds](/Install.html).
 Everyone else should wait for the next release, which is planned for the end of the year.
